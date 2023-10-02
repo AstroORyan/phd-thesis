@@ -1,0 +1,35 @@
+\babel@toc {english}{}
+\contentsline {chapter}{List of Figures}{vii}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Chapter}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}}{2}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Chapter}{3}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Abstract}{3}{section.3.1}%
+\contentsline {section}{\numberline {3.2}INTRODUCTION}{4}{section.3.2}%
+\contentsline {section}{\numberline {3.3}DATA}{7}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}The \emph {Hubble} Archives \& ESA Datalabs}{7}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}The Shapely Python Package}{8}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}UTILISING A CONVOLUTIONAL NEURAL NETWORK}{9}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Zoobot}{9}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Transfer Learning}{11}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}CREATING THE TRAINING SET}{12}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Interacting Galaxies and Galaxy Zoo}{12}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}One Active Learning Cycle}{14}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}DIAGNOSTICS}{17}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Model Performance}{17}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Duplication Removal}{21}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Bad Predictions \& Removal}{25}{subsection.3.6.3}%
+\contentsline {section}{\numberline {3.7}RESULTS \& DISCUSSION}{29}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}An Interacting Galaxy Catalogue}{29}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}The Gems}{32}{subsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.7.3}Source Redshifts and Photometry}{36}{subsection.3.7.3}%
+\contentsline {section}{\numberline {3.8}CONCLUSION}{42}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Chapter}{46}{chapter.4}%
+\contentsline {section}{\numberline {4.1}}{46}{section.4.1}%
+\contentsline {chapter}{\numberline {5}Conclusion}{47}{chapter.5}%
+\contentsline {chapter}{Appendix \numberline {A}Appendices}{48}{appendix.1.A}%
+\contentsline {section}{\numberline {A.1}Further Model Diagnostics}{48}{section.1.A.1}%
+\contentsline {section}{\numberline {A.2}Examples of Sources with 3-Band Information}{51}{section.1.A.2}%
+\contentsline {section}{\numberline {A.3}Unknown Objects}{51}{section.1.A.3}%
+\contentsline {section}{\numberline {A.4}Acknowledging PIs}{53}{section.1.A.4}%
+\contentsline {chapter}{References}{54}{appendix*.25}%

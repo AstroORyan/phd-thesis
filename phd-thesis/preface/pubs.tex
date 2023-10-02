@@ -1,0 +1,64 @@
+
+% List of Publications -----------------------------------------------------
+
+
+%\begin{abstractslong}    %uncommenting this line, gives a different abstract heading
+\begin{pubs}        %this creates the heading for the %\documentclass{article}
+%\usepackage{textcomp} % text version of symbols in TS1, e.g. \textrightarrow{}
+%\usepackage{amstext} % proper support of frequently used \text{} command
+\newif\ifshowcitations\showcitationsfalse%
+\newif\ifshowlinks\showlinksfalse%
+
+%% CONFIGURATION
+%
+%% to display citation counts, uncomment the following line
+%\showcitationstrue
+%
+%% to add links to INSPIRE records, uncomment the following line
+%\showlinkstrue
+%
+%% to use the arial font, uncomment the following lines
+%\usepackage{arial}
+%\renewcommand{\familydefault}{\sfdefault} % Sans serif
+
+\ifshowlinks%
+  \usepackage[
+         colorlinks=true,
+         urlcolor=blue,       % \href{...}{...} external (URL)
+         ]{hyperref}
+  \newcommand*{\inspireurl}[1]{\\\href{#1}{INSPIRE-HEP entry}}
+\else
+  \makeatletter
+  \newcommand*{\inspireurl}[1]{\@bsphack\@esphack}
+  \makeatother
+\fi
+\ifshowcitations%
+  \newcommand*{\citations}[1]{\\* #1}
+\else
+  \makeatletter
+  \newcommand*{\citations}[1]{\@bsphack\@esphack}
+  \makeatother
+\fi
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+
+%\pagestyle{empty}
+%\oddsidemargin 0.0in
+%\textwidth 6.5in
+%\topmargin -0.75in
+%\textheight 9.5in
+
+%\begin{document}
+%\title{Papers by AUTHOR}
+%\author{}
+%\date{}
+%\maketitle
+%\begin{itemize}
+%\cite{Conroy:2016sac}
+\underline{Chapter 2}
+\begin{itemize}
+\item Publication
+\end{itemize}
+
+\end{pubs}
+
+%\end{abstractlongs}

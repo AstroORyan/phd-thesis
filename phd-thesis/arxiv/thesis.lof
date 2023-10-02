@@ -1,0 +1,15 @@
+\select@language {english}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces A plot of the Newtonian potential $\Phi (r)\sim f(r)/r$ vs. $r$ where $n=1$ corresponds to \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {erf}\unskip \@@italiccorr )}} with $a(\Box )=e^{-\Box /M^2}$. Higher orders of $n$ are given by the exponential modification $a(\Box )=e^{-(\Box /M^2)^n}$, where $M$ has been taken to be the value of the lower bound, $M=0.004$eV for illustrative purposes\relax }}{14}{figure.caption.5}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Plot showing the suppression of the gravitational potential in the exponential model. The thick black line is the potential of the exponential model. Few initial oscillations are visible as the potential is suppressed with respect to the Newtonian 1/r behaviour depicted by the thin blue dotted line. For comparison, we also show the pure Yukawa suppression of massive gravity as the dashed red line.\relax }}{16}{figure.caption.6}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces From surface $S$, ingoing geodesics produce a smaller surface $S_1$ with area $A_1$ after a time $t=\epsilon $, while outgoing geodesics form a larger surface $S_2$ with area $A_2$. This is the behaviour of ingoing and outgoing expansions in a flat spacetime and the surfaces $S_1$ and $S_2$ are known as normal surfaces.\relax }}{79}{figure.caption.16}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces A conformal diagram of a Big Bang cosmology with local inflation. Shaded regions are antitrapped and white regions are normal surfaces. A patch begins to inflate at cosmic time $t$ from $O$ to $Q$ with inflationary size $x_{\text {\it inf}}$, where the line $OP$ borders the apparent inflationary horizon. The arrow depicts an ingoing null ray entering an antitrapped region from a normal region, which is prohibited under the convergence condition \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {nullCC}\unskip \@@italiccorr )}}. The inflationary patch $OQ$ may indeed be extended into the antitrapped region so that no such violation occurs.\relax }}{83}{figure.caption.20}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces A conformal diagram depicting a bouncing cosmology, seen as an extension of Fig. \textup {\hbox {\mathsurround \z@ \normalfont (\ignorespaces \ref {bigbang}\unskip \@@italiccorr )}} into past infinity. Shaded regions are antitrapped surfaces, bordered by a cosmological apparent horizon on their inner margins and white regions are normal surfaces.\relax }}{91}{figure.caption.24}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

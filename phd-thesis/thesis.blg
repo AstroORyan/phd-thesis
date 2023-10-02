@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: preface/abstract.aux
+A level-1 auxiliary file: preface/dedication.aux
+A level-1 auxiliary file: preface/acknowledgements.aux
+A level-1 auxiliary file: preface/declaration.aux
+A level-1 auxiliary file: preface/quote.aux
+A level-1 auxiliary file: preface/pubs.aux
+A level-1 auxiliary file: Introduction/introduction.aux
+A level-1 auxiliary file: Chapter1/Chapter.aux
+A level-1 auxiliary file: Chapter2/Chapter.aux
+A level-1 auxiliary file: Chapter3/Chapter.aux
+A level-1 auxiliary file: Conclusion/conclusion.aux
+The style file: Latex/mnras.bst
+Database file #1: thesis.bib
+Repeated entry---line 1820 of file thesis.bib
+ : @inproceedings{gregg17
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3311 of file thesis.bib
+ : @article{lotz08
+ :                ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Zoobot"
+Warning--I didn't find a database entry for "NED1"
+Warning--I didn't find a database entry for "VizieR"
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in arp87
+Warning--empty publisher in nielsen16
+You've used 94 entries,
+            2881 wiz_defined-function locations,
+            1483 strings with 49339 characters,
+and the built_in function-call counts, 46497 in all, are:
+= -- 4155
+> -- 3006
+< -- 168
++ -- 1331
+- -- 416
+* -- 5689
+:= -- 6824
+add.period$ -- 0
+call.type$ -- 94
+change.case$ -- 188
+chr.to.int$ -- 91
+cite$ -- 96
+duplicate$ -- 2376
+empty$ -- 2268
+format.name$ -- 720
+if$ -- 8382
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 94
+newline$ -- 296
+num.names$ -- 584
+pop$ -- 463
+preamble$ -- 1
+purify$ -- 376
+quote$ -- 0
+skip$ -- 1629
+stack$ -- 0
+substring$ -- 3060
+swap$ -- 1332
+text.length$ -- 388
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 840
+warning$ -- 2
+while$ -- 671
+width$ -- 0
+write$ -- 953
+(There were 2 error messages)

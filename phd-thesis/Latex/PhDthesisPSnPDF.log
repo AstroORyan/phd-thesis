@@ -1,0 +1,14 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdftex 2016.8.26)  26 AUG 2016 13:19
+entering extended mode
+**C:/Users/py-setup3/Dropbox/Thesis/PhD_Thesis/Latex/PhDthesisPSnPDF.cls
+(C:/Users/py-setup3/Dropbox/Thesis/PhD_Thesis/Latex/PhDthesisPSnPDF.cls
+! Undefined control sequence.
+l.11 \ProvidesClass
+                   {Latex/PhDthesisPSnPDF}[2007/09/06 v2 PhD thesis class]
+? 
+! Emergency stop.
+l.11 \ProvidesClass
+                   {Latex/PhDthesisPSnPDF}[2007/09/06 v2 PhD thesis class]
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
