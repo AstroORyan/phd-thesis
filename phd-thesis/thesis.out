@@ -1,7 +1,7 @@
 \BOOKMARK [0][]{chapter*.2}{List of Figures}{}% 1
 \BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 2
-\BOOKMARK [1][]{section.1.1}{1.1 GALAXY INTERACTION IN THE COSMOLOGICAL CONTEXT}{chapter.1}% 3
-\BOOKMARK [1][]{section.1.2}{1.2 INTERACTION AND THE RELATIONSHIP WITH GALAXY EVOLUTION}{chapter.1}% 4
+\BOOKMARK [1][]{section.1.1}{1.1 GALAXY INTERACTION}{chapter.1}% 3
+\BOOKMARK [1][]{section.1.2}{1.2 GALAXY INTERACTION IN THE COSMOLOGICAL CONTEXT}{chapter.1}% 4
 \BOOKMARK [1][]{section.1.3}{1.3 SIMULATIONS OF GALAXY INTERACTION}{chapter.1}% 5
 \BOOKMARK [2][]{subsection.1.3.1}{1.3.1 Prior Examples}{section.1.3}% 6
 \BOOKMARK [2][]{subsection.1.3.2}{1.3.2 PySPAM}{section.1.3}% 7
@@ -16,57 +16,58 @@
 \BOOKMARK [1][]{section.1.6}{1.6 LARGE SAMPLES OF INTERACTING GALAXIES}{chapter.1}% 16
 \BOOKMARK [2][]{subsection.1.6.1}{1.6.1 Created by Citizen Scientists}{section.1.6}% 17
 \BOOKMARK [2][]{subsection.1.6.2}{1.6.2 Found with Machine Learning}{section.1.6}% 18
-\BOOKMARK [0][]{chapter.2}{2 Galaxy Zoo: Mergers \046 Constraining Interaction}{}% 19
-\BOOKMARK [1][]{section.2.1}{2.1 INTRODUCTION}{chapter.2}% 20
-\BOOKMARK [1][]{section.2.2}{2.2 THE NEW APYSPAM}{chapter.2}% 21
-\BOOKMARK [1][]{section.2.3}{2.3 COMBINING WITH MCMC}{chapter.2}% 22
-\BOOKMARK [1][]{section.2.4}{2.4 CONSTRAINING GALAXY ZOO: MERGERS}{chapter.2}% 23
-\BOOKMARK [1][]{section.2.5}{2.5 THE OBSERVATIONAL CASE}{chapter.2}% 24
-\BOOKMARK [1][]{section.2.6}{2.6 CONCLUSION}{chapter.2}% 25
-\BOOKMARK [0][]{chapter.3}{3 Creating a Large Sample of Interacting Galaxies}{}% 26
-\BOOKMARK [1][]{section.3.1}{3.1 Abstract}{chapter.3}% 27
-\BOOKMARK [1][]{section.3.2}{3.2 INTRODUCTION}{chapter.3}% 28
-\BOOKMARK [1][]{section.3.3}{3.3 DATA}{chapter.3}% 29
-\BOOKMARK [2][]{subsection.3.3.1}{3.3.1 The Hubble Archives \046 ESA Datalabs}{section.3.3}% 30
-\BOOKMARK [2][]{subsection.3.3.2}{3.3.2 The Shapely Python Package}{section.3.3}% 31
-\BOOKMARK [1][]{section.3.4}{3.4 UTILISING A CONVOLUTIONAL NEURAL NETWORK}{chapter.3}% 32
-\BOOKMARK [2][]{subsection.3.4.1}{3.4.1 Zoobot}{section.3.4}% 33
-\BOOKMARK [2][]{subsection.3.4.2}{3.4.2 Transfer Learning}{section.3.4}% 34
-\BOOKMARK [1][]{section.3.5}{3.5 CREATING THE TRAINING SET}{chapter.3}% 35
-\BOOKMARK [2][]{subsection.3.5.1}{3.5.1 Interacting Galaxies and Galaxy Zoo}{section.3.5}% 36
-\BOOKMARK [2][]{subsection.3.5.2}{3.5.2 One Active Learning Cycle}{section.3.5}% 37
-\BOOKMARK [1][]{section.3.6}{3.6 DIAGNOSTICS}{chapter.3}% 38
-\BOOKMARK [2][]{subsection.3.6.1}{3.6.1 Model Performance}{section.3.6}% 39
-\BOOKMARK [2][]{subsection.3.6.2}{3.6.2 Duplication Removal}{section.3.6}% 40
-\BOOKMARK [2][]{subsection.3.6.3}{3.6.3 Bad Predictions \046 Removal}{section.3.6}% 41
-\BOOKMARK [1][]{section.3.7}{3.7 RESULTS \046 DISCUSSION}{chapter.3}% 42
-\BOOKMARK [2][]{subsection.3.7.1}{3.7.1 An Interacting Galaxy Catalogue}{section.3.7}% 43
-\BOOKMARK [2][]{subsection.3.7.2}{3.7.2 The Gems}{section.3.7}% 44
-\BOOKMARK [2][]{subsection.3.7.3}{3.7.3 Source Redshifts and Photometry}{section.3.7}% 45
-\BOOKMARK [1][]{section.3.8}{3.8 CONCLUSION}{chapter.3}% 46
-\BOOKMARK [0][]{chapter.4}{4 Galaxy Interaction in COSMOS}{}% 47
-\BOOKMARK [1][]{section.4.1}{4.1 INTRODUCTION}{chapter.4}% 48
-\BOOKMARK [1][]{section.4.2}{4.2 DATA}{chapter.4}% 49
-\BOOKMARK [2][]{subsection.4.2.1}{4.2.1 The O'Ryan+23 Catalogue}{section.4.2}% 50
-\BOOKMARK [2][]{subsection.4.2.2}{4.2.2 The COSMOS2020 Catalogue}{section.4.2}% 51
-\BOOKMARK [1][]{section.4.3}{4.3 Galaxy Classification}{chapter.4}% 52
-\BOOKMARK [2][]{subsection.4.3.1}{4.3.1 Into Stage of Interaction}{section.4.3}% 53
-\BOOKMARK [2][]{subsection.4.3.2}{4.3.2 AGN Identification}{section.4.3}% 54
-\BOOKMARK [1][]{section.4.4}{4.4 RESULTS \046 DISCUSSION}{chapter.4}% 55
-\BOOKMARK [2][]{subsection.4.4.1}{4.4.1 Star Formation with Stage}{section.4.4}% 56
-\BOOKMARK [2][]{subsection.4.4.2}{4.4.2 AGN Activity with Stage}{section.4.4}% 57
-\BOOKMARK [2][]{subsection.4.4.3}{4.4.3 Controlling for Environment}{section.4.4}% 58
-\BOOKMARK [2][]{subsection.4.4.4}{4.4.4 Limitations of Approach}{section.4.4}% 59
-\BOOKMARK [1][]{section.4.5}{4.5 CONCLUSION}{chapter.4}% 60
-\BOOKMARK [0][]{chapter.5}{5 Conclusion}{}% 61
-\BOOKMARK [1][]{section.5.1}{5.1 SOFTWARE FOR STATISTICAL CONSTRAINT}{chapter.5}% 62
-\BOOKMARK [1][]{section.5.2}{5.2 CREATING LARGE SAMPLES WITH MACHINE LEARNING}{chapter.5}% 63
-\BOOKMARK [1][]{section.5.3}{5.3 APPYING LARGE CATALOGUES: PROSPECTS}{chapter.5}% 64
-\BOOKMARK [1][]{section.5.4}{5.4 APPLYING LARGE CATALOGUES: CURRENT LIMITATIONS}{chapter.5}% 65
-\BOOKMARK [1][]{section.5.5}{5.5 FUTURE WORK}{chapter.5}% 66
-\BOOKMARK [0][]{appendix.1.A}{Appendix A Appendices}{}% 67
-\BOOKMARK [1][]{section.1.A.1}{A.1 Further Model Diagnostics}{appendix.1.A}% 68
-\BOOKMARK [1][]{section.1.A.2}{A.2 Examples of Sources with 3-Band Information}{appendix.1.A}% 69
-\BOOKMARK [1][]{section.1.A.3}{A.3 Unknown Objects}{appendix.1.A}% 70
-\BOOKMARK [1][]{section.1.A.4}{A.4 Acknowledging PIs}{appendix.1.A}% 71
-\BOOKMARK [0][]{appendix*.25}{References}{}% 72
+\BOOKMARK [1][]{section.1.7}{1.7 Thesis Outline}{chapter.1}% 19
+\BOOKMARK [0][]{chapter.2}{2 Galaxy Zoo: Mergers \046 Constraining Interaction}{}% 20
+\BOOKMARK [1][]{section.2.1}{2.1 INTRODUCTION}{chapter.2}% 21
+\BOOKMARK [1][]{section.2.2}{2.2 THE NEW APYSPAM}{chapter.2}% 22
+\BOOKMARK [1][]{section.2.3}{2.3 COMBINING WITH MCMC}{chapter.2}% 23
+\BOOKMARK [1][]{section.2.4}{2.4 CONSTRAINING GALAXY ZOO: MERGERS}{chapter.2}% 24
+\BOOKMARK [1][]{section.2.5}{2.5 THE OBSERVATIONAL CASE}{chapter.2}% 25
+\BOOKMARK [1][]{section.2.6}{2.6 CONCLUSION}{chapter.2}% 26
+\BOOKMARK [0][]{chapter.3}{3 Creating a Large Sample of Interacting Galaxies}{}% 27
+\BOOKMARK [1][]{section.3.1}{3.1 Abstract}{chapter.3}% 28
+\BOOKMARK [1][]{section.3.2}{3.2 INTRODUCTION}{chapter.3}% 29
+\BOOKMARK [1][]{section.3.3}{3.3 DATA}{chapter.3}% 30
+\BOOKMARK [2][]{subsection.3.3.1}{3.3.1 The Hubble Archives \046 ESA Datalabs}{section.3.3}% 31
+\BOOKMARK [2][]{subsection.3.3.2}{3.3.2 The Shapely Python Package}{section.3.3}% 32
+\BOOKMARK [1][]{section.3.4}{3.4 UTILISING A CONVOLUTIONAL NEURAL NETWORK}{chapter.3}% 33
+\BOOKMARK [2][]{subsection.3.4.1}{3.4.1 Zoobot}{section.3.4}% 34
+\BOOKMARK [2][]{subsection.3.4.2}{3.4.2 Transfer Learning}{section.3.4}% 35
+\BOOKMARK [1][]{section.3.5}{3.5 CREATING THE TRAINING SET}{chapter.3}% 36
+\BOOKMARK [2][]{subsection.3.5.1}{3.5.1 Interacting Galaxies and Galaxy Zoo}{section.3.5}% 37
+\BOOKMARK [2][]{subsection.3.5.2}{3.5.2 One Active Learning Cycle}{section.3.5}% 38
+\BOOKMARK [1][]{section.3.6}{3.6 DIAGNOSTICS}{chapter.3}% 39
+\BOOKMARK [2][]{subsection.3.6.1}{3.6.1 Model Performance}{section.3.6}% 40
+\BOOKMARK [2][]{subsection.3.6.2}{3.6.2 Duplication Removal}{section.3.6}% 41
+\BOOKMARK [2][]{subsection.3.6.3}{3.6.3 Bad Predictions \046 Removal}{section.3.6}% 42
+\BOOKMARK [1][]{section.3.7}{3.7 RESULTS \046 DISCUSSION}{chapter.3}% 43
+\BOOKMARK [2][]{subsection.3.7.1}{3.7.1 An Interacting Galaxy Catalogue}{section.3.7}% 44
+\BOOKMARK [2][]{subsection.3.7.2}{3.7.2 The Gems}{section.3.7}% 45
+\BOOKMARK [2][]{subsection.3.7.3}{3.7.3 Source Redshifts and Photometry}{section.3.7}% 46
+\BOOKMARK [1][]{section.3.8}{3.8 CONCLUSION}{chapter.3}% 47
+\BOOKMARK [0][]{chapter.4}{4 Galaxy Interaction in COSMOS}{}% 48
+\BOOKMARK [1][]{section.4.1}{4.1 INTRODUCTION}{chapter.4}% 49
+\BOOKMARK [1][]{section.4.2}{4.2 DATA}{chapter.4}% 50
+\BOOKMARK [2][]{subsection.4.2.1}{4.2.1 The O'Ryan+23 Catalogue}{section.4.2}% 51
+\BOOKMARK [2][]{subsection.4.2.2}{4.2.2 The COSMOS2020 Catalogue}{section.4.2}% 52
+\BOOKMARK [1][]{section.4.3}{4.3 Galaxy Classification}{chapter.4}% 53
+\BOOKMARK [2][]{subsection.4.3.1}{4.3.1 Into Stage of Interaction}{section.4.3}% 54
+\BOOKMARK [2][]{subsection.4.3.2}{4.3.2 AGN Identification}{section.4.3}% 55
+\BOOKMARK [1][]{section.4.4}{4.4 RESULTS \046 DISCUSSION}{chapter.4}% 56
+\BOOKMARK [2][]{subsection.4.4.1}{4.4.1 Star Formation with Stage}{section.4.4}% 57
+\BOOKMARK [2][]{subsection.4.4.2}{4.4.2 AGN Activity with Stage}{section.4.4}% 58
+\BOOKMARK [2][]{subsection.4.4.3}{4.4.3 Controlling for Environment}{section.4.4}% 59
+\BOOKMARK [2][]{subsection.4.4.4}{4.4.4 Limitations of Approach}{section.4.4}% 60
+\BOOKMARK [1][]{section.4.5}{4.5 CONCLUSION}{chapter.4}% 61
+\BOOKMARK [0][]{chapter.5}{5 Conclusion}{}% 62
+\BOOKMARK [1][]{section.5.1}{5.1 SOFTWARE FOR STATISTICAL CONSTRAINT}{chapter.5}% 63
+\BOOKMARK [1][]{section.5.2}{5.2 CREATING LARGE SAMPLES WITH MACHINE LEARNING}{chapter.5}% 64
+\BOOKMARK [1][]{section.5.3}{5.3 APPYING LARGE CATALOGUES: PROSPECTS}{chapter.5}% 65
+\BOOKMARK [1][]{section.5.4}{5.4 APPLYING LARGE CATALOGUES: CURRENT LIMITATIONS}{chapter.5}% 66
+\BOOKMARK [1][]{section.5.5}{5.5 FUTURE WORK}{chapter.5}% 67
+\BOOKMARK [0][]{appendix.1.A}{Appendix A Appendices}{}% 68
+\BOOKMARK [1][]{section.1.A.1}{A.1 Further Model Diagnostics}{appendix.1.A}% 69
+\BOOKMARK [1][]{section.1.A.2}{A.2 Examples of Sources with 3-Band Information}{appendix.1.A}% 70
+\BOOKMARK [1][]{section.1.A.3}{A.3 Unknown Objects}{appendix.1.A}% 71
+\BOOKMARK [1][]{section.1.A.4}{A.4 Acknowledging PIs}{appendix.1.A}% 72
+\BOOKMARK [0][]{appendix*.25}{References}{}% 73
