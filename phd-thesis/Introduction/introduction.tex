@@ -1,20 +1,77 @@
 \chapter{Introduction}
-\section{GALAXY INTERACTION}
-Galactic interaction plays a fundemntal role in the evolution of galaxies throughout cosmic history. By galaxy interaction, what we mean is the effects and physical processes that occur when to galaxies move close enough together that they begin to have a physical affect upon on another. Most often, these affects are due to gravitational effects. These effects can range from morphological disturbance \citep{}, to 
+% Introduce Galaxy Interaction, why is it important?
+In the context of large scale structure of the universe, galaxies represent a fundamental building block of matter. While the universe is full of filaments and voids, they are specifically over- (or under-) densities of galaxies which trace out the distribution of matter. To understand the distribution of matter in the universe (and further fundamental questions about it) we must understand how galaxies form and evolve \citep{2005Natur.435..629S}. A major process which is key to this understanding is that of mutual interactions between galaxies. Mutual interaction has a number of influences on galaxies, from morphological distortion, to mass transfer, to increases in star formation, to merging where the two (or more) galaxies coalesce into a single system. Our best cosmological model, $\Lambda$-Cold Dark Matter, dictates that matter - ergo, galaxies - assembled hierarchically \citep{}. Therefore, mutal interaction and galaxy merging must play an important role in the evolution of matter in the universe to the present day.
 
-\section{GALAXY INTERACTION IN THE COSMOLOGICAL CONTEXT}
+We have come to understand that interaction has multiple impacts on the evolution of galaxies. First, it leads to the distortion of the disks involved and the formation of dinstinct tidal features. Since the existence of such features being related to interaction was hypothesised to proved \citep{Toomre_72} they are the best indication that two galaxies are interacting. We have a notoriously hard time identifying interacting systems in the absence of tidal features of the galaxies involved. This is because, without adequete spectroscopic information of the systems, it is very difficult for us to tell if two systems are physically close together or actually close together by projection effects on the sky. Therefore, studies identifying interacting galaxies often focus primarily on the morphological distortion of a system.
+
+However, there are more subtle affects due to interaction that remain poorly understood. It is widely debated about the role of interaction in nuclear ignition and enhancement in star formation of each system. While the former may not happen at all, the latter is generally accepted to occur while the specific strength and impact on the system remains highly debated. If such processes occur strongly, they can completely change the system that we are observing. Interaction has also been proved to have an impact on the gas reserves in a galaxy, often leading to the complete quenching of the system post-interaction. However, interaction has also been shown to rejuvenate the galaxies involved, and bring them out of a quenched state and into a star forming state. This is highly dependent on the specifics of the interaction. Finally, the role of environment in galaxy interaction is also a highly researched area.
+
+The primary focus of this thesis is on the role of tidal distortion in formation of tidal features for the purposes of system identification and constraint. However, in this process, we must also keep an account of the other underlying processes occuring during interaction. Fully understanding them, and modelling them if necessary, is key to accurately modelling an interaction. The unresolved questions about galaxy interaction is long and complex. The focus of this thesis is in providing the tools to understand galaxy interaction and answer some of the fundamental questions regarding it. These questions include:
+
+\begin{itemize}
+	\item What is the relationship between star formation enhancement and interaction?
+	\item What is / is there a relationship between nuclear activation and interaction?
+	\item What is the relationship between the tidal features that form and the interaction?
+	\item What is the relationship between the environment about a galaxy and interaction?
+\end{itemize}
+
+To fully answer these questions about galaxy interaction, we require two things: large, statistically significant, representative interacting galaxy samples and pipelines to analyse those large samples. In this thesis, detail two pipelines which achive these goals. First, I describe a pipeline that will be able to analyse large interacting galaxy samples in the context of Bayesian statistics and galactic parameterisation (chapter 2). I will describe the results we have found by applying it to a small, well constrained, interacting galaxy sample and then describe the limitations of the approach in terms of computational efficiency. In chapter 3, I will describe a pipeline for creating the largest interacting galaxy catalogue to date from combining morphological classification with novel methods of data extraction and analysis. Finally, in chapter 4 I will use the found large galaxy sample cross matched with a galaxy parameterisation catalogue and explore the above questions in the context of a large, representative sample. However, for now, it would be prudent to begin by discussing what we do understand about galaxy interaction and the relationship it has with the underlying processes occurring in a galaxy.
+
+\section{THE ROLE OF GALAXY INTERACTION}
+% Here, present examples of interacting galaxies and the context in which we're talking about them.
+Since the discovery of galaxies and the idea that they were island universes \citep{Hubble paper}, the idea of galaxy interaction and the effect it had upon galaxy formation and evolution was thought to be minute \citep{Found this info in Chapter 8 of Binne and Tremaine. Need to find a better source!}. By calculating the chance of a galactic encounter from the galactic radius measured from the stellar distribution of a system, it seemed highly improbable that two systems would collide. However, with updated cosmological theories and the introduction of the idea of dark matter halo about a galaxy \citep{Which paper introduced the idea of a galactic halo?}, the size of galaxies also increased. The chance of interaction no longer depended on the radius derived from the stellar distribution, but the radius of the dark matter halo that each stellar disk was embedded in. This massively increased the probability of two galaxies interacting in the universe, and with the theory that may of the tidal features found were formed by tidal interaction, a new field of study was born. 
+
+We now understand that galaxy interaction plays an important, and fundamental role in the evolution of galaxies. As stated previously, they have multiple affects upon the systems undergoing the interaction. The specifics of these effects lies heavily on the underlying parameters and type of interaction that is occurring. In this section, we describe the specific changes and effects that occur in an interaction due to those parameters and describe what physically occurs due to the tidal disruption of interaction. 
+
+% For each of these sections below, I want to do a deep dive on how each process is driven. Will maybe mention simulations throughout, but we shall see?
+\subsection{Morphological Distortion}
+\subsection{Star Formation Enhancement}
+\subsection{Nuclear Activation}
+\subsection{Quenching of Galactic Systems}
+\subsection{The Role of Environment}
+
 \section{SIMULATIONS OF GALAXY INTERACTION}
+% Here, we discuss how we often simulate galaxy interaction.
+
+\subsection{Underlying Parameters of Interaction}
+
 \subsection{Prior Examples}
+% Introduce prior works, from numerical simulations to hydrodynamical.
+% Discuss their pros and cons.
+
 \subsection{PySPAM}
+% State that we are going to focus on numerical simulations (restricted N-body codes). Break down how our code (JSPAM) works.
+
 \section{STATSTISTICALLY CONSTRAINING INTERACTION}
+% Introduce what I mean by statistical constraint.
+
 \subsection{Bayesian Statistics \& MCMC}
+% Have to do a deep dive on Bayesian Statistics and such here...
+
 \subsection{Previous Examples}
+% May not exist, but previous examples of this approach?
+
 \section{INTERACTING GALAXY IDENTIFICATION}
+% Now, constraining interaction is one problem, but we don't even have that many to constrain!!
+
 \subsection{By Citizen Scientists}
+% Discuss the methods of Galaxy Zoo: Mergers, visual classification and the issues that arise.
+
 \subsection{By Machine Learning}
+% Discuss previous attempts with Machine Learning, pros and cons and where to go from here.
+
 \subsection{Existing Spectroscopic Surveys}
-\subsection{Limitations}
+% As the only thing we can use is spectroscopic information to truly categorise interacting galaxies, where could we go?
+
+
 \section{LARGE SAMPLES OF INTERACTING GALAXIES}
 \subsection{Created by Citizen Scientists}
 \subsection{Found with Machine Learning}
 \section{Thesis Outline}
+
+\section{ANALYSIS OF GALAXY INTERACTION}
+\subsection{Galactic Parameterisation}
+\subsection{Observed Differences in Interacting Galaxies}
+\subsection{What still needs to be learned}
+
+\section{A PIPELINE FOR GALAXY IDENTIFICATION AND ANALYSIS}

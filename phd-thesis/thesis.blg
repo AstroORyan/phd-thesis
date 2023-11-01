@@ -10,64 +10,101 @@ A level-1 auxiliary file: preface/pubs.aux
 A level-1 auxiliary file: Introduction/introduction.aux
 A level-1 auxiliary file: Chapter1/Chapter.aux
 A level-1 auxiliary file: Chapter2/Chapter.aux
+Case mismatch error between cite keys ellison_08 and Ellison_08
+---line 12 of file Chapter2/Chapter.aux
+ : \citation{ellison_08
+ :                     ,scudder12,pearson19b}
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys ellison_08 and Ellison_08
+---line 13 of file Chapter2/Chapter.aux
+ : \citation{ellison_08
+ :                     ,li08,ellison_11,comerford15}
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapter3/Chapter.aux
 A level-1 auxiliary file: Conclusion/conclusion.aux
 The style file: Latex/mnras.bst
 Database file #1: thesis.bib
-Repeated entry---line 1820 of file thesis.bib
+Repeated entry---line 414 of file thesis.bib
+ : @article{Bruzual_03
+ :                    ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `)'---line 800 of file thesis.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 2482 of file thesis.bib
+ : @article{ellison_08
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 2730 of file thesis.bib
+ : @article{Lintott_08
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 3863 of file thesis.bib
  : @inproceedings{gregg17
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3311 of file thesis.bib
+Repeated entry---line 5354 of file thesis.bib
  : @article{lotz08
  :                ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Zoobot"
 Warning--I didn't find a database entry for "NED1"
 Warning--I didn't find a database entry for "VizieR"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Warning--empty publisher in arp87
 Warning--empty publisher in nielsen16
-You've used 94 entries,
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Peng_02
+while executing---line 3643 of file Latex/mnras.bst
+`journal' is a missing field, not a string, for entry Peng_02
+while executing---line 3643 of file Latex/mnras.bst
+"ArXiv e-prints" is a string literal, `journal' is a missing field
+---they aren't the same literal types for entry Peng_02
+while executing---line 3643 of file Latex/mnras.bst
+You've used 153 entries,
             2881 wiz_defined-function locations,
-            1483 strings with 49339 characters,
-and the built_in function-call counts, 46497 in all, are:
-= -- 4155
-> -- 3006
-< -- 168
-+ -- 1331
-- -- 416
-* -- 5689
-:= -- 6824
+            1906 strings with 65901 characters,
+and the built_in function-call counts, 74521 in all, are:
+= -- 6498
+> -- 4967
+< -- 305
++ -- 2190
+- -- 703
+* -- 9247
+:= -- 11144
 add.period$ -- 0
-call.type$ -- 94
-change.case$ -- 188
-chr.to.int$ -- 91
-cite$ -- 96
-duplicate$ -- 2376
-empty$ -- 2268
-format.name$ -- 720
-if$ -- 8382
-int.to.chr$ -- 4
+call.type$ -- 153
+change.case$ -- 306
+chr.to.int$ -- 134
+cite$ -- 155
+duplicate$ -- 3746
+empty$ -- 3626
+format.name$ -- 1191
+if$ -- 13255
+int.to.chr$ -- 20
 int.to.str$ -- 0
-missing$ -- 94
-newline$ -- 296
-num.names$ -- 584
-pop$ -- 463
+missing$ -- 153
+newline$ -- 473
+num.names$ -- 982
+pop$ -- 725
 preamble$ -- 1
-purify$ -- 376
+purify$ -- 612
 quote$ -- 0
-skip$ -- 1629
+skip$ -- 2480
 stack$ -- 0
-substring$ -- 3060
-swap$ -- 1332
-text.length$ -- 388
+substring$ -- 4706
+swap$ -- 2089
+text.length$ -- 631
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 840
+type$ -- 1371
 warning$ -- 2
-while$ -- 671
+while$ -- 1111
 width$ -- 0
-write$ -- 953
-(There were 2 error messages)
+write$ -- 1545
+(There were 11 error messages)
