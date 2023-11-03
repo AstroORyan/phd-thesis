@@ -8,6 +8,34 @@ A level-1 auxiliary file: preface/declaration.aux
 A level-1 auxiliary file: preface/quote.aux
 A level-1 auxiliary file: preface/pubs.aux
 A level-1 auxiliary file: Introduction/introduction.aux
+White space in argument---line 11 of file Introduction/introduction.aux
+ : \citation{Hubble
+ :                  paper}
+I'm skipping whatever remains of this command
+White space in argument---line 12 of file Introduction/introduction.aux
+ : \citation{Found
+ :                 this info in Chapter 8 of Binne and Tremaine. Need to find a better source!}
+I'm skipping whatever remains of this command
+White space in argument---line 13 of file Introduction/introduction.aux
+ : \citation{Which
+ :                 paper introduced the idea of a galactic halo?}
+I'm skipping whatever remains of this command
+White space in argument---line 14 of file Introduction/introduction.aux
+ : \citation{A
+ :             paper that states what the accepted merger ratios are?}
+I'm skipping whatever remains of this command
+White space in argument---line 16 of file Introduction/introduction.aux
+ : \citation{Some
+ :                review paper,perhaps that states that these parameters are important}
+I'm skipping whatever remains of this command
+White space in argument---line 17 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on starbursting in interaction}
+I'm skipping whatever remains of this command
+White space in argument---line 18 of file Introduction/introduction.aux
+ : \citation{Works
+ :                 like TandT which looked at this}
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapter1/Chapter.aux
 A level-1 auxiliary file: Chapter2/Chapter.aux
 Case mismatch error between cite keys ellison_08 and Ellison_08
@@ -107,4 +135,4 @@ warning$ -- 2
 while$ -- 1111
 width$ -- 0
 write$ -- 1545
-(There were 11 error messages)
+(There were 18 error messages)
