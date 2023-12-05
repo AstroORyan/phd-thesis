@@ -8,63 +8,59 @@ A level-1 auxiliary file: preface/declaration.aux
 A level-1 auxiliary file: preface/quote.aux
 A level-1 auxiliary file: preface/pubs.aux
 A level-1 auxiliary file: Introduction/introduction.aux
-White space in argument---line 14 of file Introduction/introduction.aux
- : \citation{Hubble
- :                  paper}
-I'm skipping whatever remains of this command
-White space in argument---line 15 of file Introduction/introduction.aux
+White space in argument---line 22 of file Introduction/introduction.aux
  : \citation{Found
- :                 this info in Chapter 8 of Binne and Tremaine. Need to find a better source!}
+ :                 this info in Chapter 8 of Binnie and Tremaine. Need to find a better source!}
 I'm skipping whatever remains of this command
-White space in argument---line 16 of file Introduction/introduction.aux
+White space in argument---line 23 of file Introduction/introduction.aux
  : \citation{Which
  :                 paper introduced the idea of a galactic halo?}
 I'm skipping whatever remains of this command
-White space in argument---line 17 of file Introduction/introduction.aux
+White space in argument---line 24 of file Introduction/introduction.aux
  : \citation{A
  :             paper that states what the accepted merger ratios are?}
 I'm skipping whatever remains of this command
-White space in argument---line 24 of file Introduction/introduction.aux
+White space in argument---line 31 of file Introduction/introduction.aux
  : \citation{Some
  :                review paper,perhaps that states that these parameters are important}
 I'm skipping whatever remains of this command
-White space in argument---line 25 of file Introduction/introduction.aux
+White space in argument---line 32 of file Introduction/introduction.aux
  : \citation{Paper
  :                 on starbursting in interaction}
 I'm skipping whatever remains of this command
-White space in argument---line 26 of file Introduction/introduction.aux
+White space in argument---line 33 of file Introduction/introduction.aux
  : \citation{Works
  :                 like TandT which looked at this}
 I'm skipping whatever remains of this command
-White space in argument---line 27 of file Introduction/introduction.aux
+White space in argument---line 34 of file Introduction/introduction.aux
  : \citation{Citation
  :                    from BandM}
 I'm skipping whatever remains of this command
-White space in argument---line 28 of file Introduction/introduction.aux
+White space in argument---line 35 of file Introduction/introduction.aux
  : \citation{If
  :              this paragraph remains here,cite the different NGC 5907 papers}
 I'm skipping whatever remains of this command
-White space in argument---line 30 of file Introduction/introduction.aux
+White space in argument---line 37 of file Introduction/introduction.aux
  : \citation{Holmberg
  :                    1941 or Alladin 1965}
 I'm skipping whatever remains of this command
-White space in argument---line 31 of file Introduction/introduction.aux
+White space in argument---line 38 of file Introduction/introduction.aux
  : \citation{Paper
  :                 about tidal dwarfs}
 I'm skipping whatever remains of this command
-White space in argument---line 32 of file Introduction/introduction.aux
+White space in argument---line 39 of file Introduction/introduction.aux
  : \citation{Papers
  :                  on fragmentation of gas in interaction,paper on star formation in star fragments}
 I'm skipping whatever remains of this command
-White space in argument---line 33 of file Introduction/introduction.aux
+White space in argument---line 40 of file Introduction/introduction.aux
  : \citation{Need
  :                a paper which talks about torques on gas in a system and the feedback involved here.}
 I'm skipping whatever remains of this command
-White space in argument---line 34 of file Introduction/introduction.aux
+White space in argument---line 41 of file Introduction/introduction.aux
  : \citation{Review
  :                  paper on starbursts in galaxies}
 I'm skipping whatever remains of this command
-White space in argument---line 35 of file Introduction/introduction.aux
+White space in argument---line 42 of file Introduction/introduction.aux
  : \citation{Kennicutt-Schmidt
  :                             Law Paper}
 I'm skipping whatever remains of this command
@@ -82,51 +78,51 @@ Case mismatch error between cite keys Ellison_08 and ellison_08
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Conclusion/conclusion.aux
 The style file: Latex/mnras.bst
-Reallocated field_info (elt_size=4) to 11507 items from 5000.
+Reallocated field_info (elt_size=4) to 11750 items from 5000.
 Database file #1: thesis.bib
-Repeated entry---line 470 of file thesis.bib
+Repeated entry---line 615 of file thesis.bib
  : @article{Bruzual_03
  :                    ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `)'---line 856 of file thesis.bib
+I was expecting a `,' or a `)'---line 1001 of file thesis.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2538 of file thesis.bib
+Repeated entry---line 2683 of file thesis.bib
  : @article{ellison_08
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2786 of file thesis.bib
+Repeated entry---line 2931 of file thesis.bib
  : @article{Lintott_08
  :                    ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 3919 of file thesis.bib
+Repeated entry---line 4064 of file thesis.bib
  : @inproceedings{gregg17
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5410 of file thesis.bib
+Repeated entry---line 5555 of file thesis.bib
  : @article{lotz08
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5630 of file thesis.bib
+Repeated entry---line 5775 of file thesis.bib
  : @article{2023ApJ...948...40O
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6002 of file thesis.bib
+Repeated entry---line 6147 of file thesis.bib
  : @article{1978MNRAS.183..341W
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6158 of file thesis.bib
+Repeated entry---line 6303 of file thesis.bib
  : @article{2010MNRAS.401.1043D
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6799 of file thesis.bib
+Repeated entry---line 6944 of file thesis.bib
  : @article{2013MNRAS.430.1901H
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6961 of file thesis.bib
+Repeated entry---line 7106 of file thesis.bib
  : @article{2023MNRAS.519.4966B
  :                             ,
 I'm skipping whatever remains of this entry
@@ -136,6 +132,7 @@ Warning--I didn't find a database entry for "VizieR"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty publisher in arp87
+Warning--empty publisher in 1936rene.book.....H
 Warning--empty publisher in nielsen16
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Peng_02
@@ -146,45 +143,45 @@ while executing---line 3643 of file Latex/mnras.bst
 ---they aren't the same literal types for entry Peng_02
 while executing---line 3643 of file Latex/mnras.bst
 Warning--empty publisher in 2021inas.book...57V
-You've used 238 entries,
+You've used 247 entries,
             2881 wiz_defined-function locations,
-            2510 strings with 93343 characters,
-and the built_in function-call counts, 116321 in all, are:
-= -- 9873
-> -- 8207
-< -- 458
-+ -- 3543
-- -- 1258
-* -- 14714
-:= -- 17732
+            2585 strings with 96244 characters,
+and the built_in function-call counts, 120445 in all, are:
+= -- 10203
+> -- 8508
+< -- 476
++ -- 3676
+- -- 1302
+* -- 15250
+:= -- 18376
 add.period$ -- 0
-call.type$ -- 238
-change.case$ -- 476
-chr.to.int$ -- 197
-cite$ -- 241
-duplicate$ -- 5661
-empty$ -- 5520
-format.name$ -- 1998
-if$ -- 20416
+call.type$ -- 247
+change.case$ -- 494
+chr.to.int$ -- 206
+cite$ -- 251
+duplicate$ -- 5862
+empty$ -- 5728
+format.name$ -- 2070
+if$ -- 21119
 int.to.chr$ -- 42
 int.to.str$ -- 0
-missing$ -- 238
-newline$ -- 729
-num.names$ -- 1566
-pop$ -- 1069
+missing$ -- 248
+newline$ -- 756
+num.names$ -- 1622
+pop$ -- 1115
 preamble$ -- 1
-purify$ -- 952
+purify$ -- 988
 quote$ -- 0
-skip$ -- 3620
+skip$ -- 3739
 stack$ -- 0
-substring$ -- 7123
-swap$ -- 3194
-text.length$ -- 973
+substring$ -- 7353
+swap$ -- 3290
+text.length$ -- 1009
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2136
-warning$ -- 3
-while$ -- 1747
+type$ -- 2214
+warning$ -- 4
+while$ -- 1811
 width$ -- 0
-write$ -- 2396
-(There were 31 error messages)
+write$ -- 2485
+(There were 30 error messages)
