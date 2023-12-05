@@ -223,6 +223,12 @@ Avila R.~J.,  Hack W.,  Cara M.,  Borncamp D.,  Mack J.,  Smith L.,   Ubeda L.,
   {10.1051/0004-6361:20042036}, \href
   {https://ui.adsabs.harvard.edu/abs/2005A&A...437...69B} {437, 69}
 
+\bibitem[\protect\citeauthoryear{{Bower}, {Lucey}  \& {Ellis}}{{Bower}
+  et~al.}{1992}]{1992MNRAS.254..589B}
+{Bower} R.~G.,  {Lucey} J.~R.,   {Ellis} R.~S.,  1992, \mn@doi [\mnras]
+  {10.1093/mnras/254.4.589}, \href
+  {https://ui.adsabs.harvard.edu/abs/1992MNRAS.254..589B} {254, 589}
+
 \bibitem[\protect\citeauthoryear{{Boylan-Kolchin}, {Springel}, {White},
   {Jenkins}  \& {Lemson}}{{Boylan-Kolchin} et~al.}{2009}]{Boylan_09}
 {Boylan-Kolchin} M.,  {Springel} V.,  {White} S. D.~M.,  {Jenkins} A.,
@@ -460,6 +466,11 @@ Avila R.~J.,  Hack W.,  Cara M.,  Borncamp D.,  Mack J.,  Smith L.,   Ubeda L.,
   et~al.}{2022}]{2022MNRAS.517L..92E}
 {Ellison} S.~L.,  et~al., 2022, \mn@doi [\mnras] {10.1093/mnrasl/slac109},
   \href {https://ui.adsabs.harvard.edu/abs/2022MNRAS.517L..92E} {517, L92}
+
+\bibitem[\protect\citeauthoryear{{Faber} \& {Gallagher}}{{Faber} \&
+  {Gallagher}}{1976}]{1976ApJ...204..365F}
+{Faber} S.~M.,  {Gallagher} J.~S.,  1976, \mn@doi [\apj] {10.1086/154180},
+  \href {https://ui.adsabs.harvard.edu/abs/1976ApJ...204..365F} {204, 365}
 
 \bibitem[\protect\citeauthoryear{{Ferreira} et~al.,}{{Ferreira}
   et~al.}{2022}]{ferreira22}
@@ -714,6 +725,11 @@ Harris C.~R.,  et~al., 2020, \mn@doi [Nature] {10.1038/s41586-020-2649-2}, 585,
   \mn@doi [\aj] {10.1086/508340}, \href
   {https://ui.adsabs.harvard.edu/abs/2006AJ....132.2233K} {132, 2233}
 
+\bibitem[\protect\citeauthoryear{{Keel} et~al.,}{{Keel}
+  et~al.}{2022}]{2022AJ....163..150K}
+{Keel} W.~C.,  et~al., 2022, \mn@doi [\aj] {10.3847/1538-3881/ac517d}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022AJ....163..150K} {163, 150}
+
 \bibitem[\protect\citeauthoryear{{Kennicutt}}{{Kennicutt}}{1998}]{Kennicutt_98}
 {Kennicutt} Robert~C. J.,  1998, \mn@doi [\apj] {10.1086/305588}, \href
   {https://ui.adsabs.harvard.edu/abs/1998ApJ...498..541K} {498, 541}
@@ -775,13 +791,13 @@ Kolmogorov A.,  1933, Giorn Dell'inst Ital Degli Att, 4, 89
   {https://ui.adsabs.harvard.edu/abs/2023ApJ...953...91L} {953, 91}
 
 \bibitem[\protect\citeauthoryear{{Lintott} et~al.,}{{Lintott}
-  et~al.}{2008a}]{Lintott_08}
+  et~al.}{2008a}]{2008MNRAS.389.1179L}
 {Lintott} C.~J.,  et~al., 2008a, \mn@doi [\mnras]
   {10.1111/j.1365-2966.2008.13689.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2008MNRAS.389.1179L} {389, 1179}
 
 \bibitem[\protect\citeauthoryear{{Lintott} et~al.,}{{Lintott}
-  et~al.}{2008b}]{2008MNRAS.389.1179L}
+  et~al.}{2008b}]{Lintott_08}
 {Lintott} C.~J.,  et~al., 2008b, \mn@doi [\mnras]
   {10.1111/j.1365-2966.2008.13689.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2008MNRAS.389.1179L} {389, 1179}
@@ -1081,8 +1097,13 @@ Peng C.~Y.,  Ho L.~C.,  Impey C.~D.,   Rix H.-W.,  2002, ] {10.1086/340952}
   {https://ui.adsabs.harvard.edu/abs/2007ApJS..173..267S} {173, 267}
 
 \bibitem[\protect\citeauthoryear{{Schawinski} et~al.,}{{Schawinski}
-  et~al.}{2014}]{schawinski14}
-{Schawinski} K.,  et~al., 2014, \mn@doi [\mnras] {10.1093/mnras/stu327}, \href
+  et~al.}{2014a}]{2014MNRAS.440..889S}
+{Schawinski} K.,  et~al., 2014a, \mn@doi [\mnras] {10.1093/mnras/stu327}, \href
+  {https://ui.adsabs.harvard.edu/abs/2014MNRAS.440..889S} {440, 889}
+
+\bibitem[\protect\citeauthoryear{{Schawinski} et~al.,}{{Schawinski}
+  et~al.}{2014b}]{schawinski14}
+{Schawinski} K.,  et~al., 2014b, \mn@doi [\mnras] {10.1093/mnras/stu327}, \href
   {https://ui.adsabs.harvard.edu/abs/2014MNRAS.440..889S} {440, 889}
 
 \bibitem[\protect\citeauthoryear{{Schawinski}, {Koss}, {Berney}  \&
@@ -1171,6 +1192,11 @@ Peng C.~Y.,  Ho L.~C.,  Impey C.~D.,   Rix H.-W.,  2002, ] {10.1086/340952}
   et~al.}{2018}]{smethurst18}
 {Smethurst} R.~J.,  et~al., 2018, \mn@doi [\mnras] {10.1093/mnras/stx2547},
   \href {https://ui.adsabs.harvard.edu/abs/2018MNRAS.473.2679S} {473, 2679}
+
+\bibitem[\protect\citeauthoryear{{Smethurst} et~al.,}{{Smethurst}
+  et~al.}{2022}]{2022MNRAS.510.4126S}
+{Smethurst} R.~J.,  et~al., 2022, \mn@doi [\mnras] {10.1093/mnras/stab3607},
+  \href {https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.4126S} {510, 4126}
 
 \bibitem[\protect\citeauthoryear{{Smith} et~al.,}{{Smith}
   et~al.}{2010}]{Smith_10}

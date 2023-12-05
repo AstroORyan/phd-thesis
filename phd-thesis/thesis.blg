@@ -8,59 +8,111 @@ A level-1 auxiliary file: preface/declaration.aux
 A level-1 auxiliary file: preface/quote.aux
 A level-1 auxiliary file: preface/pubs.aux
 A level-1 auxiliary file: Introduction/introduction.aux
-White space in argument---line 22 of file Introduction/introduction.aux
+White space in argument---line 36 of file Introduction/introduction.aux
+ : \citation{Part
+ :                of the SED we observe in each filter?}
+I'm skipping whatever remains of this command
+White space in argument---line 37 of file Introduction/introduction.aux
+ : \citation{Bulge
+ :                 component is an indicator of merger history}
+I'm skipping whatever remains of this command
+White space in argument---line 38 of file Introduction/introduction.aux
+ : \citation{Citing
+ :                  kennicutt,Schmidt etc}
+I'm skipping whatever remains of this command
+White space in argument---line 41 of file Introduction/introduction.aux
+ : \citation{Papers
+ :                  green valley stuff. Start with Becky's work.}
+I'm skipping whatever remains of this command
+White space in argument---line 42 of file Introduction/introduction.aux
+ : \citation{I
+ :             think this is the red herring paper}
+I'm skipping whatever remains of this command
+White space in argument---line 43 of file Introduction/introduction.aux
+ : \citation{Or
+ :              this is the red herring paper}
+I'm skipping whatever remains of this command
+White space in argument---line 48 of file Introduction/introduction.aux
+ : \citation{paper
+ :                 on post-starburst galaxies and merger remnants}
+I'm skipping whatever remains of this command
+White space in argument---line 49 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on post-starburst galaxies and environment}
+I'm skipping whatever remains of this command
+White space in argument---line 50 of file Introduction/introduction.aux
+ : \citation{galaxy
+ :                  environment paper}
+I'm skipping whatever remains of this command
+White space in argument---line 51 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on environmental suppression}
+I'm skipping whatever remains of this command
+White space in argument---line 52 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on starbursting galaxies in interaction.}
+I'm skipping whatever remains of this command
+White space in argument---line 53 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on quenching a galaxy with interaction}
+I'm skipping whatever remains of this command
+White space in argument---line 54 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on not much change in the SED of a galaxy}
+I'm skipping whatever remains of this command
+White space in argument---line 55 of file Introduction/introduction.aux
  : \citation{Found
  :                 this info in Chapter 8 of Binnie and Tremaine. Need to find a better source!}
 I'm skipping whatever remains of this command
-White space in argument---line 23 of file Introduction/introduction.aux
+White space in argument---line 56 of file Introduction/introduction.aux
  : \citation{Which
  :                 paper introduced the idea of a galactic halo?}
 I'm skipping whatever remains of this command
-White space in argument---line 24 of file Introduction/introduction.aux
+White space in argument---line 59 of file Introduction/introduction.aux
  : \citation{A
  :             paper that states what the accepted merger ratios are?}
 I'm skipping whatever remains of this command
-White space in argument---line 31 of file Introduction/introduction.aux
+White space in argument---line 60 of file Introduction/introduction.aux
  : \citation{Some
  :                review paper,perhaps that states that these parameters are important}
 I'm skipping whatever remains of this command
-White space in argument---line 32 of file Introduction/introduction.aux
+White space in argument---line 61 of file Introduction/introduction.aux
  : \citation{Paper
  :                 on starbursting in interaction}
 I'm skipping whatever remains of this command
-White space in argument---line 33 of file Introduction/introduction.aux
+White space in argument---line 62 of file Introduction/introduction.aux
  : \citation{Works
  :                 like TandT which looked at this}
 I'm skipping whatever remains of this command
-White space in argument---line 34 of file Introduction/introduction.aux
+White space in argument---line 63 of file Introduction/introduction.aux
  : \citation{Citation
  :                    from BandM}
 I'm skipping whatever remains of this command
-White space in argument---line 35 of file Introduction/introduction.aux
+White space in argument---line 65 of file Introduction/introduction.aux
  : \citation{If
  :              this paragraph remains here,cite the different NGC 5907 papers}
 I'm skipping whatever remains of this command
-White space in argument---line 37 of file Introduction/introduction.aux
+White space in argument---line 66 of file Introduction/introduction.aux
  : \citation{Holmberg
  :                    1941 or Alladin 1965}
 I'm skipping whatever remains of this command
-White space in argument---line 38 of file Introduction/introduction.aux
+White space in argument---line 67 of file Introduction/introduction.aux
  : \citation{Paper
  :                 about tidal dwarfs}
 I'm skipping whatever remains of this command
-White space in argument---line 39 of file Introduction/introduction.aux
+White space in argument---line 68 of file Introduction/introduction.aux
  : \citation{Papers
  :                  on fragmentation of gas in interaction,paper on star formation in star fragments}
 I'm skipping whatever remains of this command
-White space in argument---line 40 of file Introduction/introduction.aux
+White space in argument---line 69 of file Introduction/introduction.aux
  : \citation{Need
  :                a paper which talks about torques on gas in a system and the feedback involved here.}
 I'm skipping whatever remains of this command
-White space in argument---line 41 of file Introduction/introduction.aux
+White space in argument---line 70 of file Introduction/introduction.aux
  : \citation{Review
  :                  paper on starbursts in galaxies}
 I'm skipping whatever remains of this command
-White space in argument---line 42 of file Introduction/introduction.aux
+White space in argument---line 71 of file Introduction/introduction.aux
  : \citation{Kennicutt-Schmidt
  :                             Law Paper}
 I'm skipping whatever remains of this command
@@ -78,54 +130,59 @@ Case mismatch error between cite keys Ellison_08 and ellison_08
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Conclusion/conclusion.aux
 The style file: Latex/mnras.bst
-Reallocated field_info (elt_size=4) to 11750 items from 5000.
+Reallocated field_info (elt_size=4) to 11912 items from 5000.
 Database file #1: thesis.bib
-Repeated entry---line 615 of file thesis.bib
+Repeated entry---line 716 of file thesis.bib
  : @article{Bruzual_03
  :                    ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `)'---line 1001 of file thesis.bib
+I was expecting a `,' or a `)'---line 1102 of file thesis.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2683 of file thesis.bib
+Repeated entry---line 2784 of file thesis.bib
  : @article{ellison_08
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2931 of file thesis.bib
+Repeated entry---line 3032 of file thesis.bib
  : @article{Lintott_08
  :                    ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 4064 of file thesis.bib
+Repeated entry---line 4165 of file thesis.bib
  : @inproceedings{gregg17
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5555 of file thesis.bib
+Repeated entry---line 5656 of file thesis.bib
  : @article{lotz08
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5775 of file thesis.bib
+Repeated entry---line 5876 of file thesis.bib
  : @article{2023ApJ...948...40O
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6147 of file thesis.bib
+Repeated entry---line 6248 of file thesis.bib
  : @article{1978MNRAS.183..341W
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6303 of file thesis.bib
+Repeated entry---line 6404 of file thesis.bib
  : @article{2010MNRAS.401.1043D
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6944 of file thesis.bib
+Repeated entry---line 6422 of file thesis.bib
+ : @article{2008MNRAS.389.1179L
+ :                             ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 7045 of file thesis.bib
  : @article{2013MNRAS.430.1901H
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7106 of file thesis.bib
+Repeated entry---line 7207 of file thesis.bib
  : @article{2023MNRAS.519.4966B
  :                             ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Zoobot"
 Warning--I didn't find a database entry for "NED1"
 Warning--I didn't find a database entry for "VizieR"
@@ -143,45 +200,45 @@ while executing---line 3643 of file Latex/mnras.bst
 ---they aren't the same literal types for entry Peng_02
 while executing---line 3643 of file Latex/mnras.bst
 Warning--empty publisher in 2021inas.book...57V
-You've used 247 entries,
+You've used 252 entries,
             2881 wiz_defined-function locations,
-            2585 strings with 96244 characters,
-and the built_in function-call counts, 120445 in all, are:
-= -- 10203
-> -- 8508
-< -- 476
-+ -- 3676
-- -- 1302
-* -- 15250
-:= -- 18376
+            2623 strings with 97872 characters,
+and the built_in function-call counts, 122560 in all, are:
+= -- 10401
+> -- 8628
+< -- 482
++ -- 3733
+- -- 1312
+* -- 15535
+:= -- 18679
 add.period$ -- 0
-call.type$ -- 247
-change.case$ -- 494
-chr.to.int$ -- 206
-cite$ -- 251
-duplicate$ -- 5862
-empty$ -- 5728
-format.name$ -- 2070
-if$ -- 21119
-int.to.chr$ -- 42
+call.type$ -- 252
+change.case$ -- 504
+chr.to.int$ -- 210
+cite$ -- 256
+duplicate$ -- 5971
+empty$ -- 5838
+format.name$ -- 2100
+if$ -- 21487
+int.to.chr$ -- 43
 int.to.str$ -- 0
-missing$ -- 248
-newline$ -- 756
-num.names$ -- 1622
-pop$ -- 1115
+missing$ -- 253
+newline$ -- 771
+num.names$ -- 1650
+pop$ -- 1135
 preamble$ -- 1
-purify$ -- 988
+purify$ -- 1008
 quote$ -- 0
-skip$ -- 3739
+skip$ -- 3802
 stack$ -- 0
-substring$ -- 7353
-swap$ -- 3290
-text.length$ -- 1009
+substring$ -- 7497
+swap$ -- 3340
+text.length$ -- 1029
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2214
+type$ -- 2259
 warning$ -- 4
-while$ -- 1811
+while$ -- 1845
 width$ -- 0
-write$ -- 2485
-(There were 30 error messages)
+write$ -- 2535
+(There were 44 error messages)
