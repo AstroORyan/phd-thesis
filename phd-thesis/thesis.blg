@@ -61,58 +61,86 @@ White space in argument---line 54 of file Introduction/introduction.aux
  :                 on not much change in the SED of a galaxy}
 I'm skipping whatever remains of this command
 White space in argument---line 55 of file Introduction/introduction.aux
- : \citation{Found
- :                 this info in Chapter 8 of Binnie and Tremaine. Need to find a better source!}
+ : \citation{paper
+ :                 saying mass ratio is important}
 I'm skipping whatever remains of this command
 White space in argument---line 56 of file Introduction/introduction.aux
- : \citation{Which
- :                 paper introduced the idea of a galactic halo?}
+ : \citation{paper
+ :                 that says the gas content is important}
+I'm skipping whatever remains of this command
+White space in argument---line 57 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 with these definitions in them?}
+I'm skipping whatever remains of this command
+White space in argument---line 58 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on wet vs dry mergers}
 I'm skipping whatever remains of this command
 White space in argument---line 59 of file Introduction/introduction.aux
- : \citation{A
- :             paper that states what the accepted merger ratios are?}
-I'm skipping whatever remains of this command
-White space in argument---line 60 of file Introduction/introduction.aux
- : \citation{Some
- :                review paper,perhaps that states that these parameters are important}
+ : \citation{Paper
+ :                 on mixed / damp mergers}
 I'm skipping whatever remains of this command
 White space in argument---line 61 of file Introduction/introduction.aux
- : \citation{Paper
- :                 on starbursting in interaction}
+ : \citation{Increases
+ :                     in SFR in wet interactions}
 I'm skipping whatever remains of this command
 White space in argument---line 62 of file Introduction/introduction.aux
- : \citation{Works
- :                 like TandT which looked at this}
+ : \citation{Papers
+ :                  on increases in SFR in coalesced mergers}
 I'm skipping whatever remains of this command
 White space in argument---line 63 of file Introduction/introduction.aux
- : \citation{Citation
- :                    from BandM}
+ : \citation{Paper
+ :                 on wet major mergers and AGN}
+I'm skipping whatever remains of this command
+White space in argument---line 64 of file Introduction/introduction.aux
+ : \citation{Papers
+ :                  on dry mergers leading to increased SFR in the nuclear region}
 I'm skipping whatever remains of this command
 White space in argument---line 65 of file Introduction/introduction.aux
- : \citation{If
- :              this paragraph remains here,cite the different NGC 5907 papers}
+ : \citation{Papers
+ :                  on tidal dwarfs}
 I'm skipping whatever remains of this command
 White space in argument---line 66 of file Introduction/introduction.aux
- : \citation{Holmberg
- :                    1941 or Alladin 1965}
+ : \citation{Papers
+ :                  on MOND and that sort of thing}
 I'm skipping whatever remains of this command
 White space in argument---line 67 of file Introduction/introduction.aux
- : \citation{Paper
- :                 about tidal dwarfs}
+ : \citation{Sugata's
+ :                    paper on the work}
 I'm skipping whatever remains of this command
 White space in argument---line 68 of file Introduction/introduction.aux
  : \citation{Papers
- :                  on fragmentation of gas in interaction,paper on star formation in star fragments}
+ :                  with minor interactions being primary drivers of cosmic SFR}
 I'm skipping whatever remains of this command
 White space in argument---line 69 of file Introduction/introduction.aux
- : \citation{Need
- :                a paper which talks about torques on gas in a system and the feedback involved here.}
+ : \citation{Papers
+ :                  that say the LMC and SMC are examples of micro mergers}
 I'm skipping whatever remains of this command
-White space in argument---line 70 of file Introduction/introduction.aux
- : \citation{Review
- :                  paper on starbursts in galaxies}
+White space in argument---line 72 of file Introduction/introduction.aux
+ : \citation{Found
+ :                 this info in Chapter 8 of Binnie and Tremaine. Need to find a better source!}
 I'm skipping whatever remains of this command
-White space in argument---line 71 of file Introduction/introduction.aux
+White space in argument---line 73 of file Introduction/introduction.aux
+ : \citation{Some
+ :                review paper,perhaps that states that these parameters are important}
+I'm skipping whatever remains of this command
+White space in argument---line 76 of file Introduction/introduction.aux
+ : \citation{Papers
+ :                  on prograde and retrograde interactions}
+I'm skipping whatever remains of this command
+White space in argument---line 77 of file Introduction/introduction.aux
+ : \citation{Papers
+ :                  on tidal dwarfs and need to actually proof this is a thing}
+I'm skipping whatever remains of this command
+White space in argument---line 78 of file Introduction/introduction.aux
+ : \citation{Shell
+ :                 presense in galaxies}
+I'm skipping whatever remains of this command
+White space in argument---line 81 of file Introduction/introduction.aux
+ : \citation{Lynds
+ :                 and Toomre 1976}
+I'm skipping whatever remains of this command
+White space in argument---line 84 of file Introduction/introduction.aux
  : \citation{Kennicutt-Schmidt
  :                             Law Paper}
 I'm skipping whatever remains of this command
@@ -130,55 +158,55 @@ Case mismatch error between cite keys Ellison_08 and ellison_08
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Conclusion/conclusion.aux
 The style file: Latex/mnras.bst
-Reallocated field_info (elt_size=4) to 11912 items from 5000.
+Reallocated field_info (elt_size=4) to 11939 items from 5000.
 Database file #1: thesis.bib
-Repeated entry---line 716 of file thesis.bib
+Repeated entry---line 730 of file thesis.bib
  : @article{Bruzual_03
  :                    ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `)'---line 1102 of file thesis.bib
+I was expecting a `,' or a `)'---line 1116 of file thesis.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2784 of file thesis.bib
+Repeated entry---line 2798 of file thesis.bib
  : @article{ellison_08
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3032 of file thesis.bib
+Repeated entry---line 3046 of file thesis.bib
  : @article{Lintott_08
  :                    ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 4165 of file thesis.bib
+Repeated entry---line 4179 of file thesis.bib
  : @inproceedings{gregg17
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5656 of file thesis.bib
+Repeated entry---line 5670 of file thesis.bib
  : @article{lotz08
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5876 of file thesis.bib
+Repeated entry---line 5890 of file thesis.bib
  : @article{2023ApJ...948...40O
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6248 of file thesis.bib
+Repeated entry---line 6262 of file thesis.bib
  : @article{1978MNRAS.183..341W
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6404 of file thesis.bib
+Repeated entry---line 6418 of file thesis.bib
  : @article{2010MNRAS.401.1043D
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6422 of file thesis.bib
+Repeated entry---line 6436 of file thesis.bib
  : @article{2008MNRAS.389.1179L
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7045 of file thesis.bib
+Repeated entry---line 7059 of file thesis.bib
  : @article{2013MNRAS.430.1901H
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7207 of file thesis.bib
+Repeated entry---line 7221 of file thesis.bib
  : @article{2023MNRAS.519.4966B
  :                             ,
 I'm skipping whatever remains of this entry
@@ -200,45 +228,45 @@ while executing---line 3643 of file Latex/mnras.bst
 ---they aren't the same literal types for entry Peng_02
 while executing---line 3643 of file Latex/mnras.bst
 Warning--empty publisher in 2021inas.book...57V
-You've used 252 entries,
+You've used 253 entries,
             2881 wiz_defined-function locations,
-            2623 strings with 97872 characters,
-and the built_in function-call counts, 122560 in all, are:
-= -- 10401
-> -- 8628
-< -- 482
-+ -- 3733
-- -- 1312
-* -- 15535
-:= -- 18679
+            2632 strings with 98069 characters,
+and the built_in function-call counts, 123041 in all, are:
+= -- 10443
+> -- 8660
+< -- 486
++ -- 3747
+- -- 1316
+* -- 15594
+:= -- 18752
 add.period$ -- 0
-call.type$ -- 252
-change.case$ -- 504
-chr.to.int$ -- 210
-cite$ -- 256
-duplicate$ -- 5971
-empty$ -- 5838
-format.name$ -- 2100
-if$ -- 21487
+call.type$ -- 253
+change.case$ -- 506
+chr.to.int$ -- 211
+cite$ -- 257
+duplicate$ -- 5994
+empty$ -- 5860
+format.name$ -- 2110
+if$ -- 21571
 int.to.chr$ -- 43
 int.to.str$ -- 0
-missing$ -- 253
-newline$ -- 771
-num.names$ -- 1650
-pop$ -- 1135
+missing$ -- 254
+newline$ -- 774
+num.names$ -- 1658
+pop$ -- 1138
 preamble$ -- 1
-purify$ -- 1008
+purify$ -- 1012
 quote$ -- 0
-skip$ -- 3802
+skip$ -- 3817
 stack$ -- 0
-substring$ -- 7497
-swap$ -- 3340
-text.length$ -- 1029
+substring$ -- 7525
+swap$ -- 3356
+text.length$ -- 1033
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2259
+type$ -- 2268
 warning$ -- 4
-while$ -- 1845
+while$ -- 1853
 width$ -- 0
-write$ -- 2535
-(There were 44 error messages)
+write$ -- 2545
+(There were 51 error messages)

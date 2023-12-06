@@ -606,12 +606,12 @@ Harris C.~R.,  et~al., 2020, \mn@doi [Nature] {10.1038/s41586-020-2649-2}, 585,
   {https://ui.adsabs.harvard.edu/abs/2002AJ....124..646H} {124, 646}
 
 \bibitem[\protect\citeauthoryear{{Holincheck} et~al.,}{{Holincheck}
-  et~al.}{2016a}]{Holincheck_16}
+  et~al.}{2016a}]{holincheck16}
 {Holincheck} A.~J.,  et~al., 2016a, \mn@doi [\mnras] {10.1093/mnras/stw649},
   \href {https://ui.adsabs.harvard.edu/abs/2016MNRAS.459..720H} {459, 720}
 
 \bibitem[\protect\citeauthoryear{{Holincheck} et~al.,}{{Holincheck}
-  et~al.}{2016b}]{holincheck16}
+  et~al.}{2016b}]{Holincheck_16}
 {Holincheck} A.~J.,  et~al., 2016b, \mn@doi [\mnras] {10.1093/mnras/stw649},
   \href {https://ui.adsabs.harvard.edu/abs/2016MNRAS.459..720H} {459, 720}
 
@@ -845,6 +845,11 @@ Kolmogorov A.,  1933, Giorn Dell'inst Ital Degli Att, 4, 89
 {Lupton} R.,  {Blanton} M.~R.,  {Fekete} G.,  {Hogg} D.~W.,  {O'Mullane} W.,
   {Szalay} A.,   {Wherry} N.,  2004b, \mn@doi [\pasp] {10.1086/382245}, \href
   {https://ui.adsabs.harvard.edu/abs/2004PASP..116..133L} {116, 133}
+
+\bibitem[\protect\citeauthoryear{{Malin} \& {Carter}}{{Malin} \&
+  {Carter}}{1983}]{1983ApJ...274..534M}
+{Malin} D.~F.,  {Carter} D.,  1983, \mn@doi [\apj] {10.1086/161467}, \href
+  {https://ui.adsabs.harvard.edu/abs/1983ApJ...274..534M} {274, 534}
 
 \bibitem[\protect\citeauthoryear{{Marchesi} et~al.,}{{Marchesi}
   et~al.}{2016}]{2016ApJ...817...34M}
