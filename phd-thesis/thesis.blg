@@ -140,9 +140,21 @@ White space in argument---line 81 of file Introduction/introduction.aux
  : \citation{Lynds
  :                 and Toomre 1976}
 I'm skipping whatever remains of this command
-White space in argument---line 84 of file Introduction/introduction.aux
- : \citation{Kennicutt-Schmidt
- :                             Law Paper}
+White space in argument---line 88 of file Introduction/introduction.aux
+ : \citation{Papers
+ :                  on increases in star formation in the galactic disk?}
+I'm skipping whatever remains of this command
+White space in argument---line 89 of file Introduction/introduction.aux
+ : \citation{What
+ :                am I even saying here?}
+I'm skipping whatever remains of this command
+White space in argument---line 90 of file Introduction/introduction.aux
+ : \citation{Seriously,am
+ :                        I even making any sense here?}
+I'm skipping whatever remains of this command
+White space in argument---line 92 of file Introduction/introduction.aux
+ : \citation{Movement
+ :                    of gas to galactic centre causing AGN}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapter1/Chapter.aux
 A level-1 auxiliary file: Chapter2/Chapter.aux
@@ -158,59 +170,60 @@ Case mismatch error between cite keys Ellison_08 and ellison_08
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Conclusion/conclusion.aux
 The style file: Latex/mnras.bst
-Reallocated field_info (elt_size=4) to 11939 items from 5000.
+Reallocated field_info (elt_size=4) to 12020 items from 5000.
 Database file #1: thesis.bib
-Repeated entry---line 730 of file thesis.bib
+Repeated entry---line 759 of file thesis.bib
  : @article{Bruzual_03
  :                    ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `)'---line 1116 of file thesis.bib
+I was expecting a `,' or a `)'---line 1145 of file thesis.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 2798 of file thesis.bib
+Repeated entry---line 2827 of file thesis.bib
  : @article{ellison_08
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3046 of file thesis.bib
+Repeated entry---line 3075 of file thesis.bib
  : @article{Lintott_08
  :                    ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 4179 of file thesis.bib
+Repeated entry---line 4208 of file thesis.bib
  : @inproceedings{gregg17
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5670 of file thesis.bib
+Repeated entry---line 5699 of file thesis.bib
  : @article{lotz08
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5890 of file thesis.bib
+Repeated entry---line 5919 of file thesis.bib
  : @article{2023ApJ...948...40O
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6262 of file thesis.bib
+Repeated entry---line 6291 of file thesis.bib
  : @article{1978MNRAS.183..341W
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6418 of file thesis.bib
+Repeated entry---line 6447 of file thesis.bib
  : @article{2010MNRAS.401.1043D
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6436 of file thesis.bib
+Repeated entry---line 6465 of file thesis.bib
  : @article{2008MNRAS.389.1179L
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7059 of file thesis.bib
+Repeated entry---line 7088 of file thesis.bib
  : @article{2013MNRAS.430.1901H
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7221 of file thesis.bib
+Repeated entry---line 7250 of file thesis.bib
  : @article{2023MNRAS.519.4966B
  :                             ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "Seriously"
 Warning--I didn't find a database entry for "Zoobot"
 Warning--I didn't find a database entry for "NED1"
 Warning--I didn't find a database entry for "VizieR"
@@ -228,45 +241,45 @@ while executing---line 3643 of file Latex/mnras.bst
 ---they aren't the same literal types for entry Peng_02
 while executing---line 3643 of file Latex/mnras.bst
 Warning--empty publisher in 2021inas.book...57V
-You've used 253 entries,
+You've used 255 entries,
             2881 wiz_defined-function locations,
-            2632 strings with 98069 characters,
-and the built_in function-call counts, 123041 in all, are:
-= -- 10443
-> -- 8660
-< -- 486
-+ -- 3747
-- -- 1316
-* -- 15594
-:= -- 18752
+            2647 strings with 98393 characters,
+and the built_in function-call counts, 123871 in all, are:
+= -- 10515
+> -- 8708
+< -- 494
++ -- 3771
+- -- 1320
+* -- 15696
+:= -- 18886
 add.period$ -- 0
-call.type$ -- 253
-change.case$ -- 506
-chr.to.int$ -- 211
-cite$ -- 257
-duplicate$ -- 5994
-empty$ -- 5860
-format.name$ -- 2110
-if$ -- 21571
+call.type$ -- 255
+change.case$ -- 510
+chr.to.int$ -- 213
+cite$ -- 259
+duplicate$ -- 6036
+empty$ -- 5904
+format.name$ -- 2118
+if$ -- 21711
 int.to.chr$ -- 43
 int.to.str$ -- 0
-missing$ -- 254
-newline$ -- 774
-num.names$ -- 1658
-pop$ -- 1138
+missing$ -- 256
+newline$ -- 780
+num.names$ -- 1670
+pop$ -- 1148
 preamble$ -- 1
-purify$ -- 1012
+purify$ -- 1020
 quote$ -- 0
-skip$ -- 3817
+skip$ -- 3843
 stack$ -- 0
-substring$ -- 7525
-swap$ -- 3356
-text.length$ -- 1033
+substring$ -- 7577
+swap$ -- 3372
+text.length$ -- 1041
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2268
+type$ -- 2286
 warning$ -- 4
-while$ -- 1853
+while$ -- 1869
 width$ -- 0
-write$ -- 2545
-(There were 51 error messages)
+write$ -- 2565
+(There were 54 error messages)

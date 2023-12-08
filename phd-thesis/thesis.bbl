@@ -606,12 +606,12 @@ Harris C.~R.,  et~al., 2020, \mn@doi [Nature] {10.1038/s41586-020-2649-2}, 585,
   {https://ui.adsabs.harvard.edu/abs/2002AJ....124..646H} {124, 646}
 
 \bibitem[\protect\citeauthoryear{{Holincheck} et~al.,}{{Holincheck}
-  et~al.}{2016a}]{holincheck16}
+  et~al.}{2016a}]{Holincheck_16}
 {Holincheck} A.~J.,  et~al., 2016a, \mn@doi [\mnras] {10.1093/mnras/stw649},
   \href {https://ui.adsabs.harvard.edu/abs/2016MNRAS.459..720H} {459, 720}
 
 \bibitem[\protect\citeauthoryear{{Holincheck} et~al.,}{{Holincheck}
-  et~al.}{2016b}]{Holincheck_16}
+  et~al.}{2016b}]{holincheck16}
 {Holincheck} A.~J.,  et~al., 2016b, \mn@doi [\mnras] {10.1093/mnras/stw649},
   \href {https://ui.adsabs.harvard.edu/abs/2016MNRAS.459..720H} {459, 720}
 
@@ -729,6 +729,10 @@ Harris C.~R.,  et~al., 2020, \mn@doi [Nature] {10.1038/s41586-020-2649-2}, 585,
   et~al.}{2022}]{2022AJ....163..150K}
 {Keel} W.~C.,  et~al., 2022, \mn@doi [\aj] {10.3847/1538-3881/ac517d}, \href
   {https://ui.adsabs.harvard.edu/abs/2022AJ....163..150K} {163, 150}
+
+\bibitem[\protect\citeauthoryear{{Kennicutt}}{{Kennicutt}}{1989}]{1989ApJ...344..685K}
+{Kennicutt} Robert~C. J.,  1989, \mn@doi [\apj] {10.1086/167834}, \href
+  {https://ui.adsabs.harvard.edu/abs/1989ApJ...344..685K} {344, 685}
 
 \bibitem[\protect\citeauthoryear{{Kennicutt}}{{Kennicutt}}{1998}]{Kennicutt_98}
 {Kennicutt} Robert~C. J.,  1998, \mn@doi [\apj] {10.1086/305588}, \href
@@ -1121,6 +1125,10 @@ Peng C.~Y.,  Ho L.~C.,  Impey C.~D.,   Rix H.-W.,  2002, ] {10.1086/340952}
   et~al.}{2015}]{Schaye_15}
 {Schaye} J.,  et~al., 2015, \mn@doi [\mnras] {10.1093/mnras/stu2058}, \href
   {https://ui.adsabs.harvard.edu/abs/2015MNRAS.446..521S} {446, 521}
+
+\bibitem[\protect\citeauthoryear{{Schmidt}}{{Schmidt}}{1959}]{1959ApJ...129..243S}
+{Schmidt} M.,  1959, \mn@doi [\apj] {10.1086/146614}, \href
+  {https://ui.adsabs.harvard.edu/abs/1959ApJ...129..243S} {129, 243}
 
 \bibitem[\protect\citeauthoryear{{Schweizer}}{{Schweizer}}{1982}]{Schweizer_82}
 {Schweizer} F.,  1982, \mn@doi [\apj] {10.1086/159573}, \href

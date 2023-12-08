@@ -373,7 +373,7 @@
 \newenvironment{pubs} {\begin{alwayssingle} \pagestyle{empty}
   \begin{center}
   \vspace*{1.5cm}
-  {\Large \bfseries  Relevant Publications by the Author}
+  {\Large \bfseries  Relevant First Author Publications}
   \end{center}
   \vspace{0.5cm}
    \begin{center}}
