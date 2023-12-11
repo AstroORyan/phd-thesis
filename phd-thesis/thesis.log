@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  11 DEC 2023 12:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  11 DEC 2023 14:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1450,38 +1450,48 @@ put line 435.
 
  (./Conclusion/conclusion.tex
 Chapter 5.
-) [162
+[162
 
 
 
-] (./appendix1/appx.tex
+] [163] [164]
+
+Package natbib Warning: Citation `Paper of NVIDEA numerical simulation' on page
+ 165 undefined on input line 32.
+
+[165]
+
+Package natbib Warning: Citation `Papers by Nial Jeffery' on page 166 undefined
+ on input line 34.
+
+) [166] (./appendix1/appx.tex
 Appendix A.
-) (./appendix2/appx.tex [163
+) (./appendix2/appx.tex [167
 
 
 ]
 Appendix B.
-[164
+[168
 
 ]
-<Chapter2/figures/fig14.jpg, id=3862, 614.295pt x 303.1325pt>
+<Chapter2/figures/fig14.jpg, id=3878, 614.295pt x 303.1325pt>
 File: Chapter2/figures/fig14.jpg Graphic file (type jpg)
 <use Chapter2/figures/fig14.jpg>
 Package pdftex.def Info: Chapter2/figures/fig14.jpg  used on input line 14.
 (pdftex.def)             Requested size: 391.93544pt x 193.40746pt.
-<Chapter2/figures/fig15.pdf, id=3863, 728.14221pt x 717.54825pt>
+<Chapter2/figures/fig15.pdf, id=3879, 728.14221pt x 717.54825pt>
 File: Chapter2/figures/fig15.pdf Graphic file (type pdf)
 <use Chapter2/figures/fig15.pdf>
 Package pdftex.def Info: Chapter2/figures/fig15.pdf  used on input line 21.
 (pdftex.def)             Requested size: 268.1647pt x 264.26242pt.
-<Chapter2/figures/fig16.jpeg, id=3867, 859.2903pt x 570.933pt>
+<Chapter2/figures/fig16.jpeg, id=3883, 859.2903pt x 570.933pt>
 File: Chapter2/figures/fig16.jpeg Graphic file (type jpg)
 <use Chapter2/figures/fig16.jpeg>
 Package pdftex.def Info: Chapter2/figures/fig16.jpeg  used on input line 31.
 (pdftex.def)             Requested size: 350.68272pt x 233.00378pt.
- [165] [166 <./Chapter2/figures/fig14.jpg>] [167 <./Chapter2/figures/fig15.pdf>
+ [169] [170 <./Chapter2/figures/fig14.jpg>] [171 <./Chapter2/figures/fig15.pdf>
 ]
-<Chapter2/figures/fig17.pdf, id=3909, 867.24pt x 578.16pt>
+<Chapter2/figures/fig17.pdf, id=3926, 867.24pt x 578.16pt>
 File: Chapter2/figures/fig17.pdf Graphic file (type pdf)
 <use Chapter2/figures/fig17.pdf>
 Package pdftex.def Info: Chapter2/figures/fig17.pdf  used on input line 45.
@@ -1489,20 +1499,20 @@ Package pdftex.def Info: Chapter2/figures/fig17.pdf  used on input line 45.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [168 <./Chapter2/figures/fig16.jpeg>] [169 <./Chapter2/figures/fig17.pdf>]
+ [172 <./Chapter2/figures/fig16.jpeg>] [173 <./Chapter2/figures/fig17.pdf>]
 Overfull \hbox (290.30844pt too wide) in paragraph at lines 55--77
  [][] 
  []
 
-) (./thesis.bbl [170] [171
+) (./thesis.bbl [174] [175
 
-] [172] [173] [174] [175] [176] [177] [178] [179]
-[180] [181] [182] [183] [184])
+] [176] [177] [178] [179] [180] [181] [182] [183]
+[184] [185] [186] [187] [188])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
-[185]
+[189]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
  (./thesis.aux (./preface/abstract.aux) (./preface/dedication.aux)
 (./preface/acknowledgements.aux) (./preface/declaration.aux)
@@ -1512,7 +1522,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: FA656A376DECA29C7DFCA1869DD37419;7867.
+(rerunfilecheck)             Checksum: ACD5C79507BF362B2C014DC4E3FCBAAF;7872.
 
 
 LaTeX Warning: There were undefined references.
@@ -1527,8 +1537,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 181.
 ### simple group (level 1) entered at line 156 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 11924 strings out of 480876
- 190371 string characters out of 5911487
+ 11928 strings out of 480876
+ 190403 string characters out of 5911487
  534917 words of memory out of 5000000
  26546 multiletter control sequences out of 15000+600000
  549123 words of font info for 82 fonts, out of 8000000 for 9000
@@ -1586,10 +1596,10 @@ nts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2020/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msam10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-su
 per/sfrm1200.pfb>
-Output written on thesis.pdf (214 pages, 9667729 bytes).
+Output written on thesis.pdf (218 pages, 9678286 bytes).
 PDF statistics:
- 4752 PDF objects out of 5155 (max. 8388607)
- 3395 compressed objects within 34 object streams
- 652 named destinations out of 1000 (max. 500000)
+ 4774 PDF objects out of 5155 (max. 8388607)
+ 3412 compressed objects within 35 object streams
+ 656 named destinations out of 1000 (max. 500000)
  1024 words of extra memory for PDF output out of 10000 (max. 10000000)
 
