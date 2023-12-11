@@ -156,9 +156,89 @@ White space in argument---line 92 of file Introduction/introduction.aux
  : \citation{Movement
  :                    of gas to galactic centre causing AGN}
 I'm skipping whatever remains of this command
+White space in argument---line 93 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on what an AGN actually is}
+I'm skipping whatever remains of this command
+White space in argument---line 94 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on Seyfert 1 vs Seyfert 2 galaxies}
+I'm skipping whatever remains of this command
+White space in argument---line 96 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 that gives those cuts. It's Kennedy and Ho or something like this}
+I'm skipping whatever remains of this command
+White space in argument---line 97 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on radio AGN identification}
+I'm skipping whatever remains of this command
+White space in argument---line 98 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on X-ray emission}
+I'm skipping whatever remains of this command
+White space in argument---line 99 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on delay in AGN ignition,probably Ellison 2011}
+I'm skipping whatever remains of this command
+White space in argument---line 100 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on AGN flickering}
+I'm skipping whatever remains of this command
+White space in argument---line 101 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on why delay might happen}
+I'm skipping whatever remains of this command
+White space in argument---line 102 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on AGN mechansim being why delay could happen}
+I'm skipping whatever remains of this command
+White space in argument---line 103 of file Introduction/introduction.aux
+ : \citation{papers
+ :                  on regular quenching}
+I'm skipping whatever remains of this command
+White space in argument---line 104 of file Introduction/introduction.aux
+ : \citation{Paper
+ :                 on sudden shut down of SFR by interaction}
+I'm skipping whatever remains of this command
+White space in argument---line 106 of file Introduction/introduction.aux
+ : \citation{Arp
+ :               catalogue}
+I'm skipping whatever remains of this command
+White space in argument---line 107 of file Introduction/introduction.aux
+ : \citation{Both
+ :                parts of the VV catalogue}
+I'm skipping whatever remains of this command
+White space in argument---line 109 of file Introduction/introduction.aux
+ : \citation{Darg
+ :                et all. paper}
+I'm skipping whatever remains of this command
+White space in argument---line 110 of file Introduction/introduction.aux
+ : \citation{Papers
+ :                  saying large numbers of interacting galaxies are removed.}
+I'm skipping whatever remains of this command
+White space in argument---line 112 of file Introduction/introduction.aux
+ : \citation{Papers
+ :                  removing contamination of interacting galaxies}
+I'm skipping whatever remains of this command
+White space in argument---line 113 of file Introduction/introduction.aux
+ : \citation{LDA
+ :               paper}
+I'm skipping whatever remains of this command
+White space in argument---line 114 of file Introduction/introduction.aux
+ : \citation{Papers
+ :                  with estimating redshifts}
+I'm skipping whatever remains of this command
+White space in argument---line 115 of file Introduction/introduction.aux
+ : \citation{Papers
+ :                  on simulated to observed data in neural networks}
+I'm skipping whatever remains of this command
+White space in argument---line 116 of file Introduction/introduction.aux
+ : \citation{Representation
+ :                          learning}
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapter1/Chapter.aux
 A level-1 auxiliary file: Chapter2/Chapter.aux
-White space in argument---line 22 of file Chapter2/Chapter.aux
+White space in argument---line 17 of file Chapter2/Chapter.aux
  : \citation{2003MNRAS.346.1189L
  :                               ,2008AJ....135.1877E,2022ApJ...940....4S}
 I'm skipping whatever remains of this command
@@ -170,7 +250,7 @@ Case mismatch error between cite keys Ellison_08 and ellison_08
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Conclusion/conclusion.aux
 The style file: Latex/mnras.bst
-Reallocated field_info (elt_size=4) to 12020 items from 5000.
+Reallocated field_info (elt_size=4) to 12074 items from 5000.
 Database file #1: thesis.bib
 Repeated entry---line 759 of file thesis.bib
  : @article{Bruzual_03
@@ -224,9 +304,11 @@ Repeated entry---line 7250 of file thesis.bib
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "Seriously"
+Warning--I didn't find a database entry for "Arp"
 Warning--I didn't find a database entry for "Zoobot"
 Warning--I didn't find a database entry for "NED1"
 Warning--I didn't find a database entry for "VizieR"
+Warning--I didn't find a database entry for "2016A&C....16...26W"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty publisher in arp87
@@ -243,7 +325,7 @@ while executing---line 3643 of file Latex/mnras.bst
 Warning--empty publisher in 2021inas.book...57V
 You've used 255 entries,
             2881 wiz_defined-function locations,
-            2647 strings with 98393 characters,
+            2651 strings with 98437 characters,
 and the built_in function-call counts, 123871 in all, are:
 = -- 10515
 > -- 8708
@@ -282,4 +364,4 @@ warning$ -- 4
 while$ -- 1869
 width$ -- 0
 write$ -- 2565
-(There were 54 error messages)
+(There were 74 error messages)
