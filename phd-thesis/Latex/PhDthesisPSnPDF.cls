@@ -47,7 +47,8 @@
 \usepackage[english]{babel}
 \usepackage[usenames, dvipsnames]{color}
 \usepackage[perpage]{footmisc}
-\usepackage[sort]{natbib}
+%\usepackage[sort]{natbib}  This line is to order the citations alphabetically in \cite{} rather than by year.
+\usepackage{natbib}
 %\usepackage[sort&compress]{natbib}
 \usepackage{ifthen}
 \usepackage{multicol} % for pages with multiple text columns, e.g. References
