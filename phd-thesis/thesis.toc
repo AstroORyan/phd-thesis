@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {1.5.1}Morphological Distortion: Tidal Features}{15}{subsection.1.5.1}%
 \contentsline {subsection}{\numberline {1.5.2}Star Formation Enhancement}{18}{subsection.1.5.2}%
 \contentsline {subsection}{\numberline {1.5.3}Ignition of Active Galactic Nuclei}{19}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}Quenching of Galactic Systems}{21}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.4}Quenching of Galactic Systems}{20}{subsection.1.5.4}%
 \contentsline {section}{\numberline {1.6}IDENTIFYING INTERACTING AND MERGING GALAXIES}{21}{section.1.6}%
 \contentsline {section}{\numberline {1.7}This Thesis}{24}{section.1.7}%
 \contentsline {chapter}{\numberline {2}Creating a Large Sample of Interacting Galaxies}{26}{chapter.2}%
