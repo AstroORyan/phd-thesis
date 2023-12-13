@@ -90,11 +90,11 @@
   {10.1046/j.1365-8711.1999.02978.x}, \href
   {https://ui.adsabs.harvard.edu/abs/1999MNRAS.310..540A} {310, 540}
 
-\bibitem[\protect\citeauthoryear{{Arp}}{{Arp}}{1966a}]{arp_cat}
+\bibitem[\protect\citeauthoryear{{Arp}}{{Arp}}{1966a}]{1966ApJS...14....1A}
 {Arp} H.,  1966a, \mn@doi [\apjs] {10.1086/190147}, \href
   {https://ui.adsabs.harvard.edu/abs/1966ApJS...14....1A} {14, 1}
 
-\bibitem[\protect\citeauthoryear{{Arp}}{{Arp}}{1966b}]{1966ApJS...14....1A}
+\bibitem[\protect\citeauthoryear{{Arp}}{{Arp}}{1966b}]{arp_cat}
 {Arp} H.,  1966b, \mn@doi [\apjs] {10.1086/190147}, \href
   {https://ui.adsabs.harvard.edu/abs/1966ApJS...14....1A} {14, 1}
 
@@ -207,6 +207,10 @@ Avila R.~J.,  Hack W.,  Cara M.,  Borncamp D.,  Mack J.,  Smith L.,   Ubeda L.,
 {Barton} E.~J.,  {Geller} M.~J.,   {Kenyon} S.~J.,  2000b, \mn@doi [\apj]
   {10.1086/308392}, \href
   {https://ui.adsabs.harvard.edu/abs/2000ApJ...530..660B} {530, 660}
+
+\bibitem[\protect\citeauthoryear{{Beckmann} \& {Shrader}}{{Beckmann} \&
+  {Shrader}}{2012}]{2012agn..book.....B}
+{Beckmann} V.,  {Shrader} C.~R.,  2012, {Active Galactic Nuclei}
 
 \bibitem[\protect\citeauthoryear{{Bell} et~al.,}{{Bell}
   et~al.}{2004}]{2004ApJ...608..752B}
@@ -496,13 +500,13 @@ Avila R.~J.,  Hack W.,  Cara M.,  Borncamp D.,  Mack J.,  Smith L.,   Ubeda L.,
   {https://ui.adsabs.harvard.edu/abs/2008AJ....135.1877E} {135, 1877}
 
 \bibitem[\protect\citeauthoryear{{Ellison}, {Patton}, {Mendel}  \&
-  {Scudder}}{{Ellison} et~al.}{2011a}]{ellison_11}
+  {Scudder}}{{Ellison} et~al.}{2011a}]{2011MNRAS.418.2043E}
 {Ellison} S.~L.,  {Patton} D.~R.,  {Mendel} J.~T.,   {Scudder} J.~M.,  2011a,
   \mn@doi [\mnras] {10.1111/j.1365-2966.2011.19624.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2011MNRAS.418.2043E} {418, 2043}
 
 \bibitem[\protect\citeauthoryear{{Ellison}, {Patton}, {Mendel}  \&
-  {Scudder}}{{Ellison} et~al.}{2011b}]{2011MNRAS.418.2043E}
+  {Scudder}}{{Ellison} et~al.}{2011b}]{ellison_11}
 {Ellison} S.~L.,  {Patton} D.~R.,  {Mendel} J.~T.,   {Scudder} J.~M.,  2011b,
   \mn@doi [\mnras] {10.1111/j.1365-2966.2011.19624.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2011MNRAS.418.2043E} {418, 2043}
@@ -695,6 +699,12 @@ Harris C.~R.,  et~al., 2020, \mn@doi [Nature] {10.1038/s41586-020-2649-2}, 585,
 {Hopkins} P.~F.,  {Hernquist} L.,  {Cox} T.~J.,  {Di Matteo} T.,  {Robertson}
   B.,   {Springel} V.,  2006, \mn@doi [\apjs] {10.1086/499298}, \href
   {https://ui.adsabs.harvard.edu/abs/2006ApJS..163....1H} {163, 1}
+
+\bibitem[\protect\citeauthoryear{{Hopkins}, {Hernquist}, {Cox}  \&
+  {Kere{\v{s}}}}{{Hopkins} et~al.}{2008}]{2008ApJS..175..356H}
+{Hopkins} P.~F.,  {Hernquist} L.,  {Cox} T.~J.,   {Kere{\v{s}}} D.,  2008,
+  \mn@doi [\apjs] {10.1086/524362}, \href
+  {https://ui.adsabs.harvard.edu/abs/2008ApJS..175..356H} {175, 356}
 
 \bibitem[\protect\citeauthoryear{{Hopkins} et~al.,}{{Hopkins}
   et~al.}{2009a}]{2009MNRAS.397..802H}
@@ -1088,6 +1098,10 @@ Kolmogorov A.,  1933, Giorn Dell'inst Ital Degli Att, 4, 89
 {Nelson} B.,  {Ford} E.~B.,   {Payne} M.~J.,  2014, \mn@doi [\apjs]
   {10.1088/0067-0049/210/1/11}, \href
   {https://ui.adsabs.harvard.edu/abs/2014ApJS..210...11N} {210, 11}
+
+\bibitem[\protect\citeauthoryear{{Netzer}}{{Netzer}}{2015}]{2015ARA&A..53..365N}
+{Netzer} H.,  2015, \mn@doi [\araa] {10.1146/annurev-astro-082214-122302},
+  \href {https://ui.adsabs.harvard.edu/abs/2015ARA&A..53..365N} {53, 365}
 
 \bibitem[\protect\citeauthoryear{{Nevin}, {Blecha}, {Comerford}, {Simon},
   {Terrazas}, {Barrows}  \& {V{\'a}zquez-Mata}}{{Nevin}
@@ -1487,8 +1501,12 @@ pp 57--79, \mn@doi{10.1007/978-3-030-65867-0_3}
 {Vorontsov-Velyaminov} B.~A.,  1959, Atlas and Catalog of Interacting Galaxies,
   \href {https://ui.adsabs.harvard.edu/abs/1959VV....C......0V} {p.~0}
 
-\bibitem[\protect\citeauthoryear{{Vorontsov-Velyaminov}}{{Vorontsov-Velyaminov}}{1977}]{vv_catb}
-{Vorontsov-Velyaminov} B.~A.,  1977, \aaps, \href
+\bibitem[\protect\citeauthoryear{{Vorontsov-Velyaminov}}{{Vorontsov-Velyaminov}}{1977a}]{1977A&AS...28....1V}
+{Vorontsov-Velyaminov} B.~A.,  1977a, \aaps, \href
+  {https://ui.adsabs.harvard.edu/abs/1977A&AS...28....1V} {28, 1}
+
+\bibitem[\protect\citeauthoryear{{Vorontsov-Velyaminov}}{{Vorontsov-Velyaminov}}{1977b}]{vv_catb}
+{Vorontsov-Velyaminov} B.~A.,  1977b, \aaps, \href
   {https://ui.adsabs.harvard.edu/abs/1977A&AS...28....1V} {28, 1}
 
 \bibitem[\protect\citeauthoryear{Wallin}{Wallin}{1990}]{Wallin_90}
