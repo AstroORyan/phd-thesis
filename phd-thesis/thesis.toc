@@ -7,92 +7,92 @@
 \contentsline {section}{\numberline {1.4}CATEGORISATION OF MERGERS}{12}{section.1.4}%
 \contentsline {section}{\numberline {1.5}EFFECTS OF GALAXY INTERACTION}{15}{section.1.5}%
 \contentsline {subsection}{\numberline {1.5.1}Morphological Distortion: Tidal Features}{15}{subsection.1.5.1}%
-\contentsline {subsection}{\numberline {1.5.2}Star Formation Enhancement}{18}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.2}Star Formation Enhancement}{17}{subsection.1.5.2}%
 \contentsline {subsection}{\numberline {1.5.3}Ignition of Active Galactic Nuclei}{19}{subsection.1.5.3}%
-\contentsline {subsection}{\numberline {1.5.4}Quenching of Galactic Systems}{20}{subsection.1.5.4}%
-\contentsline {section}{\numberline {1.6}IDENTIFYING INTERACTING AND MERGING GALAXIES}{21}{section.1.6}%
-\contentsline {section}{\numberline {1.7}This Thesis}{24}{section.1.7}%
-\contentsline {chapter}{\numberline {2}Creating a Large Sample of Interacting Galaxies}{26}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Abstract}{26}{section.2.1}%
-\contentsline {section}{\numberline {2.2}INTRODUCTION}{27}{section.2.2}%
-\contentsline {section}{\numberline {2.3}DATA}{30}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}The \emph {Hubble} Archives \& ESA Datalabs}{30}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}The Shapely Python Package}{31}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}UTILISING A CONVOLUTIONAL NEURAL NETWORK}{32}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Zoobot}{32}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Transfer Learning}{34}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}CREATING THE TRAINING SET}{35}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Interacting Galaxies and Galaxy Zoo}{35}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}One Active Learning Cycle}{37}{subsection.2.5.2}%
-\contentsline {section}{\numberline {2.6}DIAGNOSTICS}{40}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Model Performance}{40}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Duplication Removal}{44}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Bad Predictions \& Removal}{48}{subsection.2.6.3}%
-\contentsline {section}{\numberline {2.7}RESULTS \& DISCUSSION}{52}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}An Interacting Galaxy Catalogue}{52}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}The Gems}{55}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Source Redshifts and Photometry}{57}{subsection.2.7.3}%
-\contentsline {section}{\numberline {2.8}CONCLUSION}{65}{section.2.8}%
-\contentsline {chapter}{\numberline {3}When do the effects of interaction happen? Interacting and disturbed galaxies in the COSMOS field}{69}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{69}{section.3.1}%
-\contentsline {section}{\numberline {3.2}DATA: Catalogue Matching \& Secondary Identification}{73}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}The O'Ryan+23 Catalogue}{73}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}The COSMOS2020 Catalogue}{74}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Secondary Identification}{75}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Finding Additional Systems}{80}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Redshift Effects on Visual Classification}{80}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}METHOD: Environment, AGN and Interaction Stage}{81}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Classifying Stage of Interaction}{82}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Matching to Environment Catalogue}{87}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Classifying AGN}{88}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}STAR FORMATION EVOLUTION WITH INTERACTION STAGE}{89}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Controlling for Interaction Stage}{89}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Projected Separation and Star Formation Enhancement}{97}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {1.5.4}Quenching of Galactic Systems}{21}{subsection.1.5.4}%
+\contentsline {section}{\numberline {1.6}IDENTIFYING INTERACTING AND MERGING GALAXIES}{22}{section.1.6}%
+\contentsline {section}{\numberline {1.7}This Thesis}{25}{section.1.7}%
+\contentsline {chapter}{\numberline {2}Creating a Large Sample of Interacting Galaxies}{27}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Abstract}{27}{section.2.1}%
+\contentsline {section}{\numberline {2.2}INTRODUCTION}{28}{section.2.2}%
+\contentsline {section}{\numberline {2.3}DATA}{31}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}The \emph {Hubble} Archives \& ESA Datalabs}{31}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}The Shapely Python Package}{32}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}UTILISING A CONVOLUTIONAL NEURAL NETWORK}{33}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Zoobot}{33}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Transfer Learning}{35}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}CREATING THE TRAINING SET}{36}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Interacting Galaxies and Galaxy Zoo}{36}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}One Active Learning Cycle}{38}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}DIAGNOSTICS}{41}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Model Performance}{41}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Duplication Removal}{45}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Bad Predictions \& Removal}{49}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}RESULTS \& DISCUSSION}{53}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}An Interacting Galaxy Catalogue}{53}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}The Gems}{56}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Source Redshifts and Photometry}{58}{subsection.2.7.3}%
+\contentsline {section}{\numberline {2.8}CONCLUSION}{66}{section.2.8}%
+\contentsline {chapter}{\numberline {3}When do the effects of interaction happen? Interacting and disturbed galaxies in the COSMOS field}{70}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{70}{section.3.1}%
+\contentsline {section}{\numberline {3.2}DATA: Catalogue Matching \& Secondary Identification}{74}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}The O'Ryan+23 Catalogue}{74}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}The COSMOS2020 Catalogue}{75}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Secondary Identification}{76}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Finding Additional Systems}{81}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Redshift Effects on Visual Classification}{81}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}METHOD: Environment, AGN and Interaction Stage}{82}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Classifying Stage of Interaction}{83}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Matching to Environment Catalogue}{88}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Classifying AGN}{89}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}STAR FORMATION EVOLUTION WITH INTERACTION STAGE}{91}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Controlling for Interaction Stage}{91}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Projected Separation and Star Formation Enhancement}{98}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Controlling for Galactic Environment}{101}{subsection.3.4.3}%
 \contentsline {section}{\numberline {3.5}Nuclear Activity with Interaction Stage}{103}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Discussion}{107}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Interaction Stage and Projected Separation}{107}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Interaction Stage and AGN}{110}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}Conclusions}{111}{section.3.7}%
-\contentsline {chapter}{\numberline {4}Galaxy Zoo: Mergers \& Constraining Interaction}{115}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Abstract}{115}{section.4.1}%
-\contentsline {section}{\numberline {4.2}INTRODUCTION}{116}{section.4.2}%
-\contentsline {section}{\numberline {4.3}DATA}{119}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Galaxy Zoo: Mergers sample}{119}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Galaxy Zoo Mergers: Constraining Interaction}{122}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Observation Preparation}{124}{subsection.4.3.3}%
-\contentsline {section}{\numberline {4.4}METHODS}{125}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Simulations: APySPAM}{125}{subsection.4.4.1}%
-\contentsline {subsubsection}{\numberline {4.4.1.1}Stellar Population Evolution}{126}{subsubsection.4.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.4.1.2}Star Formation}{128}{subsubsection.4.4.1.2}%
-\contentsline {subsection}{\numberline {4.4.2}Flux Distribution}{130}{subsection.4.4.2}%
-\contentsline {subsubsection}{\numberline {4.4.2.1}Impact on Computation Time}{131}{subsubsection.4.4.2.1}%
-\contentsline {subsection}{\numberline {4.4.3}Defining the Likelihood Function}{133}{subsection.4.4.3}%
-\contentsline {subsubsection}{\numberline {4.4.3.1}Bayes Theorem}{133}{subsubsection.4.4.3.1}%
-\contentsline {subsubsection}{\numberline {4.4.3.2}Simplifying the Prior}{134}{subsubsection.4.4.3.2}%
-\contentsline {subsubsection}{\numberline {4.4.3.3}Simplifying the Likelihood Function}{135}{subsubsection.4.4.3.3}%
-\contentsline {subsection}{\numberline {4.4.4}Architecture for Exploring Parameter Space: \texttt {EMCEE}}{137}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}RESULTS \& DISCUSSION}{138}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Testing on a Single System: Arp 240}{138}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Diagnostics of Pipeline}{145}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}Inputting 3D Information}{148}{subsection.4.5.3}%
-\contentsline {subsection}{\numberline {4.5.4}Recovering the Galaxy Zoo: Mergers Results}{150}{subsection.4.5.4}%
-\contentsline {subsection}{\numberline {4.5.5}Applying to Observations}{153}{subsection.4.5.5}%
-\contentsline {subsection}{\numberline {4.5.6}Limitations}{156}{subsection.4.5.6}%
-\contentsline {subsubsection}{\numberline {4.5.6.1}Resolution \& Depth Effects}{156}{subsubsection.4.5.6.1}%
-\contentsline {subsubsection}{\numberline {4.5.6.2}Computational Expense}{158}{subsubsection.4.5.6.2}%
-\contentsline {section}{\numberline {4.6}CONCLUSIONS \& FUTURE WORK}{159}{section.4.6}%
-\contentsline {chapter}{\numberline {5}SUMMARY AND FUTURE WORK}{161}{chapter.5}%
-\contentsline {section}{\numberline {5.1}SUMMARY}{161}{section.5.1}%
-\contentsline {section}{\numberline {5.2}FUTURE WORK}{163}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Catalogues of Galaxy Morphology}{163}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Staging of Interaction}{163}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Constraining Interacting Galaxy Parameters}{164}{subsection.5.2.3}%
-\contentsline {chapter}{Appendix \numberline {A}MCMC Best Fit Values}{166}{appendix.1.A}%
-\contentsline {section}{\numberline {A.1}Galaxy Zoo: Mergers Best Fit Parameters}{166}{section.1.A.1}%
-\contentsline {chapter}{Appendix \numberline {B}Model Diagnostics \& Further Identified Objects}{167}{appendix.1.B}%
-\contentsline {section}{\numberline {B.1}Further Model Diagnostics}{167}{section.1.B.1}%
-\contentsline {section}{\numberline {B.2}Examples of Sources with 3-Band Information}{168}{section.1.B.2}%
-\contentsline {section}{\numberline {B.3}Unknown Objects}{168}{section.1.B.3}%
-\contentsline {section}{\numberline {B.4}Acknowledging PIs}{173}{section.1.B.4}%
-\contentsline {chapter}{References}{174}{appendix*.64}%
+\contentsline {section}{\numberline {3.6}Discussion}{108}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Interaction Stage and Projected Separation}{108}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Interaction Stage and AGN}{111}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}Conclusions}{112}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Galaxy Zoo: Mergers \& Constraining Interaction}{116}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Abstract}{116}{section.4.1}%
+\contentsline {section}{\numberline {4.2}INTRODUCTION}{117}{section.4.2}%
+\contentsline {section}{\numberline {4.3}DATA}{120}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Galaxy Zoo: Mergers sample}{120}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Galaxy Zoo Mergers: Constraining Interaction}{123}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Observation Preparation}{125}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}METHODS}{126}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Simulations: APySPAM}{126}{subsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.1.1}Stellar Population Evolution}{127}{subsubsection.4.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.4.1.2}Star Formation}{129}{subsubsection.4.4.1.2}%
+\contentsline {subsection}{\numberline {4.4.2}Flux Distribution}{131}{subsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.2.1}Impact on Computation Time}{132}{subsubsection.4.4.2.1}%
+\contentsline {subsection}{\numberline {4.4.3}Defining the Likelihood Function}{134}{subsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.3.1}Bayes Theorem}{134}{subsubsection.4.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.4.3.2}Simplifying the Prior}{135}{subsubsection.4.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.4.3.3}Simplifying the Likelihood Function}{136}{subsubsection.4.4.3.3}%
+\contentsline {subsection}{\numberline {4.4.4}Architecture for Exploring Parameter Space: \texttt {EMCEE}}{138}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}RESULTS \& DISCUSSION}{139}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Testing on a Single System: Arp 240}{139}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Diagnostics of Pipeline}{146}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Inputting 3D Information}{149}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Recovering the Galaxy Zoo: Mergers Results}{151}{subsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.5.5}Applying to Observations}{154}{subsection.4.5.5}%
+\contentsline {subsection}{\numberline {4.5.6}Limitations}{157}{subsection.4.5.6}%
+\contentsline {subsubsection}{\numberline {4.5.6.1}Resolution \& Depth Effects}{157}{subsubsection.4.5.6.1}%
+\contentsline {subsubsection}{\numberline {4.5.6.2}Computational Expense}{159}{subsubsection.4.5.6.2}%
+\contentsline {section}{\numberline {4.6}CONCLUSIONS \& FUTURE WORK}{160}{section.4.6}%
+\contentsline {chapter}{\numberline {5}SUMMARY AND FUTURE WORK}{162}{chapter.5}%
+\contentsline {section}{\numberline {5.1}SUMMARY}{162}{section.5.1}%
+\contentsline {section}{\numberline {5.2}FUTURE WORK}{164}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Catalogues of Galaxy Morphology}{164}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Staging of Interaction}{165}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Constraining Interacting Galaxy Parameters}{166}{subsection.5.2.3}%
+\contentsline {chapter}{Appendix \numberline {A}MCMC Best Fit Values}{168}{appendix.1.A}%
+\contentsline {section}{\numberline {A.1}Galaxy Zoo: Mergers Best Fit Parameters}{168}{section.1.A.1}%
+\contentsline {chapter}{Appendix \numberline {B}Model Diagnostics \& Further Identified Objects}{169}{appendix.1.B}%
+\contentsline {section}{\numberline {B.1}Further Model Diagnostics}{169}{section.1.B.1}%
+\contentsline {section}{\numberline {B.2}Examples of Sources with 3-Band Information}{170}{section.1.B.2}%
+\contentsline {section}{\numberline {B.3}Unknown Objects}{170}{section.1.B.3}%
+\contentsline {section}{\numberline {B.4}Acknowledging PIs}{175}{section.1.B.4}%
+\contentsline {chapter}{References}{176}{appendix*.64}%

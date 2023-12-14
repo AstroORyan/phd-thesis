@@ -177,8 +177,14 @@ Avila R.~J.,  Hack W.,  Cara M.,  Borncamp D.,  Mack J.,  Smith L.,   Ubeda L.,
   \href {https://ui.adsabs.harvard.edu/abs/1991ApJ...370L..65B} {370, L65}
 
 \bibitem[\protect\citeauthoryear{{Barnes} \& {Hibbard}}{{Barnes} \&
-  {Hibbard}}{2009}]{Barnes_09}
-{Barnes} J.~E.,  {Hibbard} J.~E.,  2009, \mn@doi [\aj]
+  {Hibbard}}{2009a}]{2009AJ....137.3071B}
+{Barnes} J.~E.,  {Hibbard} J.~E.,  2009a, \mn@doi [\aj]
+  {10.1088/0004-6256/137/2/3071}, \href
+  {https://ui.adsabs.harvard.edu/abs/2009AJ....137.3071B} {137, 3071}
+
+\bibitem[\protect\citeauthoryear{{Barnes} \& {Hibbard}}{{Barnes} \&
+  {Hibbard}}{2009b}]{Barnes_09}
+{Barnes} J.~E.,  {Hibbard} J.~E.,  2009b, \mn@doi [\aj]
   {10.1088/0004-6256/137/2/3071}, \href
   {https://ui.adsabs.harvard.edu/abs/2009AJ....137.3071B} {137, 3071}
 
@@ -272,6 +278,11 @@ Avila R.~J.,  Hack W.,  Cara M.,  Borncamp D.,  Mack J.,  Smith L.,   Ubeda L.,
   et~al.}{2020}]{2020MNRAS.492.2075B}
 {Blumenthal} K.~A.,  et~al., 2020, \mn@doi [\mnras] {10.1093/mnras/stz3472},
   \href {https://ui.adsabs.harvard.edu/abs/2020MNRAS.492.2075B} {492, 2075}
+
+\bibitem[\protect\citeauthoryear{{Bolatto} et~al.,}{{Bolatto}
+  et~al.}{2013}]{2013Natur.499..450B}
+{Bolatto} A.~D.,  et~al., 2013, \mn@doi [\nat] {10.1038/nature12351}, \href
+  {https://ui.adsabs.harvard.edu/abs/2013Natur.499..450B} {499, 450}
 
 \bibitem[\protect\citeauthoryear{{Boquien}, {Burgarella}, {Roehlly}, {Buat},
   {Ciesla}, {Corre}, {Inoue}  \& {Salas}}{{Boquien} et~al.}{2019}]{Boquien_18}
@@ -390,6 +401,16 @@ Avila R.~J.,  Hack W.,  Cara M.,  Borncamp D.,  Mack J.,  Smith L.,   Ubeda L.,
   {Arag{\'o}n-Salamanca} A.,  {Robertson} B.~E.,   {Ramachandra} N.,  2021,
   \mn@doi [\mnras] {10.1093/mnras/stab734}, \href
   {https://ui.adsabs.harvard.edu/abs/2021MNRAS.503.4446C} {503, 4446}
+
+\bibitem[\protect\citeauthoryear{{Cheung} et~al.,}{{Cheung}
+  et~al.}{2016}]{2016Natur.533..504C}
+{Cheung} E.,  et~al., 2016, \mn@doi [\nat] {10.1038/nature18006}, \href
+  {https://ui.adsabs.harvard.edu/abs/2016Natur.533..504C} {533, 504}
+
+\bibitem[\protect\citeauthoryear{{Cicone} et~al.,}{{Cicone}
+  et~al.}{2014}]{2014A&A...562A..21C}
+{Cicone} C.,  et~al., 2014, \mn@doi [\aap] {10.1051/0004-6361/201322464}, \href
+  {https://ui.adsabs.harvard.edu/abs/2014A&A...562A..21C} {562, A21}
 
 \bibitem[\protect\citeauthoryear{{{\'C}iprijanovi{\'c}}, {Snyder}, {Nord}  \&
   {Peek}}{{{\'C}iprijanovi{\'c}} et~al.}{2020}]{2020A&C....3200390C}
@@ -1225,6 +1246,12 @@ Peng C.~Y.,  Ho L.~C.,  Impey C.~D.,   Rix H.-W.,  2002, ] {10.1086/340952}
 {Peng} Y.-j.,  et~al., 2010b, \mn@doi [\apj] {10.1088/0004-637X/721/1/193},
   \href {https://ui.adsabs.harvard.edu/abs/2010ApJ...721..193P} {721, 193}
 
+\bibitem[\protect\citeauthoryear{{Petsch} \& {Theis}}{{Petsch} \&
+  {Theis}}{2008}]{2008AN....329.1046P}
+{Petsch} H.~P.,  {Theis} C.,  2008, \mn@doi [Astronomische Nachrichten]
+  {10.1002/asna.200811079}, \href
+  {https://ui.adsabs.harvard.edu/abs/2008AN....329.1046P} {329, 1046}
+
 \bibitem[\protect\citeauthoryear{{Plummer}}{{Plummer}}{1911}]{1911MNRAS..71..460P}
 {Plummer} H.~C.,  1911, \mn@doi [\mnras] {10.1093/mnras/71.5.460}, \href
   {https://ui.adsabs.harvard.edu/abs/1911MNRAS..71..460P} {71, 460}
@@ -1304,6 +1331,11 @@ Peng C.~Y.,  Ho L.~C.,  Impey C.~D.,   Rix H.-W.,  2002, ] {10.1086/340952}
   et~al.}{2007}]{2007ApJS..173..267S}
 {Salim} S.,  et~al., 2007, \mn@doi [\apjs] {10.1086/519218}, \href
   {https://ui.adsabs.harvard.edu/abs/2007ApJS..173..267S} {173, 267}
+
+\bibitem[\protect\citeauthoryear{{Salo} \& {Laurikainen}}{{Salo} \&
+  {Laurikainen}}{1993}]{1993ApJ...410..586S}
+{Salo} H.,  {Laurikainen} E.,  1993, \mn@doi [\apj] {10.1086/172777}, \href
+  {https://ui.adsabs.harvard.edu/abs/1993ApJ...410..586S} {410, 586}
 
 \bibitem[\protect\citeauthoryear{{Schawinski} et~al.,}{{Schawinski}
   et~al.}{2009}]{2009MNRAS.396..818S}
@@ -1554,14 +1586,20 @@ Wallin J.~F.,  1990, \mn@doi [The Astronomical Journal] {10.1086/115613}, 100,
   1477
 
 \bibitem[\protect\citeauthoryear{{Wallin}, {Holincheck}  \& {Harvey}}{{Wallin}
-  et~al.}{2016a}]{wallin15}
+  et~al.}{2016a}]{2016A&C....16...26W}
 {Wallin} J.~F.,  {Holincheck} A.~J.,   {Harvey} A.,  2016a, \mn@doi [Astronomy
   and Computing] {10.1016/j.ascom.2016.03.005}, \href
   {https://ui.adsabs.harvard.edu/abs/2016A&C....16...26W} {16, 26}
 
 \bibitem[\protect\citeauthoryear{{Wallin}, {Holincheck}  \& {Harvey}}{{Wallin}
-  et~al.}{2016b}]{Wallin_16}
+  et~al.}{2016b}]{wallin15}
 {Wallin} J.~F.,  {Holincheck} A.~J.,   {Harvey} A.,  2016b, \mn@doi [Astronomy
+  and Computing] {10.1016/j.ascom.2016.03.005}, \href
+  {https://ui.adsabs.harvard.edu/abs/2016A&C....16...26W} {16, 26}
+
+\bibitem[\protect\citeauthoryear{{Wallin}, {Holincheck}  \& {Harvey}}{{Wallin}
+  et~al.}{2016c}]{Wallin_16}
+{Wallin} J.~F.,  {Holincheck} A.~J.,   {Harvey} A.,  2016c, \mn@doi [Astronomy
   and Computing] {10.1016/j.ascom.2016.03.005}, \href
   {https://ui.adsabs.harvard.edu/abs/2016A&C....16...26W} {16, 26}
 
