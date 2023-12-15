@@ -433,6 +433,12 @@ Avila R.~J.,  Hack W.,  Cara M.,  Borncamp D.,  Mack J.,  Smith L.,   Ubeda L.,
   {10.1088/0004-637X/806/2/219}, \href
   {https://ui.adsabs.harvard.edu/abs/2015ApJ...806..219C} {806, 219}
 
+\bibitem[\protect\citeauthoryear{Costa, Phillips, Brandt  \& Fatica}{Costa
+  et~al.}{2021}]{COSTA2021502}
+Costa P.,  Phillips E.,  Brandt L.,   Fatica M.,  2021, \mn@doi [Computers &
+  Mathematics with Applications] {https://doi.org/10.1016/j.camwa.2020.01.002},
+  81, 502
+
 \bibitem[\protect\citeauthoryear{{Cowan} \& {Ivezi{\'c}}}{{Cowan} \&
   {Ivezi{\'c}}}{2008}]{2008ApJ...674L..13C}
 {Cowan} N.~B.,  {Ivezi{\'c}} {\v{Z}}.,  2008, \mn@doi [\apjl] {10.1086/528986},
@@ -1029,6 +1035,14 @@ Kolmogorov A.,  1933, Giorn Dell'inst Ital Degli Att, 4, 89
   {Carter}}{1983}]{1983ApJ...274..534M}
 {Malin} D.~F.,  {Carter} D.,  1983, \mn@doi [\apj] {10.1086/161467}, \href
   {https://ui.adsabs.harvard.edu/abs/1983ApJ...274..534M} {274, 534}
+
+\bibitem[\protect\citeauthoryear{Mantas, De~la Asunci{\'o}n  \& Castro}{Mantas
+  et~al.}{2016}]{Mantas2016}
+Mantas J.~M.,  De~la Asunci{\'o}n M.,   Castro M.~J.,  2016, An Introduction to
+  GPU Computing for Numerical Simulation.
+Springer International Publishing, Cham, pp 219--251,
+  \mn@doi{10.1007/978-3-319-32146-2_5}, \url
+  {https://doi.org/10.1007/978-3-319-32146-2_5}
 
 \bibitem[\protect\citeauthoryear{{Marchesi} et~al.,}{{Marchesi}
   et~al.}{2016}]{2016ApJ...817...34M}

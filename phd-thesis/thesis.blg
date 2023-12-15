@@ -10,23 +10,19 @@ A level-1 auxiliary file: preface/pubs.aux
 A level-1 auxiliary file: Introduction/introduction.aux
 A level-1 auxiliary file: Chapter1/Chapter.aux
 A level-1 auxiliary file: Chapter2/Chapter.aux
-White space in argument---line 21 of file Chapter2/Chapter.aux
+White space in argument---line 22 of file Chapter2/Chapter.aux
  : \citation{2003MNRAS.346.1189L
  :                               ,2008AJ....135.1877E,2022ApJ...940....4S}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapter3/Chapter.aux
 Case mismatch error between cite keys Ellison_08 and ellison_08
----line 10 of file Chapter3/Chapter.aux
+---line 11 of file Chapter3/Chapter.aux
  : \citation{Ellison_08
  :                     ,2020ApJ...904...79M,2023MNRAS.519.4966B}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: Conclusion/conclusion.aux
-White space in argument---line 10 of file Conclusion/conclusion.aux
- : \citation{There
- :                 tonnes of papers of GPUs on fluid codes}
-I'm skipping whatever remains of this command
 The style file: Latex/mnras.bst
-Reallocated field_info (elt_size=4) to 13397 items from 5000.
+Reallocated field_info (elt_size=4) to 13451 items from 5000.
 Database file #1: thesis.bib
 Repeated entry---line 471 of file thesis.bib
  : @article{1959ApJ...129..243S
@@ -44,113 +40,113 @@ Repeated entry---line 1587 of file thesis.bib
  : @article{2020MNRAS.493.3716H
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2014 of file thesis.bib
+Repeated entry---line 2048 of file thesis.bib
  : @article{Bruzual_03
  :                    ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `)'---line 2398 of file thesis.bib
+I was expecting a `,' or a `)'---line 2432 of file thesis.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 3177 of file thesis.bib
+Repeated entry---line 3211 of file thesis.bib
  : @article{2022A&A...661A..52P
  :                             ,
 I'm skipping whatever remains of this entry
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
-Repeated entry---line 4080 of file thesis.bib
+Repeated entry---line 4114 of file thesis.bib
  : @article{ellison_08
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 4328 of file thesis.bib
+Repeated entry---line 4362 of file thesis.bib
  : @article{Lintott_08
  :                    ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 5461 of file thesis.bib
+Repeated entry---line 5495 of file thesis.bib
  : @inproceedings{gregg17
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 6952 of file thesis.bib
+Repeated entry---line 6986 of file thesis.bib
  : @article{lotz08
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7172 of file thesis.bib
+Repeated entry---line 7206 of file thesis.bib
  : @article{2023ApJ...948...40O
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7249 of file thesis.bib
+Repeated entry---line 7283 of file thesis.bib
  : @article{1966ApJS...14....1A
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7371 of file thesis.bib
+Repeated entry---line 7405 of file thesis.bib
  : @article{2023ApJ...958...96R
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7390 of file thesis.bib
+Repeated entry---line 7424 of file thesis.bib
  : @article{1972ApJ...178..623T
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7476 of file thesis.bib
+Repeated entry---line 7510 of file thesis.bib
  : @article{2011MNRAS.418.2043E
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7544 of file thesis.bib
+Repeated entry---line 7578 of file thesis.bib
  : @article{1978MNRAS.183..341W
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7590 of file thesis.bib
+Repeated entry---line 7624 of file thesis.bib
  : @article{2013MNRAS.430.1901H
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7700 of file thesis.bib
+Repeated entry---line 7734 of file thesis.bib
  : @article{2010MNRAS.401.1043D
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7718 of file thesis.bib
+Repeated entry---line 7752 of file thesis.bib
  : @article{2008MNRAS.389.1179L
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7827 of file thesis.bib
+Repeated entry---line 7861 of file thesis.bib
  : @article{2008MNRAS.384..386C
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 7901 of file thesis.bib
+Repeated entry---line 7935 of file thesis.bib
  : @article{2006MNRAS.373..469B
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8213 of file thesis.bib
+Repeated entry---line 8247 of file thesis.bib
  : @article{2019MNRAS.490.5390B
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8341 of file thesis.bib
+Repeated entry---line 8375 of file thesis.bib
  : @article{2013MNRAS.430.1901H
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8359 of file thesis.bib
+Repeated entry---line 8393 of file thesis.bib
  : @article{2021MNRAS.503.3113M
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8377 of file thesis.bib
+Repeated entry---line 8411 of file thesis.bib
  : @article{2020MNRAS.493.3716H
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8431 of file thesis.bib
+Repeated entry---line 8465 of file thesis.bib
  : @article{2008MNRAS.385.1903L
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8449 of file thesis.bib
+Repeated entry---line 8483 of file thesis.bib
  : @article{2007A&A...468...61D
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8485 of file thesis.bib
+Repeated entry---line 8519 of file thesis.bib
  : @article{2022MNRAS.517L..92E
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8503 of file thesis.bib
+Repeated entry---line 8537 of file thesis.bib
  : @article{2023MNRAS.519.4966B
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 8669 of file thesis.bib
+Repeated entry---line 8703 of file thesis.bib
  : @article{2015MNRAS.451.2517S
  :                             ,
 I'm skipping whatever remains of this entry
@@ -162,6 +158,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty publisher in arp87
 Warning--empty publisher in 2012agn..book.....B
 Warning--empty publisher in 1936rene.book.....H
+Warning--can't use both author and editor fields in Mantas2016
 Warning--empty publisher in nielsen16
 "ArXiv e-prints" is a string literal, `journal' is a missing field
 ---they aren't the same literal types for entry Peng_02
@@ -172,45 +169,45 @@ while executing---line 3643 of file Latex/mnras.bst
 ---they aren't the same literal types for entry Peng_02
 while executing---line 3643 of file Latex/mnras.bst
 Warning--empty publisher in 2021inas.book...57V
-You've used 308 entries,
+You've used 310 entries,
             2881 wiz_defined-function locations,
-            3027 strings with 117261 characters,
-and the built_in function-call counts, 148313 in all, are:
-= -- 12579
-> -- 10417
-< -- 594
-+ -- 4518
-- -- 1564
-* -- 18886
-:= -- 22640
+            3048 strings with 118152 characters,
+and the built_in function-call counts, 149514 in all, are:
+= -- 12676
+> -- 10503
+< -- 599
++ -- 4557
+- -- 1578
+* -- 19023
+:= -- 22827
 add.period$ -- 0
-call.type$ -- 308
-change.case$ -- 616
-chr.to.int$ -- 254
-cite$ -- 313
-duplicate$ -- 7215
-empty$ -- 7080
-format.name$ -- 2538
-if$ -- 25910
+call.type$ -- 310
+change.case$ -- 620
+chr.to.int$ -- 256
+cite$ -- 316
+duplicate$ -- 7272
+empty$ -- 7143
+format.name$ -- 2556
+if$ -- 26129
 int.to.chr$ -- 55
 int.to.str$ -- 0
-missing$ -- 310
-newline$ -- 939
-num.names$ -- 2016
-pop$ -- 1366
+missing$ -- 313
+newline$ -- 946
+num.names$ -- 2032
+pop$ -- 1381
 preamble$ -- 1
-purify$ -- 1232
+purify$ -- 1240
 quote$ -- 0
-skip$ -- 4546
+skip$ -- 4581
 stack$ -- 0
-substring$ -- 9039
-swap$ -- 4008
-text.length$ -- 1253
+substring$ -- 9118
+swap$ -- 4046
+text.length$ -- 1262
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2760
-warning$ -- 5
-while$ -- 2257
+type$ -- 2775
+warning$ -- 6
+while$ -- 2275
 width$ -- 0
-write$ -- 3094
-(There were 37 error messages)
+write$ -- 3118
+(There were 36 error messages)
