@@ -718,6 +718,13 @@ Harris C.~R.,  et~al., 2020, \mn@doi [Nature] {10.1038/s41586-020-2649-2}, 585,
   \mn@doi [\apjs] {10.3847/1538-4365/ac73ec}, \href
   {https://ui.adsabs.harvard.edu/abs/2022ApJS..261...34H} {261, 34}
 
+\bibitem[\protect\citeauthoryear{{Helou}, {Madore}, {Schmitz}, {Bicay}, {Wu}
+  \& {Bennett}}{{Helou} et~al.}{1991}]{1991ASSL..171...89H}
+{Helou} G.,  {Madore} B.~F.,  {Schmitz} M.,  {Bicay} M.~D.,  {Wu} X.,
+  {Bennett} J.,  1991, in {Albrecht} M.~A.,  {Egret} D.,  eds,  Astrophysics
+  and Space Science Library Vol. 171, Databases and On-line Data in Astronomy.
+  pp 89--106, \mn@doi{10.1007/978-94-011-3250-3_10}
+
 \bibitem[\protect\citeauthoryear{{Hern{\'a}ndez-Toledo}, {Avila-Reese},
   {Conselice}  \& {Puerari}}{{Hern{\'a}ndez-Toledo} et~al.}{2005}]{hernandez05}
 {Hern{\'a}ndez-Toledo} H.~M.,  {Avila-Reese} V.,  {Conselice} C.~J.,
@@ -946,6 +953,12 @@ Kolmogorov A.,  1933, Giorn Dell'inst Ital Degli Att, 4, 89
 {Lacey} C.,  {Cole} S.,  1993, \mn@doi [\mnras] {10.1093/mnras/262.3.627},
   \href {https://ui.adsabs.harvard.edu/abs/1993MNRAS.262..627L} {262, 627}
 
+\bibitem[\protect\citeauthoryear{{Lambas}, {Tissera}, {Alonso}  \&
+  {Coldwell}}{{Lambas} et~al.}{2003}]{2003MNRAS.346.1189L}
+{Lambas} D.~G.,  {Tissera} P.~B.,  {Alonso} M.~S.,   {Coldwell} G.,  2003,
+  \mn@doi [\mnras] {10.1111/j.1365-2966.2003.07179.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2003MNRAS.346.1189L} {346, 1189}
+
 \bibitem[\protect\citeauthoryear{{Li}, {Kauffmann}, {Heckman}, {Jing}  \&
   {White}}{{Li} et~al.}{2008a}]{2008MNRAS.385.1903L}
 {Li} C.,  {Kauffmann} G.,  {Heckman} T.~M.,  {Jing} Y.~P.,   {White} S. D.~M.,
@@ -1050,8 +1063,13 @@ Springer International Publishing, Cham, pp 219--251,
   \href {https://ui.adsabs.harvard.edu/abs/2016ApJ...817...34M} {817, 34}
 
 \bibitem[\protect\citeauthoryear{{Marian} et~al.,}{{Marian}
-  et~al.}{2020}]{marian20}
-{Marian} V.,  et~al., 2020, \mn@doi [\apj] {10.3847/1538-4357/abbd3e}, \href
+  et~al.}{2020a}]{marian20}
+{Marian} V.,  et~al., 2020a, \mn@doi [\apj] {10.3847/1538-4357/abbd3e}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020ApJ...904...79M} {904, 79}
+
+\bibitem[\protect\citeauthoryear{{Marian} et~al.,}{{Marian}
+  et~al.}{2020b}]{2020ApJ...904...79M}
+{Marian} V.,  et~al., 2020b, \mn@doi [\apj] {10.3847/1538-4357/abbd3e}, \href
   {https://ui.adsabs.harvard.edu/abs/2020ApJ...904...79M} {904, 79}
 
 \bibitem[\protect\citeauthoryear{{Martig} \& {Bournaud}}{{Martig} \&
@@ -1201,6 +1219,12 @@ pp 195--211, \mn@doi{10.1007/978-3-319-21903-5_8}
   {Nash}}{2015}]{oshea15}
 {O'Shea} K.,  {Nash} R.,  2015, arXiv e-prints, \href
   {https://ui.adsabs.harvard.edu/abs/2015arXiv151108458O} {p. arXiv:1511.08458}
+
+\bibitem[\protect\citeauthoryear{{Ochsenbein}, {Bauer}  \&
+  {Marcout}}{{Ochsenbein} et~al.}{2000}]{2000A&AS..143...23O}
+{Ochsenbein} F.,  {Bauer} P.,   {Marcout} J.,  2000, \mn@doi [\aaps]
+  {10.1051/aas:2000169}, \href
+  {https://ui.adsabs.harvard.edu/abs/2000A&AS..143...23O} {143, 23}
 
 \bibitem[\protect\citeauthoryear{{Pacifici}, {Kassin}, {Weiner}, {Charlot}  \&
   {Gardner}}{{Pacifici} et~al.}{2013}]{Pacifici_13}
@@ -1660,7 +1684,7 @@ Wallin J.~F.,  1990, \mn@doi [The Astronomical Journal] {10.1086/115613}, 100,
   {https://ui.adsabs.harvard.edu/abs/2017ApJ...845..145W} {845, 145}
 
 \bibitem[\protect\citeauthoryear{{Wenger} et~al.,}{{Wenger}
-  et~al.}{2000}]{Simbad}
+  et~al.}{2000}]{simbad}
 {Wenger} M.,  et~al., 2000, \mn@doi [\aaps] {10.1051/aas:2000332}, \href
   {https://ui.adsabs.harvard.edu/abs/2000A&AS..143....9W} {143, 9}
 
