@@ -72,19 +72,19 @@ Upon applying these criteria we find 3,167 labelled interacting galaxies in Gala
 
 Each of these projects has a varied redshift range: Galaxy Zoo: \emph{Hubble} is $z < 1$, Galaxy Zoo: CANDELS $1 < \emph{z} < 3$ and Galaxy Zoo's 1, 2 and DECaLs are $\emph{z} < 0.15$. This introduces a redshift bias into our model, where the morphology and brightness of interacting sources changes with a $z > 1$. This is only partially rectified by including Galaxy Zoo: CANDELS, which provided 322 labelled interacting systems.
 
-\begin{figure*}
+\begin{figure}
   \centering
-  \includegraphics[width=0.85\textwidth]{Chapter2/figures/fig1.jpeg}
+  \includegraphics[width=0.95\textwidth]{Chapter2/figures/fig1.jpeg}
   \caption{Example images of the labelled interacting galaxy systems used to train \texttt{Zoobot}. Each galaxy had a weighted vote fraction $\geq$0.75 in Galaxy Zoo. \textit{Top Row}: Three examples from the Galaxy Zoo: \emph{Hubble} project of the training set. \textit{Bottom Row}: Three examples from the other Galaxy Zoo projects. These are, from right to left, Galaxy Zoo 2, Galaxy Zoo CANDELS and Galaxy Zoo DECaLS. The priority with this training set was that the interactors had clear tidal features and disruption so \texttt{Zoobot} would learn to highly weight them and not misclassify close pairs.}
   \label{fig:training_set_int_ex}
-\end{figure*}
+\end{figure}
 
-\begin{figure*}
+\begin{figure}
   \centering
-  \includegraphics[width=0.85\textwidth]{Chapter2/figures/fig2.jpeg}
+  \includegraphics[width=0.95\textwidth]{Chapter2/figures/fig2.jpeg}
   \caption{Example images of the labelled non-interacting galaxy systems used to train \texttt{Zoobot}. \textit{Top Row}: Three examples from the Galaxy Zoo: \emph{Hubble} project of the training set. \textit{Bottom Row}: Three examples from the other Galaxy Zoo projects. These are, from right to left, Galaxy Zoo 2, Galaxy Zoo CANDELS and a starfield from the active learning cycle. Starfields/globular clusters/open clusters existed throughout the HSC flagged as extended sources. 1,000 images of starfields were added to the training set so \texttt{Zoobot} would give them a very low score.}
   \label{fig:training_set_non_ex}
-\end{figure*}
+\end{figure}
 
 From all Galaxy Zoo projects, we find a training set of 4,036 labelled interacting galaxies and combine them with their matched 4,036 labelled non-interacting galaxies giving a total training set size of 8,072. Figures \ref{fig:training_set_int_ex} and \ref{fig:training_set_non_ex} show six examples of our labelled interacting and non-interacting galaxy training set. As we require \texttt{Zoobot} to learn to weight tidal features or disturbances highly, it is important that such structures dominate the training set. Previous works, such as \citet{2019A&A...631A..51P}, have found that final catalogues produced by CNNs are often heavily contaminated by sources which are simply close pairs by projection effects and chance alignment in the sky. By focusing our CNN on tidal features, we aim to minimise this contamination. We ran an initial test of the prediction pipeline on the first 500,000 sources that had been created from the HSC to initially test our \texttt{Zoobot} model. We investigate any source which was given a prediction score $\geq 0.75$ and, to further increase the size of our training set, conduct one step of active learning.
 
@@ -101,7 +101,7 @@ From the first 500,000 sources, a total of 6,198 sources were given a prediction
 
 \begin{figure}
   \centering
-  \includegraphics[width=\columnwidth]{Chapter2/figures/fig3.jpeg}
+  \includegraphics[width = 0.95\textwidth]{Chapter2/figures/fig3.jpeg}
   \caption{The distribution of prediction scores given to our validation set of 3,270 labelled sources set aside by \texttt{Zoobot} in training. These were split into 1,648 non-interacting sources and 1,622 interacting sources. As can be seen from the distribution, our model is often confident when a source does or does not contain an interacting galaxy by the strong bi-modality. This is likely due to the very stringent vote weightings used when selecting the training set. Using this distribution, we decide the prediction score to use as a cutoff to give us our final binary classification: interacting galaxy or not.}
   \label{fig:pred-score}
 \end{figure}
@@ -112,7 +112,7 @@ The prediction score must be reduced to a binary classification for our problem.
 
 \begin{figure}
   \centering
-  \includegraphics[width=\columnwidth]{Chapter2/figures/fig4.pdf}
+  \includegraphics[width=0.95\textwidth]{Chapter2/figures/fig4.pdf}
   \caption{A measure of accuracy and purity against prediction score. The accuracy (in blue) is a direct measure of the number of sources \texttt{Zoobot} correctly predicted vs the total number of predictions made. The measure of purity (in orange) is the the number of predictions \texttt{Zoobot} correctly made vs the total number of predictions for an interacting galaxy. The cutoff score (in red) shows the point above which we would define an interacting galaxy and below which we would not. At this point, the accuracy appears lower due to \texttt{Zoobot} making many false negative predictions while successfully making true negative predictions. This is confirmed by the maximisation of purity. Due to the number of sources \texttt{Zoobot} is predicting over, the size of the catalogue will exceed any previous catalogues. Therefore, we use this very conservative cutoff to maximise purity over the completeness of our catalogue. These measures can also be shown with the F1 score. Figure \ref{fig:f1-score} shows this change with prediction cutoff in the Appendix.}
   \label{fig:accuracy-graph}
 \end{figure}
@@ -121,7 +121,7 @@ Figure \ref{fig:conf-mat} also shows a measure of accuracy for our model at diff
 
 \begin{figure}
   \centering
-  \includegraphics[width=\columnwidth]{Chapter2/figures/fig5.pdf}
+  \includegraphics[width=0.95\textwidth]{Chapter2/figures/fig5.pdf}
   \caption{Confusion matrices of four different cutoffs of prediction score defining a binary classification of interacting galaxy or not. Confusion matrices break down our accuracy measurement into how \texttt{Zoobot} is misclassifying sources. At a cutoff of 0.50, the accuracy is highest at 88.2\%. However, at this cutoff, $\approx$10\% of our final catalogue would contain contamination. We elect to use the very stringent prediction cutoff of 0.95 for the rest of this work as it will return the lowest contamination.}
   \label{fig:conf-mat}
 \end{figure}
@@ -132,7 +132,7 @@ Using such a high cutoff also reduces any risk of any biases introduced by using
 
 \begin{figure}
     \centering
-    \includegraphics[width=\columnwidth]{Chapter2/figures/fig6.jpg}
+    \includegraphics[width=0.95\textwidth]{Chapter2/figures/fig6.jpg}
     \caption{Flow diagram of our contamination and duplication removal process. De-duplication used agglomerative clustering based on sky separation. The first step of de-duplication uses a cutoff of 1.5$^{\prime\prime}$. This significantly reduced duplication in the catalogue, as well as the size of the catalogue to 54,757 interacting galaxies. We then applied contamination removal to this de-duplicated catalogue. Upon visual inspection, a small number of duplicated systems still existed in the catalogue. To ensure a pure catalogue of unique systems, we applied a agglomerative clustering again with a cutoff of 5$^{\prime\prime}$. This gave us a catalogue of 27,720 unique interacting systems. The final step to ensure purity was visual inspection by DOR, removing any remaining contamination. This gave the final pure catalogue of 21,926 unique interacting systems.}
     \label{fig:flow-diagram}
 \end{figure}
@@ -153,16 +153,16 @@ Upon applying the clustering by sky projection of 1.5$^{\prime\prime}$, the cata
 
 We remove the classification head of \texttt{Zoobot} and directly output the final layer of the feature learning section of the model. This gives 1,280 features (the representations) for each of our 27,720 candidate systems. However, there will be much redundant information in this very high dimensional feature space. We compress this using incremental principal component analysis (PCA) \citep{ross08}. An excellent demonstration of using this approach can be found in \citet{2022MNRAS.513.1581W}. We reduce the dimensionality from 1,280 to 40{(as in \citet{2022MNRAS.513.1581W}), and input the resultant components into the Auto-Encoder \texttt{UMAP} \citep{umap}. \texttt{UMAP} projects the 40 dimensional components of each candidate system onto a 2 dimensional manifold. The position of each galaxy on this manifold is directly linked to its visual morphology. Close pairs have similar visual features which will then appear as a cluster in our representation space.
 
-\begin{figure*}
+\begin{figure}
   \centering
-  \includegraphics[width=\textwidth]{Chapter2/figures/fig7.jpeg}
+  \includegraphics[width=0.90\textwidth]{Chapter2/figures/fig7.jpeg}
   \caption{The representation distribution of 54,757 candidate interacting galaxies. This distribution is the compressed 2D representation of the 1,280 dimensional representation that \texttt{Zoobot} has learned of each image. Each image is a randomly selected one from sources within each bin in the distribution. The X and Y axis on this plot are the 2D mapping on the manifold given by UMAP for the 40 dimensional principal components of each source, and not physical parameters. Three gradients are clear in this distribution: first; from the left to right there is a distinct gradient in the contrast of the images. The images to the left are local galaxies with low redshift, while those on the right are dimmer sources at much higher redshift. This is an effect of how the images are created using a linear scaling function and a fixed contrast. The second feature, also from left to right, is a gradient of larger source size to smaller source size. This is a feature \texttt{Zoobot} has learned based on the redshift of the source as well. The third, from top to bottom, is a gradient of the inclination of the source. With the most inclined (and even diffraction spikes) of the sources appearing at the top, while at the bottom the sources are face on. Along the bottom of the representation plot, there are close paired sources as well as many star fields. Along the very top, there is contamination in the form of isolated stars in star fields. Thus, we make aggressive cuts along the top and bottom of our representation space to remove as much contamination in a general way. The full representation plot, with all sources and the cuts, is shown in Figure \ref{fig:cuts-visual}. }
   \label{fig:representations}
-\end{figure*}
+\end{figure}
 
 \begin{figure}
   \centering
-  \includegraphics[width=\columnwidth]{Chapter2/figures/fig8.jpeg}
+  \includegraphics[width=0.95\textwidth]{Chapter2/figures/fig8.jpeg}
   \caption{Scatter plot showing the precise distribution of each representation of sources in the remaining 54,757 sources. This is the unbinned version of Figure \ref{fig:representations}. The two red lines show the cutoffs utilised to remove the majority of close pairs by projection as well as the very obvious contamination of stars and stellar fields at the top of the representation distribution. The number of candidate interacting systems in the catalogue was reduced to 41,065 systems.}
   \label{fig:cuts-visual}
 \end{figure}
@@ -180,12 +180,12 @@ As described in Section \ref{dup_rem}, we then apply a 5$^{\prime \prime}$ to th
 \subsection{An Interacting Galaxy Catalogue}\label{int_cat}
 \noindent Upon de-duplication and contamination removal described in Sections \ref{dup_rem} and \ref{bad_pred}, our final catalogue contains 21,926 interacting systems. Figure \ref{fig:interactors} shows a random sample of 50 of the systems from our catalogue. In these examples we can see highly distorted or currently interacting systems, precisely what we trained \texttt{Zoobot} to highly predict. Some cutouts are of the full interacting system, containing both the primary and secondary galaxies in the interaction. Some source cutouts only show one of the interacting galaxies, though these systems remain highly disturbed. Due to the constraints in our training set, so highly weighting disturbance or tidal features in our predictions, we are sampling interaction from all epochs except the approach to the initial pass. At this initial stage, there will be no tidal features formed or disturbance in the disks as the two galaxies approach each other. Separating them from close pairs would be difficult without kinematic or redshift information, not available for the majority of these sources.
 
-\begin{figure*}
+\begin{figure}
   \centering
-  \includegraphics[width=0.80\textwidth]{Chapter2/figures/fig9.jpeg}
+  \includegraphics[width=0.85\textwidth]{Chapter2/figures/fig9.jpeg}
   \caption{An example of 50 of the final interacting systems found with \texttt{Zoobot}. These were selected randomly from the de-duplicated and de-contaminated 21,926 sources. Each of these examples have extended tidal features and distortion. Not all of the final interacting systems have two galaxies within them (for example, image 2), but are clearly very disturbed by a tidal event. These were kept in as they would form a large part of the interacting galaxy population and would be flagged as disturbed or interacting in Galaxy Zoo. Each of these images is a 1-colour image using the $F814W$ \emph{HST} filter.}
   \label{fig:interactors}
-\end{figure*}
+\end{figure}
 
 We investigate which of the systems in our catalogue have previous references in the astrophysical literature. To search the literature, we use the \texttt{AstroQuery} Python package with a coordinates based search of cutoff radius 5$^{\prime\prime}$. We search the astronomical databases Simbad \citep{simbad}, the NASA Extragalactic Database \citep[NED;][]{1991ASSL..171...89H} and ViZieR \citep{2000A&AS..143...23O} for references to our interacting systems. These return either a list of references, or an empty list showing no references associated with the system. We find that 7,522 of our systems have at least 1 reference associated with them, while and 14,404 do not. A flag exists in the catalogue data release which shows whether a system has references associated with it or it could be considered a `new' system. We, however, do not claim that these systems are discovered by ourselves. These systems have always existed in the backgrounds of large surveys or observations and been discovered by others, it is only with ESA Datalabs that we can apply a methodology such as in this work to extract those systems from these observations. We also do not claim that these unreferenced systems are particularly interesting or phenomenal. It is most likely that these systems are the very faint background galaxies in surveys or observations whose main objective was something other than finding interacting galaxies. This will be further discussed in Section \ref{z_phot_analysis}.
 
@@ -194,8 +194,11 @@ Figure \ref{fig:sky-distribution} shows the distribution of our catalogue in the
 The full catalogue and data product are found on Zenodo at the following DOI where it is freely accessible to the community: \href{https://doi.org/10.5281/zenodo.7684876}{doi:10.5281/zenodo.7684876}. Table \ref{tab:ex-cat} shows an example of the data and format of the 50 sources shown in Figure \ref{fig:interactors}. We also bootstrap the final catalogue as an estimate of contamination remaining. As described in Section \ref{bad_pred}, the final step of contamination removal was visual inspection by DOR of the 27,720 candidate interacting systems to remove the remaining 5,794 contaminants from the final catalogue. Visual inspection by a single expert at this scale is not perfect. We extract random sources from the catalogue in batches of 500 and manually re-classify them again. This bootstrapping reveals that $\approx$3\% of our interacting system in the final catalogue remains contamination.
 
 \begin{table}
-	  \begin{tabular}{ccccccc}
+	  \centering
+	  \resizebox{\textwidth}{!}{\begin{tabular}{|c|c|c|c|c|c|c|}
+	  \hline
   	  Image No. & SourceID & RA (deg) & Dec (deg) & Interaction Prediction & References & Status \\
+	  \hline
 	  1 & 4001014298177 & 261.292845 & 37.162387 & 0.983999 & No entry &  Unreferenced \\
 	  2 & 4001444190958 & 183.527536 & 33.183451 & 0.998016 & [1994PASP..106..646K] & Referenced \\
 	  3 & 4000809226818 & 93.960150 & -57.813401 & 0.982266 & [2019ApJ...878...66C] & Referenced \\
@@ -246,16 +249,17 @@ The full catalogue and data product are found on Zenodo at the following DOI whe
 	  48 & 4001082523786 & 311.703084 & -12.869002 & 0.976454 & No entry & Unreferenced \\
 	  49 & 4000767041112 & 149.784518 & 2.172233 & 0.991335 & [2007ApJS..172...99C] & Referenced \\
 	  50 & 4001024667142 & 150.661685 & 1.718587 & 0.967865 & [2007ApJS..172...99C] & Referenced \\
-	\end{tabular}
+	  \hline
+	\end{tabular}}
 \caption{An example of the format of the final catalogue for the 50 example images presented in this paper.} 
 \label{tab:ex-cat}
 \end{table}
 
-\begin{figure*}
-  \includegraphics[width=\textwidth]{Chapter2/figures/fig10.pdf}
+\begin{figure}
+  \includegraphics[width=0.95\textwidth]{Chapter2/figures/fig10.pdf}
   \caption{Sky Distribution of our catalogue, with marked positions of well known deep surveys conducted by \emph{HST}. \emph{HST} is able to observe almost the entire sky and therefore the interacting galaxies are scattered throughout. Large clusters of sources are found in the locations of surveys. This shows that often our sources are in the background of larger surveys and observations.}
   \label{fig:sky-distribution}
-\end{figure*}
+\end{figure}
 
 \vspace{-8mm}
 
@@ -272,8 +276,12 @@ Table \ref{tab:gems} shows a breakdown of the total number of objects found and 
 
 
 \begin{table}
-	\begin{tabular}{cccc}
+\centering
+
+	\resizebox{\textwidth}{!}{\begin{tabular}{|c|c|c|c|}
+	  \hline
 	  Category & Total Found & Referenced & Unreferenced \\
+	  \hline
 	  AGN/Quasars & 35 & 21 & 14 \\
 	  Submillimetre Galaxies & 11 & 8 & 3 \\
 	  Galaxy Groups & 6 & 6 & 0 \\
@@ -290,7 +298,8 @@ Table \ref{tab:gems} shows a breakdown of the total number of objects found and 
 	  Transitional Young Stellar Objects & 2 & 1 & 1 \\
 	  Unknown Objects & 6 & 0 & 6 \\
 	  Young Stellar Clusters & 2 & 1 & 1 \\
-	\end{tabular}
+	  \hline
+	\end{tabular}}
 \caption{A breakdown of gems found in the visual inspection stage of contamination. Each gem category has been classified based on the references associated with each object.} 
 \label{tab:gems}
 \end{table}
@@ -307,14 +316,14 @@ It is important to note that the small sample with redshift information is affec
 
 \begin{figure}
   \centering
-  \includegraphics[width=\columnwidth]{Chapter2/figures/fig11.jpeg}
+  \includegraphics[width=0.95\textwidth]{Chapter2/figures/fig11.jpeg}
   \caption{The redshift distribution of a subsample of our catalogue. Of the 7,583 referenced systems, 3,037 of them had redshift measurements in the NED, MAST or Simbad. This redshift distribution shows that our model confidently predicted interacting systems primarily for $z < 1$ systems. This was anticipated, as the model was primarily trained on systems at these redshifts. There are fifteen sources with a reported $z > 5$.}
   \label{fig:redshift-dist}
 \end{figure}
 
 \begin{figure}
     \centering
-    \includegraphics[width=\columnwidth]{Chapter2/figures/fig12.pdf}
+    \includegraphics[width=0.95\textwidth]{Chapter2/figures/fig12.pdf}
     \caption{The distribution of redshift with magnitude for all sources with available data. This shows the parameter space we are sampling in this catalogue. Panel A shows that the majority of our sources are dim, background sources at low redshift. Panel B shows the faintest objects we find are at the limiting magnitudes of the different surveys this data is from.}
     \label{fig:redshift-mag-dist}
 \end{figure}
@@ -325,12 +334,15 @@ We finally focus on sources from our high-confidence sample that have multi-band
 
 \begin{table}
 \centering
-	\begin{tabular}{cc}
+	\begin{tabular}{|c|c|}
+	  \hline
 	  Filter (s) & Sources Covered \\
+	  \hline
 	  F814W & 100\% \\
 	  F606W + F814W & 45.0\% \\
 	  F475W + F814W & 11.0\% \\
 	  F475W + F606W + F814W & 6.1\% \\
+	  \hline
 	\end{tabular}
   \caption{Percent of sources in the final catalogue which have observations in the relevant \emph{Hubble} filter.}
  \label{tab:filters-breakdown}
@@ -342,7 +354,7 @@ Plotting the colour-magnitude distribution in this way captures a wide range of 
 
 \begin{figure}
   \centering
-  \includegraphics[width=\columnwidth]{Chapter2/figures/fig13.pdf}
+  \includegraphics[width=0.95\textwidth]{Chapter2/figures/fig13.pdf}
   \caption{The colour-magnitude distribution of sources with a redshift measurement associated. Panel A shows the distribution of all galaxies, without controlling for redshift or dust extinction. The remaining panels then split these sources into distinct redshift bins where the $F606W$ and $F814W$ filters are observing in different rest frames. Panel B shows the colour-magnitude distribution in the local universe, where the rest frame observations are $F606W$ and $F814W$ flux. This bin reveals a blue population. Panel C shows the redshift bin where at 50\% - 100\% of observed $F606W$ and $F814W$ flux is rest frame $F475W$ and $F606W$ flux. This bin reveals a larger distribution of interacting galaxies, with a dominating population of blue systems and a minor population of red systems. Panel D shows the redshift bin where 50\% to 100\% of observed $F606W$ and $F814W$ flux is rest frame $F336W$ and $F475W$ flux. These filter bands are very sensitive to star formation, and reveal a broad distribution in colour of red and blue systems.}
   \label{fig:colour-magnitude}
 \end{figure}
