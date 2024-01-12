@@ -8,12 +8,16 @@ A level-1 auxiliary file: preface/declaration.aux
 A level-1 auxiliary file: preface/quote.aux
 A level-1 auxiliary file: preface/pubs.aux
 A level-1 auxiliary file: Introduction/introduction.aux
+White space in argument---line 64 of file Introduction/introduction.aux
+ : \citation{Citations
+ :                     on mergers driviing cosmic star formation}
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: Chapter1/Chapter.aux
 A level-1 auxiliary file: Chapter2/Chapter.aux
 A level-1 auxiliary file: Chapter3/Chapter.aux
 A level-1 auxiliary file: Conclusion/conclusion.aux
 The style file: Latex/mnras.bst
-Reallocated field_info (elt_size=4) to 12371 items from 5000.
+Reallocated field_info (elt_size=4) to 12398 items from 5000.
 Database file #1: thesis.bib
 Repeated entry---line 471 of file thesis.bib
  : @article{1959ApJ...129..243S
@@ -304,6 +308,7 @@ Repeated entry---line 9039 of file thesis.bib
  : @article{2015MNRAS.451.2517S
  :                             ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Toomre_and_Toomre"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty publisher in 1987cspg.book.....A
@@ -322,7 +327,7 @@ while executing---line 3643 of file Latex/mnras.bst
 Warning--empty publisher in 2021inas.book...57V
 You've used 273 entries,
             2881 wiz_defined-function locations,
-            3091 strings with 123092 characters,
+            3093 strings with 123126 characters,
 and the built_in function-call counts, 132182 in all, are:
 = -- 11180
 > -- 9283
@@ -361,4 +366,4 @@ warning$ -- 6
 while$ -- 2000
 width$ -- 0
 write$ -- 2751
-(There were 75 error messages)
+(There were 76 error messages)
