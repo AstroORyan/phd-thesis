@@ -333,6 +333,10 @@
 {Bundy} K.,  et~al., 2015, \mn@doi [\apj] {10.1088/0004-637X/798/1/7}, \href
   {https://ui.adsabs.harvard.edu/abs/2015ApJ...798....7B} {798, 7}
 
+\bibitem[\protect\citeauthoryear{{Bushouse}}{{Bushouse}}{1987}]{1987ApJ...320...49B}
+{Bushouse} H.~A.,  1987, \mn@doi [\apj] {10.1086/165523}, \href
+  {https://ui.adsabs.harvard.edu/abs/1987ApJ...320...49B} {320, 49}
+
 \bibitem[\protect\citeauthoryear{{Byrne-Mamahit}, {Hani}, {Ellison}, {Quai}  \&
   {Patton}}{{Byrne-Mamahit} et~al.}{2023}]{2023MNRAS.519.4966B}
 {Byrne-Mamahit} S.,  {Hani} M.~H.,  {Ellison} S.~L.,  {Quai} S.,   {Patton}
@@ -536,6 +540,16 @@ Foreman-Mackey D.,  2016, \mn@doi [The Journal of Open Source Software]
 {Foreman-Mackey} D.,  {Hogg} D.~W.,  {Lang} D.,   {Goodman} J.,  2013, \mn@doi
   [\pasp] {10.1086/670067}, \href
   {https://ui.adsabs.harvard.edu/abs/2013PASP..125..306F} {125, 306}
+
+\bibitem[\protect\citeauthoryear{{Gabor}, {Dav{\'e}}, {Finlator}  \&
+  {Oppenheimer}}{{Gabor} et~al.}{2010}]{2010MNRAS.407..749G}
+{Gabor} J.~M.,  {Dav{\'e}} R.,  {Finlator} K.,   {Oppenheimer} B.~D.,  2010,
+  \mn@doi [\mnras] {10.1111/j.1365-2966.2010.16961.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2010MNRAS.407..749G} {407, 749}
+
+\bibitem[\protect\citeauthoryear{{Gadotti}}{{Gadotti}}{2009}]{2009MNRAS.393.1531G}
+{Gadotti} D.~A.,  2009, \mn@doi [\mnras] {10.1111/j.1365-2966.2008.14257.x},
+  \href {https://ui.adsabs.harvard.edu/abs/2009MNRAS.393.1531G} {393, 1531}
 
 \bibitem[\protect\citeauthoryear{{Gao} et~al.,}{{Gao}
   et~al.}{2020}]{2020A&A...637A..94G}
@@ -985,6 +999,12 @@ Springer International Publishing, Cham, pp 219--251,
 {Mer{\'\i}n} B.,  et~al., 2017, arXiv e-prints, \href
   {https://ui.adsabs.harvard.edu/abs/2017arXiv171204114M} {p. arXiv:1712.04114}
 
+\bibitem[\protect\citeauthoryear{{Merritt} \& {Milosavljevi{\'c}}}{{Merritt} \&
+  {Milosavljevi{\'c}}}{2005}]{2005LRR.....8....8M}
+{Merritt} D.,  {Milosavljevi{\'c}} M.,  2005, \mn@doi [Living Reviews in
+  Relativity] {10.12942/lrr-2005-8}, \href
+  {https://ui.adsabs.harvard.edu/abs/2005LRR.....8....8M} {8, 8}
+
 \bibitem[\protect\citeauthoryear{{Mihos} \& {Hernquist}}{{Mihos} \&
   {Hernquist}}{1994}]{1994ApJ...425L..13M}
 {Mihos} J.~C.,  {Hernquist} L.,  1994, \mn@doi [\apjl] {10.1086/187299}, \href
@@ -994,6 +1014,12 @@ Springer International Publishing, Cham, pp 219--251,
   {Hernquist}}{1996}]{1996ApJ...464..641M}
 {Mihos} J.~C.,  {Hernquist} L.,  1996, \mn@doi [\apj] {10.1086/177353}, \href
   {https://ui.adsabs.harvard.edu/abs/1996ApJ...464..641M} {464, 641}
+
+\bibitem[\protect\citeauthoryear{{Mihos}, {Richstone}  \& {Bothun}}{{Mihos}
+  et~al.}{1992}]{1992ApJ...400..153M}
+{Mihos} J.~C.,  {Richstone} D.~O.,   {Bothun} G.~D.,  1992, \mn@doi [\apj]
+  {10.1086/171980}, \href
+  {https://ui.adsabs.harvard.edu/abs/1992ApJ...400..153M} {400, 153}
 
 \bibitem[\protect\citeauthoryear{{Miller} \& {van Dokkum}}{{Miller} \& {van
   Dokkum}}{2021}]{2021ApJ...923..124M}
@@ -1201,6 +1227,12 @@ Peng C.~Y.,  Ho L.~C.,  Impey C.~D.,   Rix H.-W.,  2002, ] {10.1086/340952}
   {10.1093/mnras/stz2580}, \href
   {https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.2139R} {490, 2139}
 
+\bibitem[\protect\citeauthoryear{{Rodriguez}, {Taylor}, {Zavala}, {Peck},
+  {Pollack}  \& {Romani}}{{Rodriguez} et~al.}{2006}]{2006ApJ...646...49R}
+{Rodriguez} C.,  {Taylor} G.~B.,  {Zavala} R.~T.,  {Peck} A.~B.,  {Pollack}
+  L.~K.,   {Romani} R.~W.,  2006, \mn@doi [\apj] {10.1086/504825}, \href
+  {https://ui.adsabs.harvard.edu/abs/2006ApJ...646...49R} {646, 49}
+
 \bibitem[\protect\citeauthoryear{{Rogers}, {Ferreras}, {Kaviraj}, {Pasquali}
   \& {Sarzi}}{{Rogers} et~al.}{2009}]{2009MNRAS.399.2172R}
 {Rogers} B.,  {Ferreras} I.,  {Kaviraj} S.,  {Pasquali} A.,   {Sarzi} M.,
@@ -1229,6 +1261,12 @@ Peng C.~Y.,  Ho L.~C.,  Impey C.~D.,   Rix H.-W.,  2002, ] {10.1086/340952}
   {Laurikainen}}{1993}]{1993ApJ...410..586S}
 {Salo} H.,  {Laurikainen} E.,  1993, \mn@doi [\apj] {10.1086/172777}, \href
   {https://ui.adsabs.harvard.edu/abs/1993ApJ...410..586S} {410, 586}
+
+\bibitem[\protect\citeauthoryear{{Satyapal}, {Ellison}, {McAlpine}, {Hickox},
+  {Patton}  \& {Mendel}}{{Satyapal} et~al.}{2014}]{2014MNRAS.441.1297S}
+{Satyapal} S.,  {Ellison} S.~L.,  {McAlpine} W.,  {Hickox} R.~C.,  {Patton}
+  D.~R.,   {Mendel} J.~T.,  2014, \mn@doi [\mnras] {10.1093/mnras/stu650},
+  \href {https://ui.adsabs.harvard.edu/abs/2014MNRAS.441.1297S} {441, 1297}
 
 \bibitem[\protect\citeauthoryear{{Schawinski} et~al.,}{{Schawinski}
   et~al.}{2009}]{2009MNRAS.396..818S}
@@ -1260,6 +1298,11 @@ Peng C.~Y.,  Ho L.~C.,  Impey C.~D.,   Rix H.-W.,  2002, ] {10.1086/340952}
 \bibitem[\protect\citeauthoryear{{Schmidt}}{{Schmidt}}{1959}]{1959ApJ...129..243S}
 {Schmidt} M.,  1959, \mn@doi [\apj] {10.1086/146614}, \href
   {https://ui.adsabs.harvard.edu/abs/1959ApJ...129..243S} {129, 243}
+
+\bibitem[\protect\citeauthoryear{{Schweizer} \& {Seitzer}}{{Schweizer} \&
+  {Seitzer}}{1992}]{1992AJ....104.1039S}
+{Schweizer} F.,  {Seitzer} P.,  1992, \mn@doi [\aj] {10.1086/116296}, \href
+  {https://ui.adsabs.harvard.edu/abs/1992AJ....104.1039S} {104, 1039}
 
 \bibitem[\protect\citeauthoryear{{Scott} \& {Kaviraj}}{{Scott} \&
   {Kaviraj}}{2014}]{2014MNRAS.437.2137S}
