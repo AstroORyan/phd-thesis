@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  16 JAN 2024 18:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  17 JAN 2024 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -601,7 +601,7 @@ LaTeX Info: Redefining \nameref on input line 41.
 
 \c@theorem=\count302
 \c@definition=\count303
-<lancaster_University_Logo.png, id=389, 381.425pt x 119.44624pt>
+<lancaster_University_Logo.png, id=397, 381.425pt x 119.44624pt>
 File: lancaster_University_Logo.png Graphic file (type png)
 <use lancaster_University_Logo.png>
 Package pdftex.def Info: lancaster_University_Logo.png  used on input line 89.
@@ -696,21 +696,21 @@ Chapter 1.
 
 
 ] [2] [3] [4]
-<Introduction/figures/merger-rates.png, id=802, 571.63562pt x 381.92688pt>
+<Introduction/figures/merger-rates.png, id=814, 571.63562pt x 381.92688pt>
 File: Introduction/figures/merger-rates.png Graphic file (type png)
 <use Introduction/figures/merger-rates.png>
 Package pdftex.def Info: Introduction/figures/merger-rates.png  used on input l
 ine 31.
 (pdftex.def)             Requested size: 391.93544pt x 261.86308pt.
  [5 <./Introduction/figures/merger-rates.png>]
-<Introduction/figures/hubble-tuning-fork.jpg, id=832, 693.3102pt x 519.8622pt>
+<Introduction/figures/hubble-tuning-fork.jpg, id=845, 693.3102pt x 519.8622pt>
 File: Introduction/figures/hubble-tuning-fork.jpg Graphic file (type jpg)
 <use Introduction/figures/hubble-tuning-fork.jpg>
 Package pdftex.def Info: Introduction/figures/hubble-tuning-fork.jpg  used on i
 nput line 43.
 (pdftex.def)             Requested size: 391.93544pt x 293.88927pt.
  [6] [7 <./Introduction/figures/hubble-tuning-fork.jpg>] [8]
-<Introduction/figures/population-distribution.png, id=876, 433.11812pt x 342.27
+<Introduction/figures/population-distribution.png, id=888, 433.11812pt x 342.27
 875pt>
 File: Introduction/figures/population-distribution.png Graphic file (type png)
 <use Introduction/figures/population-distribution.png>
@@ -718,7 +718,7 @@ Package pdftex.def Info: Introduction/figures/population-distribution.png  used
  on input line 65.
 (pdftex.def)             Requested size: 391.93544pt x 309.7454pt.
  [9] [10 <./Introduction/figures/population-distribution.png>] [11] [12]
-<Introduction/figures/combined-examples-mergers.jpg, id=968, 1579.40062pt x 432
+<Introduction/figures/combined-examples-mergers.jpg, id=981, 1579.40062pt x 432
 .11438pt>
 File: Introduction/figures/combined-examples-mergers.jpg Graphic file (type jpg
 )
@@ -740,7 +740,7 @@ Underfull \vbox (badness 1681) has occurred while \output is active []
 
  [14]
 [15] [16]
-<Introduction/figures/shells-rings.jpg, id=1027, 1112.65688pt x 726.21312pt>
+<Introduction/figures/shells-rings.jpg, id=1039, 1112.65688pt x 726.21312pt>
 File: Introduction/figures/shells-rings.jpg Graphic file (type jpg)
 <use Introduction/figures/shells-rings.jpg>
 Package pdftex.def Info: Introduction/figures/shells-rings.jpg  used on input l
@@ -761,43 +761,43 @@ Underfull \vbox (badness 1831) has occurred while \output is active []
 
  [30]
 [31] [32] [33] [34] [35] [36] [37]
-<Chapter2/figures/fig1.jpeg, id=1458, 867.24pt x 578.16pt>
+<Chapter2/figures/fig1.jpeg, id=1470, 867.24pt x 578.16pt>
 File: Chapter2/figures/fig1.jpeg Graphic file (type jpg)
 <use Chapter2/figures/fig1.jpeg>
 Package pdftex.def Info: Chapter2/figures/fig1.jpeg  used on input line 75.
 (pdftex.def)             Requested size: 391.93544pt x 261.28998pt.
-<Chapter2/figures/fig2.jpeg, id=1459, 867.24pt x 578.16pt>
+<Chapter2/figures/fig2.jpeg, id=1471, 867.24pt x 578.16pt>
 File: Chapter2/figures/fig2.jpeg Graphic file (type jpg)
 <use Chapter2/figures/fig2.jpeg>
 Package pdftex.def Info: Chapter2/figures/fig2.jpeg  used on input line 82.
 (pdftex.def)             Requested size: 391.93544pt x 261.28998pt.
  [38 <./Chapter2/figures/fig1.jpeg>] [39 <./Chapter2/figures/fig2.jpeg>] [40]
-<Chapter2/figures/fig3.jpeg, id=1478, 412.6617pt x 312.2064pt>
+<Chapter2/figures/fig3.jpeg, id=1490, 412.6617pt x 312.2064pt>
 File: Chapter2/figures/fig3.jpeg Graphic file (type jpg)
 <use Chapter2/figures/fig3.jpeg>
 Package pdftex.def Info: Chapter2/figures/fig3.jpeg  used on input line 102.
 (pdftex.def)             Requested size: 391.93544pt x 296.52771pt.
  [41] [42 <./Chapter2/figures/fig3.jpeg>]
-<Chapter2/figures/fig4.pdf, id=1494, 504.1052pt x 383.66086pt>
+<Chapter2/figures/fig4.pdf, id=1506, 504.1052pt x 383.66086pt>
 File: Chapter2/figures/fig4.pdf Graphic file (type pdf)
 <use Chapter2/figures/fig4.pdf>
 Package pdftex.def Info: Chapter2/figures/fig4.pdf  used on input line 113.
 (pdftex.def)             Requested size: 391.93544pt x 298.29417pt.
-<Chapter2/figures/fig5.pdf, id=1499, 511.67162pt x 519.77562pt>
+<Chapter2/figures/fig5.pdf, id=1511, 511.67162pt x 519.77562pt>
 File: Chapter2/figures/fig5.pdf Graphic file (type pdf)
 <use Chapter2/figures/fig5.pdf>
 Package pdftex.def Info: Chapter2/figures/fig5.pdf  used on input line 122.
 (pdftex.def)             Requested size: 391.93544pt x 398.1505pt.
 
 [43] [44 <./Chapter2/figures/fig4.pdf>] [45 <./Chapter2/figures/fig5.pdf>]
-<Chapter2/figures/fig6.jpg, id=1598, 560.0925pt x 203.76125pt>
+<Chapter2/figures/fig6.jpg, id=1610, 560.0925pt x 203.76125pt>
 File: Chapter2/figures/fig6.jpg Graphic file (type jpg)
 <use Chapter2/figures/fig6.jpg>
 Package pdftex.def Info: Chapter2/figures/fig6.jpg  used on input line 133.
 (pdftex.def)             Requested size: 391.93544pt x 142.59148pt.
 
 [46 <./Chapter2/figures/fig6.jpg>] [47] [48]
-<Chapter2/figures/fig7.jpeg, id=1630, 3613.5pt x 3613.5pt>
+<Chapter2/figures/fig7.jpeg, id=1643, 3613.5pt x 3613.5pt>
 File: Chapter2/figures/fig7.jpeg Graphic file (type jpg)
 <use Chapter2/figures/fig7.jpeg>
 Package pdftex.def Info: Chapter2/figures/fig7.jpeg  used on input line 156.
@@ -806,14 +806,14 @@ Package pdftex.def Info: Chapter2/figures/fig7.jpeg  used on input line 156.
 
 LaTeX Warning: Float too large for page by 60.3407pt on input line 159.
 
-<Chapter2/figures/fig8.jpeg, id=1633, 742.2129pt x 717.6411pt>
+<Chapter2/figures/fig8.jpeg, id=1646, 742.2129pt x 717.6411pt>
 File: Chapter2/figures/fig8.jpeg Graphic file (type jpg)
 <use Chapter2/figures/fig8.jpeg>
 Package pdftex.def Info: Chapter2/figures/fig8.jpeg  used on input line 163.
 (pdftex.def)             Requested size: 391.93544pt x 378.96823pt.
 [49] [50 <./Chapter2/figures/fig7.jpeg>] [51 <./Chapter2/figures/fig8.jpeg>]
 [52]
-<Chapter2/figures/fig9.jpeg, id=1664, 1300.86pt x 1951.29pt>
+<Chapter2/figures/fig9.jpeg, id=1677, 1300.86pt x 1951.29pt>
 File: Chapter2/figures/fig9.jpeg Graphic file (type jpg)
 <use Chapter2/figures/fig9.jpeg>
 Package pdftex.def Info: Chapter2/figures/fig9.jpeg  used on input line 183.
@@ -823,33 +823,32 @@ Package pdftex.def Info: Chapter2/figures/fig9.jpeg  used on input line 183.
 LaTeX Warning: Float too large for page by 51.86638pt on input line 186.
 
 [53] [54 <./Chapter2/figures/fig9.jpeg>]
-<Chapter2/figures/fig10.pdf, id=1692, 2071.72113pt x 1095.35762pt>
+<Chapter2/figures/fig10.pdf, id=1706, 2071.72113pt x 1095.35762pt>
 File: Chapter2/figures/fig10.pdf Graphic file (type pdf)
 <use Chapter2/figures/fig10.pdf>
 Package pdftex.def Info: Chapter2/figures/fig10.pdf  used on input line 257.
 (pdftex.def)             Requested size: 391.93544pt x 207.21756pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [55 <./Chapter2/figures/fig10.pdf>] [56] [57] [58]
-<Chapter2/figures/fig11.jpeg, id=1783, 518.8986pt x 500.8311pt>
+ [55 <./Chapter2/figures/fig10.pdf>]
+[56] [57] [58]
+<Chapter2/figures/fig11.jpeg, id=1795, 518.8986pt x 500.8311pt>
 File: Chapter2/figures/fig11.jpeg Graphic file (type jpg)
 <use Chapter2/figures/fig11.jpeg>
 Package pdftex.def Info: Chapter2/figures/fig11.jpeg  used on input line 317.
 (pdftex.def)             Requested size: 391.93544pt x 378.30476pt.
-<Chapter2/figures/fig12.pdf, id=1784, 433.62pt x 505.89pt>
+<Chapter2/figures/fig12.pdf, id=1796, 433.62pt x 505.89pt>
 File: Chapter2/figures/fig12.pdf Graphic file (type pdf)
 <use Chapter2/figures/fig12.pdf>
 Package pdftex.def Info: Chapter2/figures/fig12.pdf  used on input line 324.
 (pdftex.def)             Requested size: 391.93544pt x 457.28062pt.
  [59] [60 <./Chapter2/figures/fig11.jpeg>] [61 <./Chapter2/figures/fig12.pdf>] 
 [62]
-<Chapter2/figures/fig13.pdf, id=1856, 527.04938pt x 518.80324pt>
+<Chapter2/figures/fig13.pdf, id=1868, 527.04938pt x 518.80324pt>
 File: Chapter2/figures/fig13.pdf Graphic file (type pdf)
 <use Chapter2/figures/fig13.pdf>
 Package pdftex.def Info: Chapter2/figures/fig13.pdf  used on input line 355.
 (pdftex.def)             Requested size: 391.93544pt x 385.80829pt.
- [63] [64 <./Chapter2/figures/fig13.pdf>] [65] [66] [67]) [68]
+ [63] [64 <./Chapter2/figures/fig13.pdf>] [65] [66]) [67]
+[68]
 \openout2 = `Chapter2/Chapter.aux'.
 
  (./Chapter2/Chapter.tex
@@ -859,7 +858,7 @@ Chapter 3.
 
 
 ] [70] [71] [72] [73] [74]
-<Chapter3/figures/mass-sfr-scatter.pdf, id=2172, 1146.8634pt x 568.33116pt>
+<Chapter3/figures/mass-sfr-scatter.pdf, id=2185, 1146.8634pt x 568.33116pt>
 File: Chapter3/figures/mass-sfr-scatter.pdf Graphic file (type pdf)
 <use Chapter3/figures/mass-sfr-scatter.pdf>
 Package pdftex.def Info: Chapter3/figures/mass-sfr-scatter.pdf  used on input l
@@ -867,14 +866,14 @@ ine 39.
 (pdftex.def)             Requested size: 412.56496pt x 204.44296pt.
  [75 <./Chapter3/figures/mass-sfr-scatter.pdf>]
 [76]
-<Chapter3/figures/cutouts_ex.pdf, id=2231, 1727.25305pt x 691.70946pt>
+<Chapter3/figures/cutouts_ex.pdf, id=2243, 1727.25305pt x 691.70946pt>
 File: Chapter3/figures/cutouts_ex.pdf Graphic file (type pdf)
 <use Chapter3/figures/cutouts_ex.pdf>
 Package pdftex.def Info: Chapter3/figures/cutouts_ex.pdf  used on input line 57
 .
 (pdftex.def)             Requested size: 412.56496pt x 165.2115pt.
  [77 <./Chapter3/figures/cutouts_ex.pdf>]
-<Chapter3/figures/visualisation_classification.pdf, id=2304, 445.90588pt x 596.
+<Chapter3/figures/visualisation_classification.pdf, id=2316, 445.90588pt x 596.
 14217pt>
 File: Chapter3/figures/visualisation_classification.pdf Graphic file (type pdf)
 
@@ -887,165 +886,165 @@ d on input line 67.
 LaTeX Warning: Float too large for page by 49.86018pt on input line 70.
 
 [78] [79 <./Chapter3/figures/visualisation_classification.pdf>]
-<Chapter3/figures/mass-matching-pairs.pdf, id=2351, 517.8754pt x 502.34364pt>
+<Chapter3/figures/mass-matching-pairs.pdf, id=2363, 517.8754pt x 502.34364pt>
 File: Chapter3/figures/mass-matching-pairs.pdf Graphic file (type pdf)
 <use Chapter3/figures/mass-matching-pairs.pdf>
 Package pdftex.def Info: Chapter3/figures/mass-matching-pairs.pdf  used on inpu
 t line 82.
 (pdftex.def)             Requested size: 412.56496pt x 400.21211pt.
- [80] [81 <./Chapter3/figures/mass-matching-pairs.pdf>]
-<Chapter3/figures/redshift-limitations.pdf, id=2396, 747.9672pt x 745.7781pt>
-File: Chapter3/figures/redshift-limitations.pdf Graphic file (type pdf)
-<use Chapter3/figures/redshift-limitations.pdf>
-Package pdftex.def Info: Chapter3/figures/redshift-limitations.pdf  used on inp
-ut line 97.
-(pdftex.def)             Requested size: 412.56496pt x 411.36272pt.
- [82] [83 <./Chapter3/figures/redshift-limitations.pdf>]
-<Chapter3/figures/examples-stages.pdf, id=2461, 550.8507pt x 570.92484pt>
+
+Underfull \vbox (badness 1902) has occurred while \output is active []
+
+ [80]
+[81 <./Chapter3/figures/mass-matching-pairs.pdf>] [82]
+<Chapter3/figures/examples-stages.pdf, id=2415, 550.8507pt x 570.92484pt>
 File: Chapter3/figures/examples-stages.pdf Graphic file (type pdf)
 <use Chapter3/figures/examples-stages.pdf>
 Package pdftex.def Info: Chapter3/figures/examples-stages.pdf  used on input li
-ne 121.
+ne 111.
 (pdftex.def)             Requested size: 412.56496pt x 427.60017pt.
- [84] [85 <./Chapter3/figures/examples-stages.pdf>] [86]
-<Chapter3/figures/stage-evolution.jpg, id=2511, 1530.21687pt x 731.23187pt>
+ [83] [84 <./Chapter3/figures/examples-stages.pdf>] [85]
+<Chapter3/figures/stage-evolution.jpg, id=2465, 1530.21687pt x 731.23187pt>
 File: Chapter3/figures/stage-evolution.jpg Graphic file (type jpg)
 <use Chapter3/figures/stage-evolution.jpg>
 Package pdftex.def Info: Chapter3/figures/stage-evolution.jpg  used on input li
-ne 138.
+ne 128.
 (pdftex.def)             Requested size: 412.56496pt x 197.14514pt.
-
-[87] [88 <./Chapter3/figures/stage-evolution.jpg>]
-<Chapter3/figures/projected-seps.pdf, id=2526, 875.18405pt x 294.85217pt>
+<Chapter3/figures/projected-seps.pdf, id=2473, 875.18405pt x 294.85217pt>
 File: Chapter3/figures/projected-seps.pdf Graphic file (type pdf)
 <use Chapter3/figures/projected-seps.pdf>
 Package pdftex.def Info: Chapter3/figures/projected-seps.pdf  used on input lin
-e 147.
+e 137.
 (pdftex.def)             Requested size: 412.56496pt x 138.99445pt.
-<Chapter3/figures/redshift-proj-sep-diagnostic.pdf, id=2527, 529.04996pt x 507.
+ [86] [87 <./Chapter3/figures/stage-evolution.jpg>] [88 <./Chapter3/figures/pro
+jected-seps.pdf>]
+<Chapter3/figures/redshift-proj-sep-diagnostic.pdf, id=2520, 529.04996pt x 507.
 1036pt>
 File: Chapter3/figures/redshift-proj-sep-diagnostic.pdf Graphic file (type pdf)
 
 <use Chapter3/figures/redshift-proj-sep-diagnostic.pdf>
 Package pdftex.def Info: Chapter3/figures/redshift-proj-sep-diagnostic.pdf  use
-d on input line 155.
+d on input line 147.
 (pdftex.def)             Requested size: 412.56496pt x 395.46184pt.
- [89 <./Chapter3/figures/projected-seps.pdf>] [90 <./Chapter3/figures/redshift-
-proj-sep-diagnostic.pdf>]
-<Chapter3/figures/mass-ratio-diagnostic.jpeg, id=2609, 524.6802pt x 505.1673pt>
+<Chapter3/figures/redshift-limitations.pdf, id=2522, 747.9672pt x 745.7781pt>
+File: Chapter3/figures/redshift-limitations.pdf Graphic file (type pdf)
+<use Chapter3/figures/redshift-limitations.pdf>
+Package pdftex.def Info: Chapter3/figures/redshift-limitations.pdf  used on inp
+ut line 159.
+(pdftex.def)             Requested size: 412.56496pt x 411.36272pt.
+ [89] [90 <./Chapter3/figures/redshift-proj-sep-diagnostic.pdf>] [91 <./Chapter
+3/figures/redshift-limitations.pdf>] [92] [93]
+<Chapter3/figures/mass-ratio-diagnostic.jpeg, id=2686, 524.6802pt x 505.1673pt>
 
 File: Chapter3/figures/mass-ratio-diagnostic.jpeg Graphic file (type jpg)
 <use Chapter3/figures/mass-ratio-diagnostic.jpeg>
 Package pdftex.def Info: Chapter3/figures/mass-ratio-diagnostic.jpeg  used on i
-nput line 164.
+nput line 185.
 (pdftex.def)             Requested size: 412.56496pt x 397.23552pt.
-
-[91] [92 <./Chapter3/figures/mass-ratio-diagnostic.jpeg>] [93] [94]
-<Chapter3/figures/sfr-mass-stages.pdf, id=2674, 576.70767pt x 592.57384pt>
+ [94] [95 <./Chapter3/figures/mass-ratio-diagnostic.jpeg>]
+[96]
+<Chapter3/figures/sfr-mass-stages.pdf, id=2704, 576.70767pt x 592.57384pt>
 File: Chapter3/figures/sfr-mass-stages.pdf Graphic file (type pdf)
 <use Chapter3/figures/sfr-mass-stages.pdf>
 Package pdftex.def Info: Chapter3/figures/sfr-mass-stages.pdf  used on input li
-ne 191.
+ne 201.
 (pdftex.def)             Requested size: 412.56496pt x 423.92216pt.
 
 
-LaTeX Warning: Float too large for page by 17.7669pt on input line 194.
+LaTeX Warning: Float too large for page by 17.7669pt on input line 204.
 
-<Chapter3/figures/stellar-mass-dist.pdf, id=2680, 368.1222pt x 385.10376pt>
+<Chapter3/figures/stellar-mass-dist.pdf, id=2710, 368.1222pt x 385.10376pt>
 File: Chapter3/figures/stellar-mass-dist.pdf Graphic file (type pdf)
 <use Chapter3/figures/stellar-mass-dist.pdf>
 Package pdftex.def Info: Chapter3/figures/stellar-mass-dist.pdf  used on input 
-line 202.
+line 212.
 (pdftex.def)             Requested size: 412.56496pt x 431.6247pt.
-<Chapter3/figures/sfr_dist.pdf, id=2681, 368.1222pt x 387.11125pt>
+<Chapter3/figures/sfr_dist.pdf, id=2711, 368.1222pt x 387.11125pt>
 File: Chapter3/figures/sfr_dist.pdf Graphic file (type pdf)
 <use Chapter3/figures/sfr_dist.pdf>
-Package pdftex.def Info: Chapter3/figures/sfr_dist.pdf  used on input line 209.
+Package pdftex.def Info: Chapter3/figures/sfr_dist.pdf  used on input line 219.
 
 (pdftex.def)             Requested size: 412.56496pt x 433.8747pt.
-[95] [96 <./Chapter3/figures/sfr-mass-stages.pdf>] [97 <./Chapter3/figures/stel
-lar-mass-dist.pdf>] [98 <./Chapter3/figures/sfr_dist.pdf>] [99] [100]
-<Chapter3/figures/sfr-clsf-dist.pdf, id=2859, 596.58884pt x 595.9496pt>
+[97] [98 <./Chapter3/figures/sfr-mass-stages.pdf>] [99 <./Chapter3/figures/stel
+lar-mass-dist.pdf>] [100 <./Chapter3/figures/sfr_dist.pdf>] [101] [102]
+<Chapter3/figures/sfr-clsf-dist.pdf, id=2889, 596.58884pt x 595.9496pt>
 File: Chapter3/figures/sfr-clsf-dist.pdf Graphic file (type pdf)
 <use Chapter3/figures/sfr-clsf-dist.pdf>
 Package pdftex.def Info: Chapter3/figures/sfr-clsf-dist.pdf  used on input line
- 240.
+ 250.
 (pdftex.def)             Requested size: 412.56496pt x 412.13321pt.
-<Chapter3/figures/sfr-clsf-bar.pdf, id=2862, 597.59259pt x 569.58481pt>
+<Chapter3/figures/sfr-clsf-bar.pdf, id=2892, 597.59259pt x 569.58481pt>
 File: Chapter3/figures/sfr-clsf-bar.pdf Graphic file (type pdf)
 <use Chapter3/figures/sfr-clsf-bar.pdf>
 Package pdftex.def Info: Chapter3/figures/sfr-clsf-bar.pdf  used on input line 
-247.
+257.
 (pdftex.def)             Requested size: 412.56496pt x 393.2399pt.
 
-Underfull \vbox (badness 1867) has occurred while \output is active []
-
- [101]
-[102 <./Chapter3/figures/sfr-clsf-dist.pdf>] [103 <./Chapter3/figures/sfr-clsf-
-bar.pdf>]
-<Chapter3/figures/sfr-enhancement-projected-sep.pdf, id=2994, 729.19864pt x 442
+[103] [104 <./Chapter3/figures/sfr-clsf-dist.pdf>] [105 <./Chapter3/figures/sfr
+-clsf-bar.pdf>]
+<Chapter3/figures/sfr-enhancement-projected-sep.pdf, id=3024, 729.19864pt x 442
 .17227pt>
 File: Chapter3/figures/sfr-enhancement-projected-sep.pdf Graphic file (type pdf
 )
 <use Chapter3/figures/sfr-enhancement-projected-sep.pdf>
 Package pdftex.def Info: Chapter3/figures/sfr-enhancement-projected-sep.pdf  us
-ed on input line 263.
+ed on input line 273.
 (pdftex.def)             Requested size: 412.56496pt x 250.17189pt.
- [104] [105 <./Chapter3/figures/sfr-enhancement-projected-sep.pdf>]
-[106]
-<Chapter3/figures/density-stage.pdf, id=3056, 580.39932pt x 582.1568pt>
+ [106] [107 <./Chapter3/figures/sfr-enhancement-projected-sep.pdf>] [108]
+<Chapter3/figures/density-stage.pdf, id=3086, 580.39932pt x 582.1568pt>
 File: Chapter3/figures/density-stage.pdf Graphic file (type pdf)
 <use Chapter3/figures/density-stage.pdf>
 Package pdftex.def Info: Chapter3/figures/density-stage.pdf  used on input line
- 281.
+ 291.
 (pdftex.def)             Requested size: 412.56496pt x 413.82277pt.
-<Chapter3/figures/sfr-mass-density.pdf, id=3061, 582.1951pt x 580.68132pt>
+<Chapter3/figures/sfr-mass-density.pdf, id=3091, 582.1951pt x 580.68132pt>
 File: Chapter3/figures/sfr-mass-density.pdf Graphic file (type pdf)
 <use Chapter3/figures/sfr-mass-density.pdf>
 Package pdftex.def Info: Chapter3/figures/sfr-mass-density.pdf  used on input l
-ine 290.
+ine 300.
 (pdftex.def)             Requested size: 412.56496pt x 411.48918pt.
- [107] [108 <./Chapter3/figures/density-stage.pdf>] [109 <./Chapter3/figures/sf
+ [109] [110 <./Chapter3/figures/density-stage.pdf>] [111 <./Chapter3/figures/sf
 r-mass-density.pdf>]
-<Chapter3/figures/agn-stage-dist.pdf, id=3176, 593.75826pt x 592.2144pt>
+<Chapter3/figures/agn-stage-dist.pdf, id=3205, 593.75826pt x 592.2144pt>
 File: Chapter3/figures/agn-stage-dist.pdf Graphic file (type pdf)
 <use Chapter3/figures/agn-stage-dist.pdf>
 Package pdftex.def Info: Chapter3/figures/agn-stage-dist.pdf  used on input lin
-e 304.
+e 314.
 (pdftex.def)             Requested size: 412.56496pt x 411.49294pt.
-<Chapter3/figures/agn-frac-time.pdf, id=3177, 422.09782pt x 374.3056pt>
+ [112]
+<Chapter3/figures/agn-frac-time.pdf, id=3211, 422.09782pt x 374.3056pt>
 File: Chapter3/figures/agn-frac-time.pdf Graphic file (type pdf)
 <use Chapter3/figures/agn-frac-time.pdf>
 Package pdftex.def Info: Chapter3/figures/agn-frac-time.pdf  used on input line
- 325.
+ 335.
 (pdftex.def)             Requested size: 412.56496pt x 365.85176pt.
- [110] [111 <./Chapter3/figures/agn-stage-dist.pdf>]
-[112 <./Chapter3/figures/agn-frac-time.pdf>]
-<Chapter3/figures/sfg-agn-dist.pdf, id=3297, 273.21825pt x 561.95511pt>
+ [113] [114 <./Chapter3/figures/agn-stage-dist.pdf>] [115 <./Chapter3/figures/a
+gn-frac-time.pdf>]
+<Chapter3/figures/sfg-agn-dist.pdf, id=3338, 273.21825pt x 561.95511pt>
 File: Chapter3/figures/sfg-agn-dist.pdf Graphic file (type pdf)
 <use Chapter3/figures/sfg-agn-dist.pdf>
 Package pdftex.def Info: Chapter3/figures/sfg-agn-dist.pdf  used on input line 
-337.
+347.
 (pdftex.def)             Requested size: 239.28842pt x 492.18968pt.
 
 
-LaTeX Warning: Float too large for page by 31.6344pt on input line 340.
+LaTeX Warning: Float too large for page by 31.6344pt on input line 350.
 
-[113] [114 <./Chapter3/figures/sfg-agn-dist.pdf>] [115] [116] [117] [118]
-[119] [120]) [121]
+[116] [117 <./Chapter3/figures/sfg-agn-dist.pdf>] [118] [119] [120] [121]
+[122] [123]) [124]
 \openout2 = `Chapter3/Chapter.aux'.
 
  (./Chapter3/Chapter.tex
 Chapter 4.
-[122
+[125
 
 
 
-] [123] [124]
+] [126] [127]
 
-LaTeX Warning: Reference `Methods' on page 125 undefined on input line 21.
+LaTeX Warning: Reference `Methods' on page 128 undefined on input line 21.
 
-[125]
+[128]
 Overfull \hbox (7.33002pt too wide) in paragraph at lines 33--91
  [][] 
  []
@@ -1053,12 +1052,12 @@ Overfull \hbox (7.33002pt too wide) in paragraph at lines 33--91
 
 LaTeX Warning: Float too large for page by 227.54385pt on input line 93.
 
-[126] [127]
+[129] [130]
 Underfull \vbox (badness 2213) has occurred while \output is active []
 
- [128]
-[129] [130] [131] [132] [133] [134] [135] [136] [137]
-<Chapter1/figures/mock-images.pdf, id=3719, 921.4425pt x 1355.0625pt>
+ [131]
+[132] [133] [134] [135] [136] [137] [138] [139] [140]
+<Chapter1/figures/mock-images.pdf, id=3759, 921.4425pt x 1355.0625pt>
 File: Chapter1/figures/mock-images.pdf Graphic file (type pdf)
 <use Chapter1/figures/mock-images.pdf>
 Package pdftex.def Info: Chapter1/figures/mock-images.pdf  used on input line 2
@@ -1068,7 +1067,7 @@ Package pdftex.def Info: Chapter1/figures/mock-images.pdf  used on input line 2
 
 LaTeX Warning: Float too large for page by 0.73883pt on input line 264.
 
-[138] [139] [140 <./Chapter1/figures/mock-images.pdf>]
+[141] [142] [143 <./Chapter1/figures/mock-images.pdf>]
 Overfull \hbox (101.20113pt too wide) in paragraph at lines 278--291
  [][] 
  []
@@ -1076,37 +1075,37 @@ Overfull \hbox (101.20113pt too wide) in paragraph at lines 278--291
 
 Underfull \vbox (badness 3503) has occurred while \output is active []
 
- [141]
-[142] [143] [144] [145] [146]
-<Chapter1/figures/arp240-obs-sim.pdf, id=3940, 858.1059pt x 429.90611pt>
+ [144]
+[145] [146] [147] [148] [149]
+<Chapter1/figures/arp240-obs-sim.pdf, id=3979, 858.1059pt x 429.90611pt>
 File: Chapter1/figures/arp240-obs-sim.pdf Graphic file (type pdf)
 <use Chapter1/figures/arp240-obs-sim.pdf>
 Package pdftex.def Info: Chapter1/figures/arp240-obs-sim.pdf  used on input lin
 e 358.
 (pdftex.def)             Requested size: 309.4237pt x 155.01535pt.
-<Chapter1/figures/Arp240-full-corner.pdf, id=3950, 2041.2941pt x 2052.66875pt>
+<Chapter1/figures/Arp240-full-corner.pdf, id=3989, 2041.2941pt x 2052.66875pt>
 File: Chapter1/figures/Arp240-full-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp240-full-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp240-full-corner.pdf  used on input
  line 367.
 (pdftex.def)             Requested size: 412.56496pt x 414.8488pt.
-<Chapter1/figures/Arp240-red-corner.pdf, id=3953, 860.01299pt x 415.89279pt>
+<Chapter1/figures/Arp240-red-corner.pdf, id=3992, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/Arp240-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp240-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp240-red-corner.pdf  used on input 
 line 374.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
- [147] [148 <./Chapter1/figures/arp240-obs-sim.pdf>] [149 <./Chapter1/figures/A
-rp240-full-corner.pdf>] [150 <./Chapter1/figures/Arp240-red-corner.pdf>] [151] 
-[152]
-<Chapter1/figures/best-fits-comb.pdf, id=4091, 2193.39445pt x 1300.86pt>
+ [150] [151 <./Chapter1/figures/arp240-obs-sim.pdf>] [152 <./Chapter1/figures/A
+rp240-full-corner.pdf>] [153 <./Chapter1/figures/Arp240-red-corner.pdf>] [154] 
+[155]
+<Chapter1/figures/best-fits-comb.pdf, id=4130, 2193.39445pt x 1300.86pt>
 File: Chapter1/figures/best-fits-comb.pdf Graphic file (type pdf)
 <use Chapter1/figures/best-fits-comb.pdf>
 Package pdftex.def Info: Chapter1/figures/best-fits-comb.pdf  used on input lin
 e 408.
 (pdftex.def)             Requested size: 412.56496pt x 244.68478pt.
- [153] [154 <./Chapter1/figures/best-fits-comb.pdf>] [155]
-<Chapter1/figures/arp-240-steps.pdf, id=4155, 287.97275pt x 700.94582pt>
+ [156] [157 <./Chapter1/figures/best-fits-comb.pdf>] [158]
+<Chapter1/figures/arp-240-steps.pdf, id=4195, 287.97275pt x 700.94582pt>
 File: Chapter1/figures/arp-240-steps.pdf Graphic file (type pdf)
 <use Chapter1/figures/arp-240-steps.pdf>
 Package pdftex.def Info: Chapter1/figures/arp-240-steps.pdf  used on input line
@@ -1116,110 +1115,110 @@ Package pdftex.def Info: Chapter1/figures/arp-240-steps.pdf  used on input line
 
 LaTeX Warning: Float too large for page by 18.53206pt on input line 429.
 
-[156] [157 <./Chapter1/figures/arp-240-steps.pdf>]
-<Chapter1/figures/Arp240_vel-red-corner.pdf, id=4225, 860.01299pt x 415.89279pt
+[159] [160 <./Chapter1/figures/arp-240-steps.pdf>]
+<Chapter1/figures/Arp240_vel-red-corner.pdf, id=4264, 860.01299pt x 415.89279pt
 >
 File: Chapter1/figures/Arp240_vel-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp240_vel-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp240_vel-red-corner.pdf  used on in
 put line 444.
 (pdftex.def)             Requested size: 371.30594pt x 179.5602pt.
- [158] [159 <./Chapter1/figures/Arp240_vel-red-corner.pdf>]
-<Chapter1/figures/Arp172-red-corner.pdf, id=4261, 860.01299pt x 415.89279pt>
+ [161] [162 <./Chapter1/figures/Arp240_vel-red-corner.pdf>]
+<Chapter1/figures/Arp172-red-corner.pdf, id=4302, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/Arp172-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp172-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp172-red-corner.pdf  used on input 
 line 460.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
-<Chapter1/figures/Arp290-red-corner.pdf, id=4262, 860.01299pt x 415.89279pt>
+<Chapter1/figures/Arp290-red-corner.pdf, id=4303, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/Arp290-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp290-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp290-red-corner.pdf  used on input 
 line 467.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
-<Chapter1/figures/Heart-red-corner.pdf, id=4263, 860.01299pt x 415.89279pt>
+<Chapter1/figures/Heart-red-corner.pdf, id=4304, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/Heart-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Heart-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Heart-red-corner.pdf  used on input l
 ine 474.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
-<Chapter1/figures/Arp57-red-corner.pdf, id=4264, 860.01299pt x 415.89279pt>
+<Chapter1/figures/Arp57-red-corner.pdf, id=4305, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/Arp57-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp57-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp57-red-corner.pdf  used on input l
 ine 481.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
-<Chapter1/figures/UGC11751-red-corner.pdf, id=4265, 860.01299pt x 415.89279pt>
+<Chapter1/figures/UGC11751-red-corner.pdf, id=4306, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/UGC11751-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/UGC11751-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/UGC11751-red-corner.pdf  used on inpu
 t line 488.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
- [160] [161 <./Chapter1/figures/Arp172-red-corner.pdf> <./Chapter1/figures/Arp2
-90-red-corner.pdf>] [162 <./Chapter1/figures/Heart-red-corner.pdf> <./Chapter1/
-figures/Arp57-red-corner.pdf>] [163 <./Chapter1/figures/UGC11751-red-corner.pdf
+ [163] [164 <./Chapter1/figures/Arp172-red-corner.pdf> <./Chapter1/figures/Arp2
+90-red-corner.pdf>] [165 <./Chapter1/figures/Heart-red-corner.pdf> <./Chapter1/
+figures/Arp57-red-corner.pdf>] [166 <./Chapter1/figures/UGC11751-red-corner.pdf
 >]
-<Chapter1/figures/39_51.pdf, id=4375, 1451.90428pt x 1027.22197pt>
+<Chapter1/figures/39_51.pdf, id=4414, 1451.90428pt x 1027.22197pt>
 File: Chapter1/figures/39_51.pdf Graphic file (type pdf)
 <use Chapter1/figures/39_51.pdf>
 Package pdftex.def Info: Chapter1/figures/39_51.pdf  used on input line 500.
 (pdftex.def)             Requested size: 412.56496pt x 291.88354pt.
- [164 <./Chapter1/figures/39_51.pdf>] [165]
-[166] [167]
-<Chapter1/figures/Arp240_obs-red-corner.pdf, id=4452, 860.01299pt x 415.89279pt
+ [167 <./Chapter1/figures/39_51.pdf>] [168]
+[169] [170]
+<Chapter1/figures/Arp240_obs-red-corner.pdf, id=4493, 860.01299pt x 415.89279pt
 >
 File: Chapter1/figures/Arp240_obs-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp240_obs-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp240_obs-red-corner.pdf  used on in
 put line 532.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
- [168] [169 <./Chapter1/figures/Arp240_obs-red-corner.pdf>] [170]
-[171] [172] [173]) [174] [175]
+ [171] [172 <./Chapter1/figures/Arp240_obs-red-corner.pdf>] [173]
+[174] [175] [176]) [177] [178]
 \openout2 = `Conclusion/conclusion.aux'.
 
  (./Conclusion/conclusion.tex
 Chapter 5.
-[176
+[179
 
 
 
-] [177] [178] [179] [180]) [181] (./appendix2/appx.tex
+] [180] [181] [182] [183]) [184] (./appendix2/appx.tex
 Appendix A.
-[182
+[185
 
 
 ]
-<Chapter2/figures/fig14.jpg, id=4572, 614.295pt x 303.1325pt>
+<Chapter2/figures/fig14.jpg, id=4611, 614.295pt x 303.1325pt>
 File: Chapter2/figures/fig14.jpg Graphic file (type jpg)
 <use Chapter2/figures/fig14.jpg>
 Package pdftex.def Info: Chapter2/figures/fig14.jpg  used on input line 14.
 (pdftex.def)             Requested size: 391.93544pt x 193.40746pt.
-<Chapter2/figures/fig15.pdf, id=4573, 728.14221pt x 717.54825pt>
+<Chapter2/figures/fig15.pdf, id=4612, 728.14221pt x 717.54825pt>
 File: Chapter2/figures/fig15.pdf Graphic file (type pdf)
 <use Chapter2/figures/fig15.pdf>
 Package pdftex.def Info: Chapter2/figures/fig15.pdf  used on input line 21.
 (pdftex.def)             Requested size: 391.93544pt x 386.23306pt.
-<Chapter2/figures/fig16.jpeg, id=4577, 859.2903pt x 570.933pt>
+<Chapter2/figures/fig16.jpeg, id=4616, 859.2903pt x 570.933pt>
 File: Chapter2/figures/fig16.jpeg Graphic file (type jpg)
 <use Chapter2/figures/fig16.jpeg>
 Package pdftex.def Info: Chapter2/figures/fig16.jpeg  used on input line 31.
 (pdftex.def)             Requested size: 391.93544pt x 260.41087pt.
- [183] [184 <./Chapter2/figures/fig14.jpg>] [185 <./Chapter2/figures/fig15.pdf>
-] [186 <./Chapter2/figures/fig16.jpeg>]
-<Chapter2/figures/fig17.pdf, id=4623, 867.24pt x 578.16pt>
+ [186] [187 <./Chapter2/figures/fig14.jpg>] [188 <./Chapter2/figures/fig15.pdf>
+] [189 <./Chapter2/figures/fig16.jpeg>]
+<Chapter2/figures/fig17.pdf, id=4663, 867.24pt x 578.16pt>
 File: Chapter2/figures/fig17.pdf Graphic file (type pdf)
 <use Chapter2/figures/fig17.pdf>
 Package pdftex.def Info: Chapter2/figures/fig17.pdf  used on input line 45.
 (pdftex.def)             Requested size: 391.93544pt x 261.28998pt.
- [187 <./Chapter2/figures/fig17.pdf>]) (./thesis.bbl [188] [189
+ [190 <./Chapter2/figures/fig17.pdf>]) (./thesis.bbl [191] [192
 
-] [190] [191] [192] [193] [194] [195] [196]
-[197] [198] [199] [200] [201] [202] [203])
+] [193] [194] [195] [196] [197] [198] [199]
+[200] [201] [202] [203] [204] [205] [206])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
-[204]
+[207]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
  (./thesis.aux (./preface/abstract.aux) (./preface/dedication.aux)
 (./preface/acknowledgements.aux) (./preface/declaration.aux)
@@ -1229,7 +1228,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: AB7190642A475255FD8C8E66A67DFB49;7905.
+(rerunfilecheck)             Checksum: C9CF0BAE9318FB2D9972C483C29C95AD;8065.
 
 
 LaTeX Warning: There were undefined references.
@@ -1244,10 +1243,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
 ### simple group (level 1) entered at line 152 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12095 strings out of 480876
- 200146 string characters out of 5911487
- 575154 words of memory out of 5000000
- 26673 multiletter control sequences out of 15000+600000
+ 12103 strings out of 480876
+ 200258 string characters out of 5911487
+ 575293 words of memory out of 5000000
+ 26676 multiletter control sequences out of 15000+600000
  548954 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  51i,12n,50p,1919b,1077s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1303,10 +1302,10 @@ nts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2020/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/a
 msfonts/symbols/msam10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-su
 per/sfrm1200.pfb>
-Output written on thesis.pdf (223 pages, 11599146 bytes).
+Output written on thesis.pdf (226 pages, 11607508 bytes).
 PDF statistics:
- 5532 PDF objects out of 6186 (max. 8388607)
- 3879 compressed objects within 39 object streams
- 692 named destinations out of 1000 (max. 500000)
- 1059 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5573 PDF objects out of 6186 (max. 8388607)
+ 3910 compressed objects within 40 object streams
+ 697 named destinations out of 1000 (max. 500000)
+ 1075 words of extra memory for PDF output out of 10000 (max. 10000000)
 
