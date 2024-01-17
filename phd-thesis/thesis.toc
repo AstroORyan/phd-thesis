@@ -40,11 +40,11 @@
 \contentsline {subsection}{\numberline {3.3.1}A Catalogue of Interacting Galaxies}{73}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}The COSMOS2020 Catalogue}{74}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Secondary Identification}{76}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Finding Additional Systems}{80}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Sample Summary}{80}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}METHOD: Environment, AGN and Interaction Stage}{82}{section.3.4}%
+\contentsline {subsection}{\numberline {3.3.4}Finding Additional Systems}{81}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Sample Summary}{81}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}METHOD: Environment, AGN and Interaction Stage}{81}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Classifying Stage of Interaction}{82}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Redshift Effects on Visual Classification}{89}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.2}Redshift Effects on Visual Classification}{90}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Matching to Environment Catalogue}{92}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4}Classifying AGN}{93}{subsection.3.4.4}%
 \contentsline {subsection}{\numberline {3.4.5}Aside: Mass Ratios in Sample}{94}{subsection.3.4.5}%
@@ -53,10 +53,10 @@
 \contentsline {subsection}{\numberline {3.5.2}Projected Separation and Star Formation Enhancement}{106}{subsection.3.5.2}%
 \contentsline {subsection}{\numberline {3.5.3}Controlling for Galactic Environment}{109}{subsection.3.5.3}%
 \contentsline {section}{\numberline {3.6}Nuclear Activity with Interaction Stage}{112}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Discussion}{116}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Interaction Stage and Projected Separation}{116}{subsection.3.7.1}%
+\contentsline {section}{\numberline {3.7}Discussion}{117}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Interaction Stage and Projected Separation}{117}{subsection.3.7.1}%
 \contentsline {subsection}{\numberline {3.7.2}Interaction Stage and AGN}{120}{subsection.3.7.2}%
-\contentsline {section}{\numberline {3.8}Conclusions}{122}{section.3.8}%
+\contentsline {section}{\numberline {3.8}Conclusions}{121}{section.3.8}%
 \contentsline {chapter}{\numberline {4}Advanced PySPAM: An Infrastructure to Constrain Underlying Interacting Galaxy Parameters}{125}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Abstract}{125}{section.4.1}%
 \contentsline {section}{\numberline {4.2}INTRODUCTION}{126}{section.4.2}%

@@ -22,10 +22,10 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Comparison of the measures of stellar mass and SFR using either LePhare or EAzY/FAST photometric codes to calculate them.}}{75}{figure.caption.25}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces An example of each visual classification made on the cross matched sample.}}{77}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Where a secondary could be identified at different stages in the interaction.}}{79}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces The mass distribution of the paired interacting galaxy sample and the control sample.}}{81}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Where a secondary could be identified at different stages in the interaction.}}{78}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The mass distribution of the paired interacting galaxy sample and the control sample.}}{80}{figure.caption.28}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Examples of the four stages we split our interacting galaxy sample into.}}{84}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces The progression through an interaction using our stage definitions.}}{87}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The progression through an interaction using our stage definitions.}}{86}{figure.caption.30}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces The projected separations of the confirmed galaxy pairs in our sample.}}{88}{figure.caption.31}%
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Redshift vs Mass distribution for each stage of interaction we have defined.}}{91}{figure.caption.33}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces The distribution of mass ratios in our paired sample and across each stage of interaction.}}{95}{figure.caption.34}%
@@ -34,12 +34,12 @@
 \contentsline {figure}{\numberline {3.13}{\ignorespaces SFR distribution weighted by mass across each stage.}}{100}{figure.caption.37}%
 \contentsline {figure}{\numberline {3.14}{\ignorespaces Stellar mass against the ratio of measured SFR to the expected SFR if the galaxy was on the SFMS.}}{104}{figure.caption.38}%
 \contentsline {figure}{\numberline {3.15}{\ignorespaces The change in fraction of different galaxy classifications from the fraction of SFR to the expected SFR on the SFMS.}}{105}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces The projected separation against the star formation enhancement in average star formation at different bins of projected separation.}}{107}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces The projected separation against the star formation enhancement in average star formation at different bins of projected separation.}}{108}{figure.caption.40}%
 \contentsline {figure}{\numberline {3.17}{\ignorespaces The density about each of our sources matched with the \citet {2017ApJ...837...16D} catalogue.}}{110}{figure.caption.41}%
 \contentsline {figure}{\numberline {3.18}{\ignorespaces The distribution of environment classifications through our sample.}}{111}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces The distribution of AGN through stage with SFR and stellar mass.}}{114}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces The change in AGN fraction with stage.}}{115}{figure.caption.45}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces The distribution of both AGN and SFGs which have been cross matched with our confirmed galaxy pairs.}}{117}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces The distribution of AGN through stage with SFR and stellar mass.}}{113}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces The change in AGN fraction with stage.}}{114}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces The distribution of both AGN and SFGs which have been cross matched with our confirmed galaxy pairs.}}{116}{figure.caption.46}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Our mock observations of each interacting system.}}{143}{figure.caption.50}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces The example system used to test our MCMC: the Arp 240 interacting system.}}{151}{figure.caption.52}%
