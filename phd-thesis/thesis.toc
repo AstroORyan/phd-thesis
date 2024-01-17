@@ -34,29 +34,29 @@
 \contentsline {subsection}{\numberline {2.7.3}Source Redshifts and Photometry}{58}{subsection.2.7.3}%
 \contentsline {section}{\numberline {2.8}Conclusion}{65}{section.2.8}%
 \contentsline {chapter}{\numberline {3}When do the effects of interaction happen? Interacting and disturbed galaxies in the COSMOS field}{69}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Abstract}{69}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Introduction}{70}{section.3.2}%
-\contentsline {section}{\numberline {3.3}DATA: Catalogue Matching \& Secondary Identification}{73}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}A Catalogue of Interacting Galaxies}{73}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}The COSMOS2020 Catalogue}{74}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Secondary Identification}{76}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Finding Additional Systems}{81}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Sample Summary}{81}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}METHOD: Environment, AGN and Interaction Stage}{81}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Classifying Stage of Interaction}{82}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Redshift Effects on Visual Classification}{90}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Matching to Environment Catalogue}{92}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Classifying AGN}{93}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Aside: Mass Ratios in Sample}{94}{subsection.3.4.5}%
-\contentsline {section}{\numberline {3.5}STAR FORMATION EVOLUTION WITH INTERACTION STAGE}{96}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Controlling for Interaction Stage}{96}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Projected Separation and Star Formation Enhancement}{106}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Controlling for Galactic Environment}{109}{subsection.3.5.3}%
-\contentsline {section}{\numberline {3.6}Nuclear Activity with Interaction Stage}{112}{section.3.6}%
-\contentsline {section}{\numberline {3.7}Discussion}{117}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Interaction Stage and Projected Separation}{117}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Interaction Stage and AGN}{120}{subsection.3.7.2}%
-\contentsline {section}{\numberline {3.8}Conclusions}{121}{section.3.8}%
+\contentsline {section}{\numberline {3.1}Introduction}{69}{section.3.1}%
+\contentsline {section}{\numberline {3.2}DATA: Catalogue Matching \& Secondary Identification}{72}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}A Catalogue of Interacting Galaxies}{72}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}The COSMOS2020 Catalogue}{73}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Secondary Identification}{75}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Finding Additional Systems}{79}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Creating the Volume-Limited Sample}{79}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Sample Summary}{81}{subsection.3.2.6}%
+\contentsline {section}{\numberline {3.3}METHOD: Environment, AGN and Interaction Stage}{81}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Classifying Stage of Interaction}{83}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Matching to Environment Catalogue}{91}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Classifying AGN}{92}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Visual Classification: Sources of Contamination}{93}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Aside: Mass Ratios in Sample}{94}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}STAR FORMATION EVOLUTION WITH INTERACTION STAGE}{95}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Controlling for Interaction Stage}{95}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Projected Separation and Star Formation Enhancement}{106}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Controlling for Galactic Environment}{109}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Nuclear Activity with Interaction Stage}{112}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Discussion}{116}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Interaction Stage and Projected Separation}{116}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Interaction Stage and AGN}{120}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}Conclusions}{122}{section.3.7}%
 \contentsline {chapter}{\numberline {4}Advanced PySPAM: An Infrastructure to Constrain Underlying Interacting Galaxy Parameters}{125}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Abstract}{125}{section.4.1}%
 \contentsline {section}{\numberline {4.2}INTRODUCTION}{126}{section.4.2}%
