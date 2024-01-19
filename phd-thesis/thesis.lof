@@ -3,64 +3,64 @@
 \contentsline {figure}{\numberline {1.1}{\ignorespaces The declining merger rates from z = 3 to z = 0.}}{5}{figure.caption.3}%
 \contentsline {figure}{\numberline {1.2}{\ignorespaces The Hubble tuning fork.}}{7}{figure.caption.4}%
 \contentsline {figure}{\numberline {1.3}{\ignorespaces The distribution of galaxies in colour-colour space showing two distinct populations in a clear bi-modal structure.}}{10}{figure.caption.5}%
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Examples of a major, a minor and a micro interaction.}}{14}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Examples of a major, a minor and a micro interaction.}}{13}{figure.caption.6}%
 \contentsline {figure}{\numberline {1.5}{\ignorespaces Examples of a collisional ring galaxy and a system containing shells.}}{17}{figure.caption.7}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Example images of the labelled interacting galaxy systems used to train \texttt {Zoobot}.}}{37}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Example images of the labelled non-interacting galaxy systems used to train \texttt {Zoobot}}}{38}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The distribution of prediction scores given to our validation set of 3,270 labelled sources set aside by \texttt {Zoobot} in training.}}{41}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces A measure of accuracy and purity against prediction score.}}{43}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Confusion matrices of four different cutoffs of prediction score defining a binary classification of interacting galaxy or not.}}{44}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Flow diagram of our contamination and duplication removal process.}}{45}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces The representation distribution of 54,757 candidate interacting galaxies.}}{49}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Scatter plot showing the precise distribution of each representation of sources in the remaining 54,757 sources.}}{50}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces An example of 50 of the final interacting systems found with \texttt {Zoobot}.}}{53}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Sky Distribution of our catalogue, with marked positions of well known deep surveys conducted by \emph {HST}.}}{54}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces The redshift distribution of a subsample of our catalogue.}}{59}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces The distribution of redshift with magnitude for all sources with available data.}}{60}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces The colour-magnitude distribution of sources with a redshift measurement associated.}}{63}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Example images of the labelled interacting galaxy systems used to train \texttt {Zoobot}.}}{36}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Example images of the labelled non-interacting galaxy systems used to train \texttt {Zoobot}}}{37}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The distribution of prediction scores given to our validation set of 3,270 labelled sources set aside by \texttt {Zoobot} in training.}}{40}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces A measure of accuracy and purity against prediction score.}}{41}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Confusion matrices of four different cutoffs of prediction score defining a binary classification of interacting galaxy or not.}}{43}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Flow diagram of our contamination and duplication removal process.}}{44}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The representation distribution of 54,757 candidate interacting galaxies.}}{48}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Scatter plot showing the precise distribution of each representation of sources in the remaining 54,757 sources.}}{49}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces An example of 50 of the final interacting systems found with \texttt {Zoobot}.}}{52}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Sky Distribution of our catalogue, with marked positions of well known deep surveys conducted by \emph {HST}.}}{53}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces The redshift distribution of a subsample of our catalogue.}}{58}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces The distribution of redshift with magnitude for all sources with available data.}}{59}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces The colour-magnitude distribution of sources with a redshift measurement associated.}}{62}{figure.caption.23}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Comparison of the measures of stellar mass and SFR using either \texttt {LePhare} or \texttt {EAzY}/\texttt {FAST} photometric codes to calculate them.}}{70}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces An example of each visual classification made on the cross matched sample.}}{72}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Where a secondary could be identified at different stages in the interaction.}}{73}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces The mass distribution of the paired interacting galaxy sample and the control sample.}}{75}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Redshift vs Mass distribution for each stage of interaction we have defined.}}{77}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Examples of the four stages we split our interacting galaxy sample into.}}{80}{figure.caption.29}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces The progression through an interaction using our stage definitions.}}{83}{figure.caption.30}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces The projected separations of the confirmed galaxy pairs in our sample.}}{84}{figure.caption.31}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces The measured distribution of projected separation with redshift.}}{86}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces The scatter in photometric redshifts of our paired sample.}}{89}{figure.caption.33}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces The change in found interaction type across our redshift distribution.}}{92}{figure.caption.34}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces The density about each of our sources matched with the \citet {2017ApJ...837...16D} catalogue.}}{94}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces The distribution of environment classifications through our sample.}}{95}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces The distribution of mass ratios in our paired sample and across each stage of interaction.}}{97}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces The \texttt {LePhare} stellar mass against the \texttt {EAzY} SFR across the different stages of the interaction.}}{99}{figure.caption.38}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces The stellar mass distribution across the four stages.}}{101}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces SFR distribution weighted by mass across each stage.}}{102}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Stellar mass against the ratio of measured SFR to the expected SFR if the galaxy was on the SFMS.}}{106}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces The change in fraction of different galaxy classifications from the fraction of SFR to the expected SFR on the SFMS.}}{107}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces The projected separation against the SFE in average star formation at different bins of projected separation.}}{109}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces The distribution of AGN through stage with SFR and stellar mass.}}{112}{figure.caption.44}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces The change in AGN fraction with stage.}}{113}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces The distribution of both AGN and SFGs which have been matched our confirmed galaxy pairs.}}{115}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Comparison of the measures of stellar mass and SFR using either \texttt {LePhare} or \texttt {EAzY}/\texttt {FAST} photometric codes to calculate them.}}{68}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces An example of each visual classification made on the cross matched sample.}}{70}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Where a secondary could be identified at different stages in the interaction.}}{72}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The mass distribution of the paired interacting galaxy sample and the control sample.}}{74}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Redshift vs Mass distribution for each stage of interaction we have defined.}}{76}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Examples of the four stages we split our interacting galaxy sample into.}}{78}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces The progression through an interaction using our stage definitions.}}{81}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces The projected separations of the confirmed galaxy pairs in our sample.}}{83}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The measured distribution of projected separation with redshift.}}{84}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces The scatter in photometric redshifts of our paired sample.}}{88}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces The change in found interaction type across our redshift distribution.}}{91}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces The density about each of our sources matched with the \citet {2017ApJ...837...16D} catalogue.}}{93}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces The distribution of environment classifications through our sample.}}{94}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces The distribution of mass ratios in our paired sample and across each stage of interaction.}}{96}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces The \texttt {LePhare} stellar mass against the \texttt {EAzY} SFR across the different stages of the interaction.}}{98}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces The stellar mass distribution across the four stages.}}{100}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces SFR distribution weighted by mass across each stage.}}{101}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Stellar mass against the ratio of measured SFR to the expected SFR if the galaxy was on the SFMS.}}{104}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces The change in fraction of different galaxy classifications from the fraction of SFR to the expected SFR on the SFMS.}}{105}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces The projected separation against the SFE in average star formation at different bins of projected separation.}}{108}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces The distribution of AGN through stage with SFR and stellar mass.}}{111}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces The change in AGN fraction with stage.}}{112}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces The distribution of both AGN and SFGs which have been matched our confirmed galaxy pairs.}}{114}{figure.caption.47}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Our mock observations of each interacting system.}}{140}{figure.caption.51}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces The example system used to test our MCMC: the Arp 240 interacting system.}}{148}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Corner plot showing the constraints made on all thirteen parameters we are exploring.}}{149}{figure.caption.54}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Same as Figure \ref {fig:corner_plot}, but reduced to only corresponding parameters.}}{150}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Simulations from the areas of parameter space that lay within the 11.8\% CI of our constraints.}}{154}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Steps taken by each walker in our MCMC chain to constrain the Arp 240 best fit simulation.}}{156}{figure.caption.57}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces The reduced corner plot of the synthetic Arp 240 system with a velocity map also used for constrained.}}{159}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Second example of our best fits from our methodology is representative of the simulated image of Arp 172, a stage 3 system.}}{161}{figure.caption.59}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Third example of our best fits from our methodology is representative of the simulated image of Arp 290, a stage 2 system.}}{161}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces First example of our worst fits.}}{162}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Second example of our worst fits.}}{162}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Third example of our worst fits.}}{163}{figure.caption.63}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces The distribution of parameter values used to create our synthetic interaction images and the best-fit values we recover from our algorithm.}}{164}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Reduced corner plot of the constraints made on the observational image of Arp 240.}}{168}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Our mock observations of each interacting system.}}{138}{figure.caption.51}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The example system used to test our MCMC: the Arp 240 interacting system.}}{146}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Corner plot showing the constraints made on all thirteen parameters we are exploring.}}{147}{figure.caption.54}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Same as Figure \ref {fig:corner_plot}, but reduced to only corresponding parameters.}}{148}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Simulations from the areas of parameter space that lay within the 11.8\% CI of our constraints.}}{152}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Steps taken by each walker in our MCMC chain to constrain the Arp 240 best fit simulation.}}{154}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The reduced corner plot of the synthetic Arp 240 system with a velocity map also used for constrained.}}{157}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Second example of our best fits from our methodology is representative of the simulated image of Arp 172, a stage 3 system.}}{159}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Third example of our best fits from our methodology is representative of the simulated image of Arp 290, a stage 2 system.}}{159}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces First example of our worst fits.}}{160}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Second example of our worst fits.}}{160}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Third example of our worst fits.}}{161}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces The distribution of parameter values used to create our synthetic interaction images and the best-fit values we recover from our algorithm.}}{162}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Reduced corner plot of the constraints made on the observational image of Arp 240.}}{166}{figure.caption.65}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces The Receiver-Operator and Precision-Recall Curve for the \texttt {Zoobot} model that was used to explore the Hubble archives.}}{183}{figure.caption.66}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces The F1 score found during the diagnostics of the model used in this work. The F1 score is a measure combing the measure of accuracy and purity into one metric.}}{184}{figure.caption.67}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Example of six interacting systems in the catalogue with full 3-band imagery.}}{185}{figure.caption.68}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces The six unknown systems found in this work.}}{186}{figure.caption.69}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces The Receiver-Operator and Precision-Recall Curve for the \texttt {Zoobot} model that was used to explore the Hubble archives.}}{181}{figure.caption.66}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces The F1 score found during the diagnostics of the model used in this work. The F1 score is a measure combing the measure of accuracy and purity into one metric.}}{182}{figure.caption.67}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Example of six interacting systems in the catalogue with full 3-band imagery.}}{183}{figure.caption.68}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces The six unknown systems found in this work.}}{184}{figure.caption.69}%
