@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  19 JAN 2024 17:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  19 JAN 2024 18:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -818,19 +818,19 @@ Package pdftex.def Info: Chapter2/figures/fig10.pdf  used on input line 257.
 <Chapter2/figures/fig11.jpeg, id=1829, 518.8986pt x 500.8311pt>
 File: Chapter2/figures/fig11.jpeg Graphic file (type jpg)
 <use Chapter2/figures/fig11.jpeg>
-Package pdftex.def Info: Chapter2/figures/fig11.jpeg  used on input line 317.
+Package pdftex.def Info: Chapter2/figures/fig11.jpeg  used on input line 316.
 (pdftex.def)             Requested size: 391.93544pt x 378.30476pt.
 <Chapter2/figures/fig12.pdf, id=1830, 433.62pt x 505.89pt>
 File: Chapter2/figures/fig12.pdf Graphic file (type pdf)
 <use Chapter2/figures/fig12.pdf>
-Package pdftex.def Info: Chapter2/figures/fig12.pdf  used on input line 324.
+Package pdftex.def Info: Chapter2/figures/fig12.pdf  used on input line 323.
 (pdftex.def)             Requested size: 391.93544pt x 457.28062pt.
  [58] [59 <./Chapter2/figures/fig11.jpeg>] [60 <./Chapter2/figures/fig12.pdf>] 
 [61]
 <Chapter2/figures/fig13.pdf, id=1902, 527.04938pt x 518.80324pt>
 File: Chapter2/figures/fig13.pdf Graphic file (type pdf)
 <use Chapter2/figures/fig13.pdf>
-Package pdftex.def Info: Chapter2/figures/fig13.pdf  used on input line 355.
+Package pdftex.def Info: Chapter2/figures/fig13.pdf  used on input line 354.
 (pdftex.def)             Requested size: 391.93544pt x 385.80829pt.
  [62] [63 <./Chapter2/figures/fig13.pdf>] [64]) [65]
 \openout2 = `Chapter2/Chapter.aux'.
@@ -1057,22 +1057,18 @@ File: Chapter1/figures/mock-images.pdf Graphic file (type pdf)
 <use Chapter1/figures/mock-images.pdf>
 Package pdftex.def Info: Chapter1/figures/mock-images.pdf  used on input line 2
 52.
-(pdftex.def)             Requested size: 350.68272pt x 515.69414pt.
+(pdftex.def)             Requested size: 371.30594pt x 546.02666pt.
 
 
-LaTeX Warning: Float too large for page by 0.73883pt on input line 255.
+LaTeX Warning: Float too large for page by 31.07135pt on input line 255.
 
 
 Underfull \vbox (badness 1248) has occurred while \output is active []
 
  [138]
-[139] [140 <./Chapter1/figures/mock-images.pdf>] [141]
-Overfull \hbox (101.20113pt too wide) in paragraph at lines 269--282
- [][] 
- []
-
-[142] [143] [144] [145] [146]
-<Chapter1/figures/arp240-obs-sim.pdf, id=3916, 858.1059pt x 429.90611pt>
+[139] [140 <./Chapter1/figures/mock-images.pdf>] [141] [142] [143] [144]
+[145] [146]
+<Chapter1/figures/arp240-obs-sim.pdf, id=3917, 858.1059pt x 429.90611pt>
 File: Chapter1/figures/arp240-obs-sim.pdf Graphic file (type pdf)
 <use Chapter1/figures/arp240-obs-sim.pdf>
 Package pdftex.def Info: Chapter1/figures/arp240-obs-sim.pdf  used on input lin
@@ -1100,8 +1096,8 @@ File: Chapter1/figures/best-fits-comb.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter1/figures/best-fits-comb.pdf  used on input lin
 e 399.
 (pdftex.def)             Requested size: 412.56496pt x 244.68478pt.
- [154 <./Chapter1/figures/best-fits-comb.pdf>] [155]
-<Chapter1/figures/arp-240-steps.pdf, id=4132, 287.97275pt x 700.94582pt>
+ [154 <./Chapter1/figures/best-fits-comb.pdf>]
+<Chapter1/figures/arp-240-steps.pdf, id=4127, 287.97275pt x 700.94582pt>
 File: Chapter1/figures/arp-240-steps.pdf Graphic file (type pdf)
 <use Chapter1/figures/arp-240-steps.pdf>
 Package pdftex.def Info: Chapter1/figures/arp-240-steps.pdf  used on input line
@@ -1111,7 +1107,7 @@ Package pdftex.def Info: Chapter1/figures/arp-240-steps.pdf  used on input line
 
 LaTeX Warning: Float too large for page by 18.53206pt on input line 420.
 
-[156] [157 <./Chapter1/figures/arp-240-steps.pdf>]
+[155] [156 <./Chapter1/figures/arp-240-steps.pdf>] [157]
 <Chapter1/figures/Arp240_vel-red-corner.pdf, id=4203, 860.01299pt x 415.89279pt
 >
 File: Chapter1/figures/Arp240_vel-red-corner.pdf Graphic file (type pdf)
@@ -1120,31 +1116,31 @@ Package pdftex.def Info: Chapter1/figures/Arp240_vel-red-corner.pdf  used on in
 put line 435.
 (pdftex.def)             Requested size: 371.30594pt x 179.5602pt.
  [158] [159 <./Chapter1/figures/Arp240_vel-red-corner.pdf>]
-<Chapter1/figures/Arp172-red-corner.pdf, id=4238, 860.01299pt x 415.89279pt>
+<Chapter1/figures/Arp172-red-corner.pdf, id=4239, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/Arp172-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp172-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp172-red-corner.pdf  used on input 
 line 451.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
-<Chapter1/figures/Arp290-red-corner.pdf, id=4239, 860.01299pt x 415.89279pt>
+<Chapter1/figures/Arp290-red-corner.pdf, id=4240, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/Arp290-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp290-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp290-red-corner.pdf  used on input 
 line 458.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
-<Chapter1/figures/Heart-red-corner.pdf, id=4240, 860.01299pt x 415.89279pt>
+<Chapter1/figures/Heart-red-corner.pdf, id=4241, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/Heart-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Heart-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Heart-red-corner.pdf  used on input l
 ine 465.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
-<Chapter1/figures/Arp57-red-corner.pdf, id=4241, 860.01299pt x 415.89279pt>
+<Chapter1/figures/Arp57-red-corner.pdf, id=4242, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/Arp57-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp57-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp57-red-corner.pdf  used on input l
 ine 472.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
-<Chapter1/figures/UGC11751-red-corner.pdf, id=4242, 860.01299pt x 415.89279pt>
+<Chapter1/figures/UGC11751-red-corner.pdf, id=4243, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/UGC11751-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/UGC11751-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/UGC11751-red-corner.pdf  used on inpu
@@ -1159,8 +1155,8 @@ File: Chapter1/figures/39_51.pdf Graphic file (type pdf)
 <use Chapter1/figures/39_51.pdf>
 Package pdftex.def Info: Chapter1/figures/39_51.pdf  used on input line 491.
 (pdftex.def)             Requested size: 412.56496pt x 291.88354pt.
- [164 <./Chapter1/figures/39_51.pdf>] [165]
-[166] [167]
+ [164 <./Chapter1/figures/39_51.pdf>]
+[165] [166] [167]
 <Chapter1/figures/Arp240_obs-red-corner.pdf, id=4430, 860.01299pt x 415.89279pt
 >
 File: Chapter1/figures/Arp240_obs-red-corner.pdf Graphic file (type pdf)
@@ -1168,50 +1164,50 @@ File: Chapter1/figures/Arp240_obs-red-corner.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter1/figures/Arp240_obs-red-corner.pdf  used on in
 put line 523.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
- [168] [169 <./Chapter1/figures/Arp240_obs-red-corner.pdf>] [170]
-[171] [172] [173]) [174] [175]
+ [168 <./Chapter1/figures/Arp240_obs-red-corner.pdf>] [169]
+[170] [171] [172] [173]) [174]
 \openout2 = `Conclusion/conclusion.aux'.
 
  (./Conclusion/conclusion.tex
 Chapter 5.
-[176
+[175
 
 
 
-] [177] [178] [179] [180]) [181] (./appendix2/appx.tex
+] [176] [177] [178] [179]) [180] (./appendix2/appx.tex
 Appendix A.
-[182
+[181
 
 
 ]
-<Chapter2/figures/fig14.jpg, id=4550, 614.295pt x 303.1325pt>
+<Chapter2/figures/fig14.jpg, id=4546, 614.295pt x 303.1325pt>
 File: Chapter2/figures/fig14.jpg Graphic file (type jpg)
 <use Chapter2/figures/fig14.jpg>
 Package pdftex.def Info: Chapter2/figures/fig14.jpg  used on input line 14.
 (pdftex.def)             Requested size: 391.93544pt x 193.40746pt.
-<Chapter2/figures/fig15.pdf, id=4551, 728.14221pt x 717.54825pt>
+<Chapter2/figures/fig15.pdf, id=4547, 728.14221pt x 717.54825pt>
 File: Chapter2/figures/fig15.pdf Graphic file (type pdf)
 <use Chapter2/figures/fig15.pdf>
 Package pdftex.def Info: Chapter2/figures/fig15.pdf  used on input line 21.
 (pdftex.def)             Requested size: 391.93544pt x 386.23306pt.
-<Chapter2/figures/fig16.jpeg, id=4555, 859.2903pt x 570.933pt>
+<Chapter2/figures/fig16.jpeg, id=4551, 859.2903pt x 570.933pt>
 File: Chapter2/figures/fig16.jpeg Graphic file (type jpg)
 <use Chapter2/figures/fig16.jpeg>
 Package pdftex.def Info: Chapter2/figures/fig16.jpeg  used on input line 31.
 (pdftex.def)             Requested size: 391.93544pt x 260.41087pt.
- [183] [184 <./Chapter2/figures/fig14.jpg>] [185 <./Chapter2/figures/fig15.pdf>
-] [186 <./Chapter2/figures/fig16.jpeg>]
-<Chapter2/figures/fig17.pdf, id=4600, 867.24pt x 578.16pt>
+ [182] [183 <./Chapter2/figures/fig14.jpg>] [184 <./Chapter2/figures/fig15.pdf>
+] [185 <./Chapter2/figures/fig16.jpeg>]
+<Chapter2/figures/fig17.pdf, id=4596, 867.24pt x 578.16pt>
 File: Chapter2/figures/fig17.pdf Graphic file (type pdf)
 <use Chapter2/figures/fig17.pdf>
 Package pdftex.def Info: Chapter2/figures/fig17.pdf  used on input line 45.
 (pdftex.def)             Requested size: 391.93544pt x 261.28998pt.
- [187 <./Chapter2/figures/fig17.pdf>]) (./thesis.bbl [188] [189
+ [186 <./Chapter2/figures/fig17.pdf>]) (./thesis.bbl [187] [188
 
-] [190] [191] [192] [193] [194] [195] [196]
-[197] [198] [199] [200] [201] [202])
+] [189] [190] [191] [192] [193] [194] [195]
+[196] [197] [198] [199] [200] [201])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
- [203]
+ [202]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
  (./thesis.aux
 (./preface/abstract.aux) (./preface/dedication.aux)
@@ -1222,7 +1218,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7CF82D720E59B5F191B5A3682E91F621;7873.
+(rerunfilecheck)             Checksum: BEE5441B0CA75FC8140B1EB08E6FDEB2;7873.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1234,8 +1230,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
 ### simple group (level 1) entered at line 152 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12010 strings out of 480876
- 198501 string characters out of 5911487
+ 12009 strings out of 480876
+ 198493 string characters out of 5911487
  574861 words of memory out of 5000000
  26613 multiletter control sequences out of 15000+600000
  548954 words of font info for 81 fonts, out of 8000000 for 9000
@@ -1280,20 +1276,21 @@ mmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb>
 e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2020/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c
-:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/
-2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2020/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2020/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2020/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/a
-msfonts/symbols/msam10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-su
-per/sfrm1200.pfb>
-Output written on thesis.pdf (221 pages, 11584146 bytes).
+public/amsfonts/cm/cmr6.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:
+/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2
+020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2020/texmf-dist/font
+s/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/sym
+bols/msam10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm120
+0.pfb>
+Output written on thesis.pdf (220 pages, 11537319 bytes).
 PDF statistics:
- 5453 PDF objects out of 6186 (max. 8388607)
- 3746 compressed objects within 38 object streams
- 665 named destinations out of 1000 (max. 500000)
+ 5452 PDF objects out of 6186 (max. 8388607)
+ 3745 compressed objects within 38 object streams
+ 664 named destinations out of 1000 (max. 500000)
  1061 words of extra memory for PDF output out of 10000 (max. 10000000)
 

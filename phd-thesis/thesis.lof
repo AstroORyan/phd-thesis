@@ -49,7 +49,7 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Corner plot showing the constraints made on all thirteen parameters we are exploring.}}{149}{figure.caption.54}%
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Same as Figure \ref {fig:corner_plot}, but reduced to only corresponding parameters.}}{150}{figure.caption.55}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Simulations from the areas of parameter space that lay within the 11.8\% CI of our constraints.}}{154}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Steps taken by each walker in our MCMC chain to constrain the Arp 240 best fit simulation.}}{157}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Steps taken by each walker in our MCMC chain to constrain the Arp 240 best fit simulation.}}{156}{figure.caption.57}%
 \contentsline {figure}{\numberline {4.7}{\ignorespaces The reduced corner plot of the synthetic Arp 240 system with a velocity map also used for constrained.}}{159}{figure.caption.58}%
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Second example of our best fits from our methodology is representative of the simulated image of Arp 172, a stage 3 system.}}{161}{figure.caption.59}%
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Third example of our best fits from our methodology is representative of the simulated image of Arp 290, a stage 2 system.}}{161}{figure.caption.60}%
@@ -57,10 +57,10 @@
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Second example of our worst fits.}}{162}{figure.caption.62}%
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Third example of our worst fits.}}{163}{figure.caption.63}%
 \contentsline {figure}{\numberline {4.13}{\ignorespaces The distribution of parameter values used to create our synthetic interaction images and the best-fit values we recover from our algorithm.}}{164}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Reduced corner plot of the constraints made on the observational image of Arp 240.}}{169}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Reduced corner plot of the constraints made on the observational image of Arp 240.}}{168}{figure.caption.65}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces The Receiver-Operator and Precision-Recall Curve for the \texttt {Zoobot} model that was used to explore the Hubble archives.}}{184}{figure.caption.66}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces The F1 score found during the diagnostics of the model used in this work. The F1 score is a measure combing the measure of accuracy and purity into one metric.}}{185}{figure.caption.67}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Example of six interacting systems in the catalogue with full 3-band imagery.}}{186}{figure.caption.68}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces The six unknown systems found in this work.}}{187}{figure.caption.69}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces The Receiver-Operator and Precision-Recall Curve for the \texttt {Zoobot} model that was used to explore the Hubble archives.}}{183}{figure.caption.66}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces The F1 score found during the diagnostics of the model used in this work. The F1 score is a measure combing the measure of accuracy and purity into one metric.}}{184}{figure.caption.67}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Example of six interacting systems in the catalogue with full 3-band imagery.}}{185}{figure.caption.68}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces The six unknown systems found in this work.}}{186}{figure.caption.69}%
