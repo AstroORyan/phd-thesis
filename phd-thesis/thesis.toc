@@ -33,31 +33,31 @@
 \contentsline {subsection}{\numberline {2.7.2}The Gems}{54}{subsection.2.7.2}%
 \contentsline {subsection}{\numberline {2.7.3}Source Redshifts and Photometry}{57}{subsection.2.7.3}%
 \contentsline {section}{\numberline {2.8}Conclusion}{64}{section.2.8}%
-\contentsline {chapter}{\numberline {3}When do the effects of interaction happen? Interacting and disturbed galaxies in the COSMOS field}{68}{chapter.3}%
-\contentsline {section}{\numberline {3.1}INTRODUCTION}{68}{section.3.1}%
-\contentsline {section}{\numberline {3.2}DATA: Catalogue Matching \& Secondary Identification}{70}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}The COSMOS2020 Catalogue}{70}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Secondary Identification}{72}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Finding Additional Systems}{76}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Creating the Volume-Limited Sample}{78}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Sample Summary}{78}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}METHOD: Environment, AGN and Interaction Stage}{80}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Classifying Stage of Interaction}{80}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Matching to Environment Catalogue}{87}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Classifying AGN}{89}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Visual Classification: Sources of Contamination}{90}{subsection.3.3.4}%
+\contentsline {chapter}{\numberline {3}When do the effects of interaction happen? Interacting and disturbed galaxies in the COSMOS field}{66}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{66}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Data: Catalogue Matching \& Secondary Identification}{68}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}The COSMOS2020 Catalogue}{68}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Secondary Identification}{70}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Finding Additional Systems}{74}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Creating the Volume-Limited Sample}{76}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Sample Count Summary}{76}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Method: Environment, AGN and Interaction Stage}{78}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Classifying Stage of Interaction}{78}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Matching to Environment Catalogue}{85}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Classifying AGN}{87}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Visual Classification: Sources of Contamination}{88}{subsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.3.5}Aside: Mass Ratios in Sample}{96}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}STAR FORMATION EVOLUTION WITH INTERACTION STAGE}{97}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Controlling for Interaction Stage}{97}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Projected Separation and Star Formation Enhancement}{108}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.4}Star Formation and AGN Evolution with Interaction Stage}{98}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Controlling for Interaction Stage}{98}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Projected Separation and Star Formation Enhancement}{105}{subsection.3.4.2}%
 \contentsline {section}{\numberline {3.5}Nuclear Activity with Interaction Stage}{111}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Discussion}{117}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Interaction Stage and Projected Separation}{117}{subsection.3.6.1}%
+\contentsline {section}{\numberline {3.6}Discussion}{116}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Interaction Stage and Projected Separation}{116}{subsection.3.6.1}%
 \contentsline {subsection}{\numberline {3.6.2}Interaction Stage and AGN}{119}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}Conclusions}{121}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Conclusions}{120}{section.3.7}%
 \contentsline {chapter}{\numberline {4}Advanced PySPAM: An Infrastructure to Constrain Underlying Interacting Galaxy Parameters}{124}{chapter.4}%
-\contentsline {section}{\numberline {4.1}INTRODUCTION}{124}{section.4.1}%
-\contentsline {section}{\numberline {4.2}DATA}{126}{section.4.2}%
+\contentsline {section}{\numberline {4.1}Introduction}{124}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Data}{126}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Sample of Major Interacting Galaxies}{126}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Observation Preparation}{127}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4.3}SIMULATING GALAXY INTERACTION}{129}{section.4.3}%
@@ -67,7 +67,7 @@
 \contentsline {subsubsection}{\numberline {4.3.1.3}Extending Flux Distribution}{135}{subsubsection.4.3.1.3}%
 \contentsline {subsubsection}{\numberline {4.3.1.4}Impact on Computation Time}{136}{subsubsection.4.3.1.4}%
 \contentsline {subsection}{\numberline {4.3.2}Creating Test Images}{138}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}CONSTRAINING INTERACTION}{138}{section.4.4}%
+\contentsline {section}{\numberline {4.4}CONSTRAINING INTERACTION}{141}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}The Parameter Space of Interaction}{141}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Defining the Likelihood Function}{142}{subsection.4.4.2}%
 \contentsline {subsubsection}{\numberline {4.4.2.1}MCMC \& Bayes Theorem}{142}{subsubsection.4.4.2.1}%
@@ -83,14 +83,14 @@
 \contentsline {subsubsection}{\numberline {4.5.6.1}Resolution \& Depth Effects}{170}{subsubsection.4.5.6.1}%
 \contentsline {subsubsection}{\numberline {4.5.6.2}Computational Expense}{172}{subsubsection.4.5.6.2}%
 \contentsline {section}{\numberline {4.6}CONCLUSIONS \& FUTURE WORK}{172}{section.4.6}%
-\contentsline {chapter}{\numberline {5}SUMMARY AND FUTURE WORK}{175}{chapter.5}%
-\contentsline {section}{\numberline {5.1}SUMMARY}{175}{section.5.1}%
-\contentsline {section}{\numberline {5.2}FUTURE WORK}{177}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Catalogues of Galaxy Morphology with Ancillary Data}{177}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Constraining Interacting Galaxy Parameters}{179}{subsection.5.2.2}%
-\contentsline {chapter}{Appendix \numberline {A}Model Diagnostics \& Further Identified Objects}{181}{appendix.1.A}%
-\contentsline {section}{\numberline {A.1}Further Model Diagnostics}{181}{section.1.A.1}%
-\contentsline {section}{\numberline {A.2}Examples of Sources with 3-Band Information}{182}{section.1.A.2}%
-\contentsline {section}{\numberline {A.3}Unknown Objects}{182}{section.1.A.3}%
-\contentsline {section}{\numberline {A.4}Acknowledging PIs}{187}{section.1.A.4}%
-\contentsline {chapter}{References}{188}{appendix*.71}%
+\contentsline {chapter}{\numberline {5}SUMMARY AND FUTURE WORK}{176}{chapter.5}%
+\contentsline {section}{\numberline {5.1}SUMMARY}{176}{section.5.1}%
+\contentsline {section}{\numberline {5.2}FUTURE WORK}{178}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Catalogues of Galaxy Morphology with Ancillary Data}{178}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Constraining Interacting Galaxy Parameters}{180}{subsection.5.2.2}%
+\contentsline {chapter}{Appendix \numberline {A}Model Diagnostics \& Further Identified Objects}{182}{appendix.1.A}%
+\contentsline {section}{\numberline {A.1}Further Model Diagnostics}{182}{section.1.A.1}%
+\contentsline {section}{\numberline {A.2}Examples of Sources with 3-Band Information}{183}{section.1.A.2}%
+\contentsline {section}{\numberline {A.3}Unknown Objects}{183}{section.1.A.3}%
+\contentsline {section}{\numberline {A.4}Acknowledging PIs}{188}{section.1.A.4}%
+\contentsline {chapter}{References}{189}{appendix*.71}%
