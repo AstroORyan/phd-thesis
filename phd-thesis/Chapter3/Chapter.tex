@@ -7,10 +7,10 @@ Examples of algorithms designed to make this matching include Identikit by \cite
 
 This limitation of directly comparing numerical simulations to observations was solved in a novel way by \citet{2016MNRAS.459..720H} in the Galaxy Zoo: Mergers (GZM) project (for details on Galaxy Zoo, see \citet{2008MNRAS.389.1179L}). GZM worked with citizen scientists to run simulations of interaction and visually compare the simulated morphology to observations. GZM studied a sample of 62 interacting galaxies from the Arp catalogue of interacting galaxies \citep{1966ApJS...14....1A}. Citizen scientists' were given a selection of simulation outputs around an observation and would select the one which appeared most alike. The simulations would then be run again with tweaked underlying parameters with the citizen scientist selecting the new the best fit output. With enough citizen scientists on the project, enough new simulations run and enough time GZM were able to find the best fit parameters for their interacting galaxy sample across a 14-dimension parameter space. This created the largest fully constrained interacting galaxy samples to date. In the era of the Vera C. Rubin Observatory such an approach will not be practical, with statistically significant samples of thousands of interacting galaxies potentially being produced every week, a new approach is required.
 
-In this Chapter, we present an automated methodology to constrain the underlying parameters of interaction. We combine a fast restricted numerical simulation code with a Markov-Chain Monte Carlo (MCMC) framework. We construct the flux distribution of interacting systems from different sets of underlying parameters. This allows us to map these underlying parameters to interacting system morphologys we then compare to an input image via pixel-to-pixel comparison. We apply our methodology over a 13D parameter space and constrain the probability distribution and find the likely parameter values describing an interacting galaxy system. This approach allows us to marginalise over each parameter, provide the best fit value as well as the error on each measurement. First, we apply this to a set of synthetic interacting galaxy observations created from a restricted N-body simulation where we have input the 13 underlying parameters. This provides us with diagnostics of our methodology. We then apply our process to five real observations of interacting galaxies and discuss how our methodology could be applied to real data, and the limitations therein. We also discuss the more general limitations of this approach, with a particular emphasis on the computational expense required, and the potential future solutions.
+In this Chapter, we present an automated methodology to constrain the underlying parameters of interaction. We combine a fast restricted numerical simulation code with a Markov-Chain Monte Carlo (MCMC) framework. We construct the flux distribution of interacting systems from different sets of underlying parameters. This allows us to map these underlying parameters to interacting system morphologies we then compare to an input image via pixel-to-pixel comparison. We apply our methodology over a 13D parameter space and constrain the probability distribution and find the likely parameter values describing an interacting galaxy system. This approach allows us to marginalise over each parameter, provide the best fit value as well as the error on each measurement. First, we apply this to a set of synthetic interacting galaxy observations created from a restricted N-body simulation where we have input the 13 underlying parameters. This provides us with diagnostics of our methodology. We then apply our process to five real observations of interacting galaxies and discuss how our methodology could be applied to real data, and the limitations therein. We also discuss the more general limitations of this approach, with a particular emphasis on the computational expense required, and the potential future solutions.
 
 % Layout of document/
-The layout of this Chapter is as follows. In Section \ref{Data}, we describe the sample of 51 galaxies we will study and our approach to observation preparation. Section \ref{Methods: sims} will summarise our simulation code and how it has been updated from previous iterations. We also describe how we build our sample of synthetic interacting galaxies and the parameter space we will explore with this simulation. A full discussion of our results will be given in Section \ref{Results} followed by our conclusions and future work in Section \ref{Conclusions}.
+The layout of this Chapter is as follows. In Chapter \ref{Data}, we describe the sample of 51 galaxies we will study and our approach to observation preparation. Chapter \ref{Methods: sims} will summarise our simulation code and how it has been updated from previous iterations. We also describe how we build our sample of synthetic interacting galaxies and the parameter space we will explore with this simulation. A full discussion of our results will be given in Chapter \ref{Results} followed by our conclusions and future work in Chapter \ref{Conclusions}.
 
 \vspace{-5mm}
 \section{Data}\label{Data}
@@ -18,70 +18,70 @@ The layout of this Chapter is as follows. In Section \ref{Data}, we describe the
 \subsection{Sample of Major Interacting Galaxies}
 \noindent In this work, we test our Markov-Chain Monte Carlo (MCMC) process on idealised, mock observations of 51 major interacting systems. These mock observations are created using our numerical simulation where we have input the underlying parameter values directly. As we know what the true underlying parameters of each interaction are, we can test the accuracy of our MCMC. To create these mock observations, we use the underlying parameters found in the GZM project for 62 interacting galaxies.
 
-Of the 62 systems, we create synthetic images of 51 of them to act as our idealised observational sample. As we are including the flux distribution of each system, we require an accurate redshift of each system. 3 of the 62 systems do not have a redshift measurement in the NASA Extragalactic Database (NED), the Sloan Digital Sky Survey (SDSS) or Simbad databases. Therefore, we discard these. We create each mock observation as though it was observed using SDSS. Of which, a further eight systems are not present. Therefore, we also discard these systems. This leaves us with the GZM best-fit parameters of 51 systems with which to create our synthetic observations. The details of the real systems are displayed in Table \ref{tab:Objects}, including the target coordinates, the SDSS ID and the redshift measurements we use. How we create our synthetic images is described in Section \ref{sec:syn_sample} after we have described our simulation.
+Of the 62 systems, we create synthetic images of 51 of them to act as our idealised observational sample. As we are including the flux distribution of each system, we require an accurate redshift of each system. 3 of the 62 systems do not have a redshift measurement in the NASA Extragalactic Database (NED), the Sloan Digital Sky Survey (SDSS) or Simbad databases. Therefore, we discard these. We create each mock observation as though it was observed using SDSS. Of which, a further eight systems are not present. Therefore, we also discard these systems. This leaves us with the GZM best-fit parameters of 51 systems with which to create our synthetic observations. The details of the real systems are displayed in Table \ref{tab:Objects}, including the target coordinates, the SDSS ID and the redshift measurements we use. How we create our synthetic images is described in Chapter \ref{sec:syn_sample} after we have described our simulation.
 
 \begin{table*}
-    \centering
-    \resizebox{0.79\textwidth}{!}{\begin{tabular}{|c|c|c|c|c|c|c|}
-    \hline
-         Name & SDSS ID & RA & Dec & Redshift \\
-         \hline
-         Arp 240 & 587722984435351614 & 204.980417 & 0.835278 & 0.02250 \\
-         Arp 290 & 587724234257137777 & 30.946317 & 14.72365 & 0.01171 \\
-         Arp 142 & 587726033843585146 & 144.429583 & 2.763056 & 0.02329 \\
-         Arp 318 & 587727177926508595 & 32.380516 & -10.158508 & 0.0132 \\
-         Arp 256 & 587727178988388373 & 4.710417 & -10.369167 & 0.02730 \\
-         UGC 11751 & 587727222471131318 & 322.247796 & 11.382539 & 0.02909 \\
-         Arp 104 & 587728676861051075 & 203.037083 & 62.733889 & 0.01082 \\
-         Double Ring, Heart & 587729227151704160 & 238.287292 & 54.147861 & 0.040 \\
-         Arp 285 & 587731913110650988 & 141.040000 & 49.226111 & 0.00967 \\
-         Arp 214 & 587732136993882121 & 173.145221 & 53.067922 & 0.00331 \\
-         NGC 4320 & 587732772130652231 & 185.740516 & 10.548328 & 0.02668 \\
-         UGC 7905 & 587733080814583863 & 190.952917 & 54.900278 & 0.01648 \\
-         Arp 255 & 587734862680752822 & 148.290000 & 7.870000 & 0.04106 \\
-         Arp 82 & 587735043609329845 & 122.811250 & 25.193056 & 0.01368 \\
-         Arp 239 & 587735665840881790 & 205.423852 & 55.672324 & 0.02489 \\
-         Arp 199 & 587736941981466667 & 214.265833 & 36.573333 & 0.01024 \\
-         Arp 57 & 587738569246376675 & 199.198750 & 14.424444 & 0.048 \\
-         (HWB2016)Pair 18 & 587738569249390718 & 206.209583 & 13.921361 & 0.089 \\
-         Arp 247 & 587739153356095531 & 125.889478 & 21.342976 & 0.01108 \\
-         Arp 241 & 587739407868690486 & 219.461958 & 30.481222 & 0.03472 \\
-         Arp 313 & 587739505541578866 & 179.418333 & 32.285556 & 0.01045 \\
-         Arp 107 & 587739646743412797 & 163.069583 & 30.065278 & 0.03318 \\
-         Arp 294 & 587739647284805725 & 174.931624 & 31.920108 & 0.00892 \\
-         Arp 172 & 587739707420967061 & 241.389583 & 17.597222 & 0.029 \\
-         Arp 302 & 587739721376202860 & 224.251667 & 24.612222 & 0.03286 \\
-         Arp 242 & 587739721900163101 & 191.544583 & 30.727222 & 0.02205 \\
-         Arp 72 & 587739810496708646 & 236.733750 & 17.878333 & 0.01100 \\
-         Arp 101 & 587739845393580192 & 241.124946 & 14.800192 & 0.026 \\
-         Arp 58 & 587741391565422775 & 127.990209 & 19.211523 & 0.03722 \\
-         Arp 105 & 587741532784361481 & 167.804167 & 28.724722 & 0.021 \\
-         Arp 97 & 587741534400217110 & 181.439583 & 31.068889 & 0.02305 \\
-         Arp 305 & 587741602030026825 & 179.655833 & 27.490833 & 0.004 \\
-         Arp 106 & 587741722819493915 & 183.902522 & 28.173576 & 0.02199 \\
-         NGC 2802/3 & 587741817851674654 & 139.172619 & 18.963463 & 0.02914 \\
-         Arp 301 & 587741829658181698 & 167.470000 & 24.259722 & 0.02059 \\
-         Arp 89 & 587742010583941189 & 130.665852 & 14.285624 & 0.00687 \\
-         Arp 87 & 587742014353702970 & 175.185000 & 22.437778 & 0.02373 \\
-         Arp 191 & 587742571610243080 & 166.834167 & 18.431111 & 0.02739 \\
-         Arp 237 & 587745402001817662 & 141.933458 & 12.286750 & 0.02899 \\
-         Arp 238 & 588011124116422756 & 198.886667 & 62.126944 & 0.03106 \\
-         MCG +09-20-082 & 588013383816904792 & 181.161667 & 52.956111 & 0.078 \\
-         Arp 297 & 588017604696408086 & 221.330417 & 38.761389 & 0.0298 \\
-         NGC 5753/5 & 588017604696408195 & 221.328663 & 38.805889 & 0.01374 \\
-         Arp 173 & 588017702948962343 & 222.869434 & 9.328297 & 0.028 \\
-         Arp 84 & 588017978901528612 & 209.649167 & 37.438889 & 0.01158 \\
-         UGC 10650 & 588018055130710322 & 255.060770 & 23.106346 & 0.00986 \\
-         Arp 112 & 758874299603222717 & 0.368333 & 31.437778 & 0.024 \\
-         Arp 274 & 587736523764334706 & 218.786250 & 5.356389 & 0.02890 \\
-         Arp 146 & 587747120521216156 & 1.685000 & -6.635833 & 0.07544 \\
-         Arp 143 & 588007005230530750 & 116.72333 & 39.019444 & 0.01374 \\
-         Arp 70 & 758877153600208945 & 20.864583 & 30.778333 & 0.03500 \\
-         Arp 218 & 587739720308818095 & 238.397500 & 18.607222 & 0.075 \\
-         \hline
-    \end{tabular}}
-    \caption[The names, SDSS ID, right ascension, declination (in degrees) and redshift for the 51 interacting systems we will examine.]{The names, SDSS ID, right ascension, declination (in degrees) and redshift for the 51 interacting systems we will examine. All redshifts are as found on the NASA Extragalactic Database.}
-    \label{tab:Objects}
+\centering
+\resizebox{0.79\textwidth}{!}{\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+Name & SDSS ID & RA & Dec & Redshift \\
+\hline
+Arp 240 & 587722984435351614 & 204.980417 & 0.835278 & 0.02250 \\
+Arp 290 & 587724234257137777 & 30.946317 & 14.72365 & 0.01171 \\
+Arp 142 & 587726033843585146 & 144.429583 & 2.763056 & 0.02329 \\
+Arp 318 & 587727177926508595 & 32.380516 & -10.158508 & 0.0132 \\
+Arp 256 & 587727178988388373 & 4.710417 & -10.369167 & 0.02730 \\
+UGC 11751 & 587727222471131318 & 322.247796 & 11.382539 & 0.02909 \\
+Arp 104 & 587728676861051075 & 203.037083 & 62.733889 & 0.01082 \\
+Double Ring, Heart & 587729227151704160 & 238.287292 & 54.147861 & 0.040 \\
+Arp 285 & 587731913110650988 & 141.040000 & 49.226111 & 0.00967 \\
+Arp 214 & 587732136993882121 & 173.145221 & 53.067922 & 0.00331 \\
+NGC 4320 & 587732772130652231 & 185.740516 & 10.548328 & 0.02668 \\
+UGC 7905 & 587733080814583863 & 190.952917 & 54.900278 & 0.01648 \\
+Arp 255 & 587734862680752822 & 148.290000 & 7.870000 & 0.04106 \\
+Arp 82 & 587735043609329845 & 122.811250 & 25.193056 & 0.01368 \\
+Arp 239 & 587735665840881790 & 205.423852 & 55.672324 & 0.02489 \\
+Arp 199 & 587736941981466667 & 214.265833 & 36.573333 & 0.01024 \\
+Arp 57 & 587738569246376675 & 199.198750 & 14.424444 & 0.048 \\
+(HWB2016)Pair 18 & 587738569249390718 & 206.209583 & 13.921361 & 0.089 \\
+Arp 247 & 587739153356095531 & 125.889478 & 21.342976 & 0.01108 \\
+Arp 241 & 587739407868690486 & 219.461958 & 30.481222 & 0.03472 \\
+Arp 313 & 587739505541578866 & 179.418333 & 32.285556 & 0.01045 \\
+Arp 107 & 587739646743412797 & 163.069583 & 30.065278 & 0.03318 \\
+Arp 294 & 587739647284805725 & 174.931624 & 31.920108 & 0.00892 \\
+Arp 172 & 587739707420967061 & 241.389583 & 17.597222 & 0.029 \\
+Arp 302 & 587739721376202860 & 224.251667 & 24.612222 & 0.03286 \\
+Arp 242 & 587739721900163101 & 191.544583 & 30.727222 & 0.02205 \\
+Arp 72 & 587739810496708646 & 236.733750 & 17.878333 & 0.01100 \\
+Arp 101 & 587739845393580192 & 241.124946 & 14.800192 & 0.026 \\
+Arp 58 & 587741391565422775 & 127.990209 & 19.211523 & 0.03722 \\
+Arp 105 & 587741532784361481 & 167.804167 & 28.724722 & 0.021 \\
+Arp 97 & 587741534400217110 & 181.439583 & 31.068889 & 0.02305 \\
+Arp 305 & 587741602030026825 & 179.655833 & 27.490833 & 0.004 \\
+Arp 106 & 587741722819493915 & 183.902522 & 28.173576 & 0.02199 \\
+NGC 2802/3 & 587741817851674654 & 139.172619 & 18.963463 & 0.02914 \\
+Arp 301 & 587741829658181698 & 167.470000 & 24.259722 & 0.02059 \\
+Arp 89 & 587742010583941189 & 130.665852 & 14.285624 & 0.00687 \\
+Arp 87 & 587742014353702970 & 175.185000 & 22.437778 & 0.02373 \\
+Arp 191 & 587742571610243080 & 166.834167 & 18.431111 & 0.02739 \\
+Arp 237 & 587745402001817662 & 141.933458 & 12.286750 & 0.02899 \\
+Arp 238 & 588011124116422756 & 198.886667 & 62.126944 & 0.03106 \\
+MCG +09-20-082 & 588013383816904792 & 181.161667 & 52.956111 & 0.078 \\
+Arp 297 & 588017604696408086 & 221.330417 & 38.761389 & 0.0298 \\
+NGC 5753/5 & 588017604696408195 & 221.328663 & 38.805889 & 0.01374 \\
+Arp 173 & 588017702948962343 & 222.869434 & 9.328297 & 0.028 \\
+Arp 84 & 588017978901528612 & 209.649167 & 37.438889 & 0.01158 \\
+UGC 10650 & 588018055130710322 & 255.060770 & 23.106346 & 0.00986 \\
+Arp 112 & 758874299603222717 & 0.368333 & 31.437778 & 0.024 \\
+Arp 274 & 587736523764334706 & 218.786250 & 5.356389 & 0.02890 \\
+Arp 146 & 587747120521216156 & 1.685000 & -6.635833 & 0.07544 \\
+Arp 143 & 588007005230530750 & 116.72333 & 39.019444 & 0.01374 \\
+Arp 70 & 758877153600208945 & 20.864583 & 30.778333 & 0.03500 \\
+Arp 218 & 587739720308818095 & 238.397500 & 18.607222 & 0.075 \\
+\hline
+\end{tabular}}
+\caption[The names, SDSS ID, right ascension, declination (in degrees) and redshift for the 51 interacting systems we will examine.]{The names, SDSS ID, right ascension, declination (in degrees) and redshift for the 51 interacting systems we will examine. All redshifts are as found on the NASA Extragalactic Database.}
+\label{tab:Objects}
 \end{table*}
 
 \subsection{Observation Preparation}\label{data:obs-prep}
@@ -89,30 +89,30 @@ Of the 62 systems, we create synthetic images of 51 of them to act as our ideali
 
 We convert each observational image into counts from the native unit of nanomaggies using the conversion value in each FITS header. Each filter image was then stacked into white image by simply summing them together. This gave us a higher signal-to-noise in the tidal features of the interacting systems. Then, we took these native resolution white images and block reduced them to a 100 $\times$ 100 thumbnail. Each cutout was visually inspected to ensure that, even with the reduced resolution, the tidal features were still clear and prominent in the image.
 
-We take the 0.396" pixel scale of SDSS on the sky with the measured redshift to calculate its physical size. From the pixel-to-distance conversion for each image, the position of each secondary galaxy was calculated from the central pixel. No attempt was made to approximate the $z$-position of the secondary galaxy, as this is a parameter to constrain. In total, there are 13 parameters that we must constrain over our synthetic and observation images. These parameters are detailed in the following section. The observation image preparations were made using the Astropy Python package \citep{astropy_2013, astropy_2018}.
+We take the 0.396" pixel scale of SDSS on the sky with the measured redshift to calculate its physical size. From the pixel-to-distance conversion for each image, the position of each secondary galaxy was calculated from the central pixel. No attempt was made to approximate the $z$-position of the secondary galaxy, as this is a parameter to constrain. In total, there are 13 parameters that we must constrain over our synthetic and observation images. These parameters are detailed in the following chapter. The observation image preparations were made using the Astropy Python package \citep{astropy_2013, astropy_2018}.
 
 % Describe what GZ: Mergers found and what we're going to do that is different.
 % This should perhaps be in the Introduction if it isn't already.
 \section{Simulating Galaxy Interaction}\label{Methods: sims}
-\noindent We require a method of mapping underlying parameters to our observed systems morphology and calculating how likely it is they are representative. We input our set of underlying interaction parameters into a restricted three-body simulation which predicts the morphology and flux distribution of the interacting system. In this section, we describe our simulation code, its previous iterations and how we add in additional flux information.
+\noindent We require a method of mapping underlying parameters to our observed systems morphology and calculating how likely it is they are representative. We input our set of underlying interaction parameters into a restricted three-body simulation which predicts the morphology and flux distribution of the interacting system. In this chapter, we describe our simulation code, its previous iterations and how we add in additional flux information.
 
-\subsection{APySPAM}\label{sec:simulations}
+\subsection{\texttt{APySPAM}}\label{sec:simulations}
 % What is it?
 \subsubsection{Restricted Three-Body Simulation}\label{sec:apyspam}
-The simulation code we use is the Java Stellar Particle Animation Module (JSPAM) \citep{2016A&C....16...26W}. For an in-depth description of the underling code, we direct the reader to \citet{1990AJ....100.1477W,2016A&C....16...26W} but provide a summary here. JSPAM is a restricted three-body code focused on recreating the morphology of interacting systems. It approximates the interaction as two massive bodies each being orbited by a set of massless test particles. The gravitational potential of the two massive bodies and the resultant forces upon the massless test particles is calculated and used to predict the particles position and velocity at different timesteps. The size and number of time steps can be input by the user. JSPAM is computationally efficient, approximating the morphology of an interacting system using thousands of particles in seconds on a regular work PC at a reasonable time resolution. The primary particle integrator is a fourth-order Runge-Kutta which applies backwards integration to calculate the position and velocity of the massive bodies from t=0 to the time set by the user. The test particles are then added to the simulation, and forward integration is conducted to find their position and velocity in each timestep through the trajectory of the massive bodies. In this way, a flyby of the two galaxies is simulated with the test particles representing the extended morphology of the two galaxies. 
+The simulation code we use is the Java Stellar Particle Animation Module (\texttt{JSPAM}) \citep{2016A&C....16...26W}. For an in-depth description of the underling code, we direct the reader to \citet{1990AJ....100.1477W,2016A&C....16...26W} but provide a summary here. \texttt{JSPAM} is a restricted three-body code focused on recreating the morphology of interacting systems. It approximates the interaction as two massive bodies each being orbited by a set of massless test particles. The gravitational potential of the two massive bodies and the resultant forces upon the massless test particles is calculated and used to predict the particles position and velocity at different timesteps. The size and number of time steps can be input by the user. \texttt{JSPAM} is computationally efficient, approximating the morphology of an interacting system using thousands of particles in seconds on a regular work PC at a reasonable time resolution. The primary particle integrator is a fourth-order Runge-Kutta which applies backwards integration to calculate the position and velocity of the massive bodies from t=0 to the time set by the user. The test particles are then added to the simulation, and forward integration is conducted to find their position and velocity in each timestep through the trajectory of the massive bodies. In this way, a flyby of the two galaxies is simulated with the test particles representing the extended morphology of the two galaxies. 
 
 The user has the option to choose a N-body approximation or a softened point mass approximation. Each of these slightly changes the way that the integrator calculates the forces on each particle. Therefore, there will be slight discrepancies between the final morphology of systems interacting with the same underlying parameters but different force approximations. We elect to utilise the softened point mass approximation, as this has improved computational efficiency over the higher accuracy of N-body approximation \citep[for more on this see][]{2016A&C....16...26W}. 
 
-The base code of JSPAM was purely a morphology matching code. Attempting to extract underlying parameters of interaction from morphology matching alone has been shown in prior works to be difficult \citep[e.g.][]{2009AJ....137.3071B}. JSPAM itself has been used in genetic algorithms to find the best fit parameters of different systems \citep[e.g][]{2023A&C....4200691W}. However, this lacks the exploration of parameter space and the quantification of uncertainties we aim to achieve in our approach. Using both morphology and flux matching between simulations and observations improves accuracy of recovered parameters \citep{2021ApJ...923..124M} and we have therefore enhanced the original JSPAM algorithm with the ability to model population evolution with star formation/star bursts to approximate the flux distribution of the interacting system. We have created this enhanced version in Python 3.7.4 (hence, we shall refer to this algorithm as Advanced Python Stellar Particle Animation Module, APySPAM).
+The base code of \texttt{JSPAM} was purely a morphology matching code. Attempting to extract underlying parameters of interaction from morphology matching alone has been shown in prior works to be difficult \citep[e.g.][]{2009AJ....137.3071B}. \texttt{JSPAM} itself has been used in genetic algorithms to find the best fit parameters of different systems \citep[e.g][]{2023A&C....4200691W}. However, this lacks the exploration of parameter space and the quantification of uncertainties we aim to achieve in our approach. Using both morphology and flux matching between simulations and observations improves accuracy of recovered parameters \citep{2021ApJ...923..124M} and we have therefore enhanced the original \texttt{JSPAM} algorithm with the ability to model population evolution with star formation/star bursts to approximate the flux distribution of the interacting system. We have created this enhanced version in Python 3.7.4 (hence, we shall refer to this algorithm as Advanced Python Stellar Particle Animation Module, \texttt{APySPAM}).
 
 To approximate the flux distribution of the galaxies in the simulation we calculate luminosity of each particle while minimising the computational cost. We incorporate the evolution of the underlying stellar populations of each galaxy over the time taken in the interaction. We also incorporate the formation of new stellar populations in potential starbursts, and approximate the impact this will have on the galaxy flux distribution. To preserve the computational efficiency, we build a semi-analytic model and define a global stellar population to assign a luminosity to each particle based on its assigned, hypothetical mass. In this way, we `paint on the stars' of each galaxy without having to directly model stellar evolution and star formation. This process is detailed in the following two subsections. 
 
-% Why is it different from the original JSPAM?
-% Overview of APySPAM:
+% Why is it different from the original \texttt{JSPAM}?
+% Overview of \texttt{APySPAM}:
 \subsubsection{Stellar Population Evolution}\label{Stellar_Pop_Evol}
 To model the underlying stellar populations, we utilise a \citet{2003MNRAS.344.1000B} (BC03) simple stellar population. These contain SEDs generated from flux libraries from a \citet{2003PASP..115..763C} initial mass function. We set this stellar population model to have a delayed exponentially declining star formation rate \citep{2009ApJ...690..802J, 2013ApJ...762L..15P,2014arXiv1404.0402S, 2019A&A...622A.103B}. However, to capture any star formation due star formation enhancement in the interaction, we increase the star formation based on the conditions in the interaction. We assume an e-folding time for star formation of $\tau = 1.7\text{Gyrs}$. This value is chosen as it matches field, massive galaxies found in the literature \citep[e.g][]{2010ApJ...721..193P} and used in hydrodynamical simulations \citep[e.g.][]{2022ApJ...941....5J}. Our simulation outputs a spectrum normalised to 1M$_{\odot}$ with each particle initially assumed to be the same age as the galaxy.
 
-This spectrum must then be scaled to the stellar mass present at each particle. We follow the prescription as stated in \citet{2016A&C....16...26W} to distribute the mass between the three components of the galaxy, and then to each test particle. The galaxy in the JSPAM simulation has its mass distribution as $M_{\text{bulge}} = 0.05M_{\text{galaxy}}$, $M_{\text{disk}} = 0.14M_{\text{galaxy}}$ and $M_{\text{halo}} = 0.81M_{\text{galaxy}}$. We take the total mass assigned to the galaxy (input by the user) and divide it into these three components. We then assume that the bulge and disk masses are fully baryonic, with the remaining mass being non-baryonic dark matter. We further divide the calculated baryonic mass into two components: stellar and gas. The total stellar mass of each particle is used to scale our final output SEDs from our model while total gas mass of each particle is used to calculate the star formation rate. The gas and stellar mass to be distributed to the particles is then defined by a gas fraction parameter that the user can alter. By default, this value is 0.15 for both the primary and secondary galaxies.
+This spectrum must then be scaled to the stellar mass present at each particle. We follow the prescription as stated in \citet{2016A&C....16...26W} to distribute the mass between the three components of the galaxy, and then to each test particle. The galaxy in the \texttt{JSPAM} simulation has its mass distribution as $M_{\text{bulge}} = 0.05M_{\text{galaxy}}$, $M_{\text{disk}} = 0.14M_{\text{galaxy}}$ and $M_{\text{halo}} = 0.81M_{\text{galaxy}}$. We take the total mass assigned to the galaxy (input by the user) and divide it into these three components. We then assume that the bulge and disk masses are fully baryonic, with the remaining mass being non-baryonic dark matter. We further divide the calculated baryonic mass into two components: stellar and gas. The total stellar mass of each particle is used to scale our final output SEDs from our model while total gas mass of each particle is used to calculate the star formation rate. The gas and stellar mass to be distributed to the particles is then defined by a gas fraction parameter that the user can alter. By default, this value is 0.15 for both the primary and secondary galaxies.
 
 We assume the initial ages of the galaxies (both 10Gyrs by default) at initialisation and calculate the final age of the SEDs based on the number of time units the user wishes to run the simulation. This age is then used to extract the normalised spectra from the BC03 templates. These output SEDs are then convolved with given telescope filters of the users choice and integrated, giving a colour flux value to each particle. However, this process only outputs the final flux values at each particle of the initial stellar population. During the interaction, we assume that the galaxy begins to form new stars at a rate significantly higher than is modelled in the BC03 templates. Therefore, we account for this by modelling newly created stellar populations as the interaction progresses.
 
@@ -120,11 +120,11 @@ To incorporate the increase in star formation in our simulations, we manually en
 
 At any given timestep the total stellar mass is given by
 \begin{equation}\label{Total_SFR}
-    SFR_{\text{enhancement}} = \beta (\frac{t}{\tau^{2}}) \exp(-\frac{t}{\tau}) M_{\text{baryonic}} M_{\odot} \text{yr}^{-1}.
+SFR_{\text{enhancement}} = \beta (\frac{t}{\tau^{2}}) \exp(-\frac{t}{\tau}) M_{\text{baryonic}} M_{\odot} \text{yr}^{-1}.
 \end{equation}
 Here, $\tau$ is the e-folding time of star formation, $M_{\text{baryonic}}$ is the baryonic mass of the galaxy and t is the age of the galaxy at the given timestep. This is the star formation at any time given by the BC03 template. However, we include the $\beta$ parameter: our enhancement value. This is a dimensionless value given by
 \begin{equation}\label{enhancement_param}
-    \beta = M_{\text{ratio}} D_{\text{ratio}}^{2}.
+\beta = M_{\text{ratio}} D_{\text{ratio}}^{2}.
 \end{equation}
 $M_{\text{ratio}}$ is the mass ratio between the galaxy being enhanced and the galaxy causing the interaction. D$_{\text{ratio}}$ is the ratio of each galactic radius to the distance between the galactic cores. In a system with a high mass galaxy interacting with a low mass galaxy, the high mass galaxy will have relatively little star formation enhancement while the less massive galaxy will have significant enhancement. This is similarly true for the ratio of the radius and separation. If the galaxies are interacting in such a way that the distance of closest approach is less than each galactic radius, then this ratio will rapidly increase above one; enhancing star formation further. This represents a significantly more violent interaction. It is important to note, however, that this has significantly less impact on strengthening star formation than that of the mass ratios. 
 
@@ -132,7 +132,7 @@ These parameters successfully reflect the findings of the current astrophysical 
 
 The output of Equation \ref{Total_SFR} is global star formation of each interacting galaxies at any given timestep. However, the aim of our model is to be able to match the flux distribution across the entire galaxy (particularily the tidal features) to any observation that the code is given. Therefore, we must distribute the star formation throughout the particles. To keep computational efficiency, we utilise weights which have been assigned to each particle. These weights are based on the ratio of the gas mass of the particle which has been assigned at initialisation to the total gas mass of the galaxy. So, to find the star formation rate of a single particle at any given timestep, the following equation is applied,
 \begin{equation}
-    SFR_{\text{Particle}} = \frac{M_{\text{gas,Particle}}}{M_{\text{gas,Galaxy}}}SFR_{\text{Galaxy}}.
+SFR_{\text{Particle}} = \frac{M_{\text{gas,Particle}}}{M_{\text{gas,Galaxy}}}SFR_{\text{Galaxy}}.
 \end{equation}
 After every time step, the gas within each particle is reduced by the mass converted into stars. Once this drops below a user defined value, the particle is cut off from star formation and is considered quenched. Currently, each particle is assigned equivalent gas mass at initialisation of the simulation. Therefore, when a particle is quenched in this example, every particle in the galaxy will also be quenched. The user can define a gas distribution model, which will lead to particles being quenched at different times.
 
@@ -140,7 +140,7 @@ There are limitations to this approximation. We assume that each galaxy is a dis
 
 Upon finding the star formation rate at the position of each particle, we convert this into a stellar mass formed through the timestep taken. We then compare this formed mass to the expected mass formed in the initial underlying stellar population. If the new mass formed is so low that it would be captured by the underlying population, we do not add this mass. If excess stellar mass has been formed, we assign an SED to it and its age is recorded. Once the simulation is completed, each new stellar population age is used to extract the relevant BC03 SED and multiplied by the total mass of the new stellar population. We then stack all of the SEDs together. This gives us the total extra emission we expect from the stars formed during the starburst throughout the simulation. This is then added to the initial stellar population emission defined at the beginning of the simulation. This gives us the total SED of each particle throughout the simulation. Each particle SED is then convolved with user inputted telescope filter responses and integrated. This gives a total flux that would be measured from each particle as if observed. 
 
-Thus, with the underlying JSPAM code approximating the positional distribution of particles to the observed system, with APySPAM we paint on the flux and find the flux distribution. This allows us to directly compare the pixel in a simulation image to an input observational image. However, in doing so, a limitation was found due to using a particle number that was significantly less than the number of pixels.
+Thus, with the underlying \texttt{JSPAM} code approximating the positional distribution of particles to the observed system, with \texttt{APySPAM} we paint on the flux and find the flux distribution. This allows us to directly compare the pixel in a simulation image to an input observational image. However, in doing so, a limitation was found due to using a particle number that was significantly less than the number of pixels.
 
 \subsubsection{Extending Flux Distribution}\label{flux_dist}
 \noindent One remaining challenge in the simulations is that we are attempting to model full interacting systems with a number of particles significantly less than the number of pixels in each image. This is to maximise computational efficiency. The resulting effect is that large gaps can appear in the tidal features that form or within the disks themselves as the interaction progresses. To mitigate this effect, we calculate the flux at each particle position and then use the procedure described below to distribute it through each pixel of our image. This results in more realistic images of galaxies compared to binning the particle flux based on position.
@@ -154,182 +154,182 @@ The process described above successfully creates continuous, synthetic images of
 The second is with tidal features at the very limit of our detectability, where a single isolated particle could be representative of the tidal feature but we now remove it with our 5 $\times$ 5 neighbour criteria. Primarily, in testing, we find that this is a lesser problem that the first. The 5 $\times$ 5 criteria is a very lenient one, and often such tidal features are close enough to the galactic disk in our images that they remain in the image. They often form continuous features which then incur the first limitation. This can be rectified by selecting lower resolution and getting more flux into larger pixels.
 
 \subsubsection{Impact on Computation Time}
-The new algorithms to calculate flux have been added to the original JSPAM code while preserving computational efficiency. The choice to create an interaction constraining code which uses flux distribution rather than morphology matching is due to the prior difficulties of using such a method. Therefore, the introduction of extra algorithms which require extra computation time has been necessary. The runtimes of JSPAM and APySPAM are shown in table \ref{tab:timings}. As shown here, even with our extra flux calculations, for reasonable particle counts our new code APySPAM outperforms JSPAM by at least a factor of four. When we have translated JSPAM into Python, we have also re-written the underlying code to take full advantage of Numpy and Python's speed with vectorisation over for loops.  As shown, the computational efficiency impact only becomes noticeable at very low particle number, where the overheads of Python's vectorisation is comparable to the base runtime of a for loop.
+The new algorithms to calculate flux have been added to the original \texttt{JSPAM} code while preserving computational efficiency. The choice to create an interaction constraining code which uses flux distribution rather than morphology matching is due to the prior difficulties of using such a method. Therefore, the introduction of extra algorithms which require extra computation time has been necessary. The runtimes of \texttt{JSPAM} and \texttt{APySPAM} are shown in table \ref{tab:timings}. As shown here, even with our extra flux calculations, for reasonable particle counts our new code \texttt{APySPAM} outperforms \texttt{JSPAM} by at least a factor of four. When we have translated \texttt{JSPAM} into Python, we have also re-written the underlying code to take full advantage of Numpy and Python's speed with vectorisation over for loops. As shown, the computational efficiency impact only becomes noticeable at very low particle number, where the overheads of Python's vectorisation is comparable to the base runtime of a for loop.
 
-To explore the full parameter space we must run APySPAM many thousands of times. Therefore, we need to use the simulation specified with the fastest runtime possible for the smallest tradeoff in resolution of the tidal features. We elect to use 2,500 particles throughout our run. This is still relatively fast, taking approximately 2 seconds, but also maintains high resolution of the tidal features. This is still five times faster than using the original JSPAM code with this many particles. 
+To explore the full parameter space we must run \texttt{APySPAM} many thousands of times. Therefore, we need to use the simulation specified with the fastest runtime possible for the smallest tradeoff in resolution of the tidal features. We elect to use 2,500 particles throughout our run. This is still relatively fast, taking approximately 2 seconds, but also maintains high resolution of the tidal features. This is still five times faster than using the original \texttt{JSPAM} code with this many particles. 
 
 \begin{table}
-    \centering
-    \begin{tabular}{|c|c|c|}
-    \hline
-        N Particles & JSPAM (s) & APySPAM (s)  \\
-        \hline
-        10 & 0.062 & 0.250 \\
-        100 & 0.45 &  0.338 \\
-        1000 & 4.22 & 1.090 \\
-        2500 & 10.535 & 2.392 \\
-        5000 & 21.104 & 4.458 \\
-        10000 & 42.796 & 8.625 \\
-        \hline
-    \end{tabular}
-    \caption{Timing comparison between the original JSPAM code (as used in Galaxy Zoo: Mergers) and the advanced version of PySPAM we are using here. These timings were taken using Python 3.7.4 on an Intel(R) Core i7-8665U CPU. Our version of APySPAM significantly outperforms that of the original JSPAM by many times, even with the added architecture of approximating the flux distribution. This is because in our re-write of the underlying simulation code we take advantage of Python's efficiency with vectorisation and array multiplication over that of for loops. These tests were performed by running the simulation for seven hundred steps fifty times and then taking the average run time of each iteration.}
-    \label{tab:timings}
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+N Particles & \texttt{JSPAM} (s) & \texttt{APySPAM} (s) \\
+\hline
+10 & 0.062 & 0.250 \\
+100 & 0.45 & 0.338 \\
+1000 & 4.22 & 1.090 \\
+2500 & 10.535 & 2.392 \\
+5000 & 21.104 & 4.458 \\
+10000 & 42.796 & 8.625 \\
+\hline
+\end{tabular}
+\caption{Timing comparison between the original \texttt{JSPAM} code (as used in Galaxy Zoo: Mergers) and the advanced version of PySPAM we are using here. These timings were taken using Python 3.7.4 on an Intel(R) Core i7-8665U CPU. Our version of \texttt{APySPAM} significantly outperforms that of the original \texttt{JSPAM} by many times, even with the added architecture of approximating the flux distribution. This is because in our re-write of the underlying simulation code we take advantage of Python's efficiency with vectorisation and array multiplication over that of for loops. These tests were performed by running the simulation for seven hundred steps fifty times and then taking the average run time of each iteration.}
+\label{tab:timings}
 \end{table}
 
-By using the flux distribution method described in Section \ref{flux_dist}, we mitigate the effect of lower particle compared to pixel number. This is at the cost, however, the adding the largest computational overhead. We find that this part of the algorithm is much more sensitive to image size than particle number. The timing calculations shown in Table \ref{tab:timings} use an output image size of 100 $\times$ 100. When increased to 500 $\times$ 500, the computation time for 2,500 particles increased to over 30s. Therefore, it is imperative that the user keeps this in mind when selecting cutout size.
+By using the flux distribution method described in Chapter \ref{flux_dist}, we mitigate the effect of lower particle compared to pixel number. This is at the cost, however, the adding the largest computational overhead. We find that this part of the algorithm is much more sensitive to image size than particle number. The timing calculations shown in Table \ref{tab:timings} use an output image size of 100 $\times$ 100. When increased to 500 $\times$ 500, the computation time for 2,500 particles increased to over 30s. Therefore, it is imperative that the user keeps this in mind when selecting cutout size.
 
 \subsection{Creating Test Images}\label{sec:syn_sample}
-With the descriptions of our simulation completed, we now describe how we build our idealised observations. We use the APySPAM three-body algorithm described in Section \ref{sec:apyspam} to create these images. These images are measured in counts, as if observed in the SDSS. We utilise the best fit parameters which were found in the GZM project, and re-create their best fit images for each named interacting system. The parameters to create these images are shown in Table \ref{tab:Objects}. We run our APySPAM with 20,000 particles and a high time resolution of 0.057Myrs per timestep. The resultant images are shown in Figure \ref{fig:Obj_Cutout}. Each image is a white, created by the stacking of $ugriz$ filters of SDSS. We find the original SDSS observations of each system, and extract the conversion from nanomaggies (native SDSS flux unit) to counts and apply them to the native standard units our simulation outputs the flux distribution in. By stacking, we increase the signal in the tidal features, as well as other points in the disk. 
+With the descriptions of our simulation completed, we now describe how we build our idealised observations. We use the \texttt{APySPAM} three-body algorithm described in Chapter \ref{sec:apyspam} to create these images. These images are measured in counts, as if observed in the SDSS. We utilise the best fit parameters which were found in the GZM project, and re-create their best fit images for each named interacting system. The parameters to create these images are shown in Table \ref{tab:Objects}. We run our \texttt{APySPAM} with 20,000 particles and a high time resolution of 0.057Myrs per timestep. The resultant images are shown in Figure \ref{fig:Obj_Cutout}. Each image is a white, created by the stacking of $ugriz$ filters of SDSS. We find the original SDSS observations of each system, and extract the conversion from nanomaggies (native SDSS flux unit) to counts and apply them to the native standard units our simulation outputs the flux distribution in. By stacking, we increase the signal in the tidal features, as well as other points in the disk. 
 
 Each test image is centered on the `primary' galaxy, with the $xyz$-position of the secondary galaxy being used to calculate the size of the cutout. The primary galaxy is the galaxy with most mass in the pair, as defined in H16. These images were then reduced from their native resolution to 100 $\times$ 100 cutouts. This image size was found to be the best compromise between detail in the tidal features. As we will be matching the flux distribution of each system, it requires the redshift of the interacting system. As stated previously, the redshifts for our sample were found from the NASA Extragalactic Database. The full range redshift range of our sample is $0.003 < z < 0.113$.
 
 \begin{table*}
 \resizebox{1.00\textwidth}{!}{\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
-       Names &  x(kpc) &  y(kpc) &  z(kpc) &  v$_{x}$(kms$^{-1}$) &  v$_{y}$(kms$^{-1}$) &  v$_{z}$(kms$^{-1}$) &  $\log$ M$_{T,1}$(M$_{\odot}$) & $\log$ M$_{T,2}$(M$_{\odot}$) &  R$_{1}$(kpc) &  R$_{2}$(kpc) &  $\phi_{1}$ &  $\phi_{2}$ &  $\Theta_{1}$ &  $\Theta_{2}$ \\
+Names & x(kpc) & y(kpc) & z(kpc) & v$_{x}$(kms$^{-1}$) & v$_{y}$(kms$^{-1}$) & v$_{z}$(kms$^{-1}$) & $\log$ M$_{T,1}$(M$_{\odot}$) & $\log$ M$_{T,2}$(M$_{\odot}$) & R$_{1}$(kpc) & R$_{2}$(kpc) & $\phi_{1}$ & $\phi_{2}$ & $\Theta_{1}$ & $\Theta_{2}$ \\
 \hline
-      Arp 240 &  -149.08 &   -68.71 &   231.50 &              -260.83 &              -504.46 &               794.60 &                          12.54 &                          12.47 &         44.69 &         63.75 &      301.00 &       35.50 &        310.81 &        321.99 \\
-      Arp 290 &    16.22 &   -25.02 &   -31.02 &               -31.22 &               -67.22 &                -4.94 &                          10.71 &                          10.56 &         14.11 &          6.58 &       12.97 &      135.12 &         97.54 &        305.01 \\
-      Arp 142 &    -7.40 &   -21.57 &     0.90 &                12.44 &              -173.23 &               152.27 &                          11.04 &                          11.19 &         19.16 &          5.01 &       48.79 &       43.80 &         50.07 &        135.06 \\
-      Arp 318 &    14.10 &     2.70 &    39.98 &                 0.00 &               -71.83 &               196.50 &                          10.56 &                          11.01 &          9.87 &          9.21 &        6.21 &       95.00 &        200.00 &        289.23 \\
-      Arp 256 &    -6.12 &   -28.88 &    29.37 &              -194.60 &              -173.47 &               132.02 &                          11.12 &                          11.10 &         14.11 &          8.16 &       97.79 &       60.52 &        144.60 &        216.50 \\
-    UGC 11751 &    10.00 &   -31.91 &    24.23 &               -31.46 &               -39.20 &                34.96 &                          10.28 &                          10.19 &         12.22 &         11.34 &       15.00 &       87.50 &        203.48 &         22.36 \\
-       HEART &    -1.89 &     5.25 &    50.36 &               -21.98 &                94.78 &               680.87 &                          10.89 &                          10.99 &          4.58 &          6.18 &      152.78 &      195.63 &        147.23 &        138.43 \\
-     NGC 4320 &    -1.58 &     2.14 &    -3.10 &              -339.22 &               -30.34 &               101.96 &                          10.90 &                          11.05 &          7.07 &          2.57 &      117.88 &      147.04 &        326.46 &         65.76 \\
-      Arp 255 &   -18.50 &    21.49 &    17.61 &               -40.64 &               -89.59 &               126.67 &                          11.36 &                          10.64 &         15.20 &         11.73 &      140.38 &       -4.88 &        317.52 &        221.37 \\
-       Arp 82 &    -7.30 &   -21.75 &    -9.39 &                68.90 &               -90.15 &                 7.84 &                          11.17 &                          10.87 &          5.90 &          2.89 &       26.65 &       49.48 &        342.60 &        232.84 \\
-      Arp 199 &    -4.10 &     2.85 &    11.17 &               218.16 &               176.37 &                84.61 &                          10.25 &                          10.05 &          4.55 &          4.63 &       96.61 &       49.83 &        152.65 &        109.12 \\
-       Arp 57 &   -69.44 &   -52.30 &   128.05 &              -173.38 &              -160.84 &               440.18 &                          11.15 &                          10.99 &         17.70 &          9.77 &      176.94 &       71.08 &        337.85 &        335.44 \\
-      Arp 247 &     7.14 &   -10.80 &   -41.04 &                26.09 &               -53.22 &               -43.00 &                          10.87 &                          10.55 &          7.17 &          3.33 &       55.45 &       45.65 &        319.41 &        335.29 \\
-      Arp 241 &    -4.54 &    -8.23 &    -0.55 &               -74.39 &                79.62 &                 0.00 &                          10.20 &                          10.37 &          3.72 &          5.17 &       96.08 &      107.20 &        227.48 &        229.44 \\
-      Arp 107 &   -29.43 &    33.42 &    -9.48 &                 0.20 &                19.43 &                46.26 &                          10.99 &                          10.86 &         16.49 &          6.55 &       82.03 &      271.03 &        191.08 &        296.27 \\
-      Arp 294 &    -4.61 &    13.67 &   -62.09 &              -122.55 &               -52.72 &               -25.10 &                          10.63 &                          10.82 &          8.69 &          8.20 &       70.38 &      178.66 &         59.54 &        109.24 \\
-      Arp 172 &    -6.62 &   -18.38 &   -30.98 &               -42.56 &               -33.24 &               -52.22 &                          11.26 &                          11.12 &          8.81 &          8.09 &      213.74 &       67.31 &        203.50 &        241.01 \\
-      Arp 302 &     2.76 &   -25.61 &    74.51 &              -196.00 &              -305.20 &                97.39 &                          10.75 &                          10.32 &         14.16 &          9.52 &        6.24 &       36.33 &        283.48 &        345.34 \\
-      Arp 242 &    -6.47 &   -13.90 &   -26.85 &                 4.19 &                60.44 &                -3.14 &                          10.52 &                          10.74 &         10.69 &          5.86 &        7.45 &       57.97 &         85.88 &        212.75 \\
-       Arp 72 &    16.78 &    -8.81 &    26.86 &                 8.24 &               -23.74 &               171.19 &                          10.12 &                           9.98 &          9.18 &          2.59 &        6.80 &       90.49 &        224.26 &        228.89 \\
-       Arp 58 &   -28.91 &   -25.10 &   -15.37 &                20.13 &              -158.10 &                11.60 &                          11.32 &                          10.55 &         19.35 &          2.85 &      173.29 &       45.58 &         44.63 &        230.34 \\
-      Arp 105 &    -1.53 &   -31.87 &    80.03 &                37.05 &                -3.92 &               265.62 &                          10.77 &                          11.45 &          9.23 &         11.88 &      -34.38 &      141.75 &        306.34 &          0.00 \\
-      Arp 106 &    -6.39 &   -12.55 &   -28.98 &               -73.92 &                 1.21 &              -185.26 &                          11.12 &                          10.30 &          8.98 &          2.94 &      108.93 &       39.06 &        319.92 &        160.84 \\
-     NGC 2802 &    15.95 &    15.68 &    24.54 &               169.82 &                53.15 &               263.10 &                          10.75 &                          10.36 &         13.78 &          7.52 &      108.04 &       30.31 &        327.91 &        146.78 \\
-      Arp 301 &   -17.28 &    -4.91 &   -19.08 &              -314.96 &                25.19 &                -3.15 &                          11.05 &                          11.17 &         10.24 &         16.68 &        9.19 &       78.00 &        160.99 &        252.67 \\
-       Arp 89 &   -14.81 &    -9.89 &   -36.98 &                21.05 &               -81.46 &               -20.52 &                          10.71 &                          10.49 &         12.05 &          4.66 &      149.19 &      110.69 &         78.26 &         70.43 \\
-       Arp 87 &    -3.46 &    26.92 &   -38.84 &               -42.32 &                45.27 &              -106.64 &                          10.16 &                          10.23 &          8.08 &          5.42 &      116.69 &       65.78 &         32.05 &        249.08 \\
-      Arp 191 &     9.03 &    -5.50 &   -47.81 &                -2.88 &                34.73 &              -272.22 &                          10.87 &                          11.09 &          7.37 &          8.22 &      101.88 &       53.06 &          2.24 &        216.89 \\
-      Arp 237 &    -8.24 &     1.92 &     1.88 &                85.13 &              -141.79 &                48.60 &                          11.04 &                          10.65 &          7.85 &          5.18 &       86.86 &       55.83 &        348.72 &        148.42 \\
-      Arp 173 &    11.63 &   -26.45 &   -54.92 &                75.32 &                 5.69 &              -139.47 &                          12.04 &                          10.56 &          6.95 &          6.87 &       83.54 &      329.68 &        310.01 &        317.61 \\
-       Arp 84 &     7.61 &    23.25 &     2.26 &               -24.13 &                44.84 &                26.11 &                          10.67 &                          10.06 &         17.24 &          4.08 &       11.06 &       65.56 &        111.80 &        290.68 \\
-    UGC 10650 &    -1.64 &   -16.00 &   -26.56 &                43.91 &                30.74 &                 5.69 &                          10.59 &                          10.61 &          8.50 &          6.96 &       73.19 &      -63.69 &        346.58 &        187.83 \\
-      Arp 112 &    -9.47 &     9.57 &     4.03 &              -170.75 &               -32.95 &                71.45 &                          10.96 &                          10.98 &          4.37 &          4.09 &       97.25 &       -4.75 &        194.53 &         35.78 \\
-      Arp 274 &    19.50 &    -4.72 &    55.56 &               226.62 &               154.11 &              -150.67 &                          10.75 &                          10.24 &         17.75 &         12.69 &      126.88 &       51.38 &        296.59 &        232.55 \\
-      Arp 146 &    18.05 &    10.10 &     9.61 &                72.89 &                85.41 &                73.70 &                          10.70 &                          10.78 &          8.83 &         12.91 &       72.50 &       48.81 &        111.80 &         67.08 \\
-      Arp 143 &    -3.91 &   -16.09 &    24.25 &                53.06 &               -21.88 &                84.27 &                          10.62 &                          10.15 &          7.35 &          7.75 &       45.23 &       32.38 &        236.54 &         61.02 \\
-       Arp 70 &     9.24 &   -30.53 &   -29.87 &                42.03 &              -128.45 &                -0.41 &                          10.78 &                          10.67 &         13.72 &          7.80 &      149.90 &      136.19 &         50.40 &         38.01 \\
-      Arp 218 &    35.55 &   -20.53 &     3.84 &                74.29 &               -59.10 &               -25.77 &                          10.74 &                          10.12 &         11.07 &          6.38 &      148.30 &       49.41 &        231.50 &        261.45 \\
-  Violin Clef &   -15.21 &   -33.86 &   -16.08 &               -15.95 &               -70.31 &              -186.56 &                          10.59 &                          10.78 &         10.47 &          7.86 &      142.49 &       65.29 &        258.15 &        238.65 \\
-      Arp 104 &     0.89 &    -9.61 &    -9.34 &                32.76 &               -26.66 &               -53.61 &                          10.94 &                          10.68 &          1.44 &          0.88 &       78.09 &       87.64 &         36.70 &        347.77 \\
-      Arp 285 &   -16.66 &    21.33 &    25.37 &               -84.45 &                86.28 &                14.76 &                           9.20 &                          10.50 &          5.01 &          5.71 &       51.19 &      -35.00 &        295.16 &        249.32 \\
-      Arp 214 &   -43.09 &    13.54 &     0.93 &               -57.28 &                31.96 &               -21.48 &                          10.07 &                          10.01 &          8.01 &          6.31 &      135.70 &      354.86 &        140.82 &        138.14 \\
-     UGC 7905 &     1.32 &    -9.53 &    16.47 &              -112.54 &               -80.94 &                67.17 &                          10.31 &                          11.07 &          4.19 &          5.03 &       14.93 &       68.72 &        103.69 &        239.11 \\
-      Arp 239 &   -12.19 &     4.02 &    21.45 &              -104.37 &                16.96 &                58.77 &                          10.97 &                          10.27 &          7.45 &          2.21 &       58.82 &       94.31 &        235.38 &        335.40 \\
-      PAIR18 &   -12.44 &    32.72 &   -18.36 &                14.70 &               -38.05 &              -156.67 &                          10.96 &                          11.36 &         11.02 &         16.62 &      153.57 &       43.84 &        168.63 &        326.13 \\
-      Arp 313 &   -13.42 &    11.35 &   -39.17 &              -142.02 &               -61.52 &              -303.92 &                          10.71 &                          10.44 &          4.64 &         11.10 &        7.92 &       42.80 &        115.72 &        304.23 \\
-      Arp 101 &    14.52 &   -39.46 &   -33.44 &                27.22 &              -132.95 &              -143.42 &                          10.71 &                          10.78 &          6.60 &          4.45 &       45.10 &      358.74 &         62.34 &        207.08 \\
-       Arp 97 &    -0.57 &    27.13 &     4.51 &               -40.93 &                31.86 &                45.10 &                           9.98 &                          10.09 &          8.14 &          3.62 &       53.18 &      146.65 &         46.34 &         24.76 \\
-      Arp 305 &    44.52 &    54.29 &    -1.86 &                50.93 &               115.06 &                12.07 &                          10.53 &                          10.27 &         10.51 &          7.03 &       45.81 &      166.88 &        286.21 &        234.78 \\
-      Arp 181 &    -3.11 &    -1.81 &    -7.72 &              -199.27 &               -63.32 &              -201.94 &                          10.69 &                          10.94 &          1.56 &          1.73 &       96.00 &       65.69 &        127.45 &        221.37 \\
-MCG 09-02-082 &     8.67 &    -5.60 &   -16.64 &               197.24 &                16.52 &              -228.72 &                          11.10 &                          10.77 &          2.97 &          3.49 &       85.43 &       97.51 &        317.60 &          4.75 \\
-      Arp 297 &    11.55 &    -2.79 &   -35.87 &                38.79 &               -62.45 &                20.98 &                          10.84 &                          10.48 &         10.76 &          5.24 &       51.44 &      136.06 &        199.01 &        243.73 \\
-     NGC 5753 &   -24.85 &   -34.94 &   -21.60 &               -59.57 &               -86.24 &                -5.50 &                          10.64 &                          10.40 &          4.62 &          5.77 &      141.06 &      110.25 &        138.63 &         26.83 \\
+Arp 240 & -149.08 & -68.71 & 231.50 & -260.83 & -504.46 & 794.60 & 12.54 & 12.47 & 44.69 & 63.75 & 301.00 & 35.50 & 310.81 & 321.99 \\
+Arp 290 & 16.22 & -25.02 & -31.02 & -31.22 & -67.22 & -4.94 & 10.71 & 10.56 & 14.11 & 6.58 & 12.97 & 135.12 & 97.54 & 305.01 \\
+Arp 142 & -7.40 & -21.57 & 0.90 & 12.44 & -173.23 & 152.27 & 11.04 & 11.19 & 19.16 & 5.01 & 48.79 & 43.80 & 50.07 & 135.06 \\
+Arp 318 & 14.10 & 2.70 & 39.98 & 0.00 & -71.83 & 196.50 & 10.56 & 11.01 & 9.87 & 9.21 & 6.21 & 95.00 & 200.00 & 289.23 \\
+Arp 256 & -6.12 & -28.88 & 29.37 & -194.60 & -173.47 & 132.02 & 11.12 & 11.10 & 14.11 & 8.16 & 97.79 & 60.52 & 144.60 & 216.50 \\
+UGC 11751 & 10.00 & -31.91 & 24.23 & -31.46 & -39.20 & 34.96 & 10.28 & 10.19 & 12.22 & 11.34 & 15.00 & 87.50 & 203.48 & 22.36 \\
+HEART & -1.89 & 5.25 & 50.36 & -21.98 & 94.78 & 680.87 & 10.89 & 10.99 & 4.58 & 6.18 & 152.78 & 195.63 & 147.23 & 138.43 \\
+NGC 4320 & -1.58 & 2.14 & -3.10 & -339.22 & -30.34 & 101.96 & 10.90 & 11.05 & 7.07 & 2.57 & 117.88 & 147.04 & 326.46 & 65.76 \\
+Arp 255 & -18.50 & 21.49 & 17.61 & -40.64 & -89.59 & 126.67 & 11.36 & 10.64 & 15.20 & 11.73 & 140.38 & -4.88 & 317.52 & 221.37 \\
+Arp 82 & -7.30 & -21.75 & -9.39 & 68.90 & -90.15 & 7.84 & 11.17 & 10.87 & 5.90 & 2.89 & 26.65 & 49.48 & 342.60 & 232.84 \\
+Arp 199 & -4.10 & 2.85 & 11.17 & 218.16 & 176.37 & 84.61 & 10.25 & 10.05 & 4.55 & 4.63 & 96.61 & 49.83 & 152.65 & 109.12 \\
+Arp 57 & -69.44 & -52.30 & 128.05 & -173.38 & -160.84 & 440.18 & 11.15 & 10.99 & 17.70 & 9.77 & 176.94 & 71.08 & 337.85 & 335.44 \\
+Arp 247 & 7.14 & -10.80 & -41.04 & 26.09 & -53.22 & -43.00 & 10.87 & 10.55 & 7.17 & 3.33 & 55.45 & 45.65 & 319.41 & 335.29 \\
+Arp 241 & -4.54 & -8.23 & -0.55 & -74.39 & 79.62 & 0.00 & 10.20 & 10.37 & 3.72 & 5.17 & 96.08 & 107.20 & 227.48 & 229.44 \\
+Arp 107 & -29.43 & 33.42 & -9.48 & 0.20 & 19.43 & 46.26 & 10.99 & 10.86 & 16.49 & 6.55 & 82.03 & 271.03 & 191.08 & 296.27 \\
+Arp 294 & -4.61 & 13.67 & -62.09 & -122.55 & -52.72 & -25.10 & 10.63 & 10.82 & 8.69 & 8.20 & 70.38 & 178.66 & 59.54 & 109.24 \\
+Arp 172 & -6.62 & -18.38 & -30.98 & -42.56 & -33.24 & -52.22 & 11.26 & 11.12 & 8.81 & 8.09 & 213.74 & 67.31 & 203.50 & 241.01 \\
+Arp 302 & 2.76 & -25.61 & 74.51 & -196.00 & -305.20 & 97.39 & 10.75 & 10.32 & 14.16 & 9.52 & 6.24 & 36.33 & 283.48 & 345.34 \\
+Arp 242 & -6.47 & -13.90 & -26.85 & 4.19 & 60.44 & -3.14 & 10.52 & 10.74 & 10.69 & 5.86 & 7.45 & 57.97 & 85.88 & 212.75 \\
+Arp 72 & 16.78 & -8.81 & 26.86 & 8.24 & -23.74 & 171.19 & 10.12 & 9.98 & 9.18 & 2.59 & 6.80 & 90.49 & 224.26 & 228.89 \\
+Arp 58 & -28.91 & -25.10 & -15.37 & 20.13 & -158.10 & 11.60 & 11.32 & 10.55 & 19.35 & 2.85 & 173.29 & 45.58 & 44.63 & 230.34 \\
+Arp 105 & -1.53 & -31.87 & 80.03 & 37.05 & -3.92 & 265.62 & 10.77 & 11.45 & 9.23 & 11.88 & -34.38 & 141.75 & 306.34 & 0.00 \\
+Arp 106 & -6.39 & -12.55 & -28.98 & -73.92 & 1.21 & -185.26 & 11.12 & 10.30 & 8.98 & 2.94 & 108.93 & 39.06 & 319.92 & 160.84 \\
+NGC 2802 & 15.95 & 15.68 & 24.54 & 169.82 & 53.15 & 263.10 & 10.75 & 10.36 & 13.78 & 7.52 & 108.04 & 30.31 & 327.91 & 146.78 \\
+Arp 301 & -17.28 & -4.91 & -19.08 & -314.96 & 25.19 & -3.15 & 11.05 & 11.17 & 10.24 & 16.68 & 9.19 & 78.00 & 160.99 & 252.67 \\
+Arp 89 & -14.81 & -9.89 & -36.98 & 21.05 & -81.46 & -20.52 & 10.71 & 10.49 & 12.05 & 4.66 & 149.19 & 110.69 & 78.26 & 70.43 \\
+Arp 87 & -3.46 & 26.92 & -38.84 & -42.32 & 45.27 & -106.64 & 10.16 & 10.23 & 8.08 & 5.42 & 116.69 & 65.78 & 32.05 & 249.08 \\
+Arp 191 & 9.03 & -5.50 & -47.81 & -2.88 & 34.73 & -272.22 & 10.87 & 11.09 & 7.37 & 8.22 & 101.88 & 53.06 & 2.24 & 216.89 \\
+Arp 237 & -8.24 & 1.92 & 1.88 & 85.13 & -141.79 & 48.60 & 11.04 & 10.65 & 7.85 & 5.18 & 86.86 & 55.83 & 348.72 & 148.42 \\
+Arp 173 & 11.63 & -26.45 & -54.92 & 75.32 & 5.69 & -139.47 & 12.04 & 10.56 & 6.95 & 6.87 & 83.54 & 329.68 & 310.01 & 317.61 \\
+Arp 84 & 7.61 & 23.25 & 2.26 & -24.13 & 44.84 & 26.11 & 10.67 & 10.06 & 17.24 & 4.08 & 11.06 & 65.56 & 111.80 & 290.68 \\
+UGC 10650 & -1.64 & -16.00 & -26.56 & 43.91 & 30.74 & 5.69 & 10.59 & 10.61 & 8.50 & 6.96 & 73.19 & -63.69 & 346.58 & 187.83 \\
+Arp 112 & -9.47 & 9.57 & 4.03 & -170.75 & -32.95 & 71.45 & 10.96 & 10.98 & 4.37 & 4.09 & 97.25 & -4.75 & 194.53 & 35.78 \\
+Arp 274 & 19.50 & -4.72 & 55.56 & 226.62 & 154.11 & -150.67 & 10.75 & 10.24 & 17.75 & 12.69 & 126.88 & 51.38 & 296.59 & 232.55 \\
+Arp 146 & 18.05 & 10.10 & 9.61 & 72.89 & 85.41 & 73.70 & 10.70 & 10.78 & 8.83 & 12.91 & 72.50 & 48.81 & 111.80 & 67.08 \\
+Arp 143 & -3.91 & -16.09 & 24.25 & 53.06 & -21.88 & 84.27 & 10.62 & 10.15 & 7.35 & 7.75 & 45.23 & 32.38 & 236.54 & 61.02 \\
+Arp 70 & 9.24 & -30.53 & -29.87 & 42.03 & -128.45 & -0.41 & 10.78 & 10.67 & 13.72 & 7.80 & 149.90 & 136.19 & 50.40 & 38.01 \\
+Arp 218 & 35.55 & -20.53 & 3.84 & 74.29 & -59.10 & -25.77 & 10.74 & 10.12 & 11.07 & 6.38 & 148.30 & 49.41 & 231.50 & 261.45 \\
+Violin Clef & -15.21 & -33.86 & -16.08 & -15.95 & -70.31 & -186.56 & 10.59 & 10.78 & 10.47 & 7.86 & 142.49 & 65.29 & 258.15 & 238.65 \\
+Arp 104 & 0.89 & -9.61 & -9.34 & 32.76 & -26.66 & -53.61 & 10.94 & 10.68 & 1.44 & 0.88 & 78.09 & 87.64 & 36.70 & 347.77 \\
+Arp 285 & -16.66 & 21.33 & 25.37 & -84.45 & 86.28 & 14.76 & 9.20 & 10.50 & 5.01 & 5.71 & 51.19 & -35.00 & 295.16 & 249.32 \\
+Arp 214 & -43.09 & 13.54 & 0.93 & -57.28 & 31.96 & -21.48 & 10.07 & 10.01 & 8.01 & 6.31 & 135.70 & 354.86 & 140.82 & 138.14 \\
+UGC 7905 & 1.32 & -9.53 & 16.47 & -112.54 & -80.94 & 67.17 & 10.31 & 11.07 & 4.19 & 5.03 & 14.93 & 68.72 & 103.69 & 239.11 \\
+Arp 239 & -12.19 & 4.02 & 21.45 & -104.37 & 16.96 & 58.77 & 10.97 & 10.27 & 7.45 & 2.21 & 58.82 & 94.31 & 235.38 & 335.40 \\
+PAIR18 & -12.44 & 32.72 & -18.36 & 14.70 & -38.05 & -156.67 & 10.96 & 11.36 & 11.02 & 16.62 & 153.57 & 43.84 & 168.63 & 326.13 \\
+Arp 313 & -13.42 & 11.35 & -39.17 & -142.02 & -61.52 & -303.92 & 10.71 & 10.44 & 4.64 & 11.10 & 7.92 & 42.80 & 115.72 & 304.23 \\
+Arp 101 & 14.52 & -39.46 & -33.44 & 27.22 & -132.95 & -143.42 & 10.71 & 10.78 & 6.60 & 4.45 & 45.10 & 358.74 & 62.34 & 207.08 \\
+Arp 97 & -0.57 & 27.13 & 4.51 & -40.93 & 31.86 & 45.10 & 9.98 & 10.09 & 8.14 & 3.62 & 53.18 & 146.65 & 46.34 & 24.76 \\
+Arp 305 & 44.52 & 54.29 & -1.86 & 50.93 & 115.06 & 12.07 & 10.53 & 10.27 & 10.51 & 7.03 & 45.81 & 166.88 & 286.21 & 234.78 \\
+Arp 181 & -3.11 & -1.81 & -7.72 & -199.27 & -63.32 & -201.94 & 10.69 & 10.94 & 1.56 & 1.73 & 96.00 & 65.69 & 127.45 & 221.37 \\
+MCG 09-02-082 & 8.67 & -5.60 & -16.64 & 197.24 & 16.52 & -228.72 & 11.10 & 10.77 & 2.97 & 3.49 & 85.43 & 97.51 & 317.60 & 4.75 \\
+Arp 297 & 11.55 & -2.79 & -35.87 & 38.79 & -62.45 & 20.98 & 10.84 & 10.48 & 10.76 & 5.24 & 51.44 & 136.06 & 199.01 & 243.73 \\
+NGC 5753 & -24.85 & -34.94 & -21.60 & -59.57 & -86.24 & -5.50 & 10.64 & 10.40 & 4.62 & 5.77 & 141.06 & 110.25 & 138.63 & 26.83 \\
 \hline
 \end{tabular}}
-    \caption{The best fit parameters found the GZM project to represent each of the named interacting systems. We use these best fit parameters to create idealised images of each interacting system using APySPAM. Each of these parameters are the final parameters of the galaxy at the point of the observation. The positional and velocity vectors are of the secondary galaxy in the frame of the primary. The masses are the total mass of the system. The radii is that of the disk initialised to create the final morphology. Finally, the four orientation parameters are with respect to the $y$- and $z$- axis and allows the disk to be rotated in 3D with respect to the sky. The resultant simulation cutouts are shown in Figure \ref{fig:Obj_Cutout}.}
-    \label{tab:Objects}
+\caption{The best fit parameters found the GZM project to represent each of the named interacting systems. We use these best fit parameters to create idealised images of each interacting system using \texttt{APySPAM}. Each of these parameters are the final parameters of the galaxy at the point of the observation. The positional and velocity vectors are of the secondary galaxy in the frame of the primary. The masses are the total mass of the system. The radii is that of the disk initialised to create the final morphology. Finally, the four orientation parameters are with respect to the $y$- and $z$- axis and allows the disk to be rotated in 3D with respect to the sky. The resultant simulation cutouts are shown in Figure \ref{fig:Obj_Cutout}.}
+\label{tab:Objects}
 \end{table*}
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=0.90\textwidth]{Chapter1/figures/mock-images.pdf}
-    \caption[Our mock observations of each interacting system.]{Our mock observations of each interacting system. These act as an idealised observation, which is completely noiseless. We also know the underlying parameters which formed these outputs. Therefore, this forms an excellent test-set to see if we can recover the underlying parameters when searching over a large parameter space.}
-    \label{fig:Obj_Cutout}
+\centering
+\includegraphics[width=0.90\textwidth]{Chapter1/figures/mock-images.pdf}
+\caption[Our mock observations of each interacting system.]{Our mock observations of each interacting system. These act as an idealised observation, which is completely noiseless. We also know the underlying parameters which formed these outputs. Therefore, this forms an excellent test-set to see if we can recover the underlying parameters when searching over a large parameter space.}
+\label{fig:Obj_Cutout}
 \end{figure*}
 
 \section{Constraining Interaction}\label{method:constraint}
-We now require a method to compare our simulation images to our synthetic images. This comparison acts as a way to map the set of underlying parameters to an output morphology that we can then constrain by comparing to observations. However, we need a framework to conduct this comparison and to explore the parameter space of our interactions. To do this, we use an Markov-Chain Monte Carlo (MCMC) algorithm. In this section, we first describe the parameter space we explore, followed by our MCMC algorithm, how we quantify the similarity between simulation and synthetic images and how we find the parameters which are best fit.
+We now require a method to compare our simulation images to our synthetic images. This comparison acts as a way to map the set of underlying parameters to an output morphology that we can then constrain by comparing to observations. However, we need a framework to conduct this comparison and to explore the parameter space of our interactions. To do this, we use an Markov-Chain Monte Carlo (MCMC) algorithm. In this chapter, we first describe the parameter space we explore, followed by our MCMC algorithm, how we quantify the similarity between simulation and synthetic images and how we find the parameters which are best fit.
 
 \subsection{The Parameter Space of Interaction}
-We aim to explore the underlying parameter space of interaction and find the best fit parameters which describe an input observation or test image. The parameters we constrain are the required parameters in the APySPAM three-body simulation algorithm. To function, APySPAM requires 15 different parameters. These are: the 6 positional and velocity vectors of the secondary galaxy, the total masses of both galaxies, their radius, 4 orientation parameters and the dynamical timeframe to model. We now also require the redshift measurement of the system to correctly estimate the flux distribution of the system. However, some of these parameters we can find before we begin exploring the underlying parameter space.
+We aim to explore the underlying parameter space of interaction and find the best fit parameters which describe an input observation or test image. The parameters we constrain are the required parameters in the \texttt{APySPAM} three-body simulation algorithm. To function, \texttt{APySPAM} requires 15 different parameters. These are: the 6 positional and velocity vectors of the secondary galaxy, the total masses of both galaxies, their radius, 4 orientation parameters and the dynamical timeframe to model. We now also require the redshift measurement of the system to correctly estimate the flux distribution of the system. However, some of these parameters we can find before we begin exploring the underlying parameter space.
 
 The first two parameters we find are the projected 2D position of the secondary from the primary. These are measured from the observational image of the system by converting between pixel and physical coordinates in the image. We take this position as the centre of the secondary disk. We also provide the redshift of the interacting system. The redshift not only directly impacts the flux distribution of the input image, but its scale and resolution. Therefore, we assume that this parameter is known and provided. Work is currently being conducted to making this a free parameter that can also be constrained based on the interacting systems flux distribution and size.
 
 Thus, there are 13 different free parameters to recreate an interacting systems morphology and are the 13 parameters we will constrain over. A description of these parameters and the size of the parameter space explored are shown Table \ref{tab:parameters}. We choose the limits of the parameter space based on the maximum values of the parameters we used to build our test images in Table \ref{tab:Objects}. Table \ref{tab:parameters} provides the size of the parameter space as well as the conversion between the simulation units and physical units. This is primarily for reference for those who would wish to use our simulation to their own datasets. The conversions are found from \citet{1990AJ....100.1477W}.
 
 \begin{table*}
-    \centering
-    \resizebox{1.00\textwidth}{!}{\begin{tabular}{|c|c|c|c|}
-        \hline
-        Parameter & Description & Conversion(Spec. Units) & Parameter Range(Spec. Units)  \\
-        \hline
-        $z$-position & Secondary $z$-position & 15kpc & -300kpc - 300kpc \\
-        v$_{x}$,v$_{y}$,v$_{z}$ & Secondary velocities & 169.34kms$^{1}$ & -1693kms$^{-1}$ - 1693kms$^{-1}$ \\
-        M$_{1}$,M$_{2}$ & Total Masses of Galaxy & 10$^{11}$M$_{\odot}$ & 1 $\times$ 10$^{9}$M$_{\odot}$ - 4 $\times$ 10$^{12}$M$_{\odot}$ \\
-        R$_{1}$,R$_{2}$ & Radii of Galaxies & 15kpc & 0.15kpc - 150kpc\\
-        $\phi_{1}$, $\phi_{2}$ & Y-axis orientation & deg & 0$^{\circ}$ - 360$^{\circ}$ \\
-        $\theta_{1}$, $\theta_{2}$ & Z-axis orientation & deg & 0$^{\circ}$ - 360$^{\circ}$ \\
-        t & Time of Min. Separation & 57.7Myr & 0Myr - 500Myr \\
-        \hline
-    \end{tabular}}
-    \caption{The thirteen parameters used in both JSPAM and APySPAM to recreate an interaction. Each of these parameters must be found to consider an interaction constrained. The Parameter column shows how each parameter will be described throughout the rest of this paper. The third column then gives the conversion required to go from simulation units to SI units.}
-    \label{tab:parameters}
+\centering
+\resizebox{1.00\textwidth}{!}{\begin{tabular}{|c|c|c|c|}
+\hline
+Parameter & Description & Conversion(Spec. Units) & Parameter Range(Spec. Units) \\
+\hline
+$z$-position & Secondary $z$-position & 15kpc & -300kpc - 300kpc \\
+v$_{x}$,v$_{y}$,v$_{z}$ & Secondary velocities & 169.34kms$^{1}$ & -1693kms$^{-1}$ - 1693kms$^{-1}$ \\
+M$_{1}$,M$_{2}$ & Total Masses of Galaxy & 10$^{11}$M$_{\odot}$ & 1 $\times$ 10$^{9}$M$_{\odot}$ - 4 $\times$ 10$^{12}$M$_{\odot}$ \\
+R$_{1}$,R$_{2}$ & Radii of Galaxies & 15kpc & 0.15kpc - 150kpc\\
+$\phi_{1}$, $\phi_{2}$ & Y-axis orientation & deg & 0$^{\circ}$ - 360$^{\circ}$ \\
+$\theta_{1}$, $\theta_{2}$ & Z-axis orientation & deg & 0$^{\circ}$ - 360$^{\circ}$ \\
+t & Time of Min. Separation & 57.7Myr & 0Myr - 500Myr \\
+\hline
+\end{tabular}}
+\caption{The thirteen parameters used in both \texttt{JSPAM} and \texttt{APySPAM} to recreate an interaction. Each of these parameters must be found to consider an interaction constrained. The Parameter column shows how each parameter will be described throughout the rest of this paper. The third column then gives the conversion required to go from simulation units to SI units.}
+\label{tab:parameters}
 \end{table*}
 
 \subsection{Defining the Likelihood Function}
 \subsubsection{MCMC \& Bayes Theorem}
-We define framework by which to explore our parameter space, and identify areas where the parameter set successfully represent the input image. We combine APySPAM with a MCMC methodology in order to fully explore the underlying parameter space. In an MCMC, a set of walkers are created and are then moved through parameter space in an ensemble. Each walker position is a set of parameters in our 13D parameter space. At each point, we calculate the likelihood that the output simulation is representative of the input interacting system. We then compare the likelihood between the old and new position, and if the likelihood is higher at the new position the walker moves there. If not, the walker remains in place and makes another attempt to find a higher likelihood. The walkers form their own chain of steps which gradually move towards the areas of highest likelihood. In our case, the likelihood is a measurement of the similarity in flux distribution between a simulated image with parameters of the walker position and an observed image of unknown underlying parameters. Therefore, the walkers are moving from a set of underlying parameters that poorly describe the observed system to a set of underlying parameters which describe the observed system well. 
+We define framework by which to explore our parameter space, and identify areas where the parameter set successfully represent the input image. We combine \texttt{APySPAM} with a MCMC methodology in order to fully explore the underlying parameter space. In an MCMC, a set of walkers are created and are then moved through parameter space in an ensemble. Each walker position is a set of parameters in our 13D parameter space. At each point, we calculate the likelihood that the output simulation is representative of the input interacting system. We then compare the likelihood between the old and new position, and if the likelihood is higher at the new position the walker moves there. If not, the walker remains in place and makes another attempt to find a higher likelihood. The walkers form their own chain of steps which gradually move towards the areas of highest likelihood. In our case, the likelihood is a measurement of the similarity in flux distribution between a simulated image with parameters of the walker position and an observed image of unknown underlying parameters. Therefore, the walkers are moving from a set of underlying parameters that poorly describe the observed system to a set of underlying parameters which describe the observed system well. 
 
-We use the well known Python package EMCEE \citep{Foreman-Mackey_13} for our MCMC. This is an ensemble MCMC package with numerous predefined moves and algorithms to make getting to the area of high likelihood more efficient. We construct contours of walker mass and use these to calculate the errors and probability distribution of our best fit measurement; i.e. we can construct a posterior for each of our parameters. For full details of EMCEE and the different modes that it can use, see the extensive readthedocs\footnote{\url{https://emcee.readthedocs.io/en/stable/}}; but here we will briefly state the hyper parameters that we use. 
+We use the well known Python package \texttt{emcee} \citep{Foreman-Mackey_13} for our MCMC. This is an ensemble MCMC package with numerous predefined moves and algorithms to make getting to the area of high likelihood more efficient. We construct contours of walker mass and use these to calculate the errors and probability distribution of our best fit measurement; i.e. we can construct a posterior for each of our parameters. For full details of \texttt{emcee} and the different modes that it can use, see the extensive readthedocs\footnote{\url{https://emcee.readthedocs.io/en/stable/}}; but here we will briefly state the hyper parameters that we use. 
 
 For each observed image, an ensemble of six hundred walkers was initialised which would explore a total chain length of 7500 steps. Following the advice in the documentation regarding potentially complex and multi-model parameter spaces we utilised two different walker move proposals in our algorithm. These were the Differential Evolution (DE) Move \citep{Nelson_14} and the Snooker Differential Evolution (DES) Move \citep{ter_Braak_08}. An identical version of our setup can be found on GitHub\footnote{\url{https://github.com/AstroORyan}}. Here, a user can download our setup to reproduce our results, or to update the model for their own purposes.
 
 We define a likelihood function to compare the input images to our simulation outputs. By Bayes Theorem, the probability that a set of underlying parameters which produced a simulation also describe a test image follows Equation \ref{bayes},
 \begin{equation}\label{bayes}
-    P(H_{i}|D_{obs},C) = P(H_{i}|C)\frac{P(D_{obs}|H_{i},C)}{P(D_{obs}|C)}).
+P(H_{i}|D_{obs},C) = P(H_{i}|C)\frac{P(D_{obs}|H_{i},C)}{P(D_{obs}|C)}).
 \end{equation}
 P(H$_{i}$|D$_{obs}$,C) is the probability that some hypothesised set of underlying parameters, H$_{i}$, successfully describes some observational data, D$_{obs}$, under some prior constraints, C. Applying this to our hypothesis, H$_{i}$, allows us to utilise the prior knowledge that we have about the interacting system in question and can be used to put constraints on the parameter spaces we explore to shorten computation time. This is described by the expression P(H$_{i}$|C). This is multiplied by the likelihood that the observation is defined by the hypothesised parameters given the constrains,P(D$_{obs}$|$H_{i}$,C), all divided by a normalisation constant, P(D$_{obs}$|C).
 
 \subsubsection{Simplifying the Prior}
-In order to simplify this expression, we make assumptions about the underlying parameter space to increase efficiency and simply our computations. We first assume uniform priors for each of our 13 parameters. Therefore, we define a range of parameter values that if a walker moves outwith, we set the probability immediately to zero. The ranges we allow for each parameter are specified in Table \ref{tab:parameters}. These ranges can be tweaked, or a different prior function defined, by the user. Here, we elect to set the priors part of Equation \ref{bayes} to one.
+In order to simplify this expression, we make assumptions about the underlying parameter space to increase efficiency and simply our computations. We first assume uniform priors for each of our 13 parameters. Therefore, we define a range of parameter values that if a walker moves beyond, we set the probability immediately to zero. The ranges we allow for each parameter are specified in Table \ref{tab:parameters}. These ranges can be tweaked, or a different prior function defined, by the user. Here, we elect to set the priors part of Equation \ref{bayes} to one.
 
 We improve efficiency in our code further by adding to the prior based on the likelihood that tidal features will form in any given interaction. This is defined by a filter parameter, $\gamma$, and is fully described in \citet[][where it is called $\beta$ but we call it $\gamma$ here to not be confused with our star formation enhancement parameter of Equation \ref{enhancement_param}]{2016MNRAS.459..720H}:
 \begin{equation}\label{gamma_param}
-    \gamma_{min} = \frac{M_{1} + M_{2}}{r_{min}^{2}V_{r_{min}}}.
+\gamma_{min} = \frac{M_{1} + M_{2}}{r_{min}^{2}V_{r_{min}}}.
 \end{equation}
 Here, $r_{min}$ is the closest approach distance, $V_{r_{min}}$ is the relative velocity at the time of closest approach and $M_{1}$ and $M_{2}$ are the primary and secondary masses, respectively. This parameter is designed to capture two important quantities: the mutual gravitational attraction and the inverse of the closest approach velocity. Each of which is important for the resultant gravitational distortion of the interacting system. By maximising the total mass of the system, while minimising the distance of closest approach and maximising the time of closest approach (i.e. minimising $V_{r_{min}}$) we would expect stronger tidal distortion. 
 
 In our case, we use it to inform our prior as the MCMC continues. This significantly enhances the computational efficiency and pushes the walker ensemble to areas of high likelihood quickly. In each step of the MCMC, running the simulation itself is the highest computational cost, so we calculate $\gamma$ first and then make a decision on whether to run the simulation. This decision is based on an exponentially declining probability dependent on the value of $\gamma$. This probability, or prior, is defined as 
 \begin{equation}\label{tidal_prob}
-    C = 
-    \begin{cases}
-        \exp(0.5\frac{\gamma}{\gamma_{min}}), & \text{if } \gamma < 0.5 \\
-        0, & \text{if } \gamma \geq 0.5
-    \end{cases}
+C = 
+\begin{cases}
+\exp(0.5\frac{\gamma}{\gamma_{min}}), & \text{if } \gamma < 0.5 \\
+0, & \text{if } \gamma \geq 0.5
+\end{cases}
 \end{equation}
 Here, $\gamma$ is a user defined cutoff, 0.5 in our case. Taking the log of this, we can directly add it to prior. If the prior is initially calculated above 100, we do not run the simulation and move the walker to a new set of parameters.
 
 \subsubsection{Simplifying the Likelihood Function}
-To further simplify the likelihood function, we can assume our probability distribution is Gaussian. This is a reasonable assumption to make as a starting point for our constraining attempts. However, as will be described in section \ref{Results} this is found to not always hold true; particularly for the orientations of the system. However, making this assumption allows us to utilise the following Equation to compare our mock observations to our observed data;
+To further simplify the likelihood function, we can assume our probability distribution is Gaussian. This is a reasonable assumption to make as a starting point for our constraining attempts. However, as will be described in Chapter \ref{Results} this is found to not always hold true; particularly for the orientations of the system. However, making this assumption allows us to utilise the following Equation to compare our mock observations to our observed data;
 \begin{equation}\label{like_gauss}
-    P(D_{obs}|H_{i},C) = (2\pi\sigma^{2}_{j})\exp(-\frac{1}{2\sigma^{2}}\sum_{j=1}^{n}(x_{j}-\mu)^{2}) \times C.
+P(D_{obs}|H_{i},C) = (2\pi\sigma^{2}_{j})\exp(-\frac{1}{2\sigma^{2}}\sum_{j=1}^{n}(x_{j}-\mu)^{2}) \times C.
 \end{equation}
 Here $\sigma_{j}$ is the uncertainty in the observed image, $x_{j}$ is our mock observation and $\mu$ is the observed image. The above expression can be simplified further by noting that the expression in the exponential function is just a half of the $\chi^{2}$ difference between the observational image and the mock observational image. This is the same $\chi^{2}$ function that is used in the code GALFIT \citep{2002AJ....124..266P}. Where $\chi^{2}$ is given by;
 \begin{equation}\label{chi_squared}
-    \chi^{2} = \frac{1}{N - n_{dof}}\sum_{0}^{N_{x}}\sum_{0}^{N_{y}}\frac{(p_{x,y} - q_{x,y})^{2}}{\sigma_{x,y}^{2}}.
+\chi^{2} = \frac{1}{N - n_{dof}}\sum_{0}^{N_{x}}\sum_{0}^{N_{y}}\frac{(p_{x,y} - q_{x,y})^{2}}{\sigma_{x,y}^{2}}.
 \end{equation}
 Here, N is the number of pixels in the observed image, which has the number of degrees of freedom subtracted from it, n$_{dof}$. $p_{x,y}$ and $q_{x,y}$ are the flux values of the (xth, yth) pixel in the observed and simulated images respectively. $\sigma_{x,y}$ is the $\sigma$ value of the (xth,yth) pixel; this is the uncertainty in the observed images pixel value and follows the $\sigma_{x,y}$-image definition from GALFIT \citep{2002AJ....124..266P,2010AJ....139.2097P}. This is then summed over all pixels in the image, giving us a single $\chi^{2}$ value between each simulated image and observed image.
 
 Finally, to help computation time the log is taken of our likelihood function. This leaves us with a final expression that a given set of parameters describing a simulation image also describe the observed image input into the algorithm,
 \begin{equation}\label{likelihood}
-    \log_{10}(P(H_{i}|D_{obs},C)) = \log_{10}(L) = - \frac{\chi^{2}}{2} + \log_{10}(C).
+\log_{10}(P(H_{i}|D_{obs},C)) = \log_{10}(L) = - \frac{\chi^{2}}{2} + \log_{10}(C).
 \end{equation}
 This is used at every step of our MCMC chain, with a simulation have to be run for each.
 
@@ -337,34 +337,34 @@ Thus, we now have a method by which to quickly predict the resultant morphology 
 
 
 \section{Results \& Discussion}\label{Results}
-\noindent We now apply our MCMC algorithm to our set of synthetic interacting galaxy images. To reduce the number of repetitive figures in this paper, we focus here on a specific system as a representative sample, and publish the results of all samples online. They are presented online\footnote{All results are found here: \href{https://drive.google.com/drive/folders/1hlFhrdoZ50JaEWWYoy0RZ3J4LSoRjmsq?usp=sharing}{Link}}. As these input images are created from APySPAM, they provide us with a set of synthetic images of interacting pairs with no noise and where the underlying parameters are known. Initially, we explore the results of running this on the synthetic image of Arp 240. We discuss how the constraints could be improved, and discuss improvements on our constraints with extra, 3D information. We then plot the results for the entire dataset, and discuss trends we see in the parameters we recover.
+\noindent We now apply our MCMC algorithm to our set of synthetic interacting galaxy images. To reduce the number of repetitive figures in this paper, we focus here on a specific system as a representative sample, and publish the results of all samples online. They are presented online\footnote{All results are found here: \href{https://drive.google.com/drive/folders/1hlFhrdoZ50JaEWWYoy0RZ3J4LSoRjmsq?usp=sharing}{Link}}. As these input images are created from \texttt{APySPAM}, they provide us with a set of synthetic images of interacting pairs with no noise and where the underlying parameters are known. Initially, we explore the results of running this on the synthetic image of Arp 240. We discuss how the constraints could be improved, and discuss improvements on our constraints with extra, 3D information. We then plot the results for the entire dataset, and discuss trends we see in the parameters we recover.
 
 We apply our methodology to a set of real, observed images of interacting galaxies. We select the five which are at different stages and various levels of constraint from our test dataset. We apply our MCMC to only a subset as the computational expense is significantly increased to make constraints on the observational systems and for our MCMC to reach convergence. We compare our found best fit values with those of our synthetic system, and discuss the difference between applying this to best fit simulations and observations. Finally, we describe the applicability of our approach to other systems; keeping an emphasis on those in the low surface brightness regime and the limitations this would introduce.
 
 \subsection{Testing on a Synthetic Image}
-We apply our MCMC to a single image from our mock dataset described in Section \ref{sec:syn_sample}. We elect to use this system as it is is composed of two clear and distinct disks, with a tidal bridge connecting them and tidal tails forming on the opposite side. The tidal features lie in the high surface brightness regime, and have an inclination close to 0. The observation and synthetic image are shown in Figure \ref{fig:arp240}. There are clear differences between the morphology of our mock image and the observation of Arp 240. Therefore, testing on the synthetic image is not the same as constraining the Arp 240 system. However, the synthetic image is an ideal scenario to test our methodology on. We elect to test our MCMC on the Arp 240 system first, as it has a high mass in our sample meaning the tidal features will contain more flux and should be easier for our MCMC to constrain.
+We apply our MCMC to a single image from our mock dataset described in Chapter \ref{sec:syn_sample}. We elect to use this system as it is is composed of two clear and distinct disks, with a tidal bridge connecting them and tidal tails forming on the opposite side. The tidal features lie in the high surface brightness regime, and have an inclination close to 0. The observation and synthetic image are shown in Figure \ref{fig:arp240}. There are clear differences between the morphology of our mock image and the observation of Arp 240. Therefore, testing on the synthetic image is not the same as constraining the Arp 240 system. However, the synthetic image is an ideal scenario to test our methodology on. We elect to test our MCMC on the Arp 240 system first, as it has a high mass in our sample meaning the tidal features will contain more flux and should be easier for our MCMC to constrain.
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=0.75\textwidth]{Chapter1/figures/arp240-obs-sim.pdf}
-    \caption[The example system used to test our MCMC: the Arp 240 interacting system.]{The example system used to test our MCMC: the Arp 240 interacting system. This system is considered an easy one to constrain. It is composed of two clearly distinct galaxies, with strong tidal features that our MCMC can match. These tidal features are the two tidal tails formed in the interaction and the tidal bridge linking the two systems. \textit{Left}: The prepared observation image of the Arp 240 system created from SDSS DR16 observations. \textit{Right}: The best fit simulation image as found by \citet{2016MNRAS.459..720H} and the first test image used in our pipeline. The different in scale and orientation are discussed below.}
-    \label{fig:arp240}
+\centering
+\includegraphics[width=0.75\textwidth]{Chapter1/figures/arp240-obs-sim.pdf}
+\caption[The example system used to test our MCMC: the Arp 240 interacting system.]{The example system used to test our MCMC: the Arp 240 interacting system. This system is considered an easy one to constrain. It is composed of two clearly distinct galaxies, with strong tidal features that our MCMC can match. These tidal features are the two tidal tails formed in the interaction and the tidal bridge linking the two systems. \textit{Left}: The prepared observation image of the Arp 240 system created from SDSS DR16 observations. \textit{Right}: The best fit simulation image as found by \citet{2016MNRAS.459..720H} and the first test image used in our pipeline. The different in scale and orientation are discussed below.}
+\label{fig:arp240}
 \end{figure*}
 
-We constrain the synthetic Arp 240 image by running our simulation with 2,500 particles with 600 walkers and 7,500 steps in the MCMC. An example of our full results is shown in Figure \ref{fig:corner_plot}. This corner plot is created using the Corner Python Package \citep{corner}. However, displaying our results as is shown in Figure \ref{fig:corner_plot} will be difficult as we will be discussing multiple different systems throughout this section. This larger corner plot also uses a lot of space. Therefore, we will present and discuss our results using reduced corner plots as shown in Figure \ref{fig:arp240_corner_plot}.
+We constrain the synthetic Arp 240 image by running our simulation with 2,500 particles with 600 walkers and 7,500 steps in the MCMC. An example of our full results is shown in Figure \ref{fig:corner_plot}. This corner plot is created using the \texttt{Corner} Python Package \citep{corner}. However, displaying our results as is shown in Figure \ref{fig:corner_plot} will be difficult as we will be discussing multiple different systems throughout this chapter. This larger corner plot also uses a lot of space. Therefore, we will present and discuss our results using reduced corner plots as shown in Figure \ref{fig:arp240_corner_plot}.
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{Chapter1/figures/Arp240-full-corner.pdf}
-    \caption[Corner plot showing the constraints made on all thirteen parameters we are exploring.]{Corner plot showing the constraints made on all thirteen parameters we are exploring. Each contour level contains 11.8\%, 39.3\%, 67.5\% and 86.4\% of the samples across all walker chains. Displaying our results using the full corner plot is difficult in a paper because of the high dimensional results that we obtain. Therefore, we elect to show all remaining results in this paper as reduced corner plots like Figure \ref{fig:arp240_corner_plot}. We elect to put the parameters which are most likely to correlate together in different corner plots. To view the full corner plots of each system, find them at the results website for this paper.}
-    \label{fig:corner_plot}
+\centering
+\includegraphics[width=\textwidth]{Chapter1/figures/Arp240-full-corner.pdf}
+\caption[Corner plot showing the constraints made on all thirteen parameters we are exploring.]{Corner plot showing the constraints made on all thirteen parameters we are exploring. Each contour level contains 11.8\%, 39.3\%, 67.5\% and 86.4\% of the samples across all walker chains. Displaying our results using the full corner plot is difficult in a paper because of the high dimensional results that we obtain. Therefore, we elect to show all remaining results in this paper as reduced corner plots like Figure \ref{fig:arp240_corner_plot}. We elect to put the parameters which are most likely to correlate together in different corner plots. To view the full corner plots of each system, find them at the results website for this paper.}
+\label{fig:corner_plot}
 \end{figure*}
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{Chapter1/figures/Arp240-red-corner.pdf}
-    \caption[Same as Figure \ref{fig:corner_plot}, but reduced to only corresponding parameters.]{Same as Figure \ref{fig:corner_plot}, but reduced to only corresponding parameters.}
-    \label{fig:arp240_corner_plot}
+\centering
+\includegraphics[width=\textwidth]{Chapter1/figures/Arp240-red-corner.pdf}
+\caption[Same as Figure \ref{fig:corner_plot}, but reduced to only corresponding parameters.]{Same as Figure \ref{fig:corner_plot}, but reduced to only corresponding parameters.}
+\label{fig:arp240_corner_plot}
 \end{figure*}
 
 % Describe the results, what are we looking at?
@@ -385,7 +385,7 @@ The lack of 3D information also affects our constraints in the z-direction: the 
 
 The constraint of the $z$-velocity remains far from the true parameters due to similar reasons as above. The true value lies at the very edge of the probability distribution found, at approximately 86.4\%. This would, again, be rectified readily by introducing velocity information into our constraints. The simulation works so that the secondary galaxy is always at the same x and y position that is defined by the user. Therefore, an output simulation with a positive or negative LOS velocity will have the same flux distribution. Hence, this constraint simply peaks about zero for the $z$-velocity.
 
-Our MCMC works significantly better, however, with the $x$- and $y$-velocity of the secondary galaxy. We find the the truth value of this is within 67.8\% CI of our found distribution. The velocity values are directly related to the strength of the interaction, and therefore indirectly relate to the tidal features which form. Thus, our MCMC is informed by the flux distribution of the resultant simulated image and gives an excellent constraint on the parameters.
+Our MCMC works significantly better, however, with the $x$- and $y$-velocity of the secondary galaxy. We find the truth value of this is within 67.8\% CI of our found distribution. The velocity values are directly related to the strength of the interaction, and therefore indirectly relate to the tidal features which form. Thus, our MCMC is informed by the flux distribution of the resultant simulated image and gives an excellent constraint on the parameters.
 
 % Need to replace this time of interaction with the correct one. 
 Finally, we discuss attempting to constrain the time of the interaction. We show the time since closest approach, not the total interaction time. The underlying simulation utilises backwards integration to calculate the trajectory of the interaction. Therefore, the time we input into the simulation simply tells it how far back in said trajectory to put the secondary galaxy. Therefore, the same interaction will occur whether we input -10 time units or -100 time units. The algorithm will require more computation time to calculate the particle positions in the lead up to the interaction. It is important to note that the total integration time will only affect the output system when we make it too small. In other words, if the secondary starts after the point of closest separation or at closest separation, our simulation breaks down and gives nonphysical results.
@@ -395,10 +395,10 @@ We calculate the time of closest approach for all of our walker steps and then p
 To fully put this result into context, we explore the simulations that lie in the areas of highest probability within these posteriors. To select which simulations to present, we take those walkers that were within the 11.8\% CI throughout each walker chain and take the top 5 as an illustration here. Our MCMC is not able to precisely reproduce the input image. It is often able to reproduce the tidal features of the primary as well as the tidal bridge connecting the two systems. This appears to be where the MCMC has centered the posterior upon. The likely reason for this is actually due to the filtering parameter that we use on the simulation. The Arp 240 simulation lies in an unlikely area of tidal features to form - $\gamma = 0.259$ - and, therefore, we update our prior to make the true result appear less likely. However, the $\gamma$ parameter remains a necessity in our MCMC. Without the ability to filter the simulations quickly, we begin to approach very large requirements of computational expense. Therefore, for this particular example the $\gamma$ parameter is a hindrance.
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{Chapter1/figures/best-fits-comb.pdf}
-    \caption[Simulations from the areas of parameter space that lay within the 11.8\% CI of our constraints.]{Simulations from the areas of parameter space that lay within the 11.8\% CI of our constraints. \textit{First Row}: The synthetic image we are attempting to constrain. \textit{Second Row}: The best fit simulations from this parameter space. \textit{Bottom}: The worst fit simulations from this parameter space. Our MCMC found those parameters which cause the formation of the correct tidal features, as well as the tidal bridge connecting the two systems. However, it has been unable to fully identify the tidal features of the secondary. There is also a lot of noise in this posterior distribution, with many systems with different tidal features in the areas of high probability. Therefore, identifying specific systems with the sought after tidal features requires manual intervention.}
-    \label{fig:arp240_corner_plot}
+\centering
+\includegraphics[width=\textwidth]{Chapter1/figures/best-fits-comb.pdf}
+\caption[Simulations from the areas of parameter space that lay within the 11.8\% CI of our constraints.]{Simulations from the areas of parameter space that lay within the 11.8\% CI of our constraints. \textit{First Row}: The synthetic image we are attempting to constrain. \textit{Second Row}: The best fit simulations from this parameter space. \textit{Bottom}: The worst fit simulations from this parameter space. Our MCMC found those parameters which cause the formation of the correct tidal features, as well as the tidal bridge connecting the two systems. However, it has been unable to fully identify the tidal features of the secondary. There is also a lot of noise in this posterior distribution, with many systems with different tidal features in the areas of high probability. Therefore, identifying specific systems with the sought after tidal features requires manual intervention.}
+\label{fig:arp240_corner_plot}
 \end{figure*}
 
 % This is likely better in the conclusion.
@@ -413,10 +413,10 @@ Overall, from our example of Arp 240, we are able to recover nearly all the true
 Figure \ref{fig:arp240_corner_plot} clearly shows that each orientation has incredibly complex, multi-model structure in the parameter space. We have a 2- or 4-fold degeneracy in the output models due to three dimensional information not being available. This disrupts our Gewke diagnostic measure, which is looking for a single peak in parameter space. Therefore, by folding the parameter space over and only exploring over $0^{\circ}$ - $180^{\circ}$, we achieve a single peak in parameter space. These results then pass the Geweke diagnostic test.
 
 \begin{figure}
-    \centering
-    \includegraphics[width=0.45\textwidth]{Chapter1/figures/arp-240-steps.pdf}
-    \caption[Steps taken by each walker in our MCMC chain to constrain the Arp 240 best fit simulation.]{Steps taken by each walker in our MCMC chain to constrain the Arp 240 best fit simulation. Note, the $y$-scales here do not extend over the full parmaeter space for some galaxies, and only show where the walkers have stepped after the burn-in phase. The deeper the blue, the more walkers have stepped at that point. This figure shows that our MCMC has successfully burnt in and very quickly goes to high areas of probability for parameter space. They then oscillate around the best fit values while searching the remaining parameter space. The $z$-position, $z$-velocity and $\phi_{2}$ parameters show dignificant uncertainty as the walkers move around the entire parameter space. In the $\phi_{1}, \theta_{1}, \theta_{2}$, we can see the two fold degeneracy form very early on and then the walkers do not explore across them at any point.}
-    \label{fig:walker_steps}
+\centering
+\includegraphics[width=0.45\textwidth]{Chapter1/figures/arp-240-steps.pdf}
+\caption[Steps taken by each walker in our MCMC chain to constrain the Arp 240 best fit simulation.]{Steps taken by each walker in our MCMC chain to constrain the Arp 240 best fit simulation. Note, the $y$-scales here do not extend over the full parameter space for some galaxies, and only show where the walkers have stepped after the burn-in phase. The deeper the blue, the more walkers have stepped at that point. This figure shows that our MCMC has successfully burnt in and very quickly goes to high areas of probability for parameter space. They then oscillate around the best fit values while searching the remaining parameter space. The $z$-position, $z$-velocity and $\phi_{2}$ parameters show dignificant uncertainty as the walkers move around the entire parameter space. In the $\phi_{1}, \theta_{1}, \theta_{2}$, we can see the two fold degeneracy form very early on and then the walkers do not explore across them at any point.}
+\label{fig:walker_steps}
 \end{figure}
 
 The second diagnostic we use is that the walkers have fully explored parameter space and that we have removed enough of the steps at the beginning of the run to consider the MCMC burnt-in. Once again, using ChainConsumer, we can plot out each walker step throughout parameter space. Figure \ref{fig:walker_steps} shows the flattened walker chains through parameter space. We have removed the first 200 steps of each walker chain before thinning the chain and flattening it. By flattening we have taken each walker chain and combined them into one chain for every parameter. Discarding the first 200 steps has been enough for the burn in of the MCMC, as the walkers have already moved mostly through parameter space and are centering on a central value of high probability. The structure in the orientation parameters is also interesting. The degeneracy structure in the parameter space has already formed by the end of the burn-in and then the walkers move within those areas of high probability. This is for two reasons. First, they affect the flux distribution of the disks primarily in if they are face-on or edge-on. The MCMC quickly converges on face-on systems in our case. Second, when they are in that degenerate space, the slight changes in inclination of the disks given does not change the likelihood calculation significantly enough to reduce this degenerate space further. Hence, the degenerate areas are very large with very flat areas of probability at their peak.
@@ -431,13 +431,13 @@ Very few of the systems described in Table \ref{tab:Objects} have associated int
 Figure \ref{fig:velocity_corner_plot} shows the new measurements of the constraint on the $z$-position, $y$- and $z$- velocities. The constraints on each of these parameters is significantly improved. This is with the same number of MCMC walkers and steps as without 3D information. For the $y$- and $z$-velocities, the constraints are improved to the point where we completely recover the true underlying parameter values within 39.3\% CI. With the $z$-position, we also gain significant constraint. We are able to recover which side of the primary the secondary lies, with a sharp drop in the marginalised posterior over the negative part of the $z$-position parameter space. We also significantly improve our constraint on the time of the interaction, and approximately recover the true parameter. We are able to constrain the final velocity expected in the observation, and therefore, means the galaxy cannot be moving too fast at in the final timestep. This has the effect of shifting the expected time of contact back significantly.
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=0.9\textwidth]{Chapter1/figures/Arp240_vel-red-corner.pdf}
-    \caption[The reduced corner plot of the synthetic Arp 240 system with a velocity map also used for constrained.]{The reduced corner plot of the synthetic Arp 240 system with a velocity map also used for constrained. To add this extra information, we created a mock velocity map of our Arp 240 synthetic image and summed the LOS velocity ($z$-velocity) in each pixel of our image. Comparing between here and Figure \ref{fig:arp240_corner_plot}, we see we make different constraints on the $z$-position and the time as well as resolve one of the degeneracys in the orientation space.}
-    \label{fig:velocity_corner_plot}
+\centering
+\includegraphics[width=0.9\textwidth]{Chapter1/figures/Arp240_vel-red-corner.pdf}
+\caption[The reduced corner plot of the synthetic Arp 240 system with a velocity map also used for constrained.]{The reduced corner plot of the synthetic Arp 240 system with a velocity map also used for constrained. To add this extra information, we created a mock velocity map of our Arp 240 synthetic image and summed the LOS velocity ($z$-velocity) in each pixel of our image. Comparing between here and Figure \ref{fig:arp240_corner_plot}, we see we make different constraints on the $z$-position and the time as well as resolve one of the degeneracys in the orientation space.}
+\label{fig:velocity_corner_plot}
 \end{figure*}
 
-Interestingly, we lose a significant amount of constraint on the relative sizes of the two systems. Adding the velocity information in the way we have likely increases the required size of the disks so the LOS velocities match within them. Therefore, more particles are stripped from the secondary galaxy and cause further uncertainty in the final image. We also find the removal of some of the degeneracy in the orientation parameters, as expected. It is important to note that, in this example, we have only used the LOS velocities to achieve this improvement in constraint. To better get constraint on orientation, we likely need further velocity and 3D information of the system. For instance estimates of the internal rotation, and accurate measures of the bulk motion of the tidal features in the galaxy. Currently, the simulation is not able to accurately reproduce this outwith simply assuming circular velocities at different radii from each galactic centre. Finally, the mass constraints remain the same as was found without velocity information as they are dependent primarily on the flux distribution and dominated by the inner disk of the system.
+Interestingly, we lose a significant amount of constraint on the relative sizes of the two systems. Adding the velocity information in the way we have likely increases the required size of the disks so the LOS velocities match within them. Therefore, more particles are stripped from the secondary galaxy and cause further uncertainty in the final image. We also find the removal of some of the degeneracy in the orientation parameters, as expected. It is important to note that, in this example, we have only used the LOS velocities to achieve this improvement in constraint. To better get constraint on orientation, we likely need further velocity and 3D information of the system. For instance estimates of the internal rotation, and accurate measures of the bulk motion of the tidal features in the galaxy. Currently, the simulation is not able to accurately reproduce this and simply assumes circular velocities at different radii from each galactic centre. Finally, the mass constraints remain the same as was found without velocity information as they are dependent primarily on the flux distribution and dominated by the inner disk of the system.
 
 
 This shows the improvement that adding velocity information to our MCMC could bring, and how far interacting galaxy simulation and constraint can go once we incorporate IFU spectroscopy over more systems. In the sample we are using here, of the most massive, large, major interacting systems, only three have got any IFU data. This data is from the MaNGA \citep{2015ApJ...798....7B} IFU spectrograph, whose field of view is only able to capture the central disk of these systems. While having velocity information on even a subset of the pixels of the galaxy would improve constraints, to significantly improve them we will need this of the full tidal features of the systems. IFUs with larger fields of view are soon to come online, such as WEAVE \citep{2014SPIE.9147E..0LD}. 
@@ -447,38 +447,38 @@ This shows the improvement that adding velocity information to our MCMC could br
 \noindent With constraints being ascertained on nearly all parameters of our synthetic Arp 240 image, we then applied our MCMC to the remaining 50 synthetic images. The reader is invited to see the resultant corner and reduced corner plots of each system on the website. Here, we will detail describe our best and worst three corner plots, and then discuss the trends throughout applying the MCMC to the dataset. First, our ability to constrain is highly dependent upon the stage of interaction. Our tightest constraints, the ones with narrowest posteriors, were on those interacting galaxies which were only just past the point of closest approach. I.e., they were the systems which had highly distinct tidal features and disks were fully separate. Our best three fits were those of synthetic images of Arp 172, Arp 240 and Arp 290. The `best fits' have been judged by those with the smallest FWHM of their marginalised probability distribution in mass. The reduced corner plots are shown in here in Figures \ref{fig:arp240_corner_plot}, \ref{fig:best-Arp172} and \ref{fig:best-Arp290}. Each of these systems is clearly in stage 2 or 3 of the interaction, where tidal features have formed clearly, and there are two distinct disks.
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{Chapter1/figures/Arp172-red-corner.pdf}
-    \caption[Second example of our best fits from our methodology is representative of the simulated image of Arp 172, a stage 3 system.]{Second example of our best fits from our methodology is representative of the simulated image of Arp 172, a stage 3 system. Gold lines represent the true values.}
-    \label{fig:best-Arp172}
+\centering
+\includegraphics[width=\textwidth]{Chapter1/figures/Arp172-red-corner.pdf}
+\caption[Second example of our best fits from our methodology is representative of the simulated image of Arp 172, a stage 3 system.]{Second example of our best fits from our methodology is representative of the simulated image of Arp 172, a stage 3 system. Gold lines represent the true values.}
+\label{fig:best-Arp172}
 \end{figure*}
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{Chapter1/figures/Arp290-red-corner.pdf}
-    \caption[Third example of our best fits from our methodology is representative of the simulated image of Arp 290, a stage 2 system.]{Third example of our best fits from our methodology is representative of the simulated image of Arp 290, a stage 2 system.}
-    \label{fig:best-Arp290}
+\centering
+\includegraphics[width=\textwidth]{Chapter1/figures/Arp290-red-corner.pdf}
+\caption[Third example of our best fits from our methodology is representative of the simulated image of Arp 290, a stage 2 system.]{Third example of our best fits from our methodology is representative of the simulated image of Arp 290, a stage 2 system.}
+\label{fig:best-Arp290}
 \end{figure*}
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{Chapter1/figures/Heart-red-corner.pdf}
-    \caption[First example of our worst fits.]{First example of our worst fits. This shows our constraints of the simulated image of the Heart system, a stage 4 system.}
-    \label{fig:worst-Heart}
+\centering
+\includegraphics[width=\textwidth]{Chapter1/figures/Heart-red-corner.pdf}
+\caption[First example of our worst fits.]{First example of our worst fits. This shows our constraints of the simulated image of the Heart system, a stage 4 system.}
+\label{fig:worst-Heart}
 \end{figure*}
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{Chapter1/figures/Arp57-red-corner.pdf}
-    \caption[Second example of our worst fits.]{Second example of our worst fits. This shows our constraints on the simulated image of NGC 4320, a stage 4 system.}
-    \label{fig:worst-Arp57}
+\centering
+\includegraphics[width=\textwidth]{Chapter1/figures/Arp57-red-corner.pdf}
+\caption[Second example of our worst fits.]{Second example of our worst fits. This shows our constraints on the simulated image of NGC 4320, a stage 4 system.}
+\label{fig:worst-Arp57}
 \end{figure*}
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{Chapter1/figures/UGC11751-red-corner.pdf}
-    \caption[Third example of our worst fits.]{Third example of our worst fits. This shows our constraints on the simulated image of UGC 11751, a stage 3 system.}
-    \label{fig:worst-UGC11751}
+\centering
+\includegraphics[width=\textwidth]{Chapter1/figures/UGC11751-red-corner.pdf}
+\caption[Third example of our worst fits.]{Third example of our worst fits. This shows our constraints on the simulated image of UGC 11751, a stage 3 system.}
+\label{fig:worst-UGC11751}
 \end{figure*}
 
 The worst fits we achieved were of those systems which were close to the merging stage. They were systems where the two cores were close to coalescence, very little tidal features were visible or the position of the secondary galaxy was very unclear. Our worst three fits and examples of this were Heart, NGC4320 and Arp 57. The reduced corner plots are shown in Figures \ref{fig:worst-Heart}, \ref{fig:worst-Arp57} and \ref{fig:worst-UGC11751}. Each of these systems represent the three limitations, respectively. First, is the issue with constraining a stage 4 system. If two cores are close to coalescence, the flux distribution will appear similar to two overlapping disks. Therefore, our $\chi^{2}$ calculation will lead to a maximised likelihood which is equivalent between systems with little to no interaction and a merger with multiple flybys undergoing coalescence. This would be improved by including velocity information, where the velocity distribution will be very different between two overlapping disks and coalescing galaxies. Our process is also not yet designed to account for multiple flybys, which is likely to have occurred in a merging system. To make accurate constraints on many parameters, we require clear and distinct tidal features. UGC 11751 is a system where we have reduced the resolution so much that we lose spatial resolution in the flux distribution of the tidal features. Therefore, we insert a significantly higher uncertainty into our constraints. Finally, our MCMC requires a secondary galaxy to make reasonable constraints on the underlying parameters. The example of NGC 4320 is a final stage merger where a large tidal feature has formed as a result of the coalescence.
@@ -487,10 +487,10 @@ The worst fits we achieved were of those systems which were close to the merging
 Throughout every system we put constraint on, the parameter we are able to get reliable constraints on are the masses of the systems. This is shown above as even our worst fit systems still hold excellent constraints, with the values confined to small areas of parameter space. However, our worst constraints lie in the orientation and time since the interaction. We show the relation between the true parameter used to create the synthetic image and our recovered best fit parameter with errors included. Figure \ref{fig:true-found-parameters} shows this distribution. We define the best fit value from our MCMC as the 50th percentile of our walker distribution. This is represented by each point in Figure \ref{fig:true-found-parameters}. The upper and lower error bars are calculated from the difference between the 50th percentile value and the 84th and 16th percentile values, respectively. The red lines in each subplot represent a 1-to-1 relation between the true parameter value and the recovered value. 
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{Chapter1/figures/51_51.pdf}
-    \caption[The distribution of parameter values used to create our synthetic interaction images and the best-fit values we recover from our algorithm.]{The distribution of parameter values used to create our synthetic interaction images and the best-fit values we recover from our algorithm. The constrained values are taken as the 50th percentile of our walker distribution. Our lower and upper errors are then calculated as the difference from our best found value and the 16th and 84th percentiles, respectively. This gives an idea of the extent of our walker distribution in 1D. The red lines show a 1-1 relation and where our points would lie if the 50th percentile represented the exact input value found. Parameter names and unts are found in the title of each subplot.}
-    \label{fig:true-found-parameters}
+\centering
+\includegraphics[width=\textwidth]{Chapter1/figures/51_51.pdf}
+\caption[The distribution of parameter values used to create our synthetic interaction images and the best-fit values we recover from our algorithm.]{The distribution of parameter values used to create our synthetic interaction images and the best-fit values we recover from our algorithm. The constrained values are taken as the 50th percentile of our walker distribution. Our lower and upper errors are then calculated as the difference from our best found value and the 16th and 84th percentiles, respectively. This gives an idea of the extent of our walker distribution in 1D. The red lines show a 1-1 relation and where our points would lie if the 50th percentile represented the exact input value found. Parameter names and unts are found in the title of each subplot.}
+\label{fig:true-found-parameters}
 \end{figure*}
 
 % Here, discuss Figure 13 in all its glory.
@@ -510,7 +510,7 @@ However, all of our results so far have been in the best-case scenario of a nois
 
 \subsection{Applying to Observations}
 % Brief re-iteration of creating observations.
-\noindent We apply our MCMC to the reduced observational data of Arp 172, Arp 240, Arp 256, Arp 290 and Heart. Cutouts were created as described in Section \ref{data:obs-prep}. We reiterate here that the cutout resolution is reduced from its native resolution to cutouts of 100 $\times$ 100 pixels. Before we input the images into the pipeline, we find the central pixel of the secondary galaxy and convert this into a physical $x$- and $y$-position. We also find the total size physical size of the cutout in kpc, convert it to simulation units and provide this to the pipeline. We find that the physical size of the cutouts are significantly different from those of our synthetic dataset. As an example, we create the cutout of Arp 240 at 600 $\times$ 600 pixels at native resolution. With SDSS data, this corresponds to a physical size of 111.50kpc $\times$ 111.50kpc at the redshift of Arp 240. The synthetic image we previously used of Arp 240 is 785.35kpc $\times$ 785.35kpc. Figure \ref{fig:arp240} clearly shows a very different scaling between the observation and simulation, however, it is not enough to be seven times zoomed in on the system. We also find that the secondary positions are very different between the observation image and that used previously. As a result, the parameters we will find for constraining the observation will likely be very different. 
+\noindent We apply our MCMC to the reduced observational data of Arp 172, Arp 240, Arp 256, Arp 290 and Heart. Cutouts were created as described in Chapter \ref{data:obs-prep}. We reiterate here that the cutout resolution is reduced from its native resolution to cutouts of 100 $\times$ 100 pixels. Before we input the images into the pipeline, we find the central pixel of the secondary galaxy and convert this into a physical $x$- and $y$-position. We also find the total size physical size of the cutout in kpc, convert it to simulation units and provide this to the pipeline. We find that the physical size of the cutouts are significantly different from those of our synthetic dataset. As an example, we create the cutout of Arp 240 at 600 $\times$ 600 pixels at native resolution. With SDSS data, this corresponds to a physical size of 111.50kpc $\times$ 111.50kpc at the redshift of Arp 240. The synthetic image we previously used of Arp 240 is 785.35kpc $\times$ 785.35kpc. Figure \ref{fig:arp240} clearly shows a very different scaling between the observation and simulation, however, it is not enough to be seven times zoomed in on the system. We also find that the secondary positions are very different between the observation image and that used previously. As a result, the parameters we will find for constraining the observation will likely be very different. 
 
 % Why do we take significantly longer on these?
 We apply our MCMC to those outputs which had varying constraint. We only investigate these five systems as we find the computational expense is significantly higher when constraining the observations compared to the best fit simulations. We find the reasons for these are two fold. First, we must run each walker for twice the number of steps than when constraining the synthetic images to reach convergence. This is from increased noise contributions in the observation images. Second, due to the smaller scale size of our images, the defined $\gamma$ parameter is much stronger than with the synthetic images. Both of these reasons for higher computational expense are to be expected. The increase in the $\gamma$ parameter leads to us filtering out less candidate systems and running the base simulation code more often. This directly translates into a higher runtime for our MCMC.
@@ -519,42 +519,42 @@ We apply our MCMC to those outputs which had varying constraint. We only investi
 Figure \ref{fig:obs_corner_plot} shows the reduced corner plot for the observed Arp 240 system. The constraints on the velocity parameter have significantly worsened when compared to the constrains on the best fit simulation. They are also in a different area of parameter space when compared. The velocity and spatial parameters are the most likely to be affected by the change in scale between the two input images. As the secondary galaxy position has been completely altered the best fit trajectory of the interaction has also completely changed. The secondary is significantly closer to the primary, therefore meaning the secondary velocity must be significantly slower than previously. Due to the increase in noise in the observational image, and the extent of the tidal features of the primary and secondary galaxies, the constraint has also significantly weakened.
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{Chapter1/figures/Arp240_obs-red-corner.pdf}
-    \caption[Reduced corner plot of the constraints made on the observational image of Arp 240.]{Reduced corner plot of the constraints made on the observational image of Arp 240. As shown, there is significant additional uncertainty in these measurements than those of the best fit simulation. However, we are able to make constraints on almost all parameters in the sample. The degeneracy in the orientations remains. The gold lines represent the true values we used in to create the synthetic image.}
-    \label{fig:obs_corner_plot}
+\centering
+\includegraphics[width=\textwidth]{Chapter1/figures/Arp240_obs-red-corner.pdf}
+\caption[Reduced corner plot of the constraints made on the observational image of Arp 240.]{Reduced corner plot of the constraints made on the observational image of Arp 240. As shown, there is significant additional uncertainty in these measurements than those of the best fit simulation. However, we are able to make constraints on almost all parameters in the sample. The degeneracy in the orientations remains. The gold lines represent the true values we used in to create the synthetic image.}
+\label{fig:obs_corner_plot}
 \end{figure*}
 
 However, for the remainder of the parameters the level of constraint remains similar even with the change in the best fit values. We retain the two- and four-fold degeneracy in the orientation parameters. This follows on that the pipeline outright rejects disks which are edge on and loses accuracy when attempting to pin point the precise inclination of each galaxy. We are unable to make any constraint on the $\theta$ parameters, while the degeneracy of the $\phi$ parameters is still visible. The radius parameter is well constrained at 11.8\% CI, although with large tails in the probability space for both the primary and secondary galaxies. These tails are significantly larger here than when using the best fit simulation as the input. This is due to the observation image having no hard cutoff of the edge of the galaxy, and simply moving into more noise. The outer edges of our simulated galaxies also moves to very low signal, and therefore, there is lots of uncertainty surrounding the true radius of the galaxy. 
 
-We, again, make excellent constraints on the mass parameters. The accuracy in the flux distribution of the primary and secondary disk is what dominates here, and therefore, we find this value incredibly quickly. The found value is comparable to the best fit simulation, although slightly lower. We also compare our constrained values to what is found in the literature. Using the criteria described previously, we recover total masses of $\frac{M_{1}}{10^{11}M_{\odot}} = 7.97 - 15.9$ and $\frac{M_{2}}{10^{11}M_{\odot}} = 8.1 - 16.2$ which correspond to stellar masses between $\frac{M_{1,*}}{10^{11}M_{\odot}} =  0.94 - 1.89$ and $\frac{M_{2, *}}{10^{11}M_{\odot}} = 1.0 - 1.9$ in our simulations. These are slightly higher than literature values, with a recent work quoting the stellar mass as $\frac{M_{1, *}}{10^{11}M_{\odot}} = 0.94 $ and $\frac{M_{2, *}}{10^{11}M_{\odot}} = 1.05$ \citep{2020MNRAS.496.5243H}. Thus, while our 50th percentile value is higher than the measured values, we do recover them within error.
+We, again, make excellent constraints on the mass parameters. The accuracy in the flux distribution of the primary and secondary disk is what dominates here, and therefore, we find this value incredibly quickly. The found value is comparable to the best fit simulation, although slightly lower. We also compare our constrained values to what is found in the literature. Using the criteria described previously, we recover total masses of $\frac{M_{1}}{10^{11}M_{\odot}} = 7.97 - 15.9$ and $\frac{M_{2}}{10^{11}M_{\odot}} = 8.1 - 16.2$ which correspond to stellar masses between $\frac{M_{1,*}}{10^{11}M_{\odot}} = 0.94 - 1.89$ and $\frac{M_{2, *}}{10^{11}M_{\odot}} = 1.0 - 1.9$ in our simulations. These are slightly higher than literature values, with a recent work quoting the stellar mass as $\frac{M_{1, *}}{10^{11}M_{\odot}} = 0.94 $ and $\frac{M_{2, *}}{10^{11}M_{\odot}} = 1.05$ \citep{2020MNRAS.496.5243H}. Thus, while our 50th percentile value is higher than the measured values, we do recover them within error.
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{Chapter1/figures/Arp172-obs-red-corner.pdf}
-    \caption[Reduced corner plot of the constraints made on the observational image of Arp 172.]{Reduced corner plot of the constraints made on the observational image of Arp 172.}
-    \label{fig:Arp172-obs}
+\centering
+\includegraphics[width=\textwidth]{Chapter1/figures/Arp172-obs-red-corner.pdf}
+\caption[Reduced corner plot of the constraints made on the observational image of Arp 172.]{Reduced corner plot of the constraints made on the observational image of Arp 172.}
+\label{fig:Arp172-obs}
 \end{figure*}
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{Chapter1/figures/Arp256-obs-red-corner.pdf}
-    \caption[Reduced corner plot of the constraints made on the observational image of Arp 256.]{Reduced corner plot of the constraints made on the observational image of Arp 256.}
-    \label{fig:Arp290-obs}
+\centering
+\includegraphics[width=\textwidth]{Chapter1/figures/Arp256-obs-red-corner.pdf}
+\caption[Reduced corner plot of the constraints made on the observational image of Arp 256.]{Reduced corner plot of the constraints made on the observational image of Arp 256.}
+\label{fig:Arp290-obs}
 \end{figure*}
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{Chapter1/figures/Arp290-obs-red-corner.pdf}
-    \caption[Reduced corner plot of the constraints made on the observational image of Arp 290.]{Reduced corner plot of the constraints made on the observational image of Arp 290. }
-    \label{fig:Arp256-obs}
+\centering
+\includegraphics[width=\textwidth]{Chapter1/figures/Arp290-obs-red-corner.pdf}
+\caption[Reduced corner plot of the constraints made on the observational image of Arp 290.]{Reduced corner plot of the constraints made on the observational image of Arp 290. }
+\label{fig:Arp256-obs}
 \end{figure*}
 
 \begin{figure*}
-    \centering
-    \includegraphics[width=\textwidth]{Chapter1/figures/Heart-obs-red-corner.pdf}
-    \caption[Reduced corner plot of the constraints made on the observational image of the Heart system.]{Reduced corner plot of the constraints made on the observational image of the Heart system.}
-    \label{fig:Heart-obs}
+\centering
+\includegraphics[width=\textwidth]{Chapter1/figures/Heart-obs-red-corner.pdf}
+\caption[Reduced corner plot of the constraints made on the observational image of the Heart system.]{Reduced corner plot of the constraints made on the observational image of the Heart system.}
+\label{fig:Heart-obs}
 \end{figure*}
 
 We find similar constraints on the other observations we input into our MCMC. Figures \ref{fig:Arp172-obs}, \ref{fig:Arp290-obs}, \ref{fig:Arp256-obs} and \ref{fig:Heart-obs} show these constraints with the gold lines being the best fit parameters to create out test imes. The variability across our constraints is greter than on the synthetic images. We often find defeneracy in the velocity parameters, as expected, but also appear to lose much of the constraint on the radius parameters. The constraints we do make are often different from those of our synthetic images representing these systems. The primarily reason for this is the synthetic images we have used are at a different scale when compared to the the SDSS observations. We therefore find similar constraints to the different parameters, however with significant variation in the spatial parameters. The uncertainties in the radius parameters are significantly increased, while the constraint on the $\theta$ and $\phi$ parameters are lost. In fact, for the same number of steps compared to constraining the best fit parameters, our MCMC fails the Geweke diagnostic. Therefore, due to the added noise, and more complex flux distribution, running longer chains is imperative which drives up computational expense.
@@ -573,15 +573,15 @@ Depth effects also play a significant role in the ability of our algorithm to fi
 
 This also has the opposite effect in terms of tidal features formed. For example, if a system is being fit but at the true parameters a tidal feature exists which has not been detected due to its low surface brightness then our MCMC pipeline will not be able to converge on the true values. The algorithm would instead converge on those parameters where the disks were at the correct flux rather than getting the tidal features correct. Therefore, when exploring the parameter space of interacting systems with our pipeline, it is imperative that the full structure is within detection of the observing instrument.
 
-There must be a trade off between the resolution of our simulation and the observations. In this work, we used cutouts of 100 $\times$ 100 pixels. This was so that we could still get consistent system outputs from our simulations using only 2500 particles. If lots of pixels are used, then using a low number of particles can lead to many `unphysical' output simulations. I.e. these are simulation systems where the disks will have large holes in them where there haven't been enough particles to fill the disk. To mitigate the effect of potentially using low particle numbers, we distribute the flux as described in Section \ref{flux_dist}, which is an imperfect solution. It is recommended for any user to make a balanced trade off between resolution and computational expense.
+There must be a trade off between the resolution of our simulation and the observations. In this work, we used cutouts of 100 $\times$ 100 pixels. This was so that we could still get consistent system outputs from our simulations using only 2500 particles. If lots of pixels are used, then using a low number of particles can lead to many `unphysical' output simulations. I.e. these are simulation systems where the disks will have large holes in them where there haven't been enough particles to fill the disk. To mitigate the effect of potentially using low particle numbers, we distribute the flux as described in Chapter \ref{flux_dist}, which is an imperfect solution. It is recommended for any user to make a balanced trade off between resolution and computational expense.
 
 \subsubsection{Computational Expense}\label{computational_expense}
 \noindent The main drawback of this methodology is that of computational expense required to run such an MCMC over a the full parameter space. In the case of this work, the simulation was set up with 2500 particles on a High End Computer Cluster with 50 CPUS. Each simulation took approximately two seconds, with the full sample run taking approximately 40 days to complete. Each galaxy was given 600 walkers to move through parameter space with each walker moving 7,500 steps. The highest memory requirement of any system was 6GB. Therefore, the runtime is very high but the memory required for it is approximately 122MB per core.
 
 This methodology was successful in constraining 51 different interacting galaxy synthetic images. Achieving the same in prior work projects, such as Galaxy Zoo: Mergers, took months to complete. We have reduced the runtime required of it to 40 days on a powerful High End Computer Cluster. However, this is not the solution to the large scale dataset problems that we will be seeing when LSST comes online. If we are to run this methodology on a much larger galaxy sample - such as thousands of galaxies - then we will need to find ways to significantly improve the runtime of this method.
 
-\section{CONCLUSIONS \& FUTURE WORK}\label{Conclusions}
-\noindent In this Chapter, we have introduced a new algorithm based on a MCMC framework to apply constraints on the underlying parameters of interacting galaxies. We have made these constraints, and explored the underlying parameter space, through directly comparing input images to output simulations. This maps the underlying parameters that define interaction to an output morphology that we compare for similarity with a synthetic or observation image. We have introduced an updated version of the restricted three body simulation JSPAM and modified it to calculate and match the flux distribution of interacting galaxies based on thirteen underlying parameters. This updated algorithm, APySPAM, calculates the flux distribution by assigning particles with a spectral energy distribution and accounting for star formation throughout the interaction. 
+\section{Conclusions \& Future Work}\label{Conclusions}
+\noindent In this Chapter, we have introduced a new algorithm based on a MCMC framework to apply constraints on the underlying parameters of interacting galaxies. We have made these constraints, and explored the underlying parameter space, through directly comparing input images to output simulations. This maps the underlying parameters that define interaction to an output morphology that we compare for similarity with a synthetic or observation image. We have introduced an updated version of the restricted three body simulation \texttt{JSPAM} and modified it to calculate and match the flux distribution of interacting galaxies based on thirteen underlying parameters. This updated algorithm, \texttt{APySPAM}, calculates the flux distribution by assigning particles with a spectral energy distribution and accounting for star formation throughout the interaction. 
 
 % Look at the tense mash up of the below paragraph.
 To test our MCMC, we applied it to a set of synthetic images of interacting systems created from the parameters found in the Galaxy Zoo: Merger project for a set of real interacting systems. We were able to recover the true parameters used to create these images, with associated error measurements on each. We have explored the specific results of a single synthetic image: that of the Arp 240 system, and shown the corner plots and full posteriors of each parameter. We have took the 50th percentile value as the best fit value for our synthetic dataset, and used the 16th and 84th percentile to define the errors on our measurements. We then presented the distribution of our recovered underlying parameters and the true values, describing the general trends in our methodology as well as its limitations. 
@@ -594,4 +594,4 @@ We have demonstrated the power of this methodology, and that it is capable of re
 
 This is an initial step towards developing the methodology to serve the field as large scale surveys - such as LSST - come online. Large scale automation where we can constrain interaction, make diagnostics and estimates about parameter space are not only important for inferences about individual datasets but for the interacting galaxy population as a whole. The main limitation of this method is the computational expense associated with it. To run this on 51 systems, the total run time was thirty days; an unusable timescale when being applied to interacting galaxy samples in the thousands. Therefore, future works with this algorithm and methodology will also be focused on increased computational efficiency and working on larger interacting galaxy datasets. 
 
-The bottleneck for computational efficiency lies in the time spent running the APySPAM simulation. While incredibly cheap individually, this is exceptionally expensive when having to be run in an MCMC chain. With the growing power of graphical processing units, and their ability to run numerical simulations significantly more efficiently than CPUs, a pathway to solve this limitation may already exist. This, combined with further developments in methodologies such as simulation based inference, machine learning and gaussian processes could begin to reduce computation time.
+The bottleneck for computational efficiency lies in the time spent running the \texttt{APySPAM} simulation. While incredibly cheap individually, this is exceptionally expensive when having to be run in an MCMC chain. With the growing power of graphical processing units, and their ability to run numerical simulations significantly more efficiently than CPUs, a pathway to solve this limitation may already exist. This, combined with further developments in methodologies such as simulation based inference, machine learning and gaussian processes could begin to reduce computation time.
