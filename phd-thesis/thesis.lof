@@ -9,7 +9,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Example images of the labelled interacting galaxy systems used to train \texttt {Zoobot}.}}{38}{figure.caption.8}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Example images of the labelled non-interacting galaxy systems used to train \texttt {Zoobot}}}{39}{figure.caption.9}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces The distribution of prediction scores given to our validation set of 3,270 labelled sources set aside by \texttt {Zoobot} in training.}}{42}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces A measure of accuracy and purity against prediction score.}}{44}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces A measure of accuracy and purity against prediction score.}}{43}{figure.caption.11}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Confusion matrices of four different cutoffs of prediction score defining a binary classification of interacting galaxy or not.}}{45}{figure.caption.12}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Flow diagram of our contamination and duplication removal process.}}{46}{figure.caption.13}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces The representation distribution of 54,757 candidate interacting galaxies.}}{50}{figure.caption.14}%
@@ -34,7 +34,7 @@
 \contentsline {figure}{\numberline {3.12}{\ignorespaces The density about each of our sources matched with the \citet {2017ApJ...837...16D} catalogue.}}{95}{figure.caption.35}%
 \contentsline {figure}{\numberline {3.13}{\ignorespaces The fraction of galaxies in each stage in different environments.}}{96}{figure.caption.36}%
 \contentsline {figure}{\numberline {3.14}{\ignorespaces The distribution of environment classifications through our sample.}}{98}{figure.caption.37}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces The distribution of mass ratios in our paired sample and across each stage of interaction.}}{100}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces The distribution of mass ratios in our paired sample and across each stage of interaction.}}{99}{figure.caption.38}%
 \contentsline {figure}{\numberline {3.16}{\ignorespaces The \texttt {LePhare} stellar mass against the \texttt {EAzY} SFR across the different stages of the interaction.}}{102}{figure.caption.39}%
 \contentsline {figure}{\numberline {3.17}{\ignorespaces The stellar mass distribution across the four stages.}}{103}{figure.caption.40}%
 \contentsline {figure}{\numberline {3.18}{\ignorespaces SFR distribution weighted by mass across each stage.}}{104}{figure.caption.41}%

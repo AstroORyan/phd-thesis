@@ -13,26 +13,25 @@
 \contentsline {section}{\numberline {1.6}Identifying Interacting and Merging Galaxies}{22}{section.1.6}%
 \contentsline {section}{\numberline {1.7}This Thesis}{25}{section.1.7}%
 \contentsline {chapter}{\numberline {2}Creating a Large Sample of Interacting Galaxies}{27}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Abstract}{27}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Introduction}{28}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Data}{31}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}The \emph {Hubble} Archives \& ESA Datalabs}{31}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}The Shapely Python Package}{32}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Utilising a Convolutional Neural Network}{33}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Zoobot}{33}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Transfer Learning}{35}{subsection.2.4.2}%
-\contentsline {section}{\numberline {2.5}Creating the Training Set}{36}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Interacting Galaxies and Galaxy Zoo}{36}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}One Active Learning Cycle}{40}{subsection.2.5.2}%
-\contentsline {section}{\numberline {2.6}Diagnostics}{41}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Model Performance}{41}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Duplication Removal}{46}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Bad Predictions \& Removal}{48}{subsection.2.6.3}%
-\contentsline {section}{\numberline {2.7}Results \& Discussion}{52}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}An Interacting Galaxy Catalogue}{52}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}The Gems}{55}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Source Redshifts and Photometry}{58}{subsection.2.7.3}%
-\contentsline {section}{\numberline {2.8}Conclusion}{65}{section.2.8}%
+\contentsline {section}{\numberline {2.1}Introduction}{27}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Data}{30}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}The \emph {Hubble} Archives \& ESA Datalabs}{30}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}The Shapely Python Package}{32}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Utilising a Convolutional Neural Network}{32}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Zoobot}{32}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Transfer Learning}{34}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Creating the Training Set}{35}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Interacting Galaxies and Galaxy Zoo}{35}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}One Active Learning Cycle}{37}{subsection.2.4.2}%
+\contentsline {section}{\numberline {2.5}Diagnostics}{40}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Model Performance}{40}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Duplication Removal}{44}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Bad Predictions \& Removal}{48}{subsection.2.5.3}%
+\contentsline {section}{\numberline {2.6}Results \& Discussion}{52}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}An Interacting Galaxy Catalogue}{52}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}The Gems}{55}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Source Redshifts and Photometry}{58}{subsection.2.6.3}%
+\contentsline {section}{\numberline {2.7}Conclusion}{65}{section.2.7}%
 \contentsline {chapter}{\numberline {3}When do the effects of interaction happen? Interacting and disturbed galaxies in the COSMOS field}{67}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introduction}{67}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Data: Catalogue Matching \& Secondary Identification}{69}{section.3.2}%
@@ -47,8 +46,8 @@
 \contentsline {subsection}{\numberline {3.3.3}Classifying AGN}{88}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Visual Classification: Sources of Contamination}{89}{subsection.3.3.4}%
 \contentsline {subsection}{\numberline {3.3.5}Aside: Mass Ratios in Sample}{97}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Star Formation and AGN Evolution with Interaction Stage}{99}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Controlling for Interaction Stage}{99}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.4}Star Formation and AGN Evolution with Interaction Stage}{100}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Controlling for Interaction Stage}{100}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Projected Separation and Star Formation Enhancement}{110}{subsection.3.4.2}%
 \contentsline {section}{\numberline {3.5}Nuclear Activity with Interaction Stage}{113}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Discussion}{118}{section.3.6}%

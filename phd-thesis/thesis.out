@@ -12,84 +12,83 @@
 \BOOKMARK [1][]{section.1.6}{1.6 Identifying Interacting and Merging Galaxies}{chapter.1}% 12
 \BOOKMARK [1][]{section.1.7}{1.7 This Thesis}{chapter.1}% 13
 \BOOKMARK [0][]{chapter.2}{2 Creating a Large Sample of Interacting Galaxies}{}% 14
-\BOOKMARK [1][]{section.2.1}{2.1 Abstract}{chapter.2}% 15
-\BOOKMARK [1][]{section.2.2}{2.2 Introduction}{chapter.2}% 16
-\BOOKMARK [1][]{section.2.3}{2.3 Data}{chapter.2}% 17
-\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 The Hubble Archives \046 ESA Datalabs}{section.2.3}% 18
-\BOOKMARK [2][]{subsection.2.3.2}{2.3.2 The Shapely Python Package}{section.2.3}% 19
-\BOOKMARK [1][]{section.2.4}{2.4 Utilising a Convolutional Neural Network}{chapter.2}% 20
-\BOOKMARK [2][]{subsection.2.4.1}{2.4.1 Zoobot}{section.2.4}% 21
-\BOOKMARK [2][]{subsection.2.4.2}{2.4.2 Transfer Learning}{section.2.4}% 22
-\BOOKMARK [1][]{section.2.5}{2.5 Creating the Training Set}{chapter.2}% 23
-\BOOKMARK [2][]{subsection.2.5.1}{2.5.1 Interacting Galaxies and Galaxy Zoo}{section.2.5}% 24
-\BOOKMARK [2][]{subsection.2.5.2}{2.5.2 One Active Learning Cycle}{section.2.5}% 25
-\BOOKMARK [1][]{section.2.6}{2.6 Diagnostics}{chapter.2}% 26
-\BOOKMARK [2][]{subsection.2.6.1}{2.6.1 Model Performance}{section.2.6}% 27
-\BOOKMARK [2][]{subsection.2.6.2}{2.6.2 Duplication Removal}{section.2.6}% 28
-\BOOKMARK [2][]{subsection.2.6.3}{2.6.3 Bad Predictions \046 Removal}{section.2.6}% 29
-\BOOKMARK [1][]{section.2.7}{2.7 Results \046 Discussion}{chapter.2}% 30
-\BOOKMARK [2][]{subsection.2.7.1}{2.7.1 An Interacting Galaxy Catalogue}{section.2.7}% 31
-\BOOKMARK [2][]{subsection.2.7.2}{2.7.2 The Gems}{section.2.7}% 32
-\BOOKMARK [2][]{subsection.2.7.3}{2.7.3 Source Redshifts and Photometry}{section.2.7}% 33
-\BOOKMARK [1][]{section.2.8}{2.8 Conclusion}{chapter.2}% 34
-\BOOKMARK [0][]{chapter.3}{3 When do the effects of interaction happen? Interacting and disturbed galaxies in the COSMOS field}{}% 35
-\BOOKMARK [1][]{section.3.1}{3.1 Introduction}{chapter.3}% 36
-\BOOKMARK [1][]{section.3.2}{3.2 Data: Catalogue Matching \046 Secondary Identification}{chapter.3}% 37
-\BOOKMARK [2][]{subsection.3.2.1}{3.2.1 The COSMOS2020 Catalogue}{section.3.2}% 38
-\BOOKMARK [2][]{subsection.3.2.2}{3.2.2 Secondary Identification}{section.3.2}% 39
-\BOOKMARK [2][]{subsection.3.2.3}{3.2.3 Finding Additional Systems}{section.3.2}% 40
-\BOOKMARK [2][]{subsection.3.2.4}{3.2.4 Creating the Mass-Limited Sample}{section.3.2}% 41
-\BOOKMARK [2][]{subsection.3.2.5}{3.2.5 Sample Count Summary}{section.3.2}% 42
-\BOOKMARK [1][]{section.3.3}{3.3 Method: Environment, AGN and Interaction Stage}{chapter.3}% 43
-\BOOKMARK [2][]{subsection.3.3.1}{3.3.1 Classifying Stage of Interaction}{section.3.3}% 44
-\BOOKMARK [2][]{subsection.3.3.2}{3.3.2 Matching to Environment Catalogue}{section.3.3}% 45
-\BOOKMARK [2][]{subsection.3.3.3}{3.3.3 Classifying AGN}{section.3.3}% 46
-\BOOKMARK [2][]{subsection.3.3.4}{3.3.4 Visual Classification: Sources of Contamination}{section.3.3}% 47
-\BOOKMARK [2][]{subsection.3.3.5}{3.3.5 Aside: Mass Ratios in Sample}{section.3.3}% 48
-\BOOKMARK [1][]{section.3.4}{3.4 Star Formation and AGN Evolution with Interaction Stage}{chapter.3}% 49
-\BOOKMARK [2][]{subsection.3.4.1}{3.4.1 Controlling for Interaction Stage}{section.3.4}% 50
-\BOOKMARK [2][]{subsection.3.4.2}{3.4.2 Projected Separation and Star Formation Enhancement}{section.3.4}% 51
-\BOOKMARK [1][]{section.3.5}{3.5 Nuclear Activity with Interaction Stage}{chapter.3}% 52
-\BOOKMARK [1][]{section.3.6}{3.6 Discussion}{chapter.3}% 53
-\BOOKMARK [2][]{subsection.3.6.1}{3.6.1 Interaction Stage and Projected Separation}{section.3.6}% 54
-\BOOKMARK [2][]{subsection.3.6.2}{3.6.2 Interaction Stage and AGN}{section.3.6}% 55
-\BOOKMARK [1][]{section.3.7}{3.7 Conclusions}{chapter.3}% 56
-\BOOKMARK [0][]{chapter.4}{4 Advanced PySPAM: An Infrastructure to Constrain Underlying Interacting Galaxy Parameters}{}% 57
-\BOOKMARK [1][]{section.4.1}{4.1 Introduction}{chapter.4}% 58
-\BOOKMARK [1][]{section.4.2}{4.2 Data}{chapter.4}% 59
-\BOOKMARK [2][]{subsection.4.2.1}{4.2.1 Sample of Major Interacting Galaxies}{section.4.2}% 60
-\BOOKMARK [2][]{subsection.4.2.2}{4.2.2 Observation Preparation}{section.4.2}% 61
-\BOOKMARK [1][]{section.4.3}{4.3 Simulating Galaxy Interaction}{chapter.4}% 62
-\BOOKMARK [2][]{subsection.4.3.1}{4.3.1 APySPAM}{section.4.3}% 63
-\BOOKMARK [3][]{subsubsection.4.3.1.1}{4.3.1.1 Restricted Three-Body Simulation}{subsection.4.3.1}% 64
-\BOOKMARK [3][]{subsubsection.4.3.1.2}{4.3.1.2 Stellar Population Evolution}{subsection.4.3.1}% 65
-\BOOKMARK [3][]{subsubsection.4.3.1.3}{4.3.1.3 Extending Flux Distribution}{subsection.4.3.1}% 66
-\BOOKMARK [3][]{subsubsection.4.3.1.4}{4.3.1.4 Impact on Computation Time}{subsection.4.3.1}% 67
-\BOOKMARK [2][]{subsection.4.3.2}{4.3.2 Creating Test Images}{section.4.3}% 68
-\BOOKMARK [1][]{section.4.4}{4.4 Constraining Interaction}{chapter.4}% 69
-\BOOKMARK [2][]{subsection.4.4.1}{4.4.1 The Parameter Space of Interaction}{section.4.4}% 70
-\BOOKMARK [2][]{subsection.4.4.2}{4.4.2 Defining the Likelihood Function}{section.4.4}% 71
-\BOOKMARK [3][]{subsubsection.4.4.2.1}{4.4.2.1 MCMC \046 Bayes Theorem}{subsection.4.4.2}% 72
-\BOOKMARK [3][]{subsubsection.4.4.2.2}{4.4.2.2 Simplifying the Prior}{subsection.4.4.2}% 73
-\BOOKMARK [3][]{subsubsection.4.4.2.3}{4.4.2.3 Simplifying the Likelihood Function}{subsection.4.4.2}% 74
-\BOOKMARK [1][]{section.4.5}{4.5 Results \046 Discussion}{chapter.4}% 75
-\BOOKMARK [2][]{subsection.4.5.1}{4.5.1 Testing on a Synthetic Image}{section.4.5}% 76
-\BOOKMARK [2][]{subsection.4.5.2}{4.5.2 Diagnostics of Pipeline}{section.4.5}% 77
-\BOOKMARK [2][]{subsection.4.5.3}{4.5.3 Inputting 3D Information}{section.4.5}% 78
-\BOOKMARK [2][]{subsection.4.5.4}{4.5.4 Running on Full Idealised Sample}{section.4.5}% 79
-\BOOKMARK [2][]{subsection.4.5.5}{4.5.5 Applying to Observations}{section.4.5}% 80
-\BOOKMARK [2][]{subsection.4.5.6}{4.5.6 Limitations}{section.4.5}% 81
-\BOOKMARK [3][]{subsubsection.4.5.6.1}{4.5.6.1 Resolution \046 Depth Effects}{subsection.4.5.6}% 82
-\BOOKMARK [3][]{subsubsection.4.5.6.2}{4.5.6.2 Computational Expense}{subsection.4.5.6}% 83
-\BOOKMARK [1][]{section.4.6}{4.6 Conclusions \046 Future Work}{chapter.4}% 84
-\BOOKMARK [0][]{chapter.5}{5 Summary and Future Work}{}% 85
-\BOOKMARK [1][]{section.5.1}{5.1 Summary}{chapter.5}% 86
-\BOOKMARK [1][]{section.5.2}{5.2 Future Work}{chapter.5}% 87
-\BOOKMARK [2][]{subsection.5.2.1}{5.2.1 Catalogues of Galaxy Morphology with Ancillary Data}{section.5.2}% 88
-\BOOKMARK [2][]{subsection.5.2.2}{5.2.2 Constraining Interacting Galaxy Parameters}{section.5.2}% 89
-\BOOKMARK [0][]{appendix.1.A}{Appendix A Model Diagnostics \046 Further Identified Objects}{}% 90
-\BOOKMARK [1][]{section.1.A.1}{A.1 Further Model Diagnostics}{appendix.1.A}% 91
-\BOOKMARK [1][]{section.1.A.2}{A.2 Examples of Sources with 3-Band Information}{appendix.1.A}% 92
-\BOOKMARK [1][]{section.1.A.3}{A.3 Unknown Objects}{appendix.1.A}% 93
-\BOOKMARK [1][]{section.1.A.4}{A.4 Acknowledging PIs}{appendix.1.A}% 94
-\BOOKMARK [0][]{appendix*.76}{References}{}% 95
+\BOOKMARK [1][]{section.2.1}{2.1 Introduction}{chapter.2}% 15
+\BOOKMARK [1][]{section.2.2}{2.2 Data}{chapter.2}% 16
+\BOOKMARK [2][]{subsection.2.2.1}{2.2.1 The Hubble Archives \046 ESA Datalabs}{section.2.2}% 17
+\BOOKMARK [2][]{subsection.2.2.2}{2.2.2 The Shapely Python Package}{section.2.2}% 18
+\BOOKMARK [1][]{section.2.3}{2.3 Utilising a Convolutional Neural Network}{chapter.2}% 19
+\BOOKMARK [2][]{subsection.2.3.1}{2.3.1 Zoobot}{section.2.3}% 20
+\BOOKMARK [2][]{subsection.2.3.2}{2.3.2 Transfer Learning}{section.2.3}% 21
+\BOOKMARK [1][]{section.2.4}{2.4 Creating the Training Set}{chapter.2}% 22
+\BOOKMARK [2][]{subsection.2.4.1}{2.4.1 Interacting Galaxies and Galaxy Zoo}{section.2.4}% 23
+\BOOKMARK [2][]{subsection.2.4.2}{2.4.2 One Active Learning Cycle}{section.2.4}% 24
+\BOOKMARK [1][]{section.2.5}{2.5 Diagnostics}{chapter.2}% 25
+\BOOKMARK [2][]{subsection.2.5.1}{2.5.1 Model Performance}{section.2.5}% 26
+\BOOKMARK [2][]{subsection.2.5.2}{2.5.2 Duplication Removal}{section.2.5}% 27
+\BOOKMARK [2][]{subsection.2.5.3}{2.5.3 Bad Predictions \046 Removal}{section.2.5}% 28
+\BOOKMARK [1][]{section.2.6}{2.6 Results \046 Discussion}{chapter.2}% 29
+\BOOKMARK [2][]{subsection.2.6.1}{2.6.1 An Interacting Galaxy Catalogue}{section.2.6}% 30
+\BOOKMARK [2][]{subsection.2.6.2}{2.6.2 The Gems}{section.2.6}% 31
+\BOOKMARK [2][]{subsection.2.6.3}{2.6.3 Source Redshifts and Photometry}{section.2.6}% 32
+\BOOKMARK [1][]{section.2.7}{2.7 Conclusion}{chapter.2}% 33
+\BOOKMARK [0][]{chapter.3}{3 When do the effects of interaction happen? Interacting and disturbed galaxies in the COSMOS field}{}% 34
+\BOOKMARK [1][]{section.3.1}{3.1 Introduction}{chapter.3}% 35
+\BOOKMARK [1][]{section.3.2}{3.2 Data: Catalogue Matching \046 Secondary Identification}{chapter.3}% 36
+\BOOKMARK [2][]{subsection.3.2.1}{3.2.1 The COSMOS2020 Catalogue}{section.3.2}% 37
+\BOOKMARK [2][]{subsection.3.2.2}{3.2.2 Secondary Identification}{section.3.2}% 38
+\BOOKMARK [2][]{subsection.3.2.3}{3.2.3 Finding Additional Systems}{section.3.2}% 39
+\BOOKMARK [2][]{subsection.3.2.4}{3.2.4 Creating the Mass-Limited Sample}{section.3.2}% 40
+\BOOKMARK [2][]{subsection.3.2.5}{3.2.5 Sample Count Summary}{section.3.2}% 41
+\BOOKMARK [1][]{section.3.3}{3.3 Method: Environment, AGN and Interaction Stage}{chapter.3}% 42
+\BOOKMARK [2][]{subsection.3.3.1}{3.3.1 Classifying Stage of Interaction}{section.3.3}% 43
+\BOOKMARK [2][]{subsection.3.3.2}{3.3.2 Matching to Environment Catalogue}{section.3.3}% 44
+\BOOKMARK [2][]{subsection.3.3.3}{3.3.3 Classifying AGN}{section.3.3}% 45
+\BOOKMARK [2][]{subsection.3.3.4}{3.3.4 Visual Classification: Sources of Contamination}{section.3.3}% 46
+\BOOKMARK [2][]{subsection.3.3.5}{3.3.5 Aside: Mass Ratios in Sample}{section.3.3}% 47
+\BOOKMARK [1][]{section.3.4}{3.4 Star Formation and AGN Evolution with Interaction Stage}{chapter.3}% 48
+\BOOKMARK [2][]{subsection.3.4.1}{3.4.1 Controlling for Interaction Stage}{section.3.4}% 49
+\BOOKMARK [2][]{subsection.3.4.2}{3.4.2 Projected Separation and Star Formation Enhancement}{section.3.4}% 50
+\BOOKMARK [1][]{section.3.5}{3.5 Nuclear Activity with Interaction Stage}{chapter.3}% 51
+\BOOKMARK [1][]{section.3.6}{3.6 Discussion}{chapter.3}% 52
+\BOOKMARK [2][]{subsection.3.6.1}{3.6.1 Interaction Stage and Projected Separation}{section.3.6}% 53
+\BOOKMARK [2][]{subsection.3.6.2}{3.6.2 Interaction Stage and AGN}{section.3.6}% 54
+\BOOKMARK [1][]{section.3.7}{3.7 Conclusions}{chapter.3}% 55
+\BOOKMARK [0][]{chapter.4}{4 Advanced PySPAM: An Infrastructure to Constrain Underlying Interacting Galaxy Parameters}{}% 56
+\BOOKMARK [1][]{section.4.1}{4.1 Introduction}{chapter.4}% 57
+\BOOKMARK [1][]{section.4.2}{4.2 Data}{chapter.4}% 58
+\BOOKMARK [2][]{subsection.4.2.1}{4.2.1 Sample of Major Interacting Galaxies}{section.4.2}% 59
+\BOOKMARK [2][]{subsection.4.2.2}{4.2.2 Observation Preparation}{section.4.2}% 60
+\BOOKMARK [1][]{section.4.3}{4.3 Simulating Galaxy Interaction}{chapter.4}% 61
+\BOOKMARK [2][]{subsection.4.3.1}{4.3.1 APySPAM}{section.4.3}% 62
+\BOOKMARK [3][]{subsubsection.4.3.1.1}{4.3.1.1 Restricted Three-Body Simulation}{subsection.4.3.1}% 63
+\BOOKMARK [3][]{subsubsection.4.3.1.2}{4.3.1.2 Stellar Population Evolution}{subsection.4.3.1}% 64
+\BOOKMARK [3][]{subsubsection.4.3.1.3}{4.3.1.3 Extending Flux Distribution}{subsection.4.3.1}% 65
+\BOOKMARK [3][]{subsubsection.4.3.1.4}{4.3.1.4 Impact on Computation Time}{subsection.4.3.1}% 66
+\BOOKMARK [2][]{subsection.4.3.2}{4.3.2 Creating Test Images}{section.4.3}% 67
+\BOOKMARK [1][]{section.4.4}{4.4 Constraining Interaction}{chapter.4}% 68
+\BOOKMARK [2][]{subsection.4.4.1}{4.4.1 The Parameter Space of Interaction}{section.4.4}% 69
+\BOOKMARK [2][]{subsection.4.4.2}{4.4.2 Defining the Likelihood Function}{section.4.4}% 70
+\BOOKMARK [3][]{subsubsection.4.4.2.1}{4.4.2.1 MCMC \046 Bayes Theorem}{subsection.4.4.2}% 71
+\BOOKMARK [3][]{subsubsection.4.4.2.2}{4.4.2.2 Simplifying the Prior}{subsection.4.4.2}% 72
+\BOOKMARK [3][]{subsubsection.4.4.2.3}{4.4.2.3 Simplifying the Likelihood Function}{subsection.4.4.2}% 73
+\BOOKMARK [1][]{section.4.5}{4.5 Results \046 Discussion}{chapter.4}% 74
+\BOOKMARK [2][]{subsection.4.5.1}{4.5.1 Testing on a Synthetic Image}{section.4.5}% 75
+\BOOKMARK [2][]{subsection.4.5.2}{4.5.2 Diagnostics of Pipeline}{section.4.5}% 76
+\BOOKMARK [2][]{subsection.4.5.3}{4.5.3 Inputting 3D Information}{section.4.5}% 77
+\BOOKMARK [2][]{subsection.4.5.4}{4.5.4 Running on Full Idealised Sample}{section.4.5}% 78
+\BOOKMARK [2][]{subsection.4.5.5}{4.5.5 Applying to Observations}{section.4.5}% 79
+\BOOKMARK [2][]{subsection.4.5.6}{4.5.6 Limitations}{section.4.5}% 80
+\BOOKMARK [3][]{subsubsection.4.5.6.1}{4.5.6.1 Resolution \046 Depth Effects}{subsection.4.5.6}% 81
+\BOOKMARK [3][]{subsubsection.4.5.6.2}{4.5.6.2 Computational Expense}{subsection.4.5.6}% 82
+\BOOKMARK [1][]{section.4.6}{4.6 Conclusions \046 Future Work}{chapter.4}% 83
+\BOOKMARK [0][]{chapter.5}{5 Summary and Future Work}{}% 84
+\BOOKMARK [1][]{section.5.1}{5.1 Summary}{chapter.5}% 85
+\BOOKMARK [1][]{section.5.2}{5.2 Future Work}{chapter.5}% 86
+\BOOKMARK [2][]{subsection.5.2.1}{5.2.1 Catalogues of Galaxy Morphology with Ancillary Data}{section.5.2}% 87
+\BOOKMARK [2][]{subsection.5.2.2}{5.2.2 Constraining Interacting Galaxy Parameters}{section.5.2}% 88
+\BOOKMARK [0][]{appendix.1.A}{Appendix A Model Diagnostics \046 Further Identified Objects}{}% 89
+\BOOKMARK [1][]{section.1.A.1}{A.1 Further Model Diagnostics}{appendix.1.A}% 90
+\BOOKMARK [1][]{section.1.A.2}{A.2 Examples of Sources with 3-Band Information}{appendix.1.A}% 91
+\BOOKMARK [1][]{section.1.A.3}{A.3 Unknown Objects}{appendix.1.A}% 92
+\BOOKMARK [1][]{section.1.A.4}{A.4 Acknowledging PIs}{appendix.1.A}% 93
+\BOOKMARK [0][]{appendix*.76}{References}{}% 94
