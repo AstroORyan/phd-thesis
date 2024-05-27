@@ -122,7 +122,7 @@ At any given timestep the total stellar mass is given by
 \begin{equation}\label{Total_SFR}
 SFR_{\text{enhancement}} = \beta (\frac{t}{\tau^{2}}) \exp(-\frac{t}{\tau}) M_{\text{baryonic}} M_{\odot} \text{yr}^{-1}.
 \end{equation}
-Here, $\tau$ is the e-folding time of star formation, $M_{\text{baryonic}}$ is the baryonic mass of the galaxy and t is the age of the galaxy at the given timestep. This is the star formation at any time given by the BC03 template. However, we include the $\beta$ parameter: our enhancement value. This is a dimensionless value given by
+Here, $\tau$ is the e-folding time of star formation, $M_{\text{baryonic}}$ is the baryonic mass of the galaxy and t is the age of the galaxy at the given timestep. This is the star formation at any time given by the BC03 template. However, we include the $\beta$ parameter, which is our enhancement value. This is a dimensionless value given by
 \begin{equation}\label{enhancement_param}
 \beta = M_{\text{ratio}} D_{\text{ratio}}^{2}.
 \end{equation}
@@ -140,7 +140,7 @@ There are limitations to this approximation. We assume that each galaxy is a dis
 
 Upon finding the star formation rate at the position of each particle, we convert this into a stellar mass formed through the timestep taken. We then compare this formed mass to the expected mass formed in the initial underlying stellar population. If the new mass formed is so low that it would be captured by the underlying population, we do not add this mass. If excess stellar mass has been formed, we assign an SED to it and its age is recorded. Once the simulation is completed, each new stellar population age is used to extract the relevant BC03 SED and multiplied by the total mass of the new stellar population. We then stack all of the SEDs together. This gives us the total extra emission we expect from the stars formed during the starburst throughout the simulation. This is then added to the initial stellar population emission defined at the beginning of the simulation. This gives us the total SED of each particle throughout the simulation. Each particle SED is then convolved with user inputted telescope filter responses and integrated. This gives a total flux that would be measured from each particle as if observed. 
 
-Thus, with the underlying \texttt{JSPAM} code approximating the positional distribution of particles to the observed system, with \texttt{APySPAM} we paint on the flux and find the flux distribution. This allows us to directly compare the pixel in a simulation image to an input observational image. However, in doing so, a limitation was found due to using a particle number that was significantly less than the number of pixels.
+Thus, starting with the underlying \texttt{JSPAM} code approximating the positional distribution of particles to the observed system, we paint on the flux and find the flux distribution with \texttt{APySPAM}. This allows us to directly compare the pixel in a simulation image to an input observational image. However, in doing so, a limitation was found due to using a particle number that was significantly less than the number of pixels.
 
 \subsubsection{Extending Flux Distribution}\label{flux_dist}
 \noindent One remaining challenge in the simulations is that we are attempting to model full interacting systems with a number of particles significantly less than the number of pixels in each image. This is to maximise computational efficiency. The resulting effect is that large gaps can appear in the tidal features that form or within the disks themselves as the interaction progresses. To mitigate this effect, we calculate the flux at each particle position and then use the procedure described below to distribute it through each pixel of our image. This results in more realistic images of galaxies compared to binning the particle flux based on position.
@@ -321,7 +321,7 @@ To further simplify the likelihood function, we can assume our probability distr
 \begin{equation}\label{like_gauss}
 P(D_{obs}|H_{i},C) = (2\pi\sigma^{2}_{j})\exp(-\frac{1}{2\sigma^{2}}\sum_{j=1}^{n}(x_{j}-\mu)^{2}) \times C.
 \end{equation}
-Here $\sigma_{j}$ is the uncertainty in the observed image, $x_{j}$ is our mock observation and $\mu$ is the observed image. The above expression can be simplified further by noting that the expression in the exponential function is just a half of the $\chi^{2}$ difference between the observational image and the mock observational image. This is the same $\chi^{2}$ function that is used in the code GALFIT \citep{2002AJ....124..266P}. Where $\chi^{2}$ is given by;
+Here $\sigma_{j}$ is the uncertainty in the observed image, $x_{j}$ is our mock observation and $\mu$ is the observed image. The above expression can be simplified further by noting that the expression in the exponential function is just a half of the $\chi^{2}$ difference between the observational image and the mock observational image. This is the same $\chi^{2}$ function that is used in the code GALFIT \citep{2002AJ....124..266P}, where $\chi^{2}$ is given by;
 \begin{equation}\label{chi_squared}
 \chi^{2} = \frac{1}{N - n_{dof}}\sum_{0}^{N_{x}}\sum_{0}^{N_{y}}\frac{(p_{x,y} - q_{x,y})^{2}}{\sigma_{x,y}^{2}}.
 \end{equation}
