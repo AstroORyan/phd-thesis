@@ -1,0 +1,183 @@
+% ----------------------------------------------------------------------
+%                   LATEX TEMPLATE FOR PhD THESIS
+% ----------------------------------------------------------------------
+
+%: Style file for Latex
+% Most style definitions are in the external file PhDthesisPSnPDF.
+% In this template package, it can be found in ./Latex/Classes/
+\documentclass[12pt]{Latex/PhDthesisPSnPDF}
+\usepackage{amsmath, amsthm, amssymb, amsfonts, enumerate,hyperref}
+\let\OLDcleardoublepage\cleardoublepage
+\let\cleardoublepage\clearpage
+%: ----------------------------------------------------------------------
+%:                  TITLE PAGE: name, degree,..
+% ----------------------------------------------------------------------
+% below is to generate the title page with crest and author name
+	
+\title{The Relation Between Galaxy Evolution and Galaxy Interaction}
+
+\author{David Patrick O'Ryan}
+
+\collegeordept{Physics \\ Department of Physics}
+\university{Lancaster University}
+\crest{\includegraphics[width=4cm]{lancaster_University_Logo.png}}
+
+\renewcommand{\submittedtext}{A thesis submitted to Lancaster University for the degree of }
+\degree{Doctor of Philosophy in the Faculty of Science and Technology}
+\degreedate{\today}
+\supervisor{\emph{\\Supervised by Dr Brooke Simmons}}
+
+
+% ----------------------------------------------------------------------
+       
+% turn of those nasty overfull and underfull hboxes
+\hbadness=10000
+\hfuzz=50pt
+
+
+%: --------------------------------------------------------------
+%:                  FRONT MATTER: dedications, abstract,..
+% --------------------------------------------------------------
+\begin{document}
+\newcommand{\nn}{\nonumber}
+\newcommand{\bg}{\begin{equation}}
+\newcommand{\en}{\end{equation}}
+\renewcommand\[{\begin{equation}}
+\renewcommand\]{\end{equation}}
+\newcommand{\al}{\alpha}
+\newcommand{\bt}{\beta}
+\newcommand{\ga}{\gamma}
+\newcommand{\da}{\delta}
+\newcommand{\n}{\nabla}
+\newcommand{\ba}{\begin{eqnarray}}
+\newcommand{\ea}{\end{eqnarray}}
+\newcommand{\LF}{\left(}
+\newcommand{\RF}{\right)}
+\newcommand{\LT}{\left[}
+\newcommand{\RT}{\right]}
+\newcommand{\Ld}{\left.}
+\newcommand{\Rd}{\right.}
+\newcommand{\cO}{{\cal O}}
+\newcommand{\cF}{{\cal F}}
+\newcommand{\Ra}{\Rightarrow}
+\newcommand{\bl}{\begin{align}}
+\newcommand{\el}{\end{align}}
+\newcommand{\fl}{}
+\newcommand{\apj}{ApJ}
+\newcommand{\araa}{ARA\&A}
+\newcommand{\aap}{A\&A}
+\newcommand{\aaps}{A\&AS}
+\newcommand{\mnras}{MNRAS}
+\newcommand{\nat}{Nature}
+\newcommand{\pasa}{PASA}
+\newcommand{\pasj}{PASJ}
+\newcommand{\aj}{AJ}
+\newcommand{\apjs}{ApJS}
+\newcommand{\apjl}{ApJL}
+\newcommand{\pasp}{PASP}
+\newtheorem{theorem}{Theorem}[section]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+%\language{english}
+
+% sets line spacing
+\renewcommand\baselinestretch{1.5}
+\baselineskip=18pt plus1pt
+
+
+%: ----------------------- generate cover page ------------------------
+
+\maketitle  % command to print the title page with above variables
+
+
+%: ----------------------- cover page back side ------------------------
+% Your research institution may require reviewer names, etc.
+% This cover back side is required by Dresden Med Fac; uncomment if needed.
+
+%\newpage
+%\vspace{10mm}
+%1. Reviewer: Name
+
+%\vspace{10mm}
+%2. Reviewer: 
+
+%\vspace{20mm}
+%Day of the defense:
+
+%\vspace{20mm}
+%\hspace{70mm}Signature from head of PhD committee:
+
+%: ----------------------- abstract ------------------------
+
+\include{preface/abstract}
+%\include{preface/abstractslong}
+%: ----------------------- tie in front matter ------------------------
+
+\frontmatter
+\include{preface/dedication}
+\include{preface/acknowledgements}
+\include{preface/declaration}
+\include{preface/quote}
+
+
+%: ----------------------- contents ------------------------
+
+\setcounter{secnumdepth}{3} % organisational level that receives a numbers
+\setcounter{tocdepth}{3}    % print table of contents for level 3
+\tableofcontents            % print the table of contents
+% levels are: 0 - chapter, 1 - section, 2 - subsection, 3 - subsection
+
+
+%: ----------------------- list of figures/tables ------------------------
+
+\listoffigures	% print list of figures
+
+%\listoftables  % print list of tables
+\include{preface/pubs}
+
+%: --------------------------------------------------------------
+%:                  MAIN DOCUMENT SECTION
+% --------------------------------------------------------------
+
+% the main text starts here with the introduction, 1st chapter,...
+\mainmatter
+
+
+%\renewcommand{\chaptername}{} % uncomment to print only "1" not "Chapter 1"
+%\chapterstyle{combined}
+
+%: ----------------------- subdocuments ------------------------
+
+% Parts of the thesis are included below. Rename the files as required.
+% But take care that the paths match. You can also change the order of appearance by moving the include commands.
+
+\include{Introduction/introduction}
+\include{Chapter1/Chapter}
+\include{Chapter2/Chapter}
+\include{Chapter3/Chapter}
+\include{Conclusion/conclusion}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Appendices
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{appendices}
+\input{appendix2/appx}
+%\input{appendix1/appx}
+\end{appendices}
+
+
+%\backmatter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\nocite{} %use while references are not cited
+\renewcommand{\bibname}{References}
+
+\bibliographystyle{Latex/mnras}  %use the plain bibliography style
+\bibliography{thesis}        %use a bibtex bibliography file thesis.bib
+
+\end{document}
