@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {1.5.3}Ignition of Active Galactic Nuclei}{19}{subsection.1.5.3}%
 \contentsline {subsection}{\numberline {1.5.4}Quenching of Galactic Systems}{21}{subsection.1.5.4}%
 \contentsline {section}{\numberline {1.6}Identifying Interacting and Merging Galaxies}{22}{section.1.6}%
-\contentsline {section}{\numberline {1.7}This Thesis}{25}{section.1.7}%
+\contentsline {section}{\numberline {1.7}This Thesis}{24}{section.1.7}%
 \contentsline {chapter}{\numberline {2}Creating a Large Sample of Interacting Galaxies}{27}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Introduction}{27}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Data}{30}{section.2.2}%
