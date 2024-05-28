@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  28 MAY 2024 08:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  28 MAY 2024 09:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -610,13 +610,25 @@ versity_logo.png>]
 \openout2 = `preface/abstract.aux'.
 
  (./preface/abstract.tex
-[2
+LaTeX Font Info:    Trying to load font information for U+msa on input line 10.
+
+
+(c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 10.
+
+
+(c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [2
 
 ] [3])
 \openout2 = `preface/dedication.aux'.
 
- (./preface/dedication.texpdfTeX warning (ext4): destination with the same iden
-tifier (name{page.i}) has been already used, duplicate ignored
+
+(./preface/dedication.texpdfTeX warning (ext4): destination with the same ident
+ifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.6 \end{dedication}
@@ -653,27 +665,17 @@ l.57 \end{acknowledgements}
 (./preface/quote.tex) [5
 
 
-] (./thesis.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
-
-(c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
-
-(c:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [6
+] (./thesis.toc [6
 
 
 ] [7] [8])
 \tf@toc=\write4
 \openout4 = `thesis.toc'.
 
- [9]
-(./thesis.lof [10
+ [9] (./thesis.lof [10
 
-] [11] [12])
+]
+[11] [12])
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
@@ -685,8 +687,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [15])
 \openout2 = `Introduction/introduction.aux'.
 
-
-(./Introduction/introduction.tex
+ (./Introduction/introduction.tex
 Chapter 1.
 [1
 
@@ -694,21 +695,21 @@ Chapter 1.
 
 
 ] [2] [3] [4]
-<Introduction/figures/merger-rates.png, id=826, 571.63562pt x 381.92688pt>
+<Introduction/figures/merger-rates.png, id=827, 571.63562pt x 381.92688pt>
 File: Introduction/figures/merger-rates.png Graphic file (type png)
 <use Introduction/figures/merger-rates.png>
 Package pdftex.def Info: Introduction/figures/merger-rates.png  used on input l
 ine 31.
 (pdftex.def)             Requested size: 391.93544pt x 261.86308pt.
  [5] [6 <./Introduction/figures/merger-rates.png>]
-<Introduction/figures/hubble-tuning-fork.jpg, id=865, 693.3102pt x 519.8622pt>
+<Introduction/figures/hubble-tuning-fork.jpg, id=867, 693.3102pt x 519.8622pt>
 File: Introduction/figures/hubble-tuning-fork.jpg Graphic file (type jpg)
 <use Introduction/figures/hubble-tuning-fork.jpg>
 Package pdftex.def Info: Introduction/figures/hubble-tuning-fork.jpg  used on i
 nput line 43.
 (pdftex.def)             Requested size: 391.93544pt x 293.88927pt.
  [7] [8 <./Introduction/figures/hubble-tuning-fork.jpg>]
-<Introduction/figures/population-distribution.png, id=897, 433.11812pt x 342.27
+<Introduction/figures/population-distribution.png, id=899, 433.11812pt x 342.27
 875pt>
 File: Introduction/figures/population-distribution.png Graphic file (type png)
 <use Introduction/figures/population-distribution.png>
@@ -716,7 +717,7 @@ Package pdftex.def Info: Introduction/figures/population-distribution.png  used
  on input line 65.
 (pdftex.def)             Requested size: 391.93544pt x 309.7454pt.
  [9] [10 <./Introduction/figures/population-distribution.png>] [11] [12] [13]
-<Introduction/figures/combined-examples-mergers.jpg, id=1026, 1579.40062pt x 43
+<Introduction/figures/combined-examples-mergers.jpg, id=1027, 1579.40062pt x 43
 2.11438pt>
 File: Introduction/figures/combined-examples-mergers.jpg Graphic file (type jpg
 )
@@ -725,7 +726,7 @@ Package pdftex.def Info: Introduction/figures/combined-examples-mergers.jpg  us
 ed on input line 92.
 (pdftex.def)             Requested size: 391.93544pt x 107.2305pt.
  [14 <./Introduction/figures/combined-examples-mergers.jpg>] [15] [16]
-<Introduction/figures/shells-rings.jpg, id=1097, 1112.65688pt x 726.21312pt>
+<Introduction/figures/shells-rings.jpg, id=1098, 1112.65688pt x 726.21312pt>
 File: Introduction/figures/shells-rings.jpg Graphic file (type jpg)
 <use Introduction/figures/shells-rings.jpg>
 Package pdftex.def Info: Introduction/figures/shells-rings.jpg  used on input l
@@ -1320,7 +1321,7 @@ ublic/amsfonts/cm/cmtt10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/sym
 bols/msam10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm120
 0.pfb>
-Output written on thesis.pdf (225 pages, 14658180 bytes).
+Output written on thesis.pdf (225 pages, 14658667 bytes).
 PDF statistics:
  5616 PDF objects out of 6186 (max. 8388607)
  3885 compressed objects within 39 object streams
