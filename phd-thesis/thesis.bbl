@@ -430,6 +430,10 @@ Costa P.,  Phillips E.,  Brandt L.,   Fatica M.,  2021, \mn@doi [Computers &
   A.,  2008, \mn@doi [\mnras] {10.1111/j.1365-2966.2007.12730.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2008MNRAS.384..386C} {384, 386}
 
+\bibitem[\protect\citeauthoryear{{Curtis}}{{Curtis}}{1917}]{1917PASP...29..206C}
+{Curtis} H.~D.,  1917, \mn@doi [\pasp] {10.1086/122632}, \href
+  {https://ui.adsabs.harvard.edu/abs/1917PASP...29..206C} {29, 206}
+
 \bibitem[\protect\citeauthoryear{{Dalcanton} et~al.,}{{Dalcanton}
   et~al.}{2012}]{2012ApJS..200...18D}
 {Dalcanton} J.~J.,  et~al., 2012, \mn@doi [\apjs] {10.1088/0067-0049/200/2/18},
@@ -732,10 +736,6 @@ Foreman-Mackey D.,  2016, \mn@doi [The Journal of Open Source Software]
 {Hopkins} P.~F.,  et~al., 2018, \mn@doi [\mnras] {10.1093/mnras/sty1690}, \href
   {https://ui.adsabs.harvard.edu/abs/2018MNRAS.480..800H} {480, 800}
 
-\bibitem[\protect\citeauthoryear{{Hubble}}{{Hubble}}{1926}]{1926ApJ....64..321H}
-{Hubble} E.~P.,  1926, \mn@doi [\apj] {10.1086/143018}, \href
-  {https://ui.adsabs.harvard.edu/abs/1926ApJ....64..321H} {64, 321}
-
 \bibitem[\protect\citeauthoryear{{Hubble}}{{Hubble}}{1936}]{1936rene.book.....H}
 {Hubble} E.~P.,  1936, {Realm of the Nebulae}
 
@@ -785,6 +785,9 @@ Foreman-Mackey D.,  2016, \mn@doi [The Journal of Open Source Software]
 {Johansson} P.~H.,  {Naab} T.,   {Burkert} A.,  2009, \mn@doi [\apj]
   {10.1088/0004-637X/690/1/802}, \href
   {https://ui.adsabs.harvard.edu/abs/2009ApJ...690..802J} {690, 802}
+
+\bibitem[\protect\citeauthoryear{{Kant}}{{Kant}}{1755}]{1755anth.book.....K}
+{Kant} I.,  1755, {Allgemeine Naturgeschichte und Theorie des Himmels}
 
 \bibitem[\protect\citeauthoryear{{Karera}, {Drissen}, {Martel},
   {Iglesias-P{\'a}ramo}, {Vilchez}, {Duc}  \& {Plana}}{{Karera}
