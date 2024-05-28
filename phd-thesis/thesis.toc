@@ -50,10 +50,10 @@
 \contentsline {subsection}{\numberline {3.4.1}Controlling for Interaction Stage}{100}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Projected Separation and Star Formation Enhancement}{110}{subsection.3.4.2}%
 \contentsline {section}{\numberline {3.5}Nuclear Activity with Interaction Stage}{113}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Discussion}{118}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Interaction Stage and Projected Separation}{118}{subsection.3.6.1}%
+\contentsline {section}{\numberline {3.6}Discussion}{117}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Interaction Stage and Projected Separation}{117}{subsection.3.6.1}%
 \contentsline {subsection}{\numberline {3.6.2}Interaction Stage and AGN}{121}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}Conclusions}{122}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Conclusions}{123}{section.3.7}%
 \contentsline {chapter}{\numberline {4}Advanced PySPAM: An Infrastructure to Constrain Underlying Interacting Galaxy Parameters}{126}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introduction}{126}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Data}{128}{section.4.2}%
