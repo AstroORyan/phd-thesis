@@ -45,9 +45,9 @@
 \contentsline {subsection}{\numberline {3.3.2}Matching to Environment Catalogue}{86}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Classifying AGN}{88}{subsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.3.4}Visual Classification: Sources of Contamination}{89}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Aside: Mass Ratios in Sample}{97}{subsection.3.3.5}%
-\contentsline {section}{\numberline {3.4}Star Formation and AGN Evolution with Interaction Stage}{100}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Controlling for Interaction Stage}{100}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.3.5}Aside: Mass Ratios in Sample}{99}{subsection.3.3.5}%
+\contentsline {section}{\numberline {3.4}Star Formation and AGN Evolution with Interaction Stage}{99}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Controlling for Interaction Stage}{99}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Projected Separation and Star Formation Enhancement}{110}{subsection.3.4.2}%
 \contentsline {section}{\numberline {3.5}Nuclear Activity with Interaction Stage}{113}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Discussion}{117}{section.3.6}%
