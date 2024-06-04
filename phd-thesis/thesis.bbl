@@ -233,6 +233,11 @@
   {10.1051/0004-6361:20030542}, \href
   {https://ui.adsabs.harvard.edu/abs/2003A&A...405...31B} {405, 31}
 
+\bibitem[\protect\citeauthoryear{{Bertin} \& {Arnouts}}{{Bertin} \&
+  {Arnouts}}{1996}]{1996A&AS..117..393B}
+{Bertin} E.,  {Arnouts} S.,  1996, \mn@doi [\aaps] {10.1051/aas:1996164}, \href
+  {https://ui.adsabs.harvard.edu/abs/1996A&AS..117..393B} {117, 393}
+
 \bibitem[\protect\citeauthoryear{{Bickley} et~al.,}{{Bickley}
   et~al.}{2021}]{2021MNRAS.504..372B}
 {Bickley} R.~W.,  et~al., 2021, \mn@doi [\mnras] {10.1093/mnras/stab806}, \href
@@ -354,6 +359,12 @@
 {Byrne-Mamahit} S.,  {Hani} M.~H.,  {Ellison} S.~L.,  {Quai} S.,   {Patton}
   D.~R.,  2023, \mn@doi [\mnras] {10.1093/mnras/stac3674}, \href
   {https://ui.adsabs.harvard.edu/abs/2023MNRAS.519.4966B} {519, 4966}
+
+\bibitem[\protect\citeauthoryear{{Calvi}, {Stiavelli}, {Bradley}, {Pizzella}
+  \& {Kim}}{{Calvi} et~al.}{2014}]{2014ApJ...796..102C}
+{Calvi} V.,  {Stiavelli} M.,  {Bradley} L.,  {Pizzella} A.,   {Kim} S.,  2014,
+  \mn@doi [\apj] {10.1088/0004-637X/796/2/102}, \href
+  {https://ui.adsabs.harvard.edu/abs/2014ApJ...796..102C} {796, 102}
 
 \bibitem[\protect\citeauthoryear{{Cameron}}{{Cameron}}{2011}]{2011PASA...28..128C}
 {Cameron} E.,  2011, \mn@doi [\pasa] {10.1071/AS10046}, \href
@@ -1424,6 +1435,14 @@ Stephens M.~A.,  1974, Journal of the American Statistical Association, 69, 730
 {Tian} C.,  et~al., 2023, \mn@doi [\apj] {10.3847/1538-4357/acad79}, \href
   {https://ui.adsabs.harvard.edu/abs/2023ApJ...944..124T} {944, 124}
 
+\bibitem[\protect\citeauthoryear{{Tolman}}{{Tolman}}{1930}]{1930PNAS...16..511T}
+{Tolman} R.~C.,  1930, \mn@doi [Proceedings of the National Academy of Science]
+  {10.1073/pnas.16.7.511}, \href
+  {https://ui.adsabs.harvard.edu/abs/1930PNAS...16..511T} {16, 511}
+
+\bibitem[\protect\citeauthoryear{{Tolman}}{{Tolman}}{1934}]{1934rtc..book.....T}
+{Tolman} R.~C.,  1934, {Relativity, Thermodynamics, and Cosmology}
+
 \bibitem[\protect\citeauthoryear{{Toomre}}{{Toomre}}{1977}]{1977egsp.conf..401T}
 {Toomre} A.,  1977, in {Tinsley} B.~M.,  {Larson} Richard B.~Gehret D.~C.,
   eds, Evolution of Galaxies and Stellar Populations. p.~401
@@ -1568,6 +1587,12 @@ Wallin J.~F.,  1990, \mn@doi [The Astronomical Journal] {10.1086/115613}, 100,
 {York} T.,  {Jackson} N.,  {Browne} I.~W.~A.,  {Wucknitz} O.,   {Skelton}
   J.~E.,  2005, \mn@doi [\mnras] {10.1111/j.1365-2966.2004.08618.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2005MNRAS.357..124Y} {357, 124}
+
+\bibitem[\protect\citeauthoryear{{de Albernaz Ferreira} \& {Ferrari}}{{de
+  Albernaz Ferreira} \& {Ferrari}}{2018}]{2018MNRAS.473.2701D}
+{de Albernaz Ferreira} L.,  {Ferrari} F.,  2018, \mn@doi [\mnras]
+  {10.1093/mnras/stx2266}, \href
+  {https://ui.adsabs.harvard.edu/abs/2018MNRAS.473.2701D} {473, 2701}
 
 \bibitem[\protect\citeauthoryear{{de Mello}, {Infante}  \& {Menanteau}}{{de
   Mello} et~al.}{1997}]{1997ApJS..108...99D}

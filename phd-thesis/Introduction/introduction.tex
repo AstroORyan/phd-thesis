@@ -173,6 +173,21 @@ However, using a CNN for the purposes of identifying interacting galaxies still 
 
 New methods combining CNNs with morphological parameterisations of a galaxy are being developed to overcome this issue. This has found some success in correctly identifying interacting galaxies fom morphology alone \citep{2023ApJ...958...96R}. Other works have turned to training CNNs on simulated data, where the training set could be controlled and large enough to span the entire parameter space of interaction. These training sets would also have the advantage of being completely free of contamination. However, when applied to observational data it was found that the accuracy of such models breaks down \citep{2019MNRAS.490.5390B, 2020A&C....3200390C}. Thus, creating large and pure interacting galaxy samples remains a task to complete, and the method being it an open question.
 
+Using morphology, and the existence of tidal features, is not uniform across redshift however. As galaxies are observed at higher redshifts they are found to have both dimmer surface brightnesses and, often, to have a smaller angular size. This has direct consequences on our classification methods of interacting galaxies, as this may cause us to lose sensitivity to detecting tidal features about interacting and merging galaxies and bias us toward those systems with high surface brightnesses.
+
+\section{Surface Brightness Dimming}
+\noindent Another fundamental obstacle to successfully identifying interacting and merging galaxies are two cosmological effects: surface brightness dimming of a galaxy and the changing angular size of a galaxy. Both of these effects are a result of the Universe expanding. For instance, we would expect that the luminosity per unit area of a galaxy would remain constant if the Universe was static. However, because the Universe is expanding three things are changing when we observe a galaxy: the photons arrive at a different rate, the wavelengths of the photon changes and the angular size of the galaxy changes (gets smaller) with time.
+
+The primary change affecting us with interacting galaxies is the change in the angular size of the object. As the Universe expands, the angle subtended by an object of a fixed length decreases dependent on its luminosity distance and the redshift. We find that the angular size changes approximately linearly until $z\sim1$, where it then then flattens rapidly and even begins to increase.
+
+The surface brightness is defined as the luminosity within some defined area, in this case angular size on the sky. So, because the angular size is changing while the luminosity remains the same, the surface brightness is decreasing. This relation between the surface brightness and redshift was originally derived using this approach by \citet{1930PNAS...16..511T, 1934rtc..book.....T}. If we have a galaxy at some redshift, $z$, its surface brightness will be dimmed by
+\begin{equation}\label{surf_dimming}
+I_{0} = \frac{I_{e}}{(1+z)^{4}}.
+\end{equation}
+Here, $I_{0}$ is the observed surface brightness of an object and $I_{e}$ is intrinsic surface brightness of the galaxy. Due to this, a galaxy observed at z = 1 will be 16 times dimmer than the same galaxy observed in the local Universe ($z\sim0$). 
+
+We use the detection of tidal features to classify interacting and merging systems. These features often lie in the low surface brightness regime. This means that even in the local Universe, we are observing them at the very limiting magnitudes of many of our telescopes. So, when we start to move to high redshifts and surface brightness dimming begins to take an effect, we will lose the ability to detect the tidal features of an interacting galaxy. Therefore, we risk being biased only those galaxies with a surface brightness \citep{2014ApJ...796..102C}, or mis-representing the underlying structure of a galaxy entirely \citep{2018MNRAS.473.2701D}.
+
 \section{This Thesis}
 % Potentially expand this or change the title.
 \noindent The primary focus of this thesis is investigating and constraining the relationship between galaxy interaction and evolution. The list of unresolved questions about galaxy interaction is long and complex, but we will focus on the following questions here:
