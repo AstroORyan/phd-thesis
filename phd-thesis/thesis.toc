@@ -11,8 +11,8 @@
 \contentsline {subsection}{\numberline {1.5.3}Ignition of Active Galactic Nuclei}{20}{subsection.1.5.3}%
 \contentsline {subsection}{\numberline {1.5.4}Quenching of Galactic Systems}{21}{subsection.1.5.4}%
 \contentsline {section}{\numberline {1.6}Identifying Interacting and Merging Galaxies}{22}{section.1.6}%
-\contentsline {section}{\numberline {1.7}Surface Brightness Dimming}{25}{section.1.7}%
-\contentsline {section}{\numberline {1.8}This Thesis}{26}{section.1.8}%
+\contentsline {section}{\numberline {1.7}Surface Brightness Dimming}{26}{section.1.7}%
+\contentsline {section}{\numberline {1.8}This Thesis}{27}{section.1.8}%
 \contentsline {chapter}{\numberline {2}Creating a Large Sample of Interacting Galaxies}{29}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Introduction}{29}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Data}{32}{section.2.2}%
@@ -49,12 +49,12 @@
 \contentsline {subsection}{\numberline {3.3.5}Aside: Mass Ratios in Sample}{102}{subsection.3.3.5}%
 \contentsline {section}{\numberline {3.4}Star Formation and AGN Evolution with Interaction Stage}{104}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Controlling for Interaction Stage}{104}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Projected Separation and Star Formation Enhancement}{111}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.2}Projected Separation and Star Formation Enhancement}{114}{subsection.3.4.2}%
 \contentsline {section}{\numberline {3.5}Nuclear Activity with Interaction Stage}{117}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Discussion}{122}{section.3.6}%
 \contentsline {subsection}{\numberline {3.6.1}Interaction Stage and Projected Separation}{122}{subsection.3.6.1}%
 \contentsline {subsection}{\numberline {3.6.2}Interaction Stage and AGN}{125}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}Conclusions}{127}{section.3.7}%
+\contentsline {section}{\numberline {3.7}Conclusions}{126}{section.3.7}%
 \contentsline {chapter}{\numberline {4}Advanced PySPAM: An Infrastructure to Constrain Underlying Interacting Galaxy Parameters}{130}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introduction}{130}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Data}{132}{section.4.2}%
