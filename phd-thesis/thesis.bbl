@@ -142,6 +142,12 @@
   {10.1111/j.1365-2966.2006.11081.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2006MNRAS.373..469B} {373, 469}
 
+\bibitem[\protect\citeauthoryear{{Balogh}, {Schade}, {Morris}, {Yee},
+  {Carlberg}  \& {Ellingson}}{{Balogh} et~al.}{1998}]{1998ApJ...504L..75B}
+{Balogh} M.~L.,  {Schade} D.,  {Morris} S.~L.,  {Yee} H.~K.~C.,  {Carlberg}
+  R.~G.,   {Ellingson} E.,  1998, \mn@doi [\apjl] {10.1086/311576}, \href
+  {https://ui.adsabs.harvard.edu/abs/1998ApJ...504L..75B} {504, L75}
+
 \bibitem[\protect\citeauthoryear{{Balogh}, {Baldry}, {Nichol}, {Miller},
   {Bower}  \& {Glazebrook}}{{Balogh} et~al.}{2004}]{2004ApJ...615L.101B}
 {Balogh} M.~L.,  {Baldry} I.~K.,  {Nichol} R.,  {Miller} C.,  {Bower} R.,
@@ -364,6 +370,11 @@
   {10.3847/1538-4357/ac8c27}, \href
   {https://ui.adsabs.harvard.edu/abs/2022ApJ...937...97C} {937, 97}
 
+\bibitem[\protect\citeauthoryear{{Cheng} et~al.,}{{Cheng}
+  et~al.}{2020}]{2020MNRAS.499.5241C}
+{Cheng} C.,  et~al., 2020, \mn@doi [\mnras] {10.1093/mnras/staa3036}, \href
+  {https://ui.adsabs.harvard.edu/abs/2020MNRAS.499.5241C} {499, 5241}
+
 \bibitem[\protect\citeauthoryear{{Cheng}, {Huertas-Company}, {Conselice},
   {Arag{\'o}n-Salamanca}, {Robertson}  \& {Ramachandra}}{{Cheng}
   et~al.}{2021}]{2021MNRAS.503.4446C}
@@ -561,6 +572,11 @@ Costa P.,  Phillips E.,  Brandt L.,   Fatica M.,  2021, \mn@doi [Computers &
   {Gallagher}}{1976}]{1976ApJ...204..365F}
 {Faber} S.~M.,  {Gallagher} J.~S.,  1976, \mn@doi [\apj] {10.1086/154180},
   \href {https://ui.adsabs.harvard.edu/abs/1976ApJ...204..365F} {204, 365}
+
+\bibitem[\protect\citeauthoryear{{Fensch} \& {Bournaud}}{{Fensch} \&
+  {Bournaud}}{2021}]{2021MNRAS.505.3579F}
+{Fensch} J.,  {Bournaud} F.,  2021, \mn@doi [\mnras] {10.1093/mnras/stab1489},
+  \href {https://ui.adsabs.harvard.edu/abs/2021MNRAS.505.3579F} {505, 3579}
 
 \bibitem[\protect\citeauthoryear{{Ferreira} et~al.,}{{Ferreira}
   et~al.}{2022}]{2022ApJ...938L...2F}
@@ -1273,6 +1289,11 @@ Peng C.~Y.,  Ho L.~C.,  Impey C.~D.,   Rix H.-W.,  2002, ] {10.1086/340952}
 {Scoville} N.,  et~al., 2007, \mn@doi [\apjs] {10.1086/516585}, \href
   {https://ui.adsabs.harvard.edu/abs/2007ApJS..172....1S} {172, 1}
 
+\bibitem[\protect\citeauthoryear{{Scoville} et~al.,}{{Scoville}
+  et~al.}{2023}]{2023ApJ...943...82S}
+{Scoville} N.,  et~al., 2023, \mn@doi [\apj] {10.3847/1538-4357/aca1bc}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023ApJ...943...82S} {943, 82}
+
 \bibitem[\protect\citeauthoryear{{Scudder}, {Ellison}, {Torrey}, {Patton}  \&
   {Mendel}}{{Scudder} et~al.}{2012}]{2012MNRAS.426..549S}
 {Scudder} J.~M.,  {Ellison} S.~L.,  {Torrey} P.,  {Patton} D.~R.,   {Mendel}
@@ -1381,6 +1402,17 @@ Stephens M.~A.,  1974, Journal of the American Statistical Association, 69, 730
   {10.1051/0004-6361/202244509}, \href
   {https://ui.adsabs.harvard.edu/abs/2023A&A...669A.141S} {669, A141}
 
+\bibitem[\protect\citeauthoryear{{Swinbank}, {Smail}, {Sobral}, {Theuns},
+  {Best}  \& {Geach}}{{Swinbank} et~al.}{2012}]{2012ApJ...760..130S}
+{Swinbank} A.~M.,  {Smail} I.,  {Sobral} D.,  {Theuns} T.,  {Best} P.~N.,
+  {Geach} J.~E.,  2012, \mn@doi [\apj] {10.1088/0004-637X/760/2/130}, \href
+  {https://ui.adsabs.harvard.edu/abs/2012ApJ...760..130S} {760, 130}
+
+\bibitem[\protect\citeauthoryear{{Tacconi} et~al.,}{{Tacconi}
+  et~al.}{2010}]{2010Natur.463..781T}
+{Tacconi} L.~J.,  et~al., 2010, \mn@doi [\nat] {10.1038/nature08773}, \href
+  {https://ui.adsabs.harvard.edu/abs/2010Natur.463..781T} {463, 781}
+
 \bibitem[\protect\citeauthoryear{{Tarsitano}, {Bruderer}, {Schawinski}  \&
   {Hartley}}{{Tarsitano} et~al.}{2022}]{2022MNRAS.511.3330T}
 {Tarsitano} F.,  {Bruderer} C.,  {Schawinski} K.,   {Hartley} W.~G.,  2022,
@@ -1407,6 +1439,11 @@ Stephens M.~A.,  1974, Journal of the American Statistical Association, 69, 730
   {Zelinka} I.,  {Brescia} M.,   {Baron} D.,  eds, , Vol.~39, Intelligent
   Astrophysics.
 pp 57--79, \mn@doi{10.1007/978-3-030-65867-0_3}
+
+\bibitem[\protect\citeauthoryear{{Vayner} et~al.,}{{Vayner}
+  et~al.}{2023}]{2023ApJ...955...92V}
+{Vayner} A.,  et~al., 2023, \mn@doi [\apj] {10.3847/1538-4357/ace784}, \href
+  {https://ui.adsabs.harvard.edu/abs/2023ApJ...955...92V} {955, 92}
 
 \bibitem[\protect\citeauthoryear{{Violino}, {Ellison}, {Sargent}, {Coppin},
   {Scudder}, {Mendel}  \& {Saintonge}}{{Violino}
