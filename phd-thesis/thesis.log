@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  7 JUN 2024 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  9 JUN 2024 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -980,42 +980,42 @@ nput line 237.
 File: Chapter3/figures/sfr-mass-stages.pdf Graphic file (type pdf)
 <use Chapter3/figures/sfr-mass-stages.pdf>
 Package pdftex.def Info: Chapter3/figures/sfr-mass-stages.pdf  used on input li
-ne 271.
+ne 275.
 (pdftex.def)             Requested size: 412.56496pt x 423.53337pt.
 
 
-LaTeX Warning: Float too large for page by 17.37811pt on input line 274.
+LaTeX Warning: Float too large for page by 17.37811pt on input line 278.
 
-[105] [106 <./Chapter3/figures/sfr-mass-stages.pdf>]
-<Chapter3/figures/stellar-mass-dist.pdf, id=3118, 424.44112pt x 422.4834pt>
+[105]
+<Chapter3/figures/stellar-mass-dist.pdf, id=3075, 424.44112pt x 422.4834pt>
 File: Chapter3/figures/stellar-mass-dist.pdf Graphic file (type pdf)
 <use Chapter3/figures/stellar-mass-dist.pdf>
 Package pdftex.def Info: Chapter3/figures/stellar-mass-dist.pdf  used on input 
-line 282.
+line 286.
 (pdftex.def)             Requested size: 412.56496pt x 410.65935pt.
-<Chapter3/figures/sfr_dist.pdf, id=3119, 426.25468pt x 422.39505pt>
+<Chapter3/figures/sfr_dist.pdf, id=3076, 426.25468pt x 422.39505pt>
 File: Chapter3/figures/sfr_dist.pdf Graphic file (type pdf)
 <use Chapter3/figures/sfr_dist.pdf>
-Package pdftex.def Info: Chapter3/figures/sfr_dist.pdf  used on input line 289.
+Package pdftex.def Info: Chapter3/figures/sfr_dist.pdf  used on input line 293.
 
 (pdftex.def)             Requested size: 412.56496pt x 408.82681pt.
- [107] [108 <./Chapter3/figures/stellar-mass-dist.pdf>] [109 <./Chapter3/figure
-s/sfr_dist.pdf>] [110]
+ [106] [107 <./Chapter3/figures/sfr-mass-stages.pdf>] [108 <./Chapter3/figures/
+stellar-mass-dist.pdf>] [109 <./Chapter3/figures/sfr_dist.pdf>] [110]
 [111]
 <Chapter3/figures/sfr-clsf-dist.pdf, id=3251, 716.88757pt x 585.02568pt>
 File: Chapter3/figures/sfr-clsf-dist.pdf Graphic file (type pdf)
 <use Chapter3/figures/sfr-clsf-dist.pdf>
 Package pdftex.def Info: Chapter3/figures/sfr-clsf-dist.pdf  used on input line
- 322.
+ 326.
 (pdftex.def)             Requested size: 412.56496pt x 336.68173pt.
 <Chapter3/figures/sfr-clsf-bar.pdf, id=3254, 597.59259pt x 569.58481pt>
 File: Chapter3/figures/sfr-clsf-bar.pdf Graphic file (type pdf)
 <use Chapter3/figures/sfr-clsf-bar.pdf>
 Package pdftex.def Info: Chapter3/figures/sfr-clsf-bar.pdf  used on input line 
-329.
+333.
 (pdftex.def)             Requested size: 412.56496pt x 393.2399pt.
 
-Underfull \vbox (badness 7308) has occurred while \output is active []
+Underfull \vbox (badness 1867) has occurred while \output is active []
 
  [112]
 [113 <./Chapter3/figures/sfr-clsf-dist.pdf>] [114 <./Chapter3/figures/sfr-clsf-
@@ -1026,7 +1026,7 @@ File: Chapter3/figures/sfr-enhancement-projected-sep.pdf Graphic file (type pdf
 )
 <use Chapter3/figures/sfr-enhancement-projected-sep.pdf>
 Package pdftex.def Info: Chapter3/figures/sfr-enhancement-projected-sep.pdf  us
-ed on input line 345.
+ed on input line 349.
 (pdftex.def)             Requested size: 412.56496pt x 250.17189pt.
  [115] [116 <./Chapter3/figures/sfr-enhancement-projected-sep.pdf>]
 [117]
@@ -1034,13 +1034,13 @@ ed on input line 345.
 File: Chapter3/figures/agn-stage-dist.pdf Graphic file (type pdf)
 <use Chapter3/figures/agn-stage-dist.pdf>
 Package pdftex.def Info: Chapter3/figures/agn-stage-dist.pdf  used on input lin
-e 363.
+e 367.
 (pdftex.def)             Requested size: 412.56496pt x 412.252pt.
 <Chapter3/figures/agn-frac-time.pdf, id=3420, 422.09782pt x 374.3056pt>
 File: Chapter3/figures/agn-frac-time.pdf Graphic file (type pdf)
 <use Chapter3/figures/agn-frac-time.pdf>
 Package pdftex.def Info: Chapter3/figures/agn-frac-time.pdf  used on input line
- 384.
+ 388.
 (pdftex.def)             Requested size: 412.56496pt x 365.85176pt.
  [118] [119 <./Chapter3/figures/agn-stage-dist.pdf>] [120 <./Chapter3/figures/a
 gn-frac-time.pdf>]
@@ -1048,11 +1048,11 @@ gn-frac-time.pdf>]
 File: Chapter3/figures/sfg-agn-dist.pdf Graphic file (type pdf)
 <use Chapter3/figures/sfg-agn-dist.pdf>
 Package pdftex.def Info: Chapter3/figures/sfg-agn-dist.pdf  used on input line 
-396.
+400.
 (pdftex.def)             Requested size: 239.28842pt x 461.60387pt.
 
 
-LaTeX Warning: Float too large for page by 14.64859pt on input line 399.
+LaTeX Warning: Float too large for page by 14.64859pt on input line 403.
 
 [121] [122 <./Chapter3/figures/sfg-agn-dist.pdf>] [123] [124] [125] [126]
 [127] [128] [129]) [130]
@@ -1095,19 +1095,19 @@ Underfull \vbox (badness 2941) has occurred while \output is active []
 File: Chapter1/figures/arp240-obs-sim.pdf Graphic file (type pdf)
 <use Chapter1/figures/arp240-obs-sim.pdf>
 Package pdftex.def Info: Chapter1/figures/arp240-obs-sim.pdf  used on input lin
-e 351.
+e 353.
 (pdftex.def)             Requested size: 309.4237pt x 155.01535pt.
 <Chapter1/figures/Arp240-full-corner.pdf, id=4120, 2041.2941pt x 2052.66875pt>
 File: Chapter1/figures/Arp240-full-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp240-full-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp240-full-corner.pdf  used on input
- line 360.
+ line 362.
 (pdftex.def)             Requested size: 412.56496pt x 414.8488pt.
 <Chapter1/figures/Arp240-red-corner.pdf, id=4123, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/Arp240-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp240-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp240-red-corner.pdf  used on input 
-line 367.
+line 369.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
  [155 <./Chapter1/figures/arp240-obs-sim.pdf>]
 [156 <./Chapter1/figures/Arp240-full-corner.pdf>] [157 <./Chapter1/figures/Arp2
@@ -1116,18 +1116,18 @@ line 367.
 File: Chapter1/figures/best-fits-comb.pdf Graphic file (type pdf)
 <use Chapter1/figures/best-fits-comb.pdf>
 Package pdftex.def Info: Chapter1/figures/best-fits-comb.pdf  used on input lin
-e 401.
+e 403.
 (pdftex.def)             Requested size: 412.56496pt x 244.68478pt.
  [161] [162 <./Chapter1/figures/best-fits-comb.pdf>]
 <Chapter1/figures/arp-240-steps.jpeg, id=4319, 287.97588pt x 700.91862pt>
 File: Chapter1/figures/arp-240-steps.jpeg Graphic file (type jpg)
 <use Chapter1/figures/arp-240-steps.jpeg>
 Package pdftex.def Info: Chapter1/figures/arp-240-steps.jpeg  used on input lin
-e 419.
+e 421.
 (pdftex.def)             Requested size: 185.65297pt x 451.8698pt.
 
 
-LaTeX Warning: Float too large for page by 18.51453pt on input line 422.
+LaTeX Warning: Float too large for page by 18.51453pt on input line 424.
 
 [163] [164 <./Chapter1/figures/arp-240-steps.jpeg>] [165]
 <Chapter1/figures/Arp240_vel-red-corner.pdf, id=4338, 860.01299pt x 415.89279pt
@@ -1135,38 +1135,38 @@ LaTeX Warning: Float too large for page by 18.51453pt on input line 422.
 File: Chapter1/figures/Arp240_vel-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp240_vel-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp240_vel-red-corner.pdf  used on in
-put line 437.
+put line 439.
 (pdftex.def)             Requested size: 371.30594pt x 179.5602pt.
  [166 <./Chapter1/figures/Arp240_vel-red-corner.pdf>] [167]
 <Chapter1/figures/Arp172-red-corner.pdf, id=4375, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/Arp172-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp172-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp172-red-corner.pdf  used on input 
-line 453.
+line 455.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
 <Chapter1/figures/Arp290-red-corner.pdf, id=4376, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/Arp290-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp290-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp290-red-corner.pdf  used on input 
-line 460.
+line 462.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
 <Chapter1/figures/Heart-red-corner.pdf, id=4377, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/Heart-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Heart-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Heart-red-corner.pdf  used on input l
-ine 467.
+ine 469.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
 <Chapter1/figures/Arp57-red-corner.pdf, id=4378, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/Arp57-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp57-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp57-red-corner.pdf  used on input l
-ine 474.
+ine 476.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
 <Chapter1/figures/UGC11751-red-corner.pdf, id=4379, 860.01299pt x 415.89279pt>
 File: Chapter1/figures/UGC11751-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/UGC11751-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/UGC11751-red-corner.pdf  used on inpu
-t line 481.
+t line 483.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
  [168 <./Chapter1/figures/Arp172-red-corner.pdf>] [169 <./Chapter1/figures/Arp2
 90-red-corner.pdf> <./Chapter1/figures/Heart-red-corner.pdf>] [170 <./Chapter1/
@@ -1174,7 +1174,7 @@ figures/Arp57-red-corner.pdf> <./Chapter1/figures/UGC11751-red-corner.pdf>]
 <Chapter1/figures/51_51.pdf, id=4483, 1454.65099pt x 1027.22197pt>
 File: Chapter1/figures/51_51.pdf Graphic file (type pdf)
 <use Chapter1/figures/51_51.pdf>
-Package pdftex.def Info: Chapter1/figures/51_51.pdf  used on input line 493.
+Package pdftex.def Info: Chapter1/figures/51_51.pdf  used on input line 495.
 (pdftex.def)             Requested size: 412.56496pt x 291.33496pt.
  [171] [172 <./Chapter1/figures/51_51.pdf>]
 [173] [174] [175]
@@ -1183,7 +1183,7 @@ Package pdftex.def Info: Chapter1/figures/51_51.pdf  used on input line 493.
 File: Chapter1/figures/Arp240_obs-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp240_obs-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp240_obs-red-corner.pdf  used on in
-put line 525.
+put line 527.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
  [176 <./Chapter1/figures/Arp240_obs-red-corner.pdf>]
 <Chapter1/figures/Arp172-obs-red-corner.pdf, id=4591, 860.01299pt x 415.89279pt
@@ -1191,28 +1191,28 @@ put line 525.
 File: Chapter1/figures/Arp172-obs-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp172-obs-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp172-obs-red-corner.pdf  used on in
-put line 536.
+put line 538.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
 <Chapter1/figures/Arp256-obs-red-corner.pdf, id=4592, 860.01299pt x 415.89279pt
 >
 File: Chapter1/figures/Arp256-obs-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp256-obs-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp256-obs-red-corner.pdf  used on in
-put line 543.
+put line 545.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
 <Chapter1/figures/Arp290-obs-red-corner.pdf, id=4593, 860.01299pt x 415.89279pt
 >
 File: Chapter1/figures/Arp290-obs-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Arp290-obs-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Arp290-obs-red-corner.pdf  used on in
-put line 550.
+put line 552.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
 <Chapter1/figures/Heart-obs-red-corner.pdf, id=4594, 860.01299pt x 415.89279pt>
 
 File: Chapter1/figures/Heart-obs-red-corner.pdf Graphic file (type pdf)
 <use Chapter1/figures/Heart-obs-red-corner.pdf>
 Package pdftex.def Info: Chapter1/figures/Heart-obs-red-corner.pdf  used on inp
-ut line 557.
+ut line 559.
 (pdftex.def)             Requested size: 412.56496pt x 199.51204pt.
  [177]
 [178 <./Chapter1/figures/Arp172-obs-red-corner.pdf> <./Chapter1/figures/Arp256-
@@ -1340,7 +1340,7 @@ ublic/amsfonts/cm/cmtt10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/sym
 bols/msam10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm120
 0.pfb>
-Output written on thesis.pdf (232 pages, 14675697 bytes).
+Output written on thesis.pdf (232 pages, 14676029 bytes).
 PDF statistics:
  5742 PDF objects out of 6186 (max. 8388607)
  4000 compressed objects within 40 object streams
