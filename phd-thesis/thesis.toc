@@ -45,11 +45,11 @@
 \contentsline {subsection}{\numberline {3.3.1}Classifying Stage of Interaction}{83}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Matching to Environment Catalogue}{91}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Classifying AGN}{92}{subsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.3.4}Visual Classification: Sources of Contamination}{93}{subsection.3.3.4}%
-\contentsline {subsection}{\numberline {3.3.5}Aside: Mass Ratios in Sample}{103}{subsection.3.3.5}%
-\contentsline {subsection}{\numberline {3.3.6}Summary of Selection Process}{103}{subsection.3.3.6}%
-\contentsline {section}{\numberline {3.4}Star Formation and AGN Evolution with Interaction Stage}{105}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Controlling for Interaction Stage}{105}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.3.4}Summary of Selection Process}{93}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.5}Visual Classification: Sources of Contamination}{94}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.6}Aside: Mass Ratios in Sample}{102}{subsection.3.3.6}%
+\contentsline {section}{\numberline {3.4}Star Formation and AGN Evolution with Interaction Stage}{104}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Controlling for Interaction Stage}{104}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Projected Separation and Star Formation Enhancement}{115}{subsection.3.4.2}%
 \contentsline {section}{\numberline {3.5}Nuclear Activity with Interaction Stage}{118}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Discussion}{123}{section.3.6}%
