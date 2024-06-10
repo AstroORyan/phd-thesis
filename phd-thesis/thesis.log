@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  10 JUN 2024 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  10 JUN 2024 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -695,21 +695,21 @@ Chapter 1.
 
 
 ] [2] [3] [4]
-<Introduction/figures/merger-rates.png, id=852, 571.63562pt x 381.92688pt>
+<Introduction/figures/merger-rates.png, id=850, 571.63562pt x 381.92688pt>
 File: Introduction/figures/merger-rates.png Graphic file (type png)
 <use Introduction/figures/merger-rates.png>
 Package pdftex.def Info: Introduction/figures/merger-rates.png  used on input l
 ine 33.
 (pdftex.def)             Requested size: 391.93544pt x 261.86308pt.
  [5] [6 <./Introduction/figures/merger-rates.png>]
-<Introduction/figures/hubble-tuning-fork.jpg, id=897, 693.3102pt x 519.8622pt>
+<Introduction/figures/hubble-tuning-fork.jpg, id=895, 693.3102pt x 519.8622pt>
 File: Introduction/figures/hubble-tuning-fork.jpg Graphic file (type jpg)
 <use Introduction/figures/hubble-tuning-fork.jpg>
 Package pdftex.def Info: Introduction/figures/hubble-tuning-fork.jpg  used on i
 nput line 45.
 (pdftex.def)             Requested size: 391.93544pt x 293.88927pt.
  [7] [8 <./Introduction/figures/hubble-tuning-fork.jpg>] [9]
-<Introduction/figures/population-distribution.png, id=939, 433.11812pt x 342.27
+<Introduction/figures/population-distribution.png, id=938, 433.11812pt x 342.27
 875pt>
 File: Introduction/figures/population-distribution.png Graphic file (type png)
 <use Introduction/figures/population-distribution.png>
@@ -717,7 +717,7 @@ Package pdftex.def Info: Introduction/figures/population-distribution.png  used
  on input line 69.
 (pdftex.def)             Requested size: 391.93544pt x 309.7454pt.
  [10] [11 <./Introduction/figures/population-distribution.png>] [12] [13]
-<Introduction/figures/combined-examples-mergers.jpg, id=1051, 1579.40062pt x 43
+<Introduction/figures/combined-examples-mergers.jpg, id=1050, 1579.40062pt x 43
 2.11438pt>
 File: Introduction/figures/combined-examples-mergers.jpg Graphic file (type jpg
 )
@@ -726,7 +726,7 @@ Package pdftex.def Info: Introduction/figures/combined-examples-mergers.jpg  us
 ed on input line 96.
 (pdftex.def)             Requested size: 391.93544pt x 107.2305pt.
  [14] [15 <./Introduction/figures/combined-examples-mergers.jpg>] [16] [17]
-<Introduction/figures/shells-rings.jpg, id=1138, 1112.65688pt x 726.21312pt>
+<Introduction/figures/shells-rings.jpg, id=1137, 1112.65688pt x 726.21312pt>
 File: Introduction/figures/shells-rings.jpg Graphic file (type jpg)
 <use Introduction/figures/shells-rings.jpg>
 Package pdftex.def Info: Introduction/figures/shells-rings.jpg  used on input l
@@ -1023,10 +1023,7 @@ File: Chapter3/figures/sfr-enhancement-projected-sep.pdf Graphic file (type pdf
 Package pdftex.def Info: Chapter3/figures/sfr-enhancement-projected-sep.pdf  us
 ed on input line 351.
 (pdftex.def)             Requested size: 412.56496pt x 250.17189pt.
- [116] [117 <./Chapter3/figures/sfr-enhancement-projected-sep.pdf>]
-Underfull \vbox (badness 3503) has occurred while \output is active []
-
- [118]
+ [116] [117 <./Chapter3/figures/sfr-enhancement-projected-sep.pdf>] [118]
 <Chapter3/figures/agn-stage-dist.pdf, id=3439, 592.66493pt x 592.2144pt>
 File: Chapter3/figures/agn-stage-dist.pdf Graphic file (type pdf)
 <use Chapter3/figures/agn-stage-dist.pdf>
@@ -1040,9 +1037,8 @@ File: Chapter3/figures/new-agn-fraction-stage.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter3/figures/new-agn-fraction-stage.pdf  used on i
 nput line 392.
 (pdftex.def)             Requested size: 412.56496pt x 353.1555pt.
-
-[119] [120 <./Chapter3/figures/agn-stage-dist.pdf>] [121 <./Chapter3/figures/ne
-w-agn-fraction-stage.pdf>]
+ [119] [120 <./Chapter3/figures/agn-stage-dist.pdf>] [121 <./Chapter3/figures/n
+ew-agn-fraction-stage.pdf>]
 <Chapter3/figures/sfg-agn-dist.pdf, id=3559, 441.1632pt x 851.03511pt>
 File: Chapter3/figures/sfg-agn-dist.pdf Graphic file (type pdf)
 <use Chapter3/figures/sfg-agn-dist.pdf>
@@ -1270,7 +1266,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 14B19BF966E60D21D26F6139CE2BC335;7976.
+(rerunfilecheck)             Checksum: 46110A50C46D070954594407208F026F;7970.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1284,7 +1280,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
 Here is how much of TeX's memory you used:
  12204 strings out of 480876
  203803 string characters out of 5911487
- 577733 words of memory out of 5000000
+ 578727 words of memory out of 5000000
  26749 multiletter control sequences out of 15000+600000
  549123 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1339,7 +1335,7 @@ ublic/amsfonts/cm/cmtt10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/sym
 bols/msam10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm120
 0.pfb>
-Output written on thesis.pdf (233 pages, 14675845 bytes).
+Output written on thesis.pdf (233 pages, 14675443 bytes).
 PDF statistics:
  5762 PDF objects out of 6186 (max. 8388607)
  4026 compressed objects within 41 object streams
