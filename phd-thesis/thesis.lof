@@ -20,7 +20,7 @@
 \contentsline {figure}{\numberline {2.12}{\ignorespaces The distribution of redshift with magnitude for all sources with available data.}}{64}{figure.caption.21}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces The colour-magnitude distribution of sources with a redshift measurement associated.}}{66}{figure.caption.23}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Comparison of the measures of stellar mass and SFR using either \texttt {LePhare} or \texttt {EAzY}/\texttt {FAST} photometric codes to calculate them.}}{74}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Comparison of the measures of stellar mass and SFR using either \texttt {LePhare} or \texttt {EAzY} photometric codes to calculate them.}}{74}{figure.caption.24}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces An example of each visual classification made on the cross matched sample.}}{76}{figure.caption.25}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Where a secondary could be identified at different stages in the interaction.}}{77}{figure.caption.26}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces The mass distribution of the paired interacting galaxy sample and the control sample.}}{79}{figure.caption.27}%
@@ -31,41 +31,41 @@
 \contentsline {figure}{\numberline {3.9}{\ignorespaces The measured distribution of projected separation with redshift.}}{90}{figure.caption.32}%
 \contentsline {figure}{\numberline {3.10}{\ignorespaces The scatter in photometric redshifts of our paired sample.}}{95}{figure.caption.34}%
 \contentsline {figure}{\numberline {3.11}{\ignorespaces The change in found interaction type across our redshift distribution.}}{98}{figure.caption.35}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces The density about each of our sources matched with the \citet {2017ApJ...837...16D} catalogue.}}{101}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces The fraction of galaxies in each stage in different environments.}}{102}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces The density about each of our sources matched with the \citet {2017ApJ...837...16D} catalogue.}}{100}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces The fraction of galaxies in each stage in different environments.}}{101}{figure.caption.37}%
 \contentsline {figure}{\numberline {3.14}{\ignorespaces The distribution of environment classifications through our sample.}}{103}{figure.caption.38}%
 \contentsline {figure}{\numberline {3.15}{\ignorespaces The distribution of mass ratios in our paired sample and across each stage of interaction.}}{105}{figure.caption.39}%
 \contentsline {figure}{\numberline {3.16}{\ignorespaces The \texttt {LePhare} stellar mass against the \texttt {EAzY} SFR across the different stages of the interaction.}}{107}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces The stellar mass distribution across the four stages.}}{109}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces SFR distribution weighted by mass across each stage.}}{110}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Stellar mass against the ratio of measured SFR to the expected SFR if the galaxy was on the SFMS.}}{114}{figure.caption.43}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces The change in fraction of different galaxy classifications from the fraction of SFR to the expected SFR on the SFMS.}}{115}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces The stellar mass distribution across the four stages.}}{108}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces SFR distribution weighted by mass across each stage.}}{109}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Stellar mass against the ratio of measured SFR to the expected SFR if the galaxy was on the SFMS.}}{113}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces The change in fraction of different galaxy classifications from the fraction of SFR to the expected SFR on the SFMS.}}{114}{figure.caption.44}%
 \contentsline {figure}{\numberline {3.21}{\ignorespaces The projected separation against the SFE in average star formation at different bins of projected separation.}}{117}{figure.caption.45}%
 \contentsline {figure}{\numberline {3.22}{\ignorespaces The distribution of AGN through stage with SFR and stellar mass.}}{120}{figure.caption.46}%
 \contentsline {figure}{\numberline {3.23}{\ignorespaces The change in AGN fraction with stage.}}{121}{figure.caption.48}%
 \contentsline {figure}{\numberline {3.24}{\ignorespaces The distribution of both AGN and SFGs which have been matched our confirmed galaxy pairs.}}{123}{figure.caption.49}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Our mock observations of each interacting system.}}{148}{figure.caption.53}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces The example system used to test our MCMC: the Arp 240 interacting system.}}{156}{figure.caption.55}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Corner plot showing the constraints made on all thirteen parameters we are exploring.}}{157}{figure.caption.56}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Same as Figure \ref {fig:corner_plot}, but reduced to only corresponding parameters.}}{158}{figure.caption.57}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Simulations from the areas of parameter space that lay within the 11.8\% CI of our constraints.}}{163}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Steps taken by each walker in our MCMC chain to constrain the Arp 240 best fit simulation.}}{165}{figure.caption.59}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces The reduced corner plot of the synthetic Arp 240 system with a velocity map also used for constrained.}}{167}{figure.caption.60}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Second example of our best fits from our methodology is representative of the simulated image of Arp 172, a stage 3 system.}}{169}{figure.caption.61}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Third example of our best fits from our methodology is representative of the simulated image of Arp 290, a stage 2 system.}}{170}{figure.caption.62}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces First example of our worst fits.}}{170}{figure.caption.63}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Second example of our worst fits.}}{171}{figure.caption.64}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Third example of our worst fits.}}{171}{figure.caption.65}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces The distribution of parameter values used to create our synthetic interaction images and the best-fit values we recover from our algorithm.}}{173}{figure.caption.66}%
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Reduced corner plot of the constraints made on the observational image of Arp 240.}}{177}{figure.caption.67}%
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Reduced corner plot of the constraints made on the observational image of Arp 172.}}{179}{figure.caption.68}%
-\contentsline {figure}{\numberline {4.16}{\ignorespaces Reduced corner plot of the constraints made on the observational image of Arp 256.}}{179}{figure.caption.69}%
-\contentsline {figure}{\numberline {4.17}{\ignorespaces Reduced corner plot of the constraints made on the observational image of Arp 290.}}{180}{figure.caption.70}%
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Reduced corner plot of the constraints made on the observational image of the Heart system.}}{180}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Our mock observations of each interacting system.}}{147}{figure.caption.53}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The example system used to test our MCMC: the Arp 240 interacting system.}}{155}{figure.caption.55}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Corner plot showing the constraints made on all thirteen parameters we are exploring.}}{156}{figure.caption.56}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Same as Figure \ref {fig:corner_plot}, but reduced to only corresponding parameters.}}{157}{figure.caption.57}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Simulations from the areas of parameter space that lay within the 11.8\% CI of our constraints.}}{162}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Steps taken by each walker in our MCMC chain to constrain the Arp 240 best fit simulation.}}{164}{figure.caption.59}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The reduced corner plot of the synthetic Arp 240 system with a velocity map also used for constrained.}}{166}{figure.caption.60}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Second example of our best fits from our methodology is representative of the simulated image of Arp 172, a stage 3 system.}}{168}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Third example of our best fits from our methodology is representative of the simulated image of Arp 290, a stage 2 system.}}{169}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces First example of our worst fits.}}{169}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Second example of our worst fits.}}{170}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Third example of our worst fits.}}{170}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces The distribution of parameter values used to create our synthetic interaction images and the best-fit values we recover from our algorithm.}}{172}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Reduced corner plot of the constraints made on the observational image of Arp 240.}}{176}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Reduced corner plot of the constraints made on the observational image of Arp 172.}}{178}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Reduced corner plot of the constraints made on the observational image of Arp 256.}}{178}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Reduced corner plot of the constraints made on the observational image of Arp 290.}}{179}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Reduced corner plot of the constraints made on the observational image of the Heart system.}}{179}{figure.caption.71}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces The Receiver-Operator and Precision-Recall Curve for the \texttt {Zoobot} model that was used to explore the Hubble archives.}}{194}{figure.caption.72}%
-\contentsline {figure}{\numberline {A.2}{\ignorespaces The F1 score found during the diagnostics of the model used in this work. The F1 score is a measure combing the measure of accuracy and purity into one metric.}}{195}{figure.caption.73}%
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Example of six interacting systems in the catalogue with full 3-band imagery.}}{196}{figure.caption.74}%
-\contentsline {figure}{\numberline {A.4}{\ignorespaces The six unknown systems found in this work.}}{197}{figure.caption.75}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces The Receiver-Operator and Precision-Recall Curve for the \texttt {Zoobot} model that was used to explore the Hubble archives.}}{193}{figure.caption.72}%
+\contentsline {figure}{\numberline {A.2}{\ignorespaces The F1 score found during the diagnostics of the model used in this work. The F1 score is a measure combing the measure of accuracy and purity into one metric.}}{194}{figure.caption.73}%
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Example of six interacting systems in the catalogue with full 3-band imagery.}}{195}{figure.caption.74}%
+\contentsline {figure}{\numberline {A.4}{\ignorespaces The six unknown systems found in this work.}}{196}{figure.caption.75}%
