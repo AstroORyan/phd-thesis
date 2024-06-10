@@ -1,0 +1,538 @@
+\chapter{Useful Identities and Notations}
+\section{Curvature}
+\label{sec:AppCurv}
+Metric signature
+\[
+g_{\mu\nu}=(-,+,+,+)
+.\]
+Christoffel Symbol
+  \[
+  \label{Christoffel}
+  \Gamma^\lambda_{\mu\nu}=\frac{1}{2}g^{\lambda\tau}(\partial_\mu g_{\nu\tau}+\partial_\nu g_{\mu\tau}-\partial_\tau g_{\mu\nu})
+  ,\]
+Riemann Tensor
+\[
+R^{\lambda}{ }_{\mu\sigma\nu}=\partial_{\sigma}\Gamma_{\mu\nu}^{\lambda}-\partial_{\nu}\Gamma_{\mu\sigma}^{\lambda}+\Gamma_{\sigma\rho}^{\lambda}\Gamma_{\nu\mu}^{\rho}-\Gamma_{\nu\rho}^{\lambda}\Gamma_{\sigma\mu}^{\rho}
+,\]
+\[
+R_{\mu\nu\lambda\sigma}=-R_{\nu\mu\lambda\sigma}=-R_{\mu\nu\sigma\lambda}=R_{\lambda\sigma\mu\nu}
+,\]
+\[
+R_{\mu\nu\lambda\sigma}+R_{\mu\lambda\sigma\nu}+R_{\mu\sigma\nu\lambda}=0
+.\]
+Ricci Tensor
+\[
+R_{\mu\nu}=R^{\lambda}{ }_{\mu\lambda\nu}=\partial_{\lambda}\Gamma_{\mu\nu}^{\lambda}-\partial_{\nu}\Gamma_{\mu\lambda}^{\lambda}+\Gamma_{\lambda\rho}^{\lambda}\Gamma_{\nu\mu}^{\rho}-\Gamma_{\nu\rho}^{\lambda}\Gamma_{\lambda\mu}^{\rho}
+,\]
+\[
+R_{\mu\nu}=R_{\nu\mu}
+.\]
+Curvature scalar
+\[
+R=g^{\mu\nu}R_{\mu\nu}=g^{\mu\nu}\partial_{\lambda}\Gamma_{\mu\nu}^{\lambda}-\partial^{\mu}\Gamma_{\mu\lambda}^{\lambda}+g^{\mu\nu}\Gamma_{\lambda\rho}^{\lambda}\Gamma_{\nu\mu}^{\rho}-g^{\mu\nu}\Gamma_{\nu\rho}^{\lambda}\Gamma_{\lambda\mu}^{\rho}
+,\]
+Weyl Tensor
+\[
+C^{\mu}{ }_{\alpha\nu\beta}\equiv R^{\mu}{ }{\alpha\nu\beta}-\frac{1}{2}(\delta_{\nu}^{
+\mu}R_{\alpha\beta}-\delta_{\beta}^{\mu}R_{\alpha\nu}+R_{\nu}^{\mu}g_{
+\alpha\beta}-R_{\beta}^{\mu}g_{\alpha\nu})+\frac{R}{6}(\delta_{\nu}^{\mu}g_{
+\alpha\beta}-\delta_{\beta}^{\mu}g_{\alpha\nu})
+.\]
+\[
+C^\lambda{ }_{\mu\lambda\nu}=0
+\]
+Einstein Tensor
+\[
+G_{\mu\nu}=R_{\mu\nu}-\frac{1}{2}g_{\mu\nu}R
+.\]
+Traceless Einstein Tensor
+\[
+S_{\mu\nu}=R_{\mu\nu}-\frac{1}{4}g_{\mu\nu}R
+\]
+General formula for commuting covariant derivatives
+\begin{align}
+\label{comrel}
+[\nabla_{\rho},\nabla_{\sigma}]X^{\mu_{1}...\mu_{k}}{ }{ }{ }{ }_{\nu_{1}...\nu_{l}}	&=	R^{\mu_{1}}{ }_{\lambda\rho\sigma}X^{\lambda\mu_{2}...\mu_{k}}{ }{ }{ }{ }_{\nu_{1}...\nu_{l}}+R^{\mu_{2}}{ }_{\lambda\rho\sigma} X^{\mu_{1}\lambda\mu_{3}...\mu_{k}}{ }{ }{ }{ }_{\nu_{1}...\nu_{l}}+...
+	\nn	\\&-R^{\lambda}{ }_{\nu_{1}\rho\sigma} X^{\mu_{1}...\mu_{k}}{ }{ }{ }{ }_{\lambda...\nu_{l}}-R^{\lambda}{ }_{\nu_{2}\rho\sigma}X^{\mu_{1}...\mu_{k}}{ }{ }{ }{ }_{\nu_{1}\lambda\nu_{3}...\nu_{l}}-...\;.
+		\end{align}
+\section{Bianchi Identities}
+The Bianchi identity is given by
+\[
+\nabla_{\kappa}R_{\mu\nu\lambda\sigma}+\nabla_{\sigma}R_{\mu\nu\kappa\lambda}+\nabla_{\lambda}R_{\mu\nu\sigma\kappa}=0
+.\]
+Contracting with $g^{\mu\lambda}$ gives the contracted Bianchi identity,
+\[
+\nabla_{\kappa}R_{\nu\sigma}-\nabla_{\sigma}R_{\nu\kappa}+\nabla^{\lambda}R_{\lambda\nu\sigma\kappa}=0
+.\]
+Contracting further with $g^{\nu\kappa}$ implies
+\[
+\nabla_{\kappa}R_{\sigma}^{\kappa}=\frac{1}{2}\nabla_{\sigma}R
+,\]
+which similarly implies
+\[
+\nabla^{\sigma}\nabla_{\kappa}R_{\sigma}^{\kappa}=\frac{1}{2}\Box R
+\]
+and
+\[
+\nabla_\mu G^\mu_\nu=0
+.\]
+\section{Variation of Curvature}
+\label{sec:Appvary}
+We have from the definitions of the Riemann and Ricci tensor
+\[
+\delta
+R^{\lambda}{ }_{\mu\sigma\nu}=(\delta\Gamma_{\mu\nu}^{\lambda})_{;\sigma}
+-(\delta\Gamma_{\mu\sigma}^{\lambda})_{;\nu}\nn
+\]
+\[
+\nn
+ \delta
+R_{\mu\nu}=\nabla_{\lambda}\delta\Gamma_{\mu\nu}^{\lambda}-\nabla_
+{\nu}\delta\Gamma_{\mu\lambda}^{\lambda}
+\]
+\[
+\delta\Gamma{}_{\mu\nu}^{\lambda}=\frac{1}{2}(h_{\;\nu;\mu}^{\lambda}+h_{
+\;\mu;\nu}^{\lambda}-h_{\mu\nu}^{\;\;;\lambda}).
+\]
+Substitution of the varied Christoffel symbol reveals,
+\[
+\nn
+\delta
+R^{\lambda}{ }_{\mu\sigma\nu}=\frac{1}{2}(h_{\;\nu;\mu;\sigma}^{\lambda}-h_{
+\mu\nu\;;\sigma}^{\;\;;\lambda}-h_{\;\sigma;\mu;\nu}^{\lambda}+h_{
+\mu\sigma\;;\nu}^{\;\;;\lambda})
+\]
+\[
+\delta
+R_{\mu\nu}=\frac{1}{2}(h_{\;\nu;\mu;\lambda}^{\lambda}+h_{\mu\lambda\;;\nu}^{
+\;\;;\lambda}-\square h_{\mu\nu}-h_{;\mu;\nu}).
+\]
+For simplicity, it is often preferable to arrange these identities in terms of the metric variation
+$h_{\alpha\beta}$, like so,
+\[
+\nn
+\fl \delta
+R_{\mu\nu\lambda\sigma}=\frac{1}{2}[\delta_{\lambda}^{\alpha}\delta_{\nu}^{\beta
+}(h_{\alpha\beta})_{;\sigma;\mu}-\delta_{\lambda}^{\alpha}\delta_{\mu}^{\beta}
+(h_{\alpha\beta})_{;\sigma;\nu}+\delta_{\mu}^{\alpha}\delta_{\sigma}^{\beta}(h_{
+\alpha\beta})_{;\nu;\lambda}-\delta_{\sigma}^{\alpha}\delta_{\nu}^{\beta}(h_{
+\alpha\beta})_{;\mu;\lambda}]
+\]
+\[
+\fl \delta
+R_{\mu\nu}=\frac{1}{2}[\delta_{\nu}^{\beta}(h_{\alpha\beta})_{;\mu}{ }^{;\alpha}
++\delta_{\mu}^{\alpha}(h_{\alpha\beta})^{;\beta}{ }_{;\nu}-\delta_{\mu}^{\alpha}
+\delta_{\nu}^{\beta}\square(h_{\alpha\beta})-g^{\alpha\beta}(h_{\alpha\beta})_{
+;\mu;\nu}]
+.\]
+We can then find the variation of the curvature scalar, $\delta R$,
+\begin{align}
+\delta R&=\delta(g^{\mu\nu}R_{\mu\nu})
+\nn\\&=\delta g^{\mu\nu}R_{\mu\nu}+g^{\mu\nu}\delta R_{\mu\nu}
+\nn\\&=-h_{\alpha\beta}R^{\alpha\beta}+g^{\mu\nu}\delta R_{\mu\nu}
+\nn\\&
+=-h_{\alpha\beta}R^{\alpha\beta}+(h_{\alpha\beta})^{;\alpha;\beta}-g^{
+\alpha\beta}\square(h_{\alpha\beta})
+,\end{align}
+where we have used the following notations
+\[
+h_{\mu\nu}=-h^{\alpha\beta}g_{\alpha\mu}g_{\beta\nu}
+,~h=g^{\mu\nu}h_{\mu\nu}
+,~h_{\mu\nu}=\delta g_{\mu\nu}
+,~\nabla_{\mu}R=R_{;\mu}
+.\]
+In summary, we have
+\[
+\fl\delta
+R_{\mu\nu\lambda\sigma}=\frac{1}{2}[\delta_{\lambda}^{\alpha}\delta_{\nu}^{\beta
+}(h_{\alpha\beta})_{;\sigma;\mu}-\delta_{\lambda}^{\alpha}\delta_{\mu}^{\beta}
+(h_{\alpha\beta})_{;\sigma;\nu}+\delta_{\mu}^{\alpha}\delta_{\sigma}^{\beta}(h_{
+\alpha\beta})_{;\nu;\lambda}-\delta_{\sigma}^{\alpha}\delta_{\nu}^{\beta}(h_{
+\alpha\beta})_{;\mu;\lambda}]
+\nn\]
+\[
+\delta
+R_{\mu\nu}=\frac{1}{2}[\delta_{\nu}^{\beta}(h_{\alpha\beta})_{;\mu}^{;\alpha}
++\delta_{\mu}^{\beta}(h_{\alpha\beta})_{;\nu}^{;\alpha}-\delta_{\mu}^{\alpha}
+\delta_{\nu}^{\beta}\square(h_{\alpha\beta})-g^{\alpha\beta}(h_{\alpha\beta})_{
+;\mu;\nu}]
+\nn\]
+\[
+\delta
+R=-h_{\alpha\beta}R^{\alpha\beta}+(h_{\alpha\beta})^{;\alpha;\beta}-g^{
+\alpha\beta}\square(h_{\alpha\beta})
+\nn\]
+\[
+\delta\Gamma{}_{\mu\nu}^{\lambda}=\frac{1}{2}(g^{\lambda\alpha}\delta_{\nu}^{
+\beta}h_{\alpha\beta;\mu}+g^{\lambda\alpha}\delta_{\mu}^{\beta}h_{
+\alpha\beta;\nu}-\delta_{\mu}^{\alpha}\delta_{\nu}^{\beta}h_{\alpha\beta}^{
+\;\;;\lambda})
+ \]
+\subsection{$\delta(\Box)R$}
+Recall
+\[
+\Box=g^{\mu\nu}\nabla_{\mu}\nabla_{\nu}
+\]
+Then we have
+\begin{align}
+\nn\delta(\Box)R&=\delta
+g^{\mu\nu}R_{;\mu;\nu}+g^{\mu\nu}\delta(\nabla_{\mu})R_{;\nu}+g^{\mu\nu}[
+\delta(\nabla_{\nu})R]_{;\mu}
+\\&
+=-h_{\alpha\beta}R^{;\alpha;\beta}+g^{\mu\nu}\delta(\nabla_{\mu})R_{;\nu}+g^{
+\mu\nu}[\delta(\nabla_{\nu})R]_{;\mu}
+\end{align}
+From the general definition of the covariant derivative of a tensor we deduce
+the following
+\[
+\fl g^{\mu\nu}\delta(\nabla_{\mu})R_{;\nu}=-g^{\mu\nu}\delta\Gamma_{\mu\nu}^{\lambda
+}R_{;\lambda}
+\]
+\[
+\fl g^{\mu\nu}[\delta(\nabla_{\nu})R]_{;\mu}=0
+\]
+The last term vanishes in this case as $R$ is a scalar. This will not be true
+for $\delta(\Box)R_{\mu\nu}$ and $\delta(\Box)R_{\mu\nu\lambda\sigma}$. We then
+integrate by parts to find
+\[
+\delta(\Box)R=-h_{\alpha\beta}R^{;\alpha;\beta}+\frac{1}{2}g^{\alpha\beta}R_{
+;\lambda}(h_{\alpha\beta})^{;\lambda}-R^{;\alpha}(h_{\alpha\beta})^{;\beta}
+\]
+with
+\[
+\delta\Gamma_{\mu\nu}^{\lambda}=\frac{1}{2}[g^{\alpha\lambda}\delta_{\mu}^{\beta
+}(h_{\alpha\beta})_{;\nu}+g^{\alpha\lambda}\delta_{\nu}^{\beta}(h_{\alpha\beta}
+)_{;\mu;}-\delta_{\mu}^{\alpha}\delta_{\nu}^{\beta}(h_{\alpha\beta})^{;\lambda}]
+\]
+\subsection{$\delta(\Box)R_{\mu\nu}$}
+\label{sec:dS2}
+\[
+\nn
+\delta(\square)R_{\mu\nu}=\delta
+g^{\lambda\sigma}R_{\mu\nu;\lambda;\sigma}+g^{\lambda\sigma}\delta(\nabla_{
+\lambda})R_{\mu\nu;\sigma}+g^{\lambda\sigma}[\delta(\nabla_{\sigma})R_{\mu\nu}]_
+{;\lambda}
+\]
+\[
+=-h_{\alpha\beta}R_{\mu\nu}^{;\alpha;\beta}+g^{\lambda\sigma}\delta(\nabla_{
+\lambda})R_{\mu\nu;\sigma}+g^{\lambda\sigma}[\delta(\nabla_{\sigma})R_{\mu\nu}]_
+{;\lambda}
+\]
+From the general definition of the covariant derivative of a tensor we have
+\[\fl
+g^{\lambda\sigma}\delta(\nabla_{\lambda})R_{\mu\nu;\sigma}=-\delta\Gamma_{
+\lambda\mu}^{\tau}R_{\tau\nu}^{;\lambda}-\delta\Gamma_{\lambda\nu}^{\tau}R_{
+\mu\tau}^{;\lambda}-g^{\lambda\sigma}\delta\Gamma_{\lambda\sigma}^{\tau}R_{
+\mu\nu;\tau}
+\]
+\[\fl
+g^{\lambda\sigma}\nabla_{\lambda}\delta(\nabla_{\sigma})R_{\mu\nu}
+=-(\delta\Gamma_{\lambda\mu}^{\tau})^{;\lambda}R_{\tau\nu}-\delta\Gamma_{
+\lambda\mu}^{\tau}R_{\tau\nu}^{;\lambda}-(\delta\Gamma_{\lambda\nu}^{\tau})^{
+;\lambda}R_{\mu\tau}-\delta\Gamma_{\lambda\nu}^{\tau}R_{\mu\tau}^{;\lambda}
+\]
+So that
+\[
+\delta(\square)R_{\mu\nu}=-h_{\alpha\beta}R_{\mu\nu}^{;\alpha;\beta}-g^{
+\lambda\sigma}\delta\Gamma_{\lambda\sigma}^{\tau}R_{\mu\nu;\tau}-(\delta\Gamma_{
+\lambda(\mu}^{\tau})^{;\lambda}R_{\tau\nu)}-2\delta\Gamma_{\lambda(\mu}^{\tau}R_
+{\tau\nu)}^{;\lambda}
+\]
+Expanding using
+$\delta\Gamma_{\mu\nu}^{\lambda}=\frac{1}{2}[g^{\alpha\lambda}\delta_{\mu}^{
+\beta}(h_{\alpha\beta})_{;\nu}+g^{\alpha\lambda}\delta_{\nu}^{\beta}(h_{
+\alpha\beta})_{;\mu;}-\delta_{\mu}^{\alpha}\delta_{\nu}^{\beta}(h_{\alpha\beta}
+)^{;\lambda}]$, we have
+\begin{align}\nn
+\delta(\square)R_{\mu\nu}&=-h_{\alpha\beta}R_{\mu\nu}^{;\alpha;\beta}-(h_{
+\alpha\beta})^{;\beta}R_{\mu\nu}^{;\alpha}+\frac{1}{2}g^{\alpha\beta}(h_{
+\alpha\beta})^{;\sigma}R_{\mu\nu;\sigma}
+\\&\nn
+-\frac{1}{2}\left[\square(h_{\alpha\beta})\delta_{(\mu}^{\beta}R_{\;\nu)}^{
+\alpha}-(h_{\alpha\beta})^{;\tau;\alpha}\delta_{(\mu}^{\beta}R_{\tau\nu)}+(h_{
+\alpha\beta})_{;(\mu}^{\;;\beta}R_{\;\nu)}^{\alpha}\right]
+\\&
+-R_{\;(\nu}^{\alpha;\beta}h_{\alpha\beta;\mu)}-\delta_{(\mu}^{\beta}R_{\;\nu)}^{
+\alpha;\lambda}h_{\alpha\beta;\lambda}+\delta_{(\mu}^{\beta}R_{\tau\nu)}^{
+;\alpha}h_{\alpha\beta}^{\;\;;\tau})
+\end{align}
+\subsection{$\delta(\Box)R_{\mu\nu\lambda\sigma}$}
+From the definition of the D'Alembertian operator
+$\Box=g^{\mu\nu}\nabla_{\mu}\nabla_{\nu}$, we have
+\begin{align}\nn
+\delta(\Box)R_{\mu\nu\lambda\sigma}&=\delta
+g^{\kappa\tau}R_{\mu\nu\lambda\sigma;\kappa;\tau}+g^{\kappa\tau}\delta(\nabla_{
+\kappa})R_{\mu\nu\lambda\sigma;\tau}+g^{\kappa\tau}[\delta(\nabla_{\tau})R_{
+\mu\nu\lambda\sigma}]_{;\kappa}
+\\&
+=-h_{\alpha\beta}R_{\mu\nu\lambda\sigma}^{;\alpha;\beta}+g^{\kappa\tau}
+\delta(\nabla_{\kappa})R_{\mu\nu\lambda\sigma;\tau}+g^{\kappa\tau}[
+\delta(\nabla_{\tau})R_{\mu\nu\lambda\sigma}]_{;\kappa}
+\end{align}
+and from the general definition of the covariant derivative of a tensor and
+treating $R_{\mu\nu\lambda\sigma;\tau}$ as a $(0,5)$-tensor, we have
+\begin{eqnarray}
+&&\fl g^{\kappa\tau}\delta(\nabla_{\kappa})R_{\mu\nu\lambda\sigma;\tau}=-\delta\Gamma_
+{\kappa\mu}^{\rho}R_{\rho\nu\lambda\sigma}^{;\kappa}-\delta\Gamma_{\kappa\nu}^{
+\rho}R_{\mu\rho\lambda\sigma}^{;\kappa}-\delta\Gamma_{\kappa\lambda}^{\rho}R_{
+\mu\nu\rho\sigma}^{;\kappa}-\delta\Gamma_{\kappa\sigma}^{\rho}R_{
+\mu\nu\lambda\rho}^{;\kappa}
+\nonumber\\&&
+-g^{\kappa\tau}\delta\Gamma_{\kappa\tau}^{\rho}R_{
+\mu\nu\lambda\sigma;\rho}
+\end{eqnarray}
+and
+\begin{align}\nn
+&g^{\kappa\tau}[\delta(\nabla_{\tau})R_{\mu\nu\lambda\sigma}]_{;\kappa}=\left[
+-\delta\Gamma_{\kappa\mu}^{\rho}R_{\rho\nu\lambda\sigma}-\delta\Gamma_{\kappa\nu
+}^{\rho}R_{\mu\rho\lambda\sigma}-\delta\Gamma_{\kappa\lambda}^{\rho}R_{
+\mu\nu\rho\sigma}-\delta\Gamma_{\kappa\sigma}^{\rho}R_{\mu\nu\lambda\rho}\right]
+^{;\kappa}
+\\&=-(\delta\Gamma_{\kappa\mu}^{\rho})^{;\kappa}R_{\rho\nu\lambda\sigma}
+-\delta\Gamma_{\kappa\mu}^{\rho}R_{\rho\nu\lambda\sigma}^{;\kappa}
+-(\delta\Gamma_{\kappa\nu}^{\rho})^{;\kappa}R_{\mu\rho\lambda\sigma}
+-\delta\Gamma_{\kappa\nu}^{\rho}R_{\mu\rho\lambda\sigma}^{;\kappa}
+\nonumber\\&
+-(\delta\Gamma_{\kappa\lambda}^{\rho})^{;\kappa}R_{\mu\nu\rho\sigma}
+-\delta\Gamma_{\kappa\lambda}^{\rho}R_{\mu\nu\rho\sigma}^{;\kappa}
+-(\delta\Gamma_{\kappa\sigma}^{\rho})^{;\kappa}R_{\mu\nu\lambda\rho}
+-\delta\Gamma_{\kappa\sigma}^{\rho}R_{\mu\nu\lambda\rho}^{;\kappa}
+\end{align}
+So that
+\begin{eqnarray}
+&&\delta(\Box)R_{\mu\nu\lambda\sigma}=-h_{\alpha\beta}R_{\mu\nu\lambda\sigma}^{
+;\alpha;\beta}-g^{\kappa\tau}\delta\Gamma_{\kappa\tau}^{\rho}R_{
+\mu\nu\lambda\sigma;\rho}
+\nonumber\\&&
+-\left[(\delta\Gamma_{\kappa\mu}^{\rho})^{;\kappa}R_{\rho\nu\lambda\sigma}
++(\delta\Gamma_{\kappa\nu}^{\rho})^{;\kappa}R_{\mu\rho\lambda\sigma}
++(\delta\Gamma_{\kappa\lambda}^{\rho})^{;\kappa}R_{\mu\nu\rho\sigma}
++(\delta\Gamma_{\kappa\sigma}^{\rho})^{;\kappa}R_{\mu\nu\lambda\rho}\right]
+\nonumber\\&&
+-2\left[\delta\Gamma_{\kappa\mu}^{\rho}R_{\rho\nu\lambda\sigma}^{;\kappa}
++\delta\Gamma_{\kappa\nu}^{\rho}R_{\mu\rho\lambda\sigma}^{;\kappa}+\delta\Gamma_
+{\kappa\lambda}^{\rho}R_{\mu\nu\rho\sigma}^{;\kappa}+\delta\Gamma_{\kappa\sigma}
+^{\rho}R_{\mu\nu\lambda\rho}^{;\kappa}\right]
+\end{eqnarray}
+Then, using
+$\delta\Gamma_{\mu\nu}^{\lambda}=\frac{1}{2}[g^{\alpha\lambda}\delta_{\mu}^{
+\beta}(h_{\alpha\beta})_{;\nu}+g^{\alpha\lambda}\delta_{\nu}^{\beta}(h_{
+\alpha\beta})_{;\mu;}-\delta_{\mu}^{\alpha}\delta_{\nu}^{\beta}(h_{\alpha\beta}
+)^{;\lambda}]$, and the Bianchi identities, we find
+\begin{eqnarray}
+&&\fl\delta(\Box)R_{\mu\nu\lambda\sigma}=-h_{\alpha\beta}R_{\mu\nu\lambda\sigma}^{
+;\alpha;\beta}-(h_{\alpha\beta})^{;\beta}R_{\mu\nu\lambda\sigma}^{;\alpha}+\frac
+{1}{2}h{}^{;\tau}R_{\mu\nu\lambda\sigma;\tau}
+\\&&\fl
+-\frac{1}{2}[g^{\alpha\tau}(h_{\alpha\beta})_{;\mu}^{;\beta}R_{
+\tau\nu\lambda\sigma}+g^{\alpha\tau}(h_{\alpha\beta})_{;\nu}^{;\beta}R_{
+\mu\tau\lambda\sigma}+g^{\alpha\tau}(h_{\alpha\beta})_{;\lambda}^{;\beta}R_{
+\mu\nu\tau\sigma}+g^{\alpha\tau}(h_{\alpha\beta})_{;\sigma}^{;\beta}R_{
+\mu\nu\lambda\tau}]
+\nonumber\\&&\fl
+-\left[g^{\alpha\tau}(h_{\alpha\beta})_{;\mu}R_{\tau\nu\lambda\sigma}^{;\beta}
++g^{\alpha\tau}(h_{\alpha\beta})_{;\nu}S_{\mu\tau\lambda\sigma}^{;\beta}+g^{
+\alpha\tau}(h_{\alpha\beta})_{;\lambda}R_{\mu\nu\tau\sigma}^{;\beta}+g^{
+\alpha\tau}(h_{\alpha\beta})_{;\sigma}R_{\mu\nu\lambda\tau}^{;\beta}\right]\nn
+\end{eqnarray}
+\chapter{Friedmann-Lema\^{\i}tre-Robertson-Walker Framework}
+\label{sec:introcos}
+The Friedmann-Lema\^{\i}tre-Robertson-Walker (FRW) metric forms an exact solution of Einstein's field equations and can be expressed in terms of the following isotropic and homogenous metric
+\[
+\label{FRWmetricgamma}
+ds^2=-dt^2 +a^2(t)\gamma_{ij}dx^i dx^j
+,\]
+where $\gamma_{ij}$ is a 3-dimensional  maximally symmetric metric of Gaussian curvature $k$ and the scale factor $a(t)$ is a time-dependent function of unit dimension which parametrizes the relative expansion of the Universe. To understand the geometric curvature of the spacetime more readily, it is perhaps preferable to reformulate the FRW metric in a spherically symmetric coordinate system, like so
+\[
+ds^2=-dt^2+a^2(t)\biggl(\frac{dr^2}{1-kr^2}+r^2 d\Omega^2\biggr)
+,\]
+where the spherical coordinates are contained within $d\Omega^2\equiv d\theta^2+\sin^2\theta d\varphi^2$. The spatial curvature, in terms of a hypersurface of cosmic time $t$, is given by the real constant $k$, such that
+\\
+  \begin{equation}
+    k=
+    \begin{cases}
+    -1 & \text{Negatively curved hypersurface  (Closed Universe)} \\
+      ~0 & \text{Flat hypersurface} \\
+      ~1 & \text{Positively curved hypersurface (Open Universe)}
+    \end{cases}
+  \end{equation}
+\\\emph{Exact Solution}\\  
+As the present work is largely cosmological in focus, we will now go into some detail to verify that the FRW metric is indeed an exact solution to the Einstein field equations \eqref{EinsteinEq}. In order to do this, we must derive all the relevant components that make up the metric \eqref{FRWmetricgamma}, beginning with the components of the metric tensor
+  \[
+  g_{00}=-1=g^{00},\qquad g_{ij}=a^2(t)\gamma_{ij}, \qquad g^{ij}=a^{-2}(t)\gamma^{ij}
+  .\]
+  Next, we move on to the Christoffel symbols
+  \[
+  \Gamma^\lambda_{\mu\nu}=\frac{1}{2}g^{\lambda\tau}(\partial_\mu g_{\nu\tau}+\partial_\nu g_{\mu\tau}-\partial_\tau g_{\mu\nu})
+  ,\]
+  of which the non-vanishing components are given by
+  \[
+  \Gamma^i_{0j}=\Gamma^i_{j0}=\frac{\dot{a}}{a}\delta^i_j,\qquad \Gamma^0_{ij}= a \dot{a} \gamma_{ij},
+  \]
+  where the superscript $\cdot$ denotes a derivative with respect to cosmic time $t$. We may then use the remaining Christoffel symbols to derive the relevant forms of curvature that make up the Einstein equation, from the general definitions given in Appendix \ref{sec:AppCurv}.
+  \\\\ \emph{Ricci Tensor}\\
+  \[
+  R_{00}=-3\left(\dot{H}+H^2\right),\qquad R_{ij}=g_{ij}\left(\dot{H}+3H^2+\frac{2k}{a^2}\right)
+  \]
+\emph{Curvature Scalar}\\
+\[
+\label{FLRWscalar}
+R=6\left(\dot{H}+2H^2+\frac{k}{a^2}\right)
+.\]
+\emph{Einstein Tensor}\\
+The Einstein tensor $G_{\mu\nu}=R_{\mu\nu}-\frac{1}{2}g_{\mu\nu}R$ is then given by
+\[
+G_{00}=3\left(H^2+\frac{k}{a^2}\right),\qquad G_{ij}=-g_{ij}\left(2\dot{H}+3H^2+\frac{k}{a^2}\right),\qquad G_{0i}=0
+.\] 
+Comparing this with the Einstein Equation \eqref{EinsteinEq}, we deduce that the energy-momentum tensor must take the form
+\[
+T_{00}=\rho(t),\qquad T_{ij}=p(t)g_{ij},\qquad T_{0i}=0
+,\]
+where $\rho$ denotes the energy density and $p$ denotes the pressure. Thus, the FRW is an exact (fluid) solution of Einstein's General Relativity   \cite{Carroll:2004st, Clifton:2011jh, Wald:GR, Blau}.
+\\\\ \emph{Perfect Fluid}\\
+Furthermore, this form of the energy-momentum tensor describes a \emph{perfect fluid}. A perfect fluid is one where a comoving observer views the fluid around him as isotropic \cite{Weinberg:100595}. 
+ In terms of the energy-momentum tensor $T_{\mu\nu}$, isotropic spacetimes must have vanishing $T_{0i}$-components in order to remain rotationally invariant \cite{Carroll:2004st}. The remaining components are given as above, which we can express in a covariant form as follows
+\[
+T_{\mu\nu}=(\rho+p)u_\mu u_\nu +p g_{\mu\nu}
+.\]
+Here, $u_\mu$ is the fluid four-velocity, i.e. $u_{\mu}=\{1,0,0,0\}$, such that $g^{\mu\nu}u_\mu u_\nu=-1$ and $(u_\mu k^\mu)^2=(k^0)^2$. We then perform the operations of (1) contracting with this fluid four velocity, (2) contracting with the \emph{null} geodesic congruence $k^\mu$ and (3) taking the trace to express three distinct identities:
+\[
+\label{Tu}
+T_{\mu\nu}u^\mu u^\nu=\rho 
+\]
+\[
+\label{Tk}
+T_{\mu\nu}k^\mu k^\nu=(\rho+p)(k^0)^2
+\]
+\[
+\label{Ttrace}
+T=-\rho+3p
+.\]
+%Next, we note that combining the conditions $T_{\mu\nu}u^\mu u^\nu\geq 0$ and $T_{\mu\nu}k^\mu k^\nu\geq0$ implies $T_{\mu\nu}\xi^\mu \xi^\nu\geq 0$, where $\xi^\mu$ denotes a \emph{timelike} geodesic congruence, which is precisely the \emph{Weak Energy Condition} (WEC). The WEC 
+These identities allow us to write the relevant energy conditions for the present text. The \emph{Weak Energy Condition} (WEC) states that the energy density will be positive for an observer along a timelike tangent vector $\xi^\mu$. The null energy condition (NEC), given by $T_{\mu\nu}k^\mu k^\nu$, is a special case of the WEC, where the timelike tangent vector is replaced by a null ray. In this case, the energy density may conceivably be negative so long as this is balanced by sufficiently positive pressure. In terms of the perfect fluid, these are given by 
+\begin{itemize}
+\item {\bf Null Energy Condition:}
+ $T_{\mu\nu}k^\mu k^\nu\geq 0$ implies $\rho+p\geq0$ \label{NEC}
+\item {\bf Weak Energy Condition:} $T_{\mu\nu}\xi^\mu \xi^\nu\geq 0$ implies $\rho+p\geq0$ and $\rho\geq0$ \cite{Carroll:2004st}.
+\end{itemize}
+The NEC, in particular, will play an important role in the later discussion on singularity-free theories of gravity in Chapter \ref{chap:sing}. 
+
+\chapter{Newtonian Potential}
+\label{chap:NewtPot}
+In order to compute the Newtonian potential, we must consider the Newtonian weak field limit of the field equations \eqref{eomminkred}. In a non-relativistic system, the energy density is the only significant element of the energy-momentum tensor \cite{Carroll:2004st},\cite{Wald:GR},\cite{Blau}. As such, we have $\rho=T_{00}\gg |T_{ij}|$, where the energy density $\rho$ is static. Recall, from the discussion on the perfect fluid in Section \ref{sec:introcos}, that the trace equation is given by $ T=-\rho+3p\approx-\rho$, while the 00-component is simply $T_{00}=\rho$. Furthermore, the perturbed metric for a static, Newtonian point source is given by the static line element \cite{Quandt:1990gc},\cite{Schwartz:2013pla}
+\[
+\label{metricspheric}
+ds^2=-(1+2\Phi(r))dt^2+(1-2\Psi(r))(dx^2+dy^2+dz^2)
+.\]
+We turn then to the IDG field equations around Minkowski space \eqref{eomminkred}, from which we can then read off the trace and 00-component of such a metric
+\begin{align}
+-\kappa\rho&=\frac{1}{2}(a(\Box)-3c(\Box))R
+\nn
+\\
+\label{rhonewt}
+\kappa\rho&=a(\Box)R_{00}+\frac{1}{2}c(\Box)R.
+ \end{align}
+With the line element in hand \eqref{metricspheric}, we first compute the metric $h_{\mu\nu}$, using the algorithm \eqref{pertmink}
+\[
+h_{00}=-2\Phi(r),\qquad h_{ij}=-2\Psi(r)\eta_{ij},
+\]
+before substituting these values into \eqref{MinkR} to find the pertinent values for the curvature:
+\[
+R=2(2\triangle\Psi-\triangle\Phi),\qquad R_{00}=\triangle \Phi
+.\]
+Recall that at the linearised limit $\Box=\eta^{\mu\nu}\partial_\mu \partial_\nu$ which, for a static source, reduces to $\Box=\triangle$, where $\triangle\equiv\nabla^2=\partial_i \partial^i$ is the Laplace operator. Thus, we find the energy density \eqref{rhonewt} for the given metric \eqref{metricspheric} to be
+\begin{align}
+-\kappa\rho&=(a(\Box)-3c(\Box))(2\triangle\Psi-\triangle\Phi)\nn
+\\
+\kappa\rho&=(a(\Box)-c(\Box))\triangle\Phi+2c(\Box)\triangle\Psi
+.
+\end{align}
+By comparing these two expressions for the energy density, we find that the two Newtonian potentials relate to each like so
+\[
+\label{PhiPsirelate}
+\triangle\Phi=-\frac{a(\Box)-2c(\Box)}{c(\Box)}\triangle\Psi
+.\]
+Using this identity, we find
+\[
+\kappa\rho=\frac{a(\Box)\left(a(\Box)-3c(\Box)\right)}{a(\Box)-2c(\Box)}\triangle\Phi=\kappa m\delta^{3}(\vec{r})
+, \]
+where in the weak-field limit, the energy density is simply the point source, i.e. $\rho=m\delta^3({\vec r})$ and $\delta^3$ refers to the $3$-dimensional Dirac delta-function, while $m$ is the mass of the test particle. We proceed in a manner familiar to that of the Coulomb potential, \cite{Schwartz:2013pla},\cite{Kiefer:2012boa}, by performing a Fourier transform in order to express the Newtonian potential $\Phi(r)$. Recall that the Fourier transform of the Dirac delta-function is given by
+\[
+\delta^3({\vec r})=\int\frac{d^3 k}{(2\pi)^3}e^{ik \vec{r}}
+.\]
+Thus, with $\Box\rightarrow -k^2$ in Fourier space on a flat background, we solve for $\Phi(r)$,
+\[
+\label{PhiPotent}
+\Phi(r)	=	-\frac{\kappa m}{(2\pi)^{3}}\int_{-\infty}^{\infty}d^{3}k\frac{a-2c}{a(a-3c)}\frac{e^{ik\vec{r}}}{k^{2}}=-\frac{\kappa m}{2\pi^{2}r}\int_{0}^{\infty}dk\frac{(a-2c)}{a(a-3c)}\frac{\sin(kr)}{k},
+ \]
+ where we have abbreviated the functions $a=a(-k^2)$ and $c=c(-k^2)$ for convenience. It is then straightforward to compute the other Newtonian potential $\Psi(r)$, using \eqref{PhiPsirelate}
+ \[
+ \label{PsiPotent}
+ \Psi(r)=\frac{\kappa m}{2\pi^{2}r}\int_{0}^{\infty}dk\frac{c}{a(a-3c)}\frac{\sin(kr)}{k}
+. \]\\
+\emph{$a=c$: No additional degrees of freedom in the scalar propagating sector}\\
+Recall that, for the particular case when $a=c$ no additional poles are introduced to the scalar sector of the propagator and we retain the original degrees of freedom of the massless graviton. In this instance, one would expect the two distinct Newtonian potentials to converge to a single potential. By substituting $a=c$ into \eqref{PsiPotent} and \eqref{PhiPotent}, one can quickly verify that this is the true, with the potential then given by
+\[
+\label{acPotent}
+\Phi(r)=\Psi(r)=-\frac{\kappa m}{(2\pi)^2 r}\int_{0}^{\infty}dk\frac{\sin(kr)}{a(-k^2)k}.
+ \]
+ We may then test a particular ghost-free choice of the function $a$ to see whether it exhibits the expected behaviour of a Newtonian potential. In Section \ref{sec:GF}, we found that in order for the spacetime to be ghost-free, ${a}$ must be an entire function containing no roots. The simplest choice is then, 
+ \[
+ a(\Box)=e^{-\Box/M^2}
+. \]
+%Furthermore, in the case of $a=c$, it can be easily verified from \eqref{a-3cGF}, that ${\bar a}=a$. 
+Thus, we find the Newtonian potential to be \cite{Biswas:2011ar},
+\[
+\Phi(r)=-\frac{\kappa m}{(2\pi)^2 r}\int_{0}^{\infty}\frac{dk}{k}e^{-k^{2}/M^{2}}\sin(kr)=-\frac{\kappa m \mbox{ erf}(M r/2)}{8\pi r}.
+\]
+% Observe now that at the limit, $r\rightarrow \infty$ \footnote{Equivalently, $M\rightarrow\infty$ to remove the scale of non-locality from the theory}, $\mbox{erf}(r M/2)\rightarrow 1$ and the spacetime is returned to GR, displaying the familiar $1/r$ divergence, which is such a feature of the theory. On the other hand, taking the limit $r\rightarrow 0$, results in the Newtonian potential converging to a constant
+ Observe now that at the limit, $r\rightarrow \infty$ \footnote{Alternatively, if we take $M\rightarrow\infty$, which is the familiar limit to return IDG to a local theory, we recapture the familiar $1/r$ divergence of GR, as expected.}, $\mbox{erf}(r)/r\rightarrow 0$ and the metric \eqref{metricspheric} is returned to flat space. On the other hand, taking the limit $r\rightarrow 0$, results in the Newtonian potential converging to a constant
+ \[
+ \lim_{r\rightarrow 0} \Phi(r)=\frac{\kappa m M}{8\pi^{3/2}}
+ .\]
+ We see here that the Newtonian potentials remain finite with $\Phi(r)\sim m M/M_P^2$ and, as such, the linear approximation is bounded all the way to $r\rightarrow 0$.
+
+\chapter{A Note on the Gravitational Entropy}
+\label{sec:Entropy}
+In this section, we give a brief outline of the connection between Wald's gravitational entropy and the defocusing conditions around de Sitter space, derived in Section \ref{sec:defocusdS}. In a recent work \cite{Conroy:2015nva}, Wald's gravitational entropy~\cite{Wald:1993nt},\cite{Myers}, was computed for a non-local action of the type
+\[
+\label{actionent}
+I=\frac{1}{16\pi G_{4}}\int d^{4}x\sqrt{-g}\left(R-2M_{P}^{-2}\Lambda+\alpha R{\cal F}(\Box)R\right)
+. \] 
+This was found to take the form
+ \[
+ \label{dsent}
+ S_{I}=\frac{A_{H}^{dS}}{4G_{4}}\left(1+8f_{1_0}\alpha M_{P}^{-2}\Lambda\right)
+ ,\]
+ where $\alpha$ is a constant of dimension inverse mass squared. The primary thing to note here is that a non-physical, \emph{negative entropy state} is realised if the following inequality holds:
+ \[
+ \label{negent}
+M_{P}^{2}+8\alpha\Lambda f_{1_{0}}<0.
+   \]
+The action \eqref{actionent} is a simple reformulation of \eqref{action}, where ${\cal F}_2(\Box)$ and ${\cal F}_3(\Box)$ have been set to zero and we have taken the dimensionless parameter $\lambda$ to be $\lambda=\alpha M_{P}^{2}$. 
+
+If we were to now turn our attention to the defocusing condition around de Sitter space, these may be obtained directly from the linearised field equations \eqref{eomdS} by contracting with the tangent vector $k^\mu$. Hence, we find that in order for the associated null rays to diverge, we require,
+ \[
+ \label{defocusent}
+ \begin{aligned}r_{\nu}^{\mu}k^{\nu}k_{\mu} & =\frac{1}{M_{P}^{2}\left(1+24\alpha  H^2 f_{1_{0}}\right)}(k^{0})^{2}\biggl[(\rho+p)+2\alpha M_{P}^{2}\left(\partial_{t}^{2}-H\partial_{t}\right){\cal F}_{1}(\Box)r\biggr]<0
+. \end{aligned}
+\]
+Here, we have used the fact that in de Sitter space, $\Lambda=3M_P^2 H^2$, see \eqref{barredlambda}. Then, it is straightforward to read off the central conditions for null rays to defocus
+\[
+\begin{aligned}M_{P}^{2}\left(1+24\alpha  H^2 f_{1_{0}}\right)\gtrless0
+ ,\qquad(\rho+p)+2\alpha M_{P}^{2}\left(\partial_{t}^{2}-H\partial_{t}\right){\cal F}_{1}(\Box)r & \lessgtr0.\end{aligned}
+  \]
+From \eqref{negent}, we find that the lower signs describe a non-physical spacetime defined by negative entropy and can therefore me omitted. Thus, the central constraints are simply
+\[
+\begin{aligned}M_{P}^{2}+24\lambda H^2 f_{1_{0}}>0
+  ,\qquad(\rho+p)+2\lambda\left(\partial_{t}^{2}-H\partial_{t}\right){\cal F}_{1}(\Box)r & <0,\end{aligned}
+  \]
+where we have reintroduced the counting tool $\lambda\equiv \alpha M_P^2$, in accordance with the general formalism of this work.
+
+Now, if we turn our attention to the defocusing calculation around de Sitter space given in \ref{sec:dS2}, we find that, by \eqref{dSa}, the left-most inequality is simply the constant $a$. In general, the function $a(\Box)$ is responsible for modifying the tensorial structure of the propagator but as the action considered is scalar in its modification, \eqref{actionent}, the function $a$ reduces to the constant,
+\[
+a=1+24\lambda M_P^{-2} H^2 f_{1_{0}}  
+.\]
+We have already established that this tensorial modification must be positive in order to avoid negative residues and the Weyl ghost, see Section \ref{sec:patho} but the entropy calculation gives an interesting  insight into the physical consequences of introducing ghosts into a theory. In this case, such an addition would result in a non-physical spacetime, defined by negative entropy. 
+
+A further, intriguing property of the gravitational entropy described by \eqref{dsent}, is the possibility of realising a zero entropy state by taking $\alpha=\frac{M_{P}^{2}}{8\Lambda}$. Taking this value \emph{saturates} the defocusing condition \eqref{defocusent}, meaning little can be inferred from this vantage point. It would be interesting to pursue this line of enquiry in order to understand if this zero entropy state is indeed physical; at what cosmic time in a bouncing cosmology such a state could be realised; and whether there are any potential implications for the laws of thermodynamics prior to the bounce.
