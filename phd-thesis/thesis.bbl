@@ -435,6 +435,18 @@
   {10.1111/j.1365-2966.2009.14959.x}, \href
   {https://ui.adsabs.harvard.edu/abs/2009MNRAS.397..208C} {397, 208}
 
+\bibitem[\protect\citeauthoryear{{Conselice} et~al.,}{{Conselice}
+  et~al.}{2007}]{2007MNRAS.381..962C}
+{Conselice} C.~J.,  et~al., 2007, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2007.12316.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2007MNRAS.381..962C} {381, 962}
+
+\bibitem[\protect\citeauthoryear{{Conselice}, {Yang}  \& {Bluck}}{{Conselice}
+  et~al.}{2009}]{2009MNRAS.394.1956C}
+{Conselice} C.~J.,  {Yang} C.,   {Bluck} A. F.~L.,  2009, \mn@doi [\mnras]
+  {10.1111/j.1365-2966.2009.14396.x}, \href
+  {https://ui.adsabs.harvard.edu/abs/2009MNRAS.394.1956C} {394, 1956}
+
 \bibitem[\protect\citeauthoryear{Costa, Phillips, Brandt  \& Fatica}{Costa
   et~al.}{2021}]{COSTA2021502}
 Costa P.,  Phillips E.,  Brandt L.,   Fatica M.,  2021, \mn@doi [Computers &
@@ -876,6 +888,14 @@ Foreman-Mackey D.,  2016, \mn@doi [The Journal of Open Source Software]
 {Kennicutt} Robert~C. J.,  1998, \mn@doi [\apj] {10.1086/305588}, \href
   {https://ui.adsabs.harvard.edu/abs/1998ApJ...498..541K} {498, 541}
 
+\bibitem[\protect\citeauthoryear{{Khalid}, {Brough}, {Martin}, {Kimmig},
+  {Lagos}, {Remus}  \& {Martinez-Lombilla}}{{Khalid}
+  et~al.}{2024}]{2024MNRAS.530.4422K}
+{Khalid} A.,  {Brough} S.,  {Martin} G.,  {Kimmig} L.~C.,  {Lagos} C.~D.~P.,
+  {Remus} R.~S.,   {Martinez-Lombilla} C.,  2024, \mn@doi [\mnras]
+  {10.1093/mnras/stae1064}, \href
+  {https://ui.adsabs.harvard.edu/abs/2024MNRAS.530.4422K} {530, 4422}
+
 \bibitem[\protect\citeauthoryear{{Kingma} \& {Ba}}{{Kingma} \&
   {Ba}}{2014}]{2014arXiv1412.6980K}
 {Kingma} D.~P.,  {Ba} J.,  2014, \mn@doi [arXiv e-prints]
@@ -1004,6 +1024,11 @@ Springer International Publishing, Cham, pp 219--251,
 {Martig} M.,  {Bournaud} F.,  {Croton} D.~J.,  {Dekel} A.,   {Teyssier} R.,
   2012, \mn@doi [\apj] {10.1088/0004-637X/756/1/26}, \href
   {https://ui.adsabs.harvard.edu/abs/2012ApJ...756...26M} {756, 26}
+
+\bibitem[\protect\citeauthoryear{{Martin} et~al.,}{{Martin}
+  et~al.}{2022}]{2022MNRAS.513.1459M}
+{Martin} G.,  et~al., 2022, \mn@doi [\mnras] {10.1093/mnras/stac1003}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022MNRAS.513.1459M} {513, 1459}
 
 \bibitem[\protect\citeauthoryear{{Masters} et~al.,}{{Masters}
   et~al.}{2010}]{2010MNRAS.405..783M}
@@ -1372,6 +1397,11 @@ Peng C.~Y.,  Ho L.~C.,  Impey C.~D.,   Rix H.-W.,  2002, ] {10.1086/340952}
 {Smol{\v{c}}i{\'c}} V.,  et~al., 2017, \mn@doi [\aap]
   {10.1051/0004-6361/201730685}, \href
   {https://ui.adsabs.harvard.edu/abs/2017A&A...602A...6S} {602, A6}
+
+\bibitem[\protect\citeauthoryear{{Sola} et~al.,}{{Sola}
+  et~al.}{2022}]{2022A&A...662A.124S}
+{Sola} E.,  et~al., 2022, \mn@doi [\aap] {10.1051/0004-6361/202142675}, \href
+  {https://ui.adsabs.harvard.edu/abs/2022A&A...662A.124S} {662, A124}
 
 \bibitem[\protect\citeauthoryear{{Sparre}, {Whittingham}, {Damle}, {Hani},
   {Richter}, {Ellison}, {Pfrommer}  \& {Vogelsberger}}{{Sparre}
