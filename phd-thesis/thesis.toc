@@ -31,7 +31,7 @@
 \contentsline {section}{\numberline {2.6}Results \& Discussion}{55}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}An Interacting Galaxy Catalogue}{55}{subsection.2.6.1}%
 \contentsline {subsection}{\numberline {2.6.2}The Gems}{57}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Source Redshifts and Photometry}{61}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.3}Source Redshifts and Photometry}{60}{subsection.2.6.3}%
 \contentsline {section}{\numberline {2.7}Conclusion}{67}{section.2.7}%
 \contentsline {chapter}{\numberline {3}When do the effects of interaction happen? Interacting and disturbed galaxies in the COSMOS field}{70}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introduction}{70}{section.3.1}%

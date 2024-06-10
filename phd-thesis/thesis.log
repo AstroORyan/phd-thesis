@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  9 JUN 2024 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.16)  10 JUN 2024 10:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -818,11 +818,7 @@ File: Chapter2/figures/fig10.pdf Graphic file (type pdf)
 <use Chapter2/figures/fig10.pdf>
 Package pdftex.def Info: Chapter2/figures/fig10.pdf  used on input line 261.
 (pdftex.def)             Requested size: 391.93544pt x 207.21756pt.
- [57] [58] [59 <./Chapter2/figures/fig10.pdf>]
-Underfull \vbox (badness 4819) has occurred while \output is active []
-
- [60]
-[61]
+ [57] [58] [59 <./Chapter2/figures/fig10.pdf>] [60] [61]
 <Chapter2/figures/fig11.jpeg, id=1949, 518.8986pt x 500.8311pt>
 File: Chapter2/figures/fig11.jpeg Graphic file (type jpg)
 <use Chapter2/figures/fig11.jpeg>
@@ -1280,7 +1276,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
 Here is how much of TeX's memory you used:
  12183 strings out of 480876
  203270 string characters out of 5911487
- 578393 words of memory out of 5000000
+ 577393 words of memory out of 5000000
  26734 multiletter control sequences out of 15000+600000
  549123 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1335,7 +1331,7 @@ ublic/amsfonts/cm/cmtt10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmtt12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/sym
 bols/msam10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm120
 0.pfb>
-Output written on thesis.pdf (232 pages, 14671425 bytes).
+Output written on thesis.pdf (232 pages, 14672979 bytes).
 PDF statistics:
  5730 PDF objects out of 6186 (max. 8388607)
  3996 compressed objects within 40 object streams
