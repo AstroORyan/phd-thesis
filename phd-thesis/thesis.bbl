@@ -784,6 +784,10 @@ Foreman-Mackey D.,  2016, \mn@doi [The Journal of Open Source Software]
 {Hopkins} P.~F.,  et~al., 2018, \mn@doi [\mnras] {10.1093/mnras/sty1690}, \href
   {https://ui.adsabs.harvard.edu/abs/2018MNRAS.480..800H} {480, 800}
 
+\bibitem[\protect\citeauthoryear{{Hubble}}{{Hubble}}{1926}]{1926ApJ....64..321H}
+{Hubble} E.~P.,  1926, \mn@doi [\apj] {10.1086/143018}, \href
+  {https://ui.adsabs.harvard.edu/abs/1926ApJ....64..321H} {64, 321}
+
 \bibitem[\protect\citeauthoryear{{Hubble}}{{Hubble}}{1936}]{1936rene.book.....H}
 {Hubble} E.~P.,  1936, {Realm of the Nebulae}
 
